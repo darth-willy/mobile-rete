@@ -1,0 +1,1777 @@
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_agent_in
+<http://purl.org/obo/owlapi/relationship#OBO_REL_agent_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_agent_in> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/obo/owlapi/relationship#OBO_REL_participates_in> .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_derived_into
+<http://purl.org/obo/owlapi/relationship#OBO_REL_derived_into> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_derived_into> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_derives_from
+<http://purl.org/obo/owlapi/relationship#OBO_REL_derives_from> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_derives_from> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_has_agent
+<http://purl.org/obo/owlapi/relationship#OBO_REL_has_agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_has_agent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/obo/owlapi/relationship#OBO_REL_has_participant> .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_has_improper_part
+<http://purl.org/obo/owlapi/relationship#OBO_REL_has_improper_part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_has_improper_part> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/obo/owlapi/relationship#OBO_REL_has_part> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_has_improper_part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_has_improper_part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ReflexiveProperty> .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_has_integral_part
+<http://purl.org/obo/owlapi/relationship#OBO_REL_has_integral_part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_has_integral_part> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/obo/owlapi/relationship#OBO_REL_has_part> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_has_integral_part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_has_integral_part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ReflexiveProperty> .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_has_part
+<http://purl.org/obo/owlapi/relationship#OBO_REL_has_part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_has_part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_has_part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ReflexiveProperty> .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_has_participant
+<http://purl.org/obo/owlapi/relationship#OBO_REL_has_participant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_has_proper_part
+<http://purl.org/obo/owlapi/relationship#OBO_REL_has_proper_part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_has_proper_part> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/obo/owlapi/relationship#OBO_REL_has_part> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_has_proper_part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_improper_part_of
+<http://purl.org/obo/owlapi/relationship#OBO_REL_improper_part_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_improper_part_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/obo/owlapi/relationship#OBO_REL_part_of> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_improper_part_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ReflexiveProperty> .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_integral_part_of
+<http://purl.org/obo/owlapi/relationship#OBO_REL_integral_part_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_integral_part_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/obo/owlapi/relationship#OBO_REL_part_of> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_integral_part_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_integral_part_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ReflexiveProperty> .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_is_a
+<http://purl.org/obo/owlapi/relationship#OBO_REL_is_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_is_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_is_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ReflexiveProperty> .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_located_in
+<http://purl.org/obo/owlapi/relationship#OBO_REL_located_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_located_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_located_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ReflexiveProperty> .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_location_of
+<http://purl.org/obo/owlapi/relationship#OBO_REL_location_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_location_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_location_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ReflexiveProperty> .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_part_of
+<http://purl.org/obo/owlapi/relationship#OBO_REL_part_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_part_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_part_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ReflexiveProperty> .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_participates_in
+<http://purl.org/obo/owlapi/relationship#OBO_REL_participates_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_preceded_by
+<http://purl.org/obo/owlapi/relationship#OBO_REL_preceded_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_preceded_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_precedes
+<http://purl.org/obo/owlapi/relationship#OBO_REL_precedes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_precedes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_proper_part_of
+<http://purl.org/obo/owlapi/relationship#OBO_REL_proper_part_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_proper_part_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/obo/owlapi/relationship#OBO_REL_part_of> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_proper_part_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_transformation_of
+<http://purl.org/obo/owlapi/relationship#OBO_REL_transformation_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/obo/owlapi/relationship#OBO_REL_transformation_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasExtentValueSet1D
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasExtentValueSet1D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasExtentValueSet1D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasExtentValueSet2D
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasExtentValueSet2D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasExtentValueSet2D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasExtentValueSet3D
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasExtentValueSet3D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasExtentValueSet3D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasFloatValue
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasFloatValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasFloatValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasFloatValueTarget
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasFloatValueTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasFloatValueTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasIntValue
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasIntValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasIntValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasIntValueTarget
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasIntValueTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasIntValueTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasLocationValueSet1D
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasLocationValueSet1D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasLocationValueSet1D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasLocationValueSet2D
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasLocationValueSet2D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasLocationValueSet2D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasLocationValueSet3D
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasLocationValueSet3D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasLocationValueSet3D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasLocationValueSetND
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasLocationValueSetND> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasLocationValueSetND> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasParameterValueSetND
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasParameterValueSetND> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasParameterValueSetND> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasPointsValueSetND
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasPointsValueSetND> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasPointsValueSetND> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasUnit
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasVTKfieldID
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasVTKfieldID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasVTKfieldID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasVTKtypeID
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasVTKtypeID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasVTKtypeID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasVTKtypeID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AcceptanceFunction
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AcceptanceFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AcceptanceFunction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#EnergyFunction> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AdhesionEnergy
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AdhesionEnergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AdhesionEnergy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#EnergyQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AdhesionMolecule
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AdhesionMolecule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AdhesionMolecule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembranePart> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AdhesiveProperty
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AdhesiveProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AdhesiveProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MechanicalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Advection
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Advection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Advection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Movement> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Age
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Age> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Anisotropy
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Anisotropy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Anisotropy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BodyShape> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Anisotropy> <http://www.w3.org/2002/07/owl#disjointWith> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Isotropy> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ApicalPart
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ApicalPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ApicalPart> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRegion> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Apoptosis
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Apoptosis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Apoptosis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDeath> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AreaEnergy
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AreaEnergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AreaEnergy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#EnergyQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AsymmetricCellDivisionOrientedCleavagePlane
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AsymmetricCellDivisionOrientedCleavagePlane> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AsymmetricCellDivisionOrientedCleavagePlane> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Mitosis> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AsymmetricCellDivisionRandomCleavagePlane
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AsymmetricCellDivisionRandomCleavagePlane> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AsymmetricCellDivisionRandomCleavagePlane> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Mitosis> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AutophagicDeath
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AutophagicDeath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AutophagicDeath> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDeath> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BarrierCrossing
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BarrierCrossing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BarrierCrossing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FundamentalPhysicalProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasalPart
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasalPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasalPart> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRegion> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaChange
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaChange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaChange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaCreation
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaCreation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaCreation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaDeletion
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaDeletion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaDeletion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaProcess
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtracellularMatrixProcess> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaProcess> <http://www.w3.org/2002/07/owl#disjointWith> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementMembrane
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementMembrane> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementMembrane> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtraCellularMatrix> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementMembrane> <http://www.w3.org/2002/07/owl#disjointWith> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrix> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BioEntityType
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BioEntityType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BioEntityType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BodyShape
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BodyShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BodyShape> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Shape> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BoltzmannFactor
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BoltzmannFactor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BoltzmannFactor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AcceptanceFunction> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BoltzmannFactor> <http://www.w3.org/2002/07/owl#disjointWith> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MinimizationAcceptanceFunction> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Boundary
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Boundary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Boundary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalEntity> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BrushBorder
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BrushBorder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BrushBorder> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembraneLocalStructure> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BrushBorder> <http://www.w3.org/2002/07/owl#disjointWith> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Filopodium> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BrushBorder> <http://www.w3.org/2002/07/owl#disjointWith> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Pseudopodium> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> <http://www.w3.org/2002/07/owl#disjointWith> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Process> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Process
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CHASTEcenter
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CHASTEcenter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CHASTEcenter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatform> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Cell
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Cell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Cell> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BioEntityType> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellAdhesion
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellAdhesion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellAdhesion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellEnvironmentProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellAdvection
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellAdvection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellAdvection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMovement> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellBasementLaminaContact
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellBasementLaminaContact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellBasementLaminaContact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellNonCellContact> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellBasementLaminaContact> <http://www.w3.org/2002/07/owl#disjointWith> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellInterstitialMatrixContact> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellBasementMembraneAdhesion
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellBasementMembraneAdhesion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellBasementMembraneAdhesion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellNonCellAdhesion> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellBasementMembraneAdhesion> <http://www.w3.org/2002/07/owl#disjointWith> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellInterstitialMatrixAdhesion> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellBorder
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellBorder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellBorder> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellPart> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellCellAdhesion
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellCellAdhesion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellCellAdhesion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellAdhesion> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellCellAdhesion> <http://www.w3.org/2002/07/owl#disjointWith> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellNonCellAdhesion> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellCellContact
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellCellContact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellCellContact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellContact> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellCellContact> <http://www.w3.org/2002/07/owl#disjointWith> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellNonCellContact> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellCellProcess
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellCellProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellCellProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellContact
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellContact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellContact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellEnvironmentProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDeath
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDeath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDeath> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExistentialCellProcesses> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDifferentiation
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDifferentiation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDifferentiation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExistentialCellProcesses> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDisplacement
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDisplacement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDisplacement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMovement> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDivision
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDivision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDivision> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExistentialCellProcesses> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellEnvironmentProcess
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellEnvironmentProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellEnvironmentProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellExport
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellExport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellExport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRelatedTransport> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellExport> <http://www.w3.org/2002/07/owl#disjointWith> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellImport> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellFusion
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellFusion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellFusion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExistentialCellProcesses> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellGrowth
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellGrowth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellGrowth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExistentialCellProcesses> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellImport
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellImport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellImport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRelatedTransport> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellInterstitialMatrixAdhesion
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellInterstitialMatrixAdhesion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellInterstitialMatrixAdhesion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellNonCellAdhesion> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellInterstitialMatrixContact
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellInterstitialMatrixContact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellInterstitialMatrixContact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellNonCellContact> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembrane
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembrane> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembrane> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellBorder> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembrane> <http://www.w3.org/2002/07/owl#disjointWith> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellWall> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembraneLocalStructure
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembraneLocalStructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembraneLocalStructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembranePart
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembranePart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembranePart> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellPart> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMotility
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMotility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMotility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMovement> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMovement
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMovement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMovement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalCellProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellNonCellAdhesion
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellNonCellAdhesion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellNonCellAdhesion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellAdhesion> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellNonCellContact
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellNonCellContact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellNonCellContact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellContact> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellOrientationChange
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellOrientationChange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellOrientationChange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalCellProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellPart
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellPart> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellProcess
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Process> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRegion
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRegion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalEntity> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRelatedTransport
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRelatedTransport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRelatedTransport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellEnvironmentProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRotation
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRotation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMovement> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellShapeChange
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellShapeChange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellShapeChange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalCellProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellState
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellState> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellState> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellVolumeChange
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellVolumeChange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellVolumeChange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalCellProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellWall
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellWall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellWall> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellBorder> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularChemicalProcess
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularChemicalProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularChemicalProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellEnvironmentProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularElectricalProcess
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularElectricalProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularElectricalProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellEnvironmentProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularKineticProcess
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularKineticProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularKineticProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularPropertyProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularMechanicalProcess
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularMechanicalProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularMechanicalProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularPropertyProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularPropertyProcess
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularPropertyProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularPropertyProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CenterModelPlatform
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CenterModelPlatform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CenterModelPlatform> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatformQualities> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CenterModelPlatform> <http://www.w3.org/2002/07/owl#disjointWith> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContinousPlatform> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CenterOfMass
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CenterOfMass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CenterOfMass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Location> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CenterOfMass> <http://www.w3.org/2002/07/owl#disjointWith> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CenterOfVolume> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CenterOfVolume
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CenterOfVolume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CenterOfVolume> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Location> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Charge
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Charge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Charge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ElectricalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalAffinity
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalAffinity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalAffinity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalDensity
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalDensity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalDensity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalLocalization
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalLocalization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalLocalization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalPattern
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalPattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalPattern> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalPatternGradient
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalPatternGradient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalPatternGradient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalPattern> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalProperty
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Chemotaxis
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Chemotaxis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Chemotaxis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMovement> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Compucell3D
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Compucell3D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Compucell3D> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatform> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatform
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatform> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemQualities> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatformQualities
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatformQualities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatformQualities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemQualities> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContactSurfaceArea
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContactSurfaceArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContactSurfaceArea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContinousPlatform
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContinousPlatform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContinousPlatform> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatformQualities> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContinuousEntity
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContinuousEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContinuousEntity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalEntityType> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContinuousExtent
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContinuousExtent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContinuousExtent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtentGeometrical> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContinuousExtent> <http://www.w3.org/2002/07/owl#disjointWith> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#DiscreteExtent> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Contraction
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Contraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Contraction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VolumeChange> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Contraction> <http://www.w3.org/2002/07/owl#disjointWith> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Expansion> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CorpuscularEntity
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CorpuscularEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CorpuscularEntity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalEntityType> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Creation
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Creation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Creation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FundamentalPhysicalProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Cytoplasm
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Cytoplasm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Cytoplasm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellPart> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Deletion
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Deletion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Deletion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FundamentalPhysicalProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#DiffuseEntity
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#DiffuseEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#DiffuseEntity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalEntityType> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Diffusion
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Diffusion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Diffusion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Movement> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimension1d
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimension1d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimension1d> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimensionality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimension2d
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimension2d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimension2d> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimensionality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimension3d
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimension3d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimension3d> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimensionality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimensionality
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimensionality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimensionality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#DiscreteExtent
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#DiscreteExtent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#DiscreteExtent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtentGeometrical> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Divisible
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Divisible> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Divisible> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dorsal
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dorsal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dorsal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OrganismalRegion> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dorsal> <http://www.w3.org/2002/07/owl#disjointWith> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Ventral> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ElectricalProperty
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ElectricalProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ElectricalProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ElectromechanicalField
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ElectromechanicalField> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ElectromechanicalField> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Field> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Energy
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Energy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Energy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#EnergyFunction
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#EnergyFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#EnergyFunction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#EnergyQuality
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#EnergyQuality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#EnergyQuality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExistentialCellProcesses
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExistentialCellProcesses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExistentialCellProcesses> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Expansion
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Expansion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Expansion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VolumeChange> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtentGeometrical
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtentGeometrical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtentGeometrical> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtraCellularFluid
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtraCellularFluid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtraCellularFluid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BioEntityType> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtraCellularMatrix
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtraCellularMatrix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtraCellularMatrix> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BioEntityType> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtracellularMatrixProcess
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtracellularMatrixProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtracellularMatrixProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Process> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Field
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Field> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Field> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FieldProcess
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FieldProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FieldProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Process> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FieldQuality
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FieldQuality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FieldQuality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Fill
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Fill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Fill> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Filopodium
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Filopodium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Filopodium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembraneLocalStructure> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Filopodium> <http://www.w3.org/2002/07/owl#disjointWith> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Pseudopodium> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FirstOrderRate
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FirstOrderRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FirstOrderRate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#RateFunction> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FirstOrderRate> <http://www.w3.org/2002/07/owl#disjointWith> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SecondOrderRate> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FirstOrderRate> <http://www.w3.org/2002/07/owl#disjointWith> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ZerothOrderRate> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Fission
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Fission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Fission> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDivision> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FundamentalPhysicalProcess
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FundamentalPhysicalProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FundamentalPhysicalProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Process> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GapJunction
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GapJunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GapJunction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembranePart> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GenerationalAge
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GenerationalAge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GenerationalAge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Age> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GenerationalAge> <http://www.w3.org/2002/07/owl#disjointWith> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalAge> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalCellProcess
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalCellProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalCellProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularPropertyProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalEntity
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalEntity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalProperty
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GradientTexture
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GradientTexture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GradientTexture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Texture> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Hamlitonian
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Hamlitonian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Hamlitonian> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#EnergyQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Haptotaxis
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Haptotaxis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Haptotaxis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMovement> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#HarmonicEnergy
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#HarmonicEnergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#HarmonicEnergy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#EnergyFunction> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterentityExport
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterentityExport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterentityExport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterentityTransport> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterentityExport> <http://www.w3.org/2002/07/owl#disjointWith> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterentityImport> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterentityImport
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterentityImport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterentityImport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterentityTransport> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterentityTransport
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterentityTransport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterentityTransport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Transport> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterentityTransport> <http://www.w3.org/2002/07/owl#disjointWith> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IntraentityTransport> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrix
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrix> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtraCellularMatrix> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixChange
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixChange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixChange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixCreation
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixCreation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixCreation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixDeletion
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixDeletion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixDeletion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixProcess
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtracellularMatrixProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IntraentityTransport
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IntraentityTransport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IntraentityTransport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Transport> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IonChannel
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IonChannel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IonChannel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembranePart> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsApoptotic
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsApoptotic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsApoptotic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellState> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsDebris
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsDebris> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsDebris> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellState> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsGrowing
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsGrowing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsGrowing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellState> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsHypoxic
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsHypoxic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsHypoxic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellState> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsNecrotic
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsNecrotic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsNecrotic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellState> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsQuiescent
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsQuiescent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsQuiescent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellState> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Isotropy
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Isotropy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Isotropy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BodyShape> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#KineticProperty
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#KineticProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#KineticProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#LJ_6_12Energy
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#LJ_6_12Energy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#LJ_6_12Energy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#EnergyFunction> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#LateralPart
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#LateralPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#LateralPart> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRegion> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#LinearEnergy
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#LinearEnergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#LinearEnergy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#EnergyFunction> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Location
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Location> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Mass
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Mass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Mass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MechanicalProperty
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MechanicalProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MechanicalProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MedialPart
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MedialPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MedialPart> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRegion> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Meiosis
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Meiosis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Meiosis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDivision> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MembraneReceptor
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MembraneReceptor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MembraneReceptor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembranePart> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MinimizationAcceptanceFunction
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MinimizationAcceptanceFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MinimizationAcceptanceFunction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AcceptanceFunction> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Mitosis
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Mitosis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Mitosis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDivision> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MolecularField
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MolecularField> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MolecularField> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Field> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MolecularTargeting
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MolecularTargeting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MolecularTargeting> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IntraentityTransport> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Molecule
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Molecule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Molecule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BioEntityType> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeBarrierCrossing
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeBarrierCrossing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeBarrierCrossing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeChange
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeChange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeChange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeCreation
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeCreation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeCreation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeDeletion
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeDeletion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeDeletion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeDiffusion
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeDiffusion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeDiffusion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeMoleculeAdhesion
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeMoleculeAdhesion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeMoleculeAdhesion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeProcess
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Process> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Movement
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Movement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Movement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FundamentalPhysicalProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MovementField
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MovementField> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MovementField> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Necrosis
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Necrosis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Necrosis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDeath> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Nucleus
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Nucleus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Nucleus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellPart> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OpenAlea
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OpenAlea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OpenAlea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatform> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OpenSourcePlatform
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OpenSourcePlatform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OpenSourcePlatform> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatformQualities> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OrganismalRegion
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OrganismalRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OrganismalRegion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalEntity> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Orientation
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Orientation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Orientation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Other
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Other> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatform> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OtherPublicationReference
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OtherPublicationReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OtherPublicationReference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatformQualities> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PatternTexture
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PatternTexture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PatternTexture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Texture> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhenotypicChange
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhenotypicChange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhenotypicChange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FundamentalPhysicalProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalEntityType
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalEntityType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalEntityType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PoissonRatio
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PoissonRatio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PoissonRatio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MechanicalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PressureMechanical
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PressureMechanical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PressureMechanical> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MechanicalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Protrusion
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Protrusion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Protrusion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Shape> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Pseudopodium
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Pseudopodium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Pseudopodium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembraneLocalStructure> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Pump
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Pump> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Pump> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembranePart> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Random
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Random> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Random> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#StatisticalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#RateFunction
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#RateFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#RateFunction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Rotation
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Rotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Rotation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Movement> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SecondOrderRate
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SecondOrderRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SecondOrderRate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#RateFunction> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Shape
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Shape> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ShapeChange
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ShapeChange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ShapeChange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FundamentalPhysicalProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SpacialExclusive
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SpacialExclusive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SpacialExclusive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#StatisticalProperty
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#StatisticalProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#StatisticalProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#StiffnessMechanical
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#StiffnessMechanical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#StiffnessMechanical> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MechanicalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#StructuralProcess
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#StructuralProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#StructuralProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Process> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SurfaceArea
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SurfaceArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SurfaceArea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SymmetricCellDivisionOrientedCleavagePlane
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SymmetricCellDivisionOrientedCleavagePlane> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SymmetricCellDivisionOrientedCleavagePlane> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Mitosis> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SymmetricCellDivisionRandomCleavagePlane
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SymmetricCellDivisionRandomCleavagePlane> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SymmetricCellDivisionRandomCleavagePlane> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Mitosis> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#System
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemBoundary
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemBoundary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemBoundary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemQualities> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtent
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemQualities> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtentX
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtentX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtentX> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtent> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtentY
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtentY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtentY> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtent> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtentZ
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtentZ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtentZ> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtent> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodic
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemBoundary> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodic> <http://www.w3.org/2002/07/owl#disjointWith> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWall> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodicX
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodicX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodicX> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodic> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodicY
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodicY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodicY> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodic> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodicZ
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodicZ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodicZ> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodic> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPixelDistanceScale
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPixelDistanceScale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPixelDistanceScale> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemQualities> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemQualities
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemQualities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemQualities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWall
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWall> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemBoundary> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWallX
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWallX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWallX> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWall> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWallY
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWallY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWallY> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWall> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWallZ
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWallZ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWallZ> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWall> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemperatureField
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemperatureField> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemperatureField> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Field> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalAge
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalAge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalAge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Age> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalEntity
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalEntity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Process> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalInstant
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalInstant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalInstant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalEntity> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalInstant> <http://www.w3.org/2002/07/owl#disjointWith> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalInterval> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalInterval
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalInterval> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalEntity> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TensionMechanical
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TensionMechanical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TensionMechanical> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MechanicalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Texture
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Texture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Texture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TightJunction
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TightJunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TightJunction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembranePart> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Translation
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Translation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Translation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Movement> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Transport
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Transport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Transport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Process> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#UniformTexture
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#UniformTexture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#UniformTexture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Texture> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_FileName
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_FileName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_FileName> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_Quality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_FileRoot
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_FileRoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_FileRoot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_Quality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_FileTimeStep
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_FileTimeStep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_FileTimeStep> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_Quality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_InitialCondition
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_InitialCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_InitialCondition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_Quality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_Quality
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_Quality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_Quality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemQualities> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Ventral
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Ventral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Ventral> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OrganismalRegion> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Volume
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Volume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Volume> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VolumeChange
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VolumeChange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VolumeChange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FundamentalPhysicalProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VolumeEnergy
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VolumeEnergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VolumeEnergy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#EnergyQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#YieldingThreshold
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#YieldingThreshold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#YieldingThreshold> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MechanicalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#YoungsModulus
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#YoungsModulus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#YoungsModulus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MechanicalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ZerothOrderRate
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ZerothOrderRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ZerothOrderRate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#RateFunction> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid1 <http://www.w3.org/2002/07/owl#members> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AcceptanceFunction> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#HarmonicEnergy> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#LJ_6_12Energy> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#LinearEnergy> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid6 <http://www.w3.org/2002/07/owl#members> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AdhesionEnergy> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AreaEnergy> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Hamlitonian> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VolumeEnergy> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid11 <http://www.w3.org/2002/07/owl#members> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AdhesionMolecule> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GapJunction> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IonChannel> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MembraneReceptor> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Pump> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TightJunction> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid18 <http://www.w3.org/2002/07/owl#members> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AdhesiveProperty> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PoissonRatio> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PressureMechanical> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#StiffnessMechanical> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TensionMechanical> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#YieldingThreshold> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#YoungsModulus> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid26 <http://www.w3.org/2002/07/owl#members> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Advection> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Diffusion> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Rotation> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Translation> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid31 <http://www.w3.org/2002/07/owl#members> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Age> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalProperty> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Divisible> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ElectricalProperty> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Energy> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Fill> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalProperty> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#KineticProperty> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Mass> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MechanicalProperty> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MovementField> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SpacialExclusive> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#StatisticalProperty> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid45 <http://www.w3.org/2002/07/owl#members> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ApicalPart> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasalPart> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#LateralPart> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MedialPart> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid50 <http://www.w3.org/2002/07/owl#members> _:genid53 .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Apoptosis> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AutophagicDeath> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Necrosis> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid54 <http://www.w3.org/2002/07/owl#members> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AsymmetricCellDivisionOrientedCleavagePlane> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AsymmetricCellDivisionRandomCleavagePlane> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SymmetricCellDivisionOrientedCleavagePlane> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid55 .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SymmetricCellDivisionRandomCleavagePlane> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid59 <http://www.w3.org/2002/07/owl#members> _:genid66 .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BarrierCrossing> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid65 .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Creation> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64 .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Deletion> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid63 .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Movement> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhenotypicChange> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid61 .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ShapeChange> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VolumeChange> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid67 <http://www.w3.org/2002/07/owl#members> _:genid70 .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaChange> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid69 .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaCreation> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid68 .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaDeletion> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid71 <http://www.w3.org/2002/07/owl#members> _:genid74 .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Boundary> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid73 .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRegion> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid72 .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OrganismalRegion> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid75 <http://www.w3.org/2002/07/owl#members> _:genid79 .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CHASTEcenter> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid78 .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Compucell3D> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid77 .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OpenAlea> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid76 .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Other> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid80 <http://www.w3.org/2002/07/owl#members> _:genid84 .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Cell> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid83 .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtraCellularFluid> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid82 .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtraCellularMatrix> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid81 .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Molecule> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid85 <http://www.w3.org/2002/07/owl#members> _:genid90 .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellAdhesion> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid89 .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellContact> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid88 .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRelatedTransport> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid87 .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularChemicalProcess> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid86 .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularElectricalProcess> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid91 <http://www.w3.org/2002/07/owl#members> _:genid97 .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellAdvection> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid96 .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDisplacement> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid95 .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMotility> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid94 .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRotation> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid93 .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Chemotaxis> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid92 .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Haptotaxis> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid98 <http://www.w3.org/2002/07/owl#members> _:genid102 .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellBorder> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101 .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembranePart> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid100 .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Cytoplasm> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid99 .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Nucleus> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid103 <http://www.w3.org/2002/07/owl#members> _:genid107 .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellCellProcess> .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid106 .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellEnvironmentProcess> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid105 .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularPropertyProcess> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid104 .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExistentialCellProcesses> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid108 <http://www.w3.org/2002/07/owl#members> _:genid113 .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDeath> .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid112 .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDifferentiation> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid111 .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDivision> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid110 .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellFusion> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid109 .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellGrowth> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid114 <http://www.w3.org/2002/07/owl#members> _:genid118 .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMovement> .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid117 .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellOrientationChange> .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid116 .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellShapeChange> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid115 .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellVolumeChange> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid119 <http://www.w3.org/2002/07/owl#members> _:genid122 .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularKineticProcess> .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid121 .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularMechanicalProcess> .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid120 .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalCellProcess> .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid123 <http://www.w3.org/2002/07/owl#members> _:genid127 .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalAffinity> .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126 .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalDensity> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid125 .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalLocalization> .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid124 .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalPattern> .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid128 <http://www.w3.org/2002/07/owl#members> _:genid133 .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatform> .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid132 .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemBoundary> .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid131 .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtent> .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid130 .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPixelDistanceScale> .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129 .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_Quality> .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid134 <http://www.w3.org/2002/07/owl#members> _:genid143 .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContactSurfaceArea> .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid142 .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimensionality> .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141 .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtentGeometrical> .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140 .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Location> .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid139 .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Orientation> .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid138 .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Shape> .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid137 .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SurfaceArea> .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid136 .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Texture> .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid135 .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Volume> .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid144 <http://www.w3.org/2002/07/owl#members> _:genid147 .
+_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContinuousEntity> .
+_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid146 .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CorpuscularEntity> .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid145 .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#DiffuseEntity> .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid148 <http://www.w3.org/2002/07/owl#members> _:genid151 .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimension1d> .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid150 .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimension2d> .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid149 .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimension3d> .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid152 <http://www.w3.org/2002/07/owl#members> _:genid155 .
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ElectromechanicalField> .
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid154 .
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MolecularField> .
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid153 .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemperatureField> .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid156 <http://www.w3.org/2002/07/owl#members> _:genid159 .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Fission> .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid158 .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Meiosis> .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid157 .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Mitosis> .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid160 <http://www.w3.org/2002/07/owl#members> _:genid163 .
+_:genid163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GradientTexture> .
+_:genid163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid162 .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PatternTexture> .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid161 .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#UniformTexture> .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid164 <http://www.w3.org/2002/07/owl#members> _:genid167 .
+_:genid167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixChange> .
+_:genid167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid166 .
+_:genid166 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid166 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixCreation> .
+_:genid166 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid165 .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixDeletion> .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid168 <http://www.w3.org/2002/07/owl#members> _:genid174 .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsApoptotic> .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid173 .
+_:genid173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsDebris> .
+_:genid173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid172 .
+_:genid172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsGrowing> .
+_:genid172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid171 .
+_:genid171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsHypoxic> .
+_:genid171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid170 .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsNecrotic> .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid169 .
+_:genid169 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid169 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsQuiescent> .
+_:genid169 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid175 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid175 <http://www.w3.org/2002/07/owl#members> _:genid181 .
+_:genid181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeBarrierCrossing> .
+_:genid181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid180 .
+_:genid180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeChange> .
+_:genid180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid179 .
+_:genid179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeCreation> .
+_:genid179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid178 .
+_:genid178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeDeletion> .
+_:genid178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177 .
+_:genid177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeDiffusion> .
+_:genid177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid176 .
+_:genid176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeMoleculeAdhesion> .
+_:genid176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid182 <http://www.w3.org/2002/07/owl#members> _:genid185 .
+_:genid185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtentX> .
+_:genid185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid184 .
+_:genid184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtentY> .
+_:genid184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid183 .
+_:genid183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtentZ> .
+_:genid183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid186 <http://www.w3.org/2002/07/owl#members> _:genid189 .
+_:genid189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodicX> .
+_:genid189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid188 .
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodicY> .
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid187 .
+_:genid187 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid187 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodicZ> .
+_:genid187 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid190 <http://www.w3.org/2002/07/owl#members> _:genid193 .
+_:genid193 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid193 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWallX> .
+_:genid193 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid192 .
+_:genid192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWallY> .
+_:genid192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid191 .
+_:genid191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWallZ> .
+_:genid191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid194 <http://www.w3.org/2002/07/owl#members> _:genid198 .
+_:genid198 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid198 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_FileName> .
+_:genid198 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid197 .
+_:genid197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_FileRoot> .
+_:genid197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid196 .
+_:genid196 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid196 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_FileTimeStep> .
+_:genid196 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid195 .
+_:genid195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_InitialCondition> .
+_:genid195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+# Generated by the OWL API (version 5.0.4.20161016-1358) https://github.com/owlcs/owlapi/

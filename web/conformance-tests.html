@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Conformance tests | Mobile-RETE</title>
+
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<link rel="stylesheet" href="css/default.css" />
+	<style>
+		body {
+			line-height: 140%;
+		}
+		ul.nav-menu {
+			width: 400px;
+		}
+		.ref {
+			color: black !important;
+		}
+		.code {
+			font-family: consolas, courier;
+			font-size: 16px;
+		}
+	</style>
+	
+    <script type="text/javascript" src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+	<style>
+		li.L0, li.L1, li.L2, li.L3,
+		li.L5, li.L6, li.L7, li.L8
+		{ list-style-type: decimal !important }
+	</style>
+	
+	<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+	
+	<link rel="stylesheet" href="css/totop.css" />
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<script type="text/javascript" src="js/totop.js"></script>
+</head>
+
+<body>
+<a class="pos" name="top"><h1>Mobile-RETE: Conformance tests</h1></a>
+
+<p>This page details the conformance tests done for the <a href="../index.html">paper</a>'s OWL2 RL ruleset.</p>
+
+<p><b>Contact</b>: <a href="mailto:william.van.woensel@gmail.com&subject=Mobile-RETE">William Van Woensel</a></p>
+
+<div class="nav-menu">Navigation</div>
+<ul class="nav-menu">
+	<li><a href="#test-suite">OWL 2RL test suite</a></li>
+</ul>
+
+<a class="pos" name="test-suite">
+	<h2>OWL2 RL test suite</h2>
+</a>
+
+<p>This test suite was published by Schneider et al. <a href="#ref1">[1]</a> (a main contributor of the W3C OWL2 RL specification). The original test suite can be found <a href="res/conf/testsuite-owl2-rdfbased.zip">here</a> (the original archive is no longer online). We converted this test suite to an <a href="res/conf/in.nt">input data file</a> and <a href="res/conf/out.nt">conformance-testing output file</a> that facilitate automatically checking conformance. However, in our version, we had to leave out some test cases, either due to the limitations of our OWL2 RL ruleset (e.g., lack of datatype support), or due to difficulties testing conformance. We list these cases <a href="res/conf/owl2rl-test-suite-issues.txt">here</a>. We further note that we had to replace blank nodes in the premise &amp; conclusion graphs by concrete resources. This was done to facilitate automatic conformance testing, since any RDF system will keep different blank nodes for 2 different graphs. To facilitate replacing these blank nodes, we converted the premise &amp; conclusion graphs to N-TRIPLE format.</p>
+
+<br />
+<br />
+
+<h2>References</h2>
+<a name="ref1" class="ref"><b>[1]</b> Schneider, M., Mainzer, K.: A Conformance Test Suite for the OWL 2 RL RDF Rules Language and the OWL 2 RDF-Based Semantics. 6th International Workshop on OWL: Experiences and Directions (2009).</a>
+
+</body>
+</html>

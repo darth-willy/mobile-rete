@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Benchmark resources | Mobile-RETE</title>
+
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<link rel="stylesheet" href="css/default.css" />
+	<style>
+		body {
+			line-height: 140%;
+		}
+		ul.nav-menu {
+			width: 400px;
+		}
+		.ref {
+			color: black !important;
+		}
+		.code {
+			font-family: consolas, courier;
+			font-size: 16px;
+		}
+	</style>
+	
+    <script type="text/javascript" src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+	<style>
+		li.L0, li.L1, li.L2, li.L3,
+		li.L5, li.L6, li.L7, li.L8
+		{ list-style-type: decimal !important }
+	</style>
+	
+	<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+	
+	<link rel="stylesheet" href="css/totop.css" />
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<script type="text/javascript" src="js/totop.js"></script>
+</head>
+
+<body>
+<a class="pos" name="top"><h1>Mobile-RETE: Benchmark resources</h1></a>
+
+<p>This page lists the resources utilized in the <a href="../index.html">paper</a>'s benchmarks.</p>
+
+<p><b>Contact</b>: <a href="mailto:william.van.woensel@gmail.com&subject=Mobile-RETE">William Van Woensel</a></p>
+
+<div class="nav-menu">Navigation</div>
+<ul class="nav-menu">
+	<li><a href="#ruleset">OWL 2RL ruleset</a></li>
+	<li><a href="#ontologies">Benchmark ontologies</a></li>
+</ul>
+	
+<a class="pos" name="ruleset">
+	<h2>OWL2 RL ruleset</h2>
+</a>
+
+<p>The OWL2 RL ruleset can be found <a href="res/rules/owl2rl.spin">here</a> in <a href="http://spinrdf.org/">SPIN</a> format, and <a href="res/rules/owl2rl.jena">here</a> in the Apache Jena <a href="https://jena.apache.org/documentation/inference/#RULEsyntax">rule format</a>.</p>
+
+<a class="pos" name="ontologies">
+	<h2>Benchmark ontologies</h2>
+</a>
+
+<p>Matentzoglu et al. <a href="#ref1">[1]</a> extracted the OWL2RL Benchmark Corpus from general-purpose repositories including the <a href="http://www.cs.ox.ac.uk/isg/ontologies/">Oxford Ontology repository</a> and the <a href="http://mowlrepo.cs.manchester.ac.uk/datasets/mowlcorp/">Manchester OWL Corpus (MOWLCorp)</a>. It contains ontologies from clinical and biomedical fields (ProPreo, ACGT, SNOMED), linguistic and cognitive engineering (DOLCE) and food &amp; wine  domains (Wine); and from <a href="http://bioportal.bioontology.org/">BioPortal</a>, a comprehensive repository of biomedical ontologies.</p>
+
+<p>For the purposes of this paper, we only utilized the BioPortal ontologies. For PC benchmarks, we had to leave out 3 ontologies as they took longer than 10 minutes for reasoning; for mobile benchmarks, we left out 11 ontologies since they either caused out-of-memory exceptions, or ran longer than 10 minutes. The PC ontology set can be found <a href="res/ontologies/pc/pc.zip">here</a>, and the mobile ontology set <a href="res/ontologies/mobile/mobile.zip">here</a>.</p>
+
+<br />
+<br />
+
+<h2>References</h2>
+<a name="ref1" class="ref"><b>[1]</b> Matentzoglu, N., Bail, S., Parsia, B.: A Snapshot of the OWL Web. The Semantic Web - ISWC 2013 - 12th International Semantic Web Conference, Sydney, NSW, Australia, October 21-25, 2013, Proceedings, Part I. pp. 331-346 (2013).</a>
+	
+</body>
+</html>

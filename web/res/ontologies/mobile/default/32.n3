@@ -1,0 +1,4366 @@
+@prefix : <http://menelastop.ics.upmc.fr/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://menelastop.ics.upmc.fr/> a owl:Ontology .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://menelastop.ics.upmc.fr/DEFxATTRxVal
+
+:DEFxATTRxVal a owl:ObjectProperty ;
+	rdfs:subPropertyOf :has_meta_view_point ;
+	rdfs:domain :Attribute ;
+	rdfs:range :value .
+# 
+# http://menelastop.ics.upmc.fr/DEFxAbsObjxIdealObj
+
+:DEFxAbsObjxIdealObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :AbstractObject ;
+	rdfs:range :IdealObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxAbsObjxMetaAbsObj
+
+:DEFxAbsObjxMetaAbsObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxAbsObjxIdealObj ;
+	rdfs:domain :Substratum ;
+	rdfs:range :MetaAbstractObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxChangexAbstractObj
+
+:DEFxChangexAbstractObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :Change ;
+	rdfs:range :AbstractObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxChangexIdealObj
+
+:DEFxChangexIdealObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :Change ;
+	rdfs:range :IdealObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxChangexSpatialObj
+
+:DEFxChangexSpatialObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :has_view_point ;
+	rdfs:domain :Change .
+# 
+# http://menelastop.ics.upmc.fr/DEFxCountObjxMassObj
+
+:DEFxCountObjxMassObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxPhyObjxPhyObj ;
+	rdfs:domain :countable_object ;
+	rdfs:range :mass_object .
+# 
+# http://menelastop.ics.upmc.fr/DEFxDTSTMPxDiscreteVal
+
+:DEFxDTSTMPxDiscreteVal a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxFctObjxQuantVal ;
+	rdfs:domain :date_time_stamp ;
+	rdfs:range :discrete_val .
+# 
+# http://menelastop.ics.upmc.fr/DEFxFctObjxQualVal
+
+:DEFxFctObjxQualVal a owl:ObjectProperty ;
+	rdfs:subPropertyOf :has_meta_view_point ;
+	rdfs:domain :FunctionalObject ;
+	rdfs:range :qualitative_val .
+# 
+# http://menelastop.ics.upmc.fr/DEFxFctObjxQuantVal
+
+:DEFxFctObjxQuantVal a owl:ObjectProperty ;
+	rdfs:subPropertyOf :has_meta_view_point ;
+	rdfs:domain :FunctionalObject ;
+	rdfs:range :quantitative_val .
+# 
+# http://menelastop.ics.upmc.fr/DEFxHBxHB
+
+:DEFxHBxHB a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxHBxRealObj ;
+	rdfs:domain :human_being ;
+	rdfs:range :human_being .
+# 
+# http://menelastop.ics.upmc.fr/DEFxHBxRealObj
+
+:DEFxHBxRealObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxPhyObjxPhyObj ;
+	rdfs:domain :human_being ;
+	rdfs:range :RealObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxHCxStatePhyObj
+
+:DEFxHCxStatePhyObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxStatePhyObjxStatePhyObj ;
+	rdfs:range :StateOfPhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxICControllingxIO
+
+:DEFxICControllingxIO a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :intentional_change_controlling ;
+	rdfs:range :IntentionalObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxICxHB
+
+:DEFxICxHB a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxICxPhyObj ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :human_being .
+# 
+# http://menelastop.ics.upmc.fr/DEFxICxIC
+
+:DEFxICxIC a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxChangexAbstractObj ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :IntentionalChange .
+# 
+# http://menelastop.ics.upmc.fr/DEFxICxMetaAbsObject
+
+:DEFxICxMetaAbsObject a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxAbsObjxIdealObj ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :MetaAbstractObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxICxPhyObj
+
+:DEFxICxPhyObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxChangexAbstractObj ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :PhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxICxState
+
+:DEFxICxState a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxChangexAbstractObj ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :State .
+# 
+# http://menelastop.ics.upmc.fr/DEFxICxStateMind
+
+:DEFxICxStateMind a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxICxState ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :StateOfMind .
+# 
+# http://menelastop.ics.upmc.fr/DEFxIO
+
+:DEFxIO a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :Entity ;
+	rdfs:range :IntentionalObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxIOxIO
+
+:DEFxIOxIO a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :IntentionalObject ;
+	rdfs:range :IntentionalObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxIOxIntentionalCons
+
+:DEFxIOxIntentionalCons a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :IntentionalObject ;
+	rdfs:range :intentional_consequence .
+# 
+# http://menelastop.ics.upmc.fr/DEFxIOxTempObj
+
+:DEFxIOxTempObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :has_view_point ;
+	rdfs:domain :IntentionalObject ;
+	rdfs:range :temporal_object .
+# 
+# http://menelastop.ics.upmc.fr/DEFxIOxTheticMod
+
+:DEFxIOxTheticMod a owl:ObjectProperty ;
+	rdfs:subPropertyOf :has_view_point ;
+	rdfs:domain :IntentionalObject ;
+	rdfs:range :thetic_modality .
+# 
+# http://menelastop.ics.upmc.fr/DEFxMassObjxCountObj
+
+:DEFxMassObjxCountObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxPhyObjxPhyObj ;
+	rdfs:domain :mass_object ;
+	rdfs:range :countable_object .
+# 
+# http://menelastop.ics.upmc.fr/DEFxMassObjxQuantVal
+
+:DEFxMassObjxQuantVal a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxAbsObjxIdealObj ;
+	rdfs:domain :mass_object ;
+	rdfs:range :quantitative_val .
+# 
+# http://menelastop.ics.upmc.fr/DEFxMathNotionxQuantVal
+
+:DEFxMathNotionxQuantVal a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:range :quantitative_val .
+# 
+# http://menelastop.ics.upmc.fr/DEFxMetaAbsObjxMetaIdealObj
+
+:DEFxMetaAbsObjxMetaIdealObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :MetaAbstractObject ;
+	rdfs:range :MetaIdealObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxMetaFctObjxFctObj
+
+:DEFxMetaFctObjxFctObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :MetaFunctionalObject ;
+	rdfs:range :FunctionalObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxPROPxPROP
+
+:DEFxPROPxPROP a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :Proposition ;
+	rdfs:range :Proposition .
+# 
+# http://menelastop.ics.upmc.fr/DEFxPhyFctObjxMetaPhyFctObj
+
+:DEFxPhyFctObjxMetaPhyFctObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :has_meta_view_point ;
+	rdfs:domain :physical_functional_object ;
+	rdfs:range :meta_physical_functional_object .
+# 
+# http://menelastop.ics.upmc.fr/DEFxPhyFctObjxPhyFctObj
+
+:DEFxPhyFctObjxPhyFctObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :physical_functional_object ;
+	rdfs:range :physical_functional_object .
+# 
+# http://menelastop.ics.upmc.fr/DEFxPhyObjxChange
+
+:DEFxPhyObjxChange a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :PhysicalObject ;
+	rdfs:range :Change .
+# 
+# http://menelastop.ics.upmc.fr/DEFxPhyObjxIC
+
+:DEFxPhyObjxIC a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxPhyObjxChange ;
+	rdfs:domain :PhysicalObject ;
+	rdfs:range :IntentionalChange .
+# 
+# http://menelastop.ics.upmc.fr/DEFxPhyObjxMetaFunctObj
+
+:DEFxPhyObjxMetaFunctObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :PhysicalObject ;
+	rdfs:range :MetaFunctionalObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxPhyObjxPhyFctObj
+
+:DEFxPhyObjxPhyFctObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :has_view_point ;
+	rdfs:domain :PhysicalObject ;
+	rdfs:range :physical_functional_object .
+# 
+# http://menelastop.ics.upmc.fr/DEFxPhyObjxPhyObj
+
+:DEFxPhyObjxPhyObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :PhysicalObject ;
+	rdfs:range :PhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxPhyObjxProcess
+
+:DEFxPhyObjxProcess a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxPhyObjxChange ;
+	rdfs:domain :PhysicalObject ;
+	rdfs:range :process .
+# 
+# http://menelastop.ics.upmc.fr/DEFxProcessxPhyFctObj
+
+:DEFxProcessxPhyFctObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :has_view_point ;
+	rdfs:domain :process ;
+	rdfs:range :physical_functional_object .
+# 
+# http://menelastop.ics.upmc.fr/DEFxQuantValxCategory
+
+:DEFxQuantValxCategory a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :quantitative_val ;
+	rdfs:range :category .
+# 
+# http://menelastop.ics.upmc.fr/DEFxQuantValxCountObj
+
+:DEFxQuantValxCountObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :quantitative_val ;
+	rdfs:range :PhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxQuantValxQuantVal
+
+:DEFxQuantValxQuantVal a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :quantitative_val ;
+	rdfs:range :quantitative_val .
+# 
+# http://menelastop.ics.upmc.fr/DEFxQuantValxUnit
+
+:DEFxQuantValxUnit a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :quantitative_val ;
+	rdfs:range :Unit .
+# 
+# http://menelastop.ics.upmc.fr/DEFxRealObjxPsObj
+
+:DEFxRealObjxPsObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxPhyObjxPhyObj ;
+	rdfs:domain :RealObject ;
+	rdfs:range :PseudoObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxRealObjxRealObj
+
+:DEFxRealObjxRealObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxPhyObjxPhyObj ;
+	rdfs:domain :RealObject ;
+	rdfs:range :RealObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxSTATExSubstratum
+
+:DEFxSTATExSubstratum a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :State ;
+	rdfs:range :Substratum .
+# 
+# http://menelastop.ics.upmc.fr/DEFxSetxEntity
+
+:DEFxSetxEntity a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/DEFxSpatialObjxPhyObj
+
+:DEFxSpatialObjxPhyObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:range :PhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxStateIdealObjxIdealObj
+
+:DEFxStateIdealObjxIdealObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxAbsObjxIdealObj ;
+	rdfs:domain :StateOfIdealObject ;
+	rdfs:range :IdealObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxStateMindxIO
+
+:DEFxStateMindxIO a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :StateOfMind ;
+	rdfs:range :IntentionalObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxStateMindxStateMind
+
+:DEFxStateMindxStateMind a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxStateMindxIO ;
+	rdfs:domain :StateOfMind ;
+	rdfs:range :StateOfMind .
+# 
+# http://menelastop.ics.upmc.fr/DEFxStateMindxTheticMod
+
+:DEFxStateMindxTheticMod a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxIOxTheticMod ;
+	rdfs:domain :StateOfMind ;
+	rdfs:range :thetic_modality .
+# 
+# http://menelastop.ics.upmc.fr/DEFxStatePhyObjxMetaIdealObj
+
+:DEFxStatePhyObjxMetaIdealObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxAbsObjxIdealObj ;
+	rdfs:domain :StateOfPhysicalObject ;
+	rdfs:range :MetaIdealObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxStatePhyObjxPhyFctObj
+
+:DEFxStatePhyObjxPhyFctObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :has_view_point ;
+	rdfs:domain :StateOfPhysicalObject ;
+	rdfs:range :physical_functional_object .
+# 
+# http://menelastop.ics.upmc.fr/DEFxStatePhyObjxPhyObj
+
+:DEFxStatePhyObjxPhyObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxSTATExSubstratum ;
+	rdfs:domain :StateOfPhysicalObject ;
+	rdfs:range :PhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxStatePhyObjxSpatialObj
+
+:DEFxStatePhyObjxSpatialObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxSTATExSubstratum ;
+	rdfs:domain :StateOfPhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxStatePhyObjxSpatialRoleFct
+
+:DEFxStatePhyObjxSpatialRoleFct a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :StateOfPhysicalObject ;
+	rdfs:range :spatial_role_function .
+# 
+# http://menelastop.ics.upmc.fr/DEFxStatePhyObjxStatePhyObj
+
+:DEFxStatePhyObjxStatePhyObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxStatexState ;
+	rdfs:domain :StateOfPhysicalObject ;
+	rdfs:range :StateOfPhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxStatexState
+
+:DEFxStatexState a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :State ;
+	rdfs:range :State .
+# 
+# http://menelastop.ics.upmc.fr/DEFxSubsxIdealObj
+
+:DEFxSubsxIdealObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :Substratum ;
+	rdfs:range :IdealObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxSubsxWord
+
+:DEFxSubsxWord a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :Substratum ;
+	rdfs:range :word .
+# 
+# http://menelastop.ics.upmc.fr/DEFxTempIntxDiscreteVal
+
+:DEFxTempIntxDiscreteVal a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxFctObjxQuantVal ;
+	rdfs:domain :temporal_interval ;
+	rdfs:range :discrete_val .
+# 
+# http://menelastop.ics.upmc.fr/DEFxTempIntxMetaIntObj
+
+:DEFxTempIntxMetaIntObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :has_meta_view_point ;
+	rdfs:domain :temporal_interval ;
+	rdfs:range :meta_intentional_functional_object .
+# 
+# http://menelastop.ics.upmc.fr/DEFxTempIntxTempInt
+
+:DEFxTempIntxTempInt a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :temporal_interval ;
+	rdfs:range :temporal_interval .
+# 
+# http://menelastop.ics.upmc.fr/DEFxUnICxMetaAbsObj
+
+:DEFxUnICxMetaAbsObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxAbsObjxIdealObj ;
+	rdfs:domain :UnintentionalChange ;
+	rdfs:range :MetaAbstractObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxUnICxPhyObj
+
+:DEFxUnICxPhyObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxChangexAbstractObj ;
+	rdfs:domain :UnintentionalChange ;
+	rdfs:range :PhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxUnICxStatePhyObj
+
+:DEFxUnICxStatePhyObj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxChangexAbstractObj ;
+	rdfs:domain :UnintentionalChange ;
+	rdfs:range :StateOfPhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/DEFxUnICxUnIC
+
+:DEFxUnICxUnIC a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxChangexAbstractObj ;
+	rdfs:domain :UnintentionalChange ;
+	rdfs:range :UnintentionalChange .
+# 
+# http://menelastop.ics.upmc.fr/DEFxVal
+
+:DEFxVal a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :Entity ;
+	rdfs:range :value .
+# 
+# http://menelastop.ics.upmc.fr/Rel
+
+:Rel a owl:ObjectProperty ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/acc
+
+:acc a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxHBxHB ;
+	rdfs:domain :human_being ;
+	rdfs:range :human_being .
+# 
+# http://menelastop.ics.upmc.fr/after_state
+
+:after_state a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxUnICxStatePhyObj ;
+	rdfs:domain :UnintentionalChange ;
+	rdfs:range :StateOfPhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/agt
+
+:agt a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxICxHB ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :human_being .
+# 
+# http://menelastop.ics.upmc.fr/altered_by
+
+:altered_by a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxIOxIO ;
+	rdfs:domain :process ;
+	rdfs:range :StateOfPhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/appreciated_as
+
+:appreciated_as a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :MetaFunctionalObject ;
+	rdfs:range :MetaFunctionalObjectQualifier .
+# 
+# http://menelastop.ics.upmc.fr/approximate_value
+
+:approximate_value a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxVal ;
+	rdfs:domain :Entity ;
+	rdfs:range :value .
+# 
+# http://menelastop.ics.upmc.fr/attr
+
+:attr a owl:ObjectProperty ;
+	rdfs:subPropertyOf :has_view_point ;
+	rdfs:domain :AbstractObject ;
+	rdfs:range :Attribute .
+# 
+# http://menelastop.ics.upmc.fr/axiologised_as
+
+:axiologised_as a owl:ObjectProperty ;
+	rdfs:subPropertyOf :appreciated_as ;
+	rdfs:domain :MetaFunctionalObject ;
+	rdfs:range :Axiology .
+# 
+# http://menelastop.ics.upmc.fr/before_state
+
+:before_state a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxUnICxStatePhyObj ;
+	rdfs:domain :UnintentionalChange ;
+	rdfs:range :StateOfPhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/begin_at
+
+:begin_at a owl:ObjectProperty ;
+	rdfs:subPropertyOf :time_date ;
+	rdfs:domain :temporal_interval ;
+	rdfs:range :date_time_stamp .
+# 
+# http://menelastop.ics.upmc.fr/brother_of
+
+:brother_of a owl:ObjectProperty ;
+	rdfs:subPropertyOf :parent_of ;
+	rdfs:domain :human_being ;
+	rdfs:range :human_being .
+# 
+# http://menelastop.ics.upmc.fr/categorial_dependency
+
+:categorial_dependency a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxIOxIO ;
+	rdfs:domain :IntentionalObject ;
+	rdfs:range :IntentionalObject .
+# 
+# http://menelastop.ics.upmc.fr/categorised_as
+
+:categorised_as a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxQuantValxCategory ;
+	rdfs:domain :quantitative_val ;
+	rdfs:range :category .
+# 
+# http://menelastop.ics.upmc.fr/causally_related_to
+
+:causally_related_to a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxStatePhyObjxStatePhyObj ;
+	rdfs:domain :StateOfPhysicalObject ;
+	rdfs:range :StateOfPhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/cause_of
+
+:cause_of a owl:ObjectProperty ;
+	rdfs:subPropertyOf :causally_related_to ;
+	rdfs:domain :StateOfPhysicalObject ;
+	rdfs:range :StateOfPhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/caused_by
+
+:caused_by a owl:ObjectProperty ;
+	rdfs:subPropertyOf :causally_related_to ;
+	rdfs:domain :StateOfPhysicalObject ;
+	rdfs:range :StateOfPhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/complicated_by
+
+:complicated_by a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxICxState ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :State .
+# 
+# http://menelastop.ics.upmc.fr/component_of
+
+:component_of a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxRealObjxPsObj ;
+	rdfs:domain :RealObject ;
+	rdfs:range :PseudoObject .
+# 
+# http://menelastop.ics.upmc.fr/composed_of
+
+:composed_of a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxSubsxIdealObj ;
+	rdfs:domain :Substratum .
+# 
+# http://menelastop.ics.upmc.fr/consequence_role
+
+:consequence_role a owl:ObjectProperty ;
+	rdfs:subPropertyOf :has_meta_view_point ;
+	rdfs:domain :intentional_functional_object ;
+	rdfs:range :meta_intentional_functional_object .
+# 
+# http://menelastop.ics.upmc.fr/consists_in
+
+:consists_in a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxStatePhyObjxMetaIdealObj ;
+	rdfs:domain :StateOfPhysicalObject ;
+	rdfs:range :MetaIdealObject .
+# 
+# http://menelastop.ics.upmc.fr/consists_loc
+
+:consists_loc a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxStatePhyObjxSpatialObj ;
+	rdfs:domain :StateOfPhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/consists_of
+
+:consists_of a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxStatePhyObjxPhyObj ;
+	rdfs:domain :StateOfPhysicalObject ;
+	rdfs:range :PhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/constituted_of
+
+:constituted_of a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxMassObjxCountObj ;
+	rdfs:domain :mass_object ;
+	rdfs:range :countable_object .
+# 
+# http://menelastop.ics.upmc.fr/content
+
+:content a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxStateMindxIO ;
+	rdfs:domain :StateOfMind ;
+	rdfs:range :IntentionalObject .
+# 
+# http://menelastop.ics.upmc.fr/countable_object_unit
+
+:countable_object_unit a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxQuantValxCountObj ;
+	rdfs:domain :quantitative_val ;
+	rdfs:range :countable_object .
+# 
+# http://menelastop.ics.upmc.fr/countains
+
+:countains a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxCountObjxMassObj ;
+	rdfs:domain :countable_object ;
+	rdfs:range :mass_object .
+# 
+# http://menelastop.ics.upmc.fr/cultural_aspect
+
+:cultural_aspect a owl:ObjectProperty ;
+	rdfs:subPropertyOf :functional_aspect ;
+	rdfs:domain :CulturalState .
+# 
+# http://menelastop.ics.upmc.fr/cultural_role
+
+:cultural_role a owl:ObjectProperty ;
+	rdfs:subPropertyOf :role ;
+	rdfs:range :cultural_role_function .
+# 
+# http://menelastop.ics.upmc.fr/date_temporal_measure
+
+:date_temporal_measure a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxDTSTMPxDiscreteVal ;
+	rdfs:domain :date_time_stamp ;
+	rdfs:range :discrete_val .
+# 
+# http://menelastop.ics.upmc.fr/day_temporal_measure
+
+:day_temporal_measure a owl:ObjectProperty ;
+	rdfs:subPropertyOf :date_temporal_measure ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/dedicated_to
+
+:dedicated_to a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxAbsObjxIdealObj ;
+	rdfs:domain :PseudoChange ;
+	rdfs:range :Notion .
+# 
+# http://menelastop.ics.upmc.fr/defines_area
+
+:defines_area a owl:ObjectProperty ;
+	rdfs:subPropertyOf :defines_location ;
+	rdfs:domain :PhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/defines_consequence
+
+:defines_consequence a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxIOxIntentionalCons ;
+	rdfs:domain :IntentionalObject ;
+	rdfs:range :intentional_consequence .
+# 
+# http://menelastop.ics.upmc.fr/defines_cultural_function
+
+:defines_cultural_function a owl:ObjectProperty ;
+	rdfs:subPropertyOf :defines_systemic_function ;
+	rdfs:domain :PhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/defines_fct
+
+:defines_fct a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxPhyObjxPhyFctObj ;
+	rdfs:domain :PhysicalObject ;
+	rdfs:range :physical_functional_object .
+# 
+# http://menelastop.ics.upmc.fr/defines_location
+
+:defines_location a owl:ObjectProperty ;
+	rdfs:subPropertyOf :defines_fct ;
+	rdfs:domain :PhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/defines_morphology
+
+:defines_morphology a owl:ObjectProperty ;
+	rdfs:subPropertyOf :defines_fct ;
+	rdfs:domain :PhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/defines_physical_function
+
+:defines_physical_function a owl:ObjectProperty ;
+	rdfs:subPropertyOf :defines_systemic_function ;
+	rdfs:domain :PhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/defines_position
+
+:defines_position a owl:ObjectProperty ;
+	rdfs:subPropertyOf :defines_location ;
+	rdfs:domain :PhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/defines_subarea
+
+:defines_subarea a owl:ObjectProperty ;
+	rdfs:subPropertyOf :defines_location ;
+	rdfs:domain :PhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/defines_systemic_function
+
+:defines_systemic_function a owl:ObjectProperty ;
+	rdfs:subPropertyOf :defines_fct ;
+	rdfs:domain :PhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/defines_temporal_function
+
+:defines_temporal_function a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxIOxTempObj ;
+	rdfs:domain :IntentionalObject ;
+	rdfs:range :defined_by_IO_temporal_object .
+# 
+# http://menelastop.ics.upmc.fr/definition
+
+:definition a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxSetxEntity ;
+	rdfs:range :Substratum .
+# 
+# http://menelastop.ics.upmc.fr/descriptive_goal
+
+:descriptive_goal a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxICxState ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :State .
+# 
+# http://menelastop.ics.upmc.fr/descriptive_result
+
+:descriptive_result a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxICxState ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :State .
+# 
+# http://menelastop.ics.upmc.fr/disease_of
+
+:disease_of a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxStatePhyObjxPhyObj ;
+	rdfs:range :human_being .
+# 
+# http://menelastop.ics.upmc.fr/doesnot_own
+
+:doesnot_own a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxHBxRealObj ;
+	rdfs:domain :human_being ;
+	rdfs:range :RealObject .
+# 
+# http://menelastop.ics.upmc.fr/dysfunction_in
+
+:dysfunction_in a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxStatePhyObjxMetaIdealObj ;
+	rdfs:domain :StateOfPhysicalObject ;
+	rdfs:range :MetaIdealObject .
+# 
+# http://menelastop.ics.upmc.fr/dysperforms_function
+
+:dysperforms_function a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxProcessxPhyFctObj ;
+	rdfs:domain :process ;
+	rdfs:range :physical_functional_object .
+# 
+# http://menelastop.ics.upmc.fr/end_at
+
+:end_at a owl:ObjectProperty ;
+	rdfs:subPropertyOf :time_date ;
+	rdfs:domain :temporal_interval ;
+	rdfs:range :date_time_stamp .
+# 
+# http://menelastop.ics.upmc.fr/estimated_as
+
+:estimated_as a owl:ObjectProperty ;
+	rdfs:subPropertyOf :appreciated_as ;
+	rdfs:domain :quantitative_val ;
+	rdfs:range :Estimation .
+# 
+# http://menelastop.ics.upmc.fr/evaluated_as
+
+:evaluated_as a owl:ObjectProperty ;
+	rdfs:subPropertyOf :appreciated_as ;
+	rdfs:domain :MetaFunctionalObject ;
+	rdfs:range :intensity .
+# 
+# http://menelastop.ics.upmc.fr/false
+
+:false a owl:ObjectProperty ;
+	rdfs:subPropertyOf :real ;
+	rdfs:domain :Entity ;
+	rdfs:range :IntentionalObject .
+# 
+# http://menelastop.ics.upmc.fr/father_of
+
+:father_of a owl:ObjectProperty ;
+	rdfs:subPropertyOf :parent_of ;
+	rdfs:domain :human_being ;
+	rdfs:range :human_being .
+# 
+# http://menelastop.ics.upmc.fr/fills_by
+
+:fills_by a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxSpatialObjxPhyObj ;
+	rdfs:range :PhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/focussed_on
+
+:focussed_on a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxStateIdealObjxIdealObj ;
+	rdfs:domain :StateOfIdealObject ;
+	rdfs:range :IdealObject .
+# 
+# http://menelastop.ics.upmc.fr/functional_aspect
+
+:functional_aspect a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxStatePhyObjxPhyFctObj ;
+	rdfs:domain :StateOfPhysicalObject ;
+	rdfs:range :physical_functional_object .
+# 
+# http://menelastop.ics.upmc.fr/functional_part
+
+:functional_part a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxPhyObjxPhyObj ;
+	rdfs:domain :PhysicalObject ;
+	rdfs:range :PhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/happens_loc
+
+:happens_loc a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxChangexSpatialObj ;
+	rdfs:domain :MaterialForm .
+# 
+# http://menelastop.ics.upmc.fr/has_for_conclusion
+
+:has_for_conclusion a owl:ObjectProperty ;
+	rdfs:subPropertyOf :categorial_dependency ;
+	rdfs:domain :ImplicativeObject ;
+	rdfs:range :CategorialForm .
+# 
+# http://menelastop.ics.upmc.fr/has_for_conjunct
+
+:has_for_conjunct a owl:ObjectProperty ;
+	rdfs:subPropertyOf :categorial_dependency ;
+	rdfs:domain :ConjunctiveObject ;
+	rdfs:range :IntentionalObject .
+# 
+# http://menelastop.ics.upmc.fr/has_for_disjunct
+
+:has_for_disjunct a owl:ObjectProperty ;
+	rdfs:subPropertyOf :categorial_dependency ;
+	rdfs:domain :DisjunctiveObject ;
+	rdfs:range :IntentionalObject .
+# 
+# http://menelastop.ics.upmc.fr/has_for_dosage
+
+:has_for_dosage a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxCountObjxMassObj ;
+	rdfs:range :substance .
+# 
+# http://menelastop.ics.upmc.fr/has_for_necessary_subaction
+
+:has_for_necessary_subaction a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxICxIC ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :IntentionalChange .
+# 
+# http://menelastop.ics.upmc.fr/has_for_optional_subaction
+
+:has_for_optional_subaction a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxICxIC ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :IntentionalChange .
+# 
+# http://menelastop.ics.upmc.fr/has_for_premisse
+
+:has_for_premisse a owl:ObjectProperty ;
+	rdfs:subPropertyOf :categorial_dependency ;
+	rdfs:domain :ImplicativeObject ;
+	rdfs:range :IntentionalObject .
+# 
+# http://menelastop.ics.upmc.fr/has_for_step
+
+:has_for_step a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxStatexState ;
+	rdfs:domain :Scenario ;
+	rdfs:range :State .
+# 
+# http://menelastop.ics.upmc.fr/has_meta_view_point
+
+:has_meta_view_point a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxMetaAbsObjxMetaIdealObj ;
+	rdfs:domain :MetaAbstractObject ;
+	rdfs:range :MetaIdealObject .
+# 
+# http://menelastop.ics.upmc.fr/has_view_point
+
+:has_view_point a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxAbsObjxMetaAbsObj ;
+	rdfs:domain :AbstractObject ;
+	rdfs:range :MetaAbstractObject .
+# 
+# http://menelastop.ics.upmc.fr/hour_temporal_measure
+
+:hour_temporal_measure a owl:ObjectProperty ;
+	rdfs:subPropertyOf :date_temporal_measure ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/iden
+
+:iden a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/improvement_of
+
+:improvement_of a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxStatexState ;
+	rdfs:domain :State ;
+	rdfs:range :State .
+# 
+# http://menelastop.ics.upmc.fr/includes
+
+:includes a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxSpatialObjxPhyObj ;
+	rdfs:range :PhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/inst_meth
+
+:inst_meth a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxICxIC ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :IntentionalChange .
+# 
+# http://menelastop.ics.upmc.fr/inst_meth_excl
+
+:inst_meth_excl a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxICxIC ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :IntentionalChange .
+# 
+# http://menelastop.ics.upmc.fr/inst_tool
+
+:inst_tool a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxICxPhyObj ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :PhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/inst_tool_excl
+
+:inst_tool_excl a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxICxPhyObj ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :PhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/intentional
+
+:intentional a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxIO ;
+	rdfs:domain :Entity ;
+	rdfs:range :IntentionalObject .
+# 
+# http://menelastop.ics.upmc.fr/interpretation
+
+:interpretation a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxStatePhyObjxStatePhyObj ;
+	rdfs:domain :StateOfPhysicalObject ;
+	rdfs:range :StateOfPhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/interpretation_of
+
+:interpretation_of a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxStatePhyObjxStatePhyObj ;
+	rdfs:domain :StateOfPhysicalObject ;
+	rdfs:range :StateOfPhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/interval_after
+
+:interval_after a owl:ObjectProperty ;
+	rdfs:subPropertyOf :interval_temporal_rel ;
+	rdfs:domain :temporal_interval ;
+	rdfs:range :temporal_interval .
+# 
+# http://menelastop.ics.upmc.fr/interval_before
+
+:interval_before a owl:ObjectProperty ;
+	rdfs:subPropertyOf :interval_temporal_rel ;
+	rdfs:domain :temporal_interval ;
+	rdfs:range :temporal_interval .
+# 
+# http://menelastop.ics.upmc.fr/interval_duration
+
+:interval_duration a owl:ObjectProperty ;
+	rdfs:subPropertyOf :interval_temporal_rel ;
+	rdfs:domain :temporal_interval ;
+	rdfs:range :temporal_interval .
+# 
+# http://menelastop.ics.upmc.fr/interval_during
+
+:interval_during a owl:ObjectProperty ;
+	rdfs:subPropertyOf :interval_temporal_rel ;
+	rdfs:domain :temporal_interval ;
+	rdfs:range :temporal_interval .
+# 
+# http://menelastop.ics.upmc.fr/interval_end
+
+:interval_end a owl:ObjectProperty ;
+	rdfs:subPropertyOf :interval_temporal_rel ;
+	rdfs:domain :temporal_interval ;
+	rdfs:range :temporal_interval .
+# 
+# http://menelastop.ics.upmc.fr/interval_inside
+
+:interval_inside a owl:ObjectProperty ;
+	rdfs:subPropertyOf :interval_temporal_rel ;
+	rdfs:domain :temporal_interval ;
+	rdfs:range :temporal_interval .
+# 
+# http://menelastop.ics.upmc.fr/interval_outside
+
+:interval_outside a owl:ObjectProperty ;
+	rdfs:subPropertyOf :interval_temporal_rel ;
+	rdfs:domain :temporal_interval ;
+	rdfs:range :temporal_interval .
+# 
+# http://menelastop.ics.upmc.fr/interval_proj
+
+:interval_proj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :interval_temporal_rel ;
+	rdfs:domain :temporal_interval ;
+	rdfs:range :temporal_interval .
+# 
+# http://menelastop.ics.upmc.fr/interval_simul
+
+:interval_simul a owl:ObjectProperty ;
+	rdfs:subPropertyOf :interval_temporal_rel ;
+	rdfs:domain :temporal_interval ;
+	rdfs:range :temporal_interval .
+# 
+# http://menelastop.ics.upmc.fr/interval_since
+
+:interval_since a owl:ObjectProperty ;
+	rdfs:subPropertyOf :interval_temporal_rel ;
+	rdfs:domain :temporal_interval ;
+	rdfs:range :temporal_interval .
+# 
+# http://menelastop.ics.upmc.fr/interval_start
+
+:interval_start a owl:ObjectProperty ;
+	rdfs:subPropertyOf :interval_temporal_rel ;
+	rdfs:domain :temporal_interval ;
+	rdfs:range :temporal_interval .
+# 
+# http://menelastop.ics.upmc.fr/interval_succ
+
+:interval_succ a owl:ObjectProperty ;
+	rdfs:subPropertyOf :interval_temporal_rel ;
+	rdfs:domain :temporal_interval ;
+	rdfs:range :temporal_interval .
+# 
+# http://menelastop.ics.upmc.fr/interval_temporal_rel
+
+:interval_temporal_rel a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxTempIntxTempInt ;
+	rdfs:domain :temporal_interval ;
+	rdfs:range :temporal_interval .
+# 
+# http://menelastop.ics.upmc.fr/involved_aspect
+
+:involved_aspect a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxUnICxMetaAbsObj ;
+	rdfs:domain :UnintentionalChange ;
+	rdfs:range :MetaAbstractObject .
+# 
+# http://menelastop.ics.upmc.fr/involved_change
+
+:involved_change a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxUnICxUnIC ;
+	rdfs:domain :unintentional_change_controlling ;
+	rdfs:range :UnintentionalChange .
+# 
+# http://menelastop.ics.upmc.fr/involved_obj
+
+:involved_obj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxUnICxPhyObj ;
+	rdfs:domain :UnintentionalChange ;
+	rdfs:range :PhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/is_percent
+
+:is_percent a owl:ObjectProperty ;
+	rdfs:subPropertyOf :val_calculated_from ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/linguistic_rel
+
+:linguistic_rel a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/loc
+
+:loc a owl:ObjectProperty ;
+	rdfs:subPropertyOf :sub_functional_object .
+# 
+# http://menelastop.ics.upmc.fr/loc_above
+
+:loc_above a owl:ObjectProperty ;
+	rdfs:subPropertyOf :loc ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/loc_after
+
+:loc_after a owl:ObjectProperty ;
+	rdfs:subPropertyOf :loc ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/loc_at
+
+:loc_at a owl:ObjectProperty ;
+	rdfs:subPropertyOf :loc ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/loc_before
+
+:loc_before a owl:ObjectProperty ;
+	rdfs:subPropertyOf :loc ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/loc_behind
+
+:loc_behind a owl:ObjectProperty ;
+	rdfs:subPropertyOf :loc ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/loc_circum
+
+:loc_circum a owl:ObjectProperty ;
+	rdfs:subPropertyOf :loc ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/loc_cont
+
+:loc_cont a owl:ObjectProperty ;
+	rdfs:subPropertyOf :loc ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/loc_dist
+
+:loc_dist a owl:ObjectProperty ;
+	rdfs:subPropertyOf :loc ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/loc_downstream
+
+:loc_downstream a owl:ObjectProperty ;
+	rdfs:subPropertyOf :loc ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/loc_end
+
+:loc_end a owl:ObjectProperty ;
+	rdfs:subPropertyOf :loc ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/loc_eq
+
+:loc_eq a owl:ObjectProperty ;
+	rdfs:subPropertyOf :loc ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/loc_ext
+
+:loc_ext a owl:ObjectProperty ;
+	rdfs:subPropertyOf :loc ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/loc_front
+
+:loc_front a owl:ObjectProperty ;
+	rdfs:subPropertyOf :loc ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/loc_inside
+
+:loc_inside a owl:ObjectProperty ;
+	rdfs:subPropertyOf :loc .
+# 
+# http://menelastop.ics.upmc.fr/loc_interval
+
+:loc_interval a owl:ObjectProperty ;
+	rdfs:subPropertyOf :loc ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/loc_left
+
+:loc_left a owl:ObjectProperty ;
+	rdfs:subPropertyOf :loc ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/loc_outside
+
+:loc_outside a owl:ObjectProperty ;
+	rdfs:subPropertyOf :loc ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/loc_point
+
+:loc_point a owl:ObjectProperty ;
+	rdfs:subPropertyOf :loc ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/loc_prox
+
+:loc_prox a owl:ObjectProperty ;
+	rdfs:subPropertyOf :loc ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/loc_right
+
+:loc_right a owl:ObjectProperty ;
+	rdfs:subPropertyOf :loc ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/loc_side
+
+:loc_side a owl:ObjectProperty ;
+	rdfs:subPropertyOf :loc ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/loc_start
+
+:loc_start a owl:ObjectProperty ;
+	rdfs:subPropertyOf :loc ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/loc_stomosis
+
+:loc_stomosis a owl:ObjectProperty ;
+	rdfs:subPropertyOf :loc ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/loc_under
+
+:loc_under a owl:ObjectProperty ;
+	rdfs:subPropertyOf :loc ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/loc_upstream
+
+:loc_upstream a owl:ObjectProperty ;
+	rdfs:subPropertyOf :loc ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/loc_via
+
+:loc_via a owl:ObjectProperty ;
+	rdfs:subPropertyOf :loc ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/log_and
+
+:log_and a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxPROPxPROP ;
+	rdfs:domain :Proposition ;
+	rdfs:range :Proposition .
+# 
+# http://menelastop.ics.upmc.fr/made_of
+
+:made_of a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxRealObjxRealObj ;
+	rdfs:domain :RealObject ;
+	rdfs:range :RealObject .
+# 
+# http://menelastop.ics.upmc.fr/mass_quantity
+
+:mass_quantity a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxMassObjxQuantVal ;
+	rdfs:domain :mass_object ;
+	rdfs:range :quantitative_val .
+# 
+# http://menelastop.ics.upmc.fr/measured_val
+
+:measured_val a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxFctObjxQuantVal ;
+	rdfs:domain :FunctionalObject ;
+	rdfs:range :quantitative_val .
+# 
+# http://menelastop.ics.upmc.fr/mental_opp
+
+:mental_opp a owl:ObjectProperty ;
+	rdfs:subPropertyOf :motivation ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/mental_reinf
+
+:mental_reinf a owl:ObjectProperty ;
+	rdfs:subPropertyOf :motivation ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/mental_source
+
+:mental_source a owl:ObjectProperty ;
+	rdfs:subPropertyOf :motivation ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/minute_temporal_measure
+
+:minute_temporal_measure a owl:ObjectProperty ;
+	rdfs:subPropertyOf :date_temporal_measure ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/month_temporal_measure
+
+:month_temporal_measure a owl:ObjectProperty ;
+	rdfs:subPropertyOf :date_temporal_measure ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/morphological_aspect
+
+:morphological_aspect a owl:ObjectProperty ;
+	rdfs:subPropertyOf :functional_aspect ;
+	rdfs:domain :MorphoState .
+# 
+# http://menelastop.ics.upmc.fr/morphological_role
+
+:morphological_role a owl:ObjectProperty ;
+	rdfs:subPropertyOf :role ;
+	rdfs:range :morpho_role_function .
+# 
+# http://menelastop.ics.upmc.fr/mother_of
+
+:mother_of a owl:ObjectProperty ;
+	rdfs:subPropertyOf :parent_of ;
+	rdfs:domain :human_being ;
+	rdfs:range :human_being .
+# 
+# http://menelastop.ics.upmc.fr/motivated_by
+
+:motivated_by a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxICxState ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :State .
+# 
+# http://menelastop.ics.upmc.fr/motivation
+
+:motivation a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxStateMindxStateMind ;
+	rdfs:domain :StateOfMind ;
+	rdfs:range :StateOfMind .
+# 
+# http://menelastop.ics.upmc.fr/motive
+
+:motive a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxICxStateMind ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :StateOfMind .
+# 
+# http://menelastop.ics.upmc.fr/name
+
+:name a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxSubsxWord ;
+	rdfs:domain :Substratum ;
+	rdfs:range :word .
+# 
+# http://menelastop.ics.upmc.fr/necessary_subaction_of
+
+:necessary_subaction_of a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxICxIC ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :IntentionalChange .
+# 
+# http://menelastop.ics.upmc.fr/neg
+
+:neg a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxPROPxPROP ;
+	rdfs:domain :Entity ;
+	rdfs:range :Proposition .
+# 
+# http://menelastop.ics.upmc.fr/noematic_modality
+
+:noematic_modality a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxIOxTheticMod ;
+	rdfs:domain :IntentionalObject ;
+	rdfs:range :thetic_modality .
+# 
+# http://menelastop.ics.upmc.fr/noetic_modality
+
+:noetic_modality a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxStateMindxTheticMod ;
+	rdfs:domain :StateOfMind ;
+	rdfs:range :thetic_modality .
+# 
+# http://menelastop.ics.upmc.fr/normalised_as
+
+:normalised_as a owl:ObjectProperty ;
+	rdfs:subPropertyOf :appreciated_as ;
+	rdfs:domain :MetaFunctionalObject ;
+	rdfs:range :Normality .
+# 
+# http://menelastop.ics.upmc.fr/not_causally_related_to
+
+:not_causally_related_to a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxStatePhyObjxStatePhyObj ;
+	rdfs:domain :StateOfPhysicalObject ;
+	rdfs:range :StateOfPhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/not_caused_by
+
+:not_caused_by a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxStatePhyObjxStatePhyObj ;
+	rdfs:domain :StateOfPhysicalObject ;
+	rdfs:range :StateOfPhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/not_favoured_by
+
+:not_favoured_by a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxICxState ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :State .
+# 
+# http://menelastop.ics.upmc.fr/object_spatial_role
+
+:object_spatial_role a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxPhyObjxMetaFunctObj ;
+	rdfs:domain :PhysicalObject ;
+	rdfs:range :spatial_role_function .
+# 
+# http://menelastop.ics.upmc.fr/opposite_value_of
+
+:opposite_value_of a owl:ObjectProperty ;
+	rdfs:subPropertyOf :val_calculated_from ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/optional_subaction_of
+
+:optional_subaction_of a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxICxIC ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :IntentionalChange .
+# 
+# http://menelastop.ics.upmc.fr/ordinality
+
+:ordinality a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxSubsxIdealObj ;
+	rdfs:domain :Substratum .
+# 
+# http://menelastop.ics.upmc.fr/owns
+
+:owns a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxHBxRealObj ;
+	rdfs:domain :human_being ;
+	rdfs:range :RealObject .
+# 
+# http://menelastop.ics.upmc.fr/parent_of
+
+:parent_of a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxHBxHB ;
+	rdfs:domain :human_being ;
+	rdfs:range :human_being .
+# 
+# http://menelastop.ics.upmc.fr/part
+
+:part a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxPhyObjxPhyObj ;
+	rdfs:domain :PhysicalObject ;
+	rdfs:range :PhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/part_frag
+
+:part_frag a owl:ObjectProperty ;
+	rdfs:subPropertyOf :part ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/part_seg
+
+:part_seg a owl:ObjectProperty ;
+	rdfs:subPropertyOf :part ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/participate_to
+
+:participate_to a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxPhyObjxChange ;
+	rdfs:domain :human_being ;
+	rdfs:range :SocialEvent .
+# 
+# http://menelastop.ics.upmc.fr/particular_element
+
+:particular_element a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxSetxEntity ;
+	rdfs:range :Substratum .
+# 
+# http://menelastop.ics.upmc.fr/pat
+
+:pat a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxICxHB ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :human_being .
+# 
+# http://menelastop.ics.upmc.fr/percent_of
+
+:percent_of a owl:ObjectProperty ;
+	rdfs:subPropertyOf :val_calculated_from ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/performative_goal
+
+:performative_goal a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxICxIC ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :IntentionalChange .
+# 
+# http://menelastop.ics.upmc.fr/performs_function
+
+:performs_function a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxProcessxPhyFctObj ;
+	rdfs:domain :process ;
+	rdfs:range :physical_functional_object .
+# 
+# http://menelastop.ics.upmc.fr/performs_process
+
+:performs_process a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxPhyObjxProcess ;
+	rdfs:domain :PhysicalObject ;
+	rdfs:range :process .
+# 
+# http://menelastop.ics.upmc.fr/physical_aspect
+
+:physical_aspect a owl:ObjectProperty ;
+	rdfs:subPropertyOf :functional_aspect ;
+	rdfs:domain :PhysicalState .
+# 
+# http://menelastop.ics.upmc.fr/physical_role
+
+:physical_role a owl:ObjectProperty ;
+	rdfs:subPropertyOf :role ;
+	rdfs:range :physical_role_function .
+# 
+# http://menelastop.ics.upmc.fr/process_of
+
+:process_of a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxUnICxPhyObj ;
+	rdfs:domain :process ;
+	rdfs:range :PhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/product_of
+
+:product_of a owl:ObjectProperty ;
+	rdfs:subPropertyOf :val_calculated_from ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/purported_abstract_obj
+
+:purported_abstract_obj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxChangexAbstractObj ;
+	rdfs:domain :Change ;
+	rdfs:range :AbstractObject .
+# 
+# http://menelastop.ics.upmc.fr/purported_aspect
+
+:purported_aspect a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxICxMetaAbsObject ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :MetaAbstractObject .
+# 
+# http://menelastop.ics.upmc.fr/purported_change
+
+:purported_change a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxICControllingxIO ;
+	rdfs:domain :intentional_change_about_change ;
+	rdfs:range :Change .
+# 
+# http://menelastop.ics.upmc.fr/purported_ideal_obj
+
+:purported_ideal_obj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxChangexIdealObj ;
+	rdfs:domain :Change ;
+	rdfs:range :IdealObject .
+# 
+# http://menelastop.ics.upmc.fr/purported_obj
+
+:purported_obj a owl:ObjectProperty ;
+	rdfs:subPropertyOf :purported_abstract_obj ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :PhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/purported_state
+
+:purported_state a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxICControllingxIO ;
+	rdfs:domain :intentional_change_about_state ;
+	rdfs:range :State .
+# 
+# http://menelastop.ics.upmc.fr/qualified_val
+
+:qualified_val a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxFctObjxQualVal ;
+	rdfs:domain :FunctionalObject ;
+	rdfs:range :qualitative_val .
+# 
+# http://menelastop.ics.upmc.fr/quantitative_number
+
+:quantitative_number a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxMathNotionxQuantVal ;
+	rdfs:range :quantitative_val .
+# 
+# http://menelastop.ics.upmc.fr/rcpt
+
+:rcpt a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxICxHB ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :human_being .
+# 
+# http://menelastop.ics.upmc.fr/real
+
+:real a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxIO ;
+	rdfs:domain :Entity ;
+	rdfs:range :IntentionalObject .
+# 
+# http://menelastop.ics.upmc.fr/reason
+
+:reason a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxICxStateMind ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :StateOfMind .
+# 
+# http://menelastop.ics.upmc.fr/reference_unit
+
+:reference_unit a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxQuantValxUnit ;
+	rdfs:domain :quantitative_val ;
+	rdfs:range :Unit .
+# 
+# http://menelastop.ics.upmc.fr/relative_to
+
+:relative_to a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxMetaFctObjxFctObj ;
+	rdfs:domain :MetaFunctionalObject ;
+	rdfs:range :FunctionalObject .
+# 
+# http://menelastop.ics.upmc.fr/relevant_property
+
+:relevant_property a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxStateIdealObjxIdealObj ;
+	rdfs:domain :StateOfIdealObject ;
+	rdfs:range :IdealObject .
+# 
+# http://menelastop.ics.upmc.fr/resides_in
+
+:resides_in a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxHBxRealObj ;
+	rdfs:domain :human_being .
+# 
+# http://menelastop.ics.upmc.fr/role
+
+:role a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxPhyFctObjxMetaPhyFctObj ;
+	rdfs:domain :physical_functional_object ;
+	rdfs:range :meta_physical_functional_object .
+# 
+# http://menelastop.ics.upmc.fr/sister_of
+
+:sister_of a owl:ObjectProperty ;
+	rdfs:subPropertyOf :parent_of ;
+	rdfs:domain :human_being ;
+	rdfs:range :human_being .
+# 
+# http://menelastop.ics.upmc.fr/source
+
+:source a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxICxHB ;
+	rdfs:domain :IntentionalChange ;
+	rdfs:range :human_being .
+# 
+# http://menelastop.ics.upmc.fr/spatial_aspect
+
+:spatial_aspect a owl:ObjectProperty ;
+	rdfs:subPropertyOf :functional_aspect ;
+	rdfs:domain :SpatialState .
+# 
+# http://menelastop.ics.upmc.fr/spatial_role
+
+:spatial_role a owl:ObjectProperty ;
+	rdfs:subPropertyOf :role ;
+	rdfs:range :spatial_role_function .
+# 
+# http://menelastop.ics.upmc.fr/state_identity
+
+:state_identity a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxStatexState ;
+	rdfs:domain :State ;
+	rdfs:range :State .
+# 
+# http://menelastop.ics.upmc.fr/state_in
+
+:state_in a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxSTATExSubstratum ;
+	rdfs:domain :StateOfIntentionalObject ;
+	rdfs:range :Substratum .
+# 
+# http://menelastop.ics.upmc.fr/state_localization
+
+:state_localization a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxStatePhyObjxSpatialRoleFct ;
+	rdfs:domain :StateOfPhysicalObject ;
+	rdfs:range :spatial_role_function .
+# 
+# http://menelastop.ics.upmc.fr/state_of
+
+:state_of a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxSTATExSubstratum ;
+	rdfs:domain :State ;
+	rdfs:range :Substratum .
+# 
+# http://menelastop.ics.upmc.fr/sub_functional_object
+
+:sub_functional_object a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxPhyFctObjxPhyFctObj ;
+	rdfs:domain :physical_functional_object ;
+	rdfs:range :physical_functional_object .
+# 
+# http://menelastop.ics.upmc.fr/sum_of
+
+:sum_of a owl:ObjectProperty ;
+	rdfs:subPropertyOf :val_calculated_from ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/temporal_interval_measure
+
+:temporal_interval_measure a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxTempIntxDiscreteVal ;
+	rdfs:domain :temporal_interval ;
+	rdfs:range :discrete_val .
+# 
+# http://menelastop.ics.upmc.fr/temporal_role
+
+:temporal_role a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxTempIntxMetaIntObj ;
+	rdfs:domain :temporal_object ;
+	rdfs:range :meta_intentional_functional_object .
+# 
+# http://menelastop.ics.upmc.fr/time_covers
+
+:time_covers a owl:ObjectProperty ;
+	rdfs:subPropertyOf :time_date ;
+	rdfs:domain :temporal_interval ;
+	rdfs:range :date_time_stamp .
+# 
+# http://menelastop.ics.upmc.fr/time_date
+
+:time_date a owl:ObjectProperty ;
+	rdfs:subPropertyOf :Rel ;
+	rdfs:domain :temporal_interval ;
+	rdfs:range :date_time_stamp .
+# 
+# http://menelastop.ics.upmc.fr/timed_begin_at
+
+:timed_begin_at a owl:ObjectProperty ;
+	rdfs:subPropertyOf :timed_date ;
+	rdfs:domain :IntentionalObject ;
+	rdfs:range :date_time_stamp .
+# 
+# http://menelastop.ics.upmc.fr/timed_date
+
+:timed_date a owl:ObjectProperty ;
+	rdfs:subPropertyOf :timed_modality ;
+	rdfs:domain :IntentionalObject ;
+	rdfs:range :date_time_stamp .
+# 
+# http://menelastop.ics.upmc.fr/timed_during
+
+:timed_during a owl:ObjectProperty ;
+	rdfs:subPropertyOf :timed_modality ;
+	rdfs:domain :IntentionalObject ;
+	rdfs:range :temporal_interval .
+# 
+# http://menelastop.ics.upmc.fr/timed_end_at
+
+:timed_end_at a owl:ObjectProperty ;
+	rdfs:subPropertyOf :timed_date ;
+	rdfs:domain :IntentionalObject ;
+	rdfs:range :date_time_stamp .
+# 
+# http://menelastop.ics.upmc.fr/timed_modality
+
+:timed_modality a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxIOxTempObj ;
+	rdfs:domain :IntentionalObject ;
+	rdfs:range :temporal_object .
+# 
+# http://menelastop.ics.upmc.fr/timed_occurs
+
+:timed_occurs a owl:ObjectProperty ;
+	rdfs:subPropertyOf :timed_date ;
+	rdfs:domain :IntentionalObject ;
+	rdfs:range :date_time_stamp .
+# 
+# http://menelastop.ics.upmc.fr/triggering_factor
+
+:triggering_factor a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxIOxIO ;
+	rdfs:domain :IntentionalObject ;
+	rdfs:range :IntentionalObject .
+# 
+# http://menelastop.ics.upmc.fr/true
+
+:true a owl:ObjectProperty ;
+	rdfs:subPropertyOf :real ;
+	rdfs:domain :Entity ;
+	rdfs:range :IntentionalObject .
+# 
+# http://menelastop.ics.upmc.fr/typicalised_as
+
+:typicalised_as a owl:ObjectProperty ;
+	rdfs:subPropertyOf :appreciated_as ;
+	rdfs:domain :MetaFunctionalObject ;
+	rdfs:range :Typicality .
+# 
+# http://menelastop.ics.upmc.fr/val
+
+:val a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxATTRxVal ;
+	rdfs:domain :Attribute ;
+	rdfs:range :value .
+# 
+# http://menelastop.ics.upmc.fr/val_calculated_from
+
+:val_calculated_from a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxQuantValxQuantVal ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/val_comp
+
+:val_comp a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxQuantValxQuantVal ;
+	rdfs:domain :quantitative_val ;
+	rdfs:range :quantitative_val .
+# 
+# http://menelastop.ics.upmc.fr/val_comp_approx
+
+:val_comp_approx a owl:ObjectProperty ;
+	rdfs:subPropertyOf :val_comp ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/val_comp_eq
+
+:val_comp_eq a owl:ObjectProperty ;
+	rdfs:subPropertyOf :val_comp ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/val_comp_ge
+
+:val_comp_ge a owl:ObjectProperty ;
+	rdfs:subPropertyOf :val_comp ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/val_comp_gt
+
+:val_comp_gt a owl:ObjectProperty ;
+	rdfs:subPropertyOf :val_comp ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/val_comp_le
+
+:val_comp_le a owl:ObjectProperty ;
+	rdfs:subPropertyOf :val_comp ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/val_comp_lt
+
+:val_comp_lt a owl:ObjectProperty ;
+	rdfs:subPropertyOf :val_comp ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/val_comp_neq
+
+:val_comp_neq a owl:ObjectProperty ;
+	rdfs:subPropertyOf :val_comp ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/val_comp_succ
+
+:val_comp_succ a owl:ObjectProperty ;
+	rdfs:subPropertyOf :val_comp ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/val_qual
+
+:val_qual a owl:ObjectProperty ;
+	rdfs:subPropertyOf :val ;
+	rdfs:domain :Attribute ;
+	rdfs:range :qualitative_val .
+# 
+# http://menelastop.ics.upmc.fr/val_quant
+
+:val_quant a owl:ObjectProperty ;
+	rdfs:subPropertyOf :val ;
+	rdfs:domain :Attribute ;
+	rdfs:range :quantitative_val .
+# 
+# http://menelastop.ics.upmc.fr/week_day_temporal_measure
+
+:week_day_temporal_measure a owl:ObjectProperty ;
+	rdfs:subPropertyOf :date_temporal_measure ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/worsening_of
+
+:worsening_of a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxStatexState ;
+	rdfs:domain :State ;
+	rdfs:range :State .
+# 
+# http://menelastop.ics.upmc.fr/year_temporal_measure
+
+:year_temporal_measure a owl:ObjectProperty ;
+	rdfs:subPropertyOf :date_temporal_measure ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/year_week_temporal_measure
+
+:year_week_temporal_measure a owl:ObjectProperty ;
+	rdfs:subPropertyOf :date_temporal_measure ;
+	rdfs:domain :Entity ;
+	rdfs:range :Entity .
+# 
+# http://menelastop.ics.upmc.fr/zone_of
+
+:zone_of a owl:ObjectProperty ;
+	rdfs:subPropertyOf :DEFxSpatialObjxPhyObj ;
+	rdfs:range :PhysicalObject .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://menelastop.ics.upmc.fr/AbductiveObject
+
+:AbductiveObject a owl:Class ;
+	rdfs:subClassOf :ImplicativeObject .
+# 
+# http://menelastop.ics.upmc.fr/Abnormal
+
+:Abnormal a owl:Class ;
+	rdfs:subClassOf :Normality .
+# 
+# http://menelastop.ics.upmc.fr/AbsoluteUnit
+
+:AbsoluteUnit a owl:Class ;
+	rdfs:subClassOf :Unit .
+# 
+# http://menelastop.ics.upmc.fr/AbstractObject
+
+:AbstractObject a owl:Class ;
+	rdfs:subClassOf :Substratum .
+# 
+# http://menelastop.ics.upmc.fr/Angstroem
+
+:Angstroem a owl:Class ;
+	rdfs:subClassOf :LengthUnit .
+# 
+# http://menelastop.ics.upmc.fr/Atmosphere
+
+:Atmosphere a owl:Class ;
+	rdfs:subClassOf :PressureUnit .
+# 
+# http://menelastop.ics.upmc.fr/AttributDInstanciation
+
+:AttributDInstanciation a owl:Class ;
+	rdfs:subClassOf :Attribute .
+# 
+# http://menelastop.ics.upmc.fr/AttributDObjetIntentionnel
+
+:AttributDObjetIntentionnel a owl:Class ;
+	rdfs:subClassOf :Attribute .
+# 
+# http://menelastop.ics.upmc.fr/Attribute
+
+:Attribute a owl:Class ;
+	rdfs:subClassOf :MetaAbstractObject .
+# 
+# http://menelastop.ics.upmc.fr/Atypical
+
+:Atypical a owl:Class ;
+	rdfs:subClassOf :Typicality .
+# 
+# http://menelastop.ics.upmc.fr/Axiology
+
+:Axiology a owl:Class ;
+	rdfs:subClassOf :MetaFunctionalObjectQualifier .
+# 
+# http://menelastop.ics.upmc.fr/Bad
+
+:Bad a owl:Class ;
+	rdfs:subClassOf :Axiology .
+# 
+# http://menelastop.ics.upmc.fr/CategorialForm
+
+:CategorialForm a owl:Class ;
+	rdfs:subClassOf :IntentionalObject .
+# 
+# http://menelastop.ics.upmc.fr/CelciusDegree
+
+:CelciusDegree a owl:Class ;
+	rdfs:subClassOf :TemperatureUnit .
+# 
+# http://menelastop.ics.upmc.fr/Centigram
+
+:Centigram a owl:Class ;
+	rdfs:subClassOf :WeightUnit .
+# 
+# http://menelastop.ics.upmc.fr/Centilitre
+
+:Centilitre a owl:Class ;
+	rdfs:subClassOf :VolumeUnit .
+# 
+# http://menelastop.ics.upmc.fr/Centimetre
+
+:Centimetre a owl:Class ;
+	rdfs:subClassOf :LengthUnit .
+# 
+# http://menelastop.ics.upmc.fr/Change
+
+:Change a owl:Class ;
+	rdfs:subClassOf :MaterialForm .
+# 
+# http://menelastop.ics.upmc.fr/ConcentrationUnit
+
+:ConcentrationUnit a owl:Class ;
+	rdfs:subClassOf :GeneralUnit .
+# 
+# http://menelastop.ics.upmc.fr/ConjunctiveObject
+
+:ConjunctiveObject a owl:Class ;
+	rdfs:subClassOf :CategorialForm .
+# 
+# http://menelastop.ics.upmc.fr/CubicMetre
+
+:CubicMetre a owl:Class ;
+	rdfs:subClassOf :VolumeUnit .
+# 
+# http://menelastop.ics.upmc.fr/CubicMillimetre
+
+:CubicMillimetre a owl:Class ;
+	rdfs:subClassOf :VolumeUnit .
+# 
+# http://menelastop.ics.upmc.fr/CulturalState
+
+:CulturalState a owl:Class ;
+	rdfs:subClassOf :StateOfPhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/DayDatation
+
+:DayDatation a owl:Class ;
+	rdfs:subClassOf :TemporalDatation .
+# 
+# http://menelastop.ics.upmc.fr/DayDuration
+
+:DayDuration a owl:Class ;
+	rdfs:subClassOf :TemporalDuration .
+# 
+# http://menelastop.ics.upmc.fr/DayUnit
+
+:DayUnit a owl:Class ;
+	rdfs:subClassOf :TimeStuff .
+# 
+# http://menelastop.ics.upmc.fr/Decilitre
+
+:Decilitre a owl:Class ;
+	rdfs:subClassOf :VolumeUnit .
+# 
+# http://menelastop.ics.upmc.fr/Decimetre
+
+:Decimetre a owl:Class ;
+	rdfs:subClassOf :LengthUnit .
+# 
+# http://menelastop.ics.upmc.fr/DeductiveObject
+
+:DeductiveObject a owl:Class ;
+	rdfs:subClassOf :ImplicativeObject .
+# 
+# http://menelastop.ics.upmc.fr/DerivedNotion
+
+:DerivedNotion a owl:Class ;
+	rdfs:subClassOf :Entity .
+# 
+# http://menelastop.ics.upmc.fr/DisjunctiveObject
+
+:DisjunctiveObject a owl:Class ;
+	rdfs:subClassOf :CategorialForm .
+# 
+# http://menelastop.ics.upmc.fr/Distance
+
+:Distance a owl:Class ;
+	rdfs:subClassOf :SpatialState .
+# 
+# http://menelastop.ics.upmc.fr/Dyne
+
+:Dyne a owl:Class ;
+	rdfs:subClassOf :ForceUnit .
+# 
+# http://menelastop.ics.upmc.fr/Enough
+
+:Enough a owl:Class ;
+	rdfs:subClassOf :Estimation .
+# 
+# http://menelastop.ics.upmc.fr/Entity
+
+:Entity a owl:Class .
+# 
+# http://menelastop.ics.upmc.fr/Estimation
+
+:Estimation a owl:Class ;
+	rdfs:subClassOf :MetaQuantitativeValue .
+# 
+# http://menelastop.ics.upmc.fr/Few
+
+:Few a owl:Class ;
+	rdfs:subClassOf :intensity .
+# 
+# http://menelastop.ics.upmc.fr/Foot
+
+:Foot a owl:Class ;
+	rdfs:subClassOf :LengthUnit .
+# 
+# http://menelastop.ics.upmc.fr/ForceUnit
+
+:ForceUnit a owl:Class ;
+	rdfs:subClassOf :PhysicalUnit .
+# 
+# http://menelastop.ics.upmc.fr/FunctionalObject
+
+:FunctionalObject a owl:Class ;
+	rdfs:subClassOf :MetaAbstractObject .
+# 
+# http://menelastop.ics.upmc.fr/Gallon
+
+:Gallon a owl:Class ;
+	rdfs:subClassOf :VolumeUnit .
+# 
+# http://menelastop.ics.upmc.fr/GeneralUnit
+
+:GeneralUnit a owl:Class ;
+	rdfs:subClassOf :AbsoluteUnit .
+# 
+# http://menelastop.ics.upmc.fr/Good
+
+:Good a owl:Class ;
+	rdfs:subClassOf :Axiology .
+# 
+# http://menelastop.ics.upmc.fr/Grade
+
+:Grade a owl:Class ;
+	rdfs:subClassOf :IntensityUnit .
+# 
+# http://menelastop.ics.upmc.fr/Gram
+
+:Gram a owl:Class ;
+	rdfs:subClassOf :WeightUnit .
+# 
+# http://menelastop.ics.upmc.fr/GramPerLitre
+
+:GramPerLitre a owl:Class ;
+	rdfs:subClassOf :ConcentrationUnit .
+# 
+# http://menelastop.ics.upmc.fr/HourDatation
+
+:HourDatation a owl:Class ;
+	rdfs:subClassOf :TemporalDatation .
+# 
+# http://menelastop.ics.upmc.fr/HourDuration
+
+:HourDuration a owl:Class ;
+	rdfs:subClassOf :TemporalDuration .
+# 
+# http://menelastop.ics.upmc.fr/HourUnit
+
+:HourUnit a owl:Class ;
+	rdfs:subClassOf :TimeStuff .
+# 
+# http://menelastop.ics.upmc.fr/IdealObject
+
+:IdealObject a owl:Class ;
+	rdfs:subClassOf :Substratum .
+# 
+# http://menelastop.ics.upmc.fr/ImplicativeObject
+
+:ImplicativeObject a owl:Class ;
+	rdfs:subClassOf :CategorialForm .
+# 
+# http://menelastop.ics.upmc.fr/Inch
+
+:Inch a owl:Class ;
+	rdfs:subClassOf :LengthUnit .
+# 
+# http://menelastop.ics.upmc.fr/Indexical
+
+:Indexical a owl:Class ;
+	rdfs:subClassOf :DerivedNotion .
+# 
+# http://menelastop.ics.upmc.fr/InductiveObject
+
+:InductiveObject a owl:Class ;
+	rdfs:subClassOf :ImplicativeObject .
+# 
+# http://menelastop.ics.upmc.fr/IntensityUnit
+
+:IntensityUnit a owl:Class ;
+	rdfs:subClassOf :PhysicalUnit .
+# 
+# http://menelastop.ics.upmc.fr/IntentionalChange
+
+:IntentionalChange a owl:Class ;
+	rdfs:subClassOf :RealChange ;
+	owl:disjointWith :UnintentionalChange .
+# 
+# http://menelastop.ics.upmc.fr/IntentionalObject
+
+:IntentionalObject a owl:Class ;
+	rdfs:subClassOf :AbstractObject .
+# 
+# http://menelastop.ics.upmc.fr/Kilogram
+
+:Kilogram a owl:Class ;
+	rdfs:subClassOf :WeightUnit .
+# 
+# http://menelastop.ics.upmc.fr/Kilometre
+
+:Kilometre a owl:Class ;
+	rdfs:subClassOf :LengthUnit .
+# 
+# http://menelastop.ics.upmc.fr/LengthUnit
+
+:LengthUnit a owl:Class ;
+	rdfs:subClassOf :SpaceUnit .
+# 
+# http://menelastop.ics.upmc.fr/Litre
+
+:Litre a owl:Class ;
+	rdfs:subClassOf :VolumeUnit .
+# 
+# http://menelastop.ics.upmc.fr/MaterialForm
+
+:MaterialForm a owl:Class ;
+	rdfs:subClassOf :IntentionalObject .
+# 
+# http://menelastop.ics.upmc.fr/MentalScenario
+
+:MentalScenario a owl:Class ;
+	rdfs:subClassOf :Scenario .
+# 
+# http://menelastop.ics.upmc.fr/MetaAbstractObject
+
+:MetaAbstractObject a owl:Class ;
+	rdfs:subClassOf :ViewPoint .
+# 
+# http://menelastop.ics.upmc.fr/MetaFunctionalObject
+
+:MetaFunctionalObject a owl:Class ;
+	rdfs:subClassOf :MetaIdealObject .
+# 
+# http://menelastop.ics.upmc.fr/MetaFunctionalObjectQualifier
+
+:MetaFunctionalObjectQualifier a owl:Class ;
+	rdfs:subClassOf :MetaIdealObject .
+# 
+# http://menelastop.ics.upmc.fr/MetaIdealObject
+
+:MetaIdealObject a owl:Class ;
+	rdfs:subClassOf :ViewPoint .
+# 
+# http://menelastop.ics.upmc.fr/MetaQualitativeValue
+
+:MetaQualitativeValue a owl:Class ;
+	rdfs:subClassOf :MetaIdealObject .
+# 
+# http://menelastop.ics.upmc.fr/MetaQuantitativeValue
+
+:MetaQuantitativeValue a owl:Class ;
+	rdfs:subClassOf :MetaIdealObject .
+# 
+# http://menelastop.ics.upmc.fr/Metre
+
+:Metre a owl:Class ;
+	rdfs:subClassOf :LengthUnit .
+# 
+# http://menelastop.ics.upmc.fr/Micron
+
+:Micron a owl:Class ;
+	rdfs:subClassOf :LengthUnit .
+# 
+# http://menelastop.ics.upmc.fr/Milligram
+
+:Milligram a owl:Class ;
+	rdfs:subClassOf :WeightUnit .
+# 
+# http://menelastop.ics.upmc.fr/Millilitre
+
+:Millilitre a owl:Class ;
+	rdfs:subClassOf :VolumeUnit .
+# 
+# http://menelastop.ics.upmc.fr/Millimetre
+
+:Millimetre a owl:Class ;
+	rdfs:subClassOf :LengthUnit .
+# 
+# http://menelastop.ics.upmc.fr/MinuteDatation
+
+:MinuteDatation a owl:Class ;
+	rdfs:subClassOf :TemporalDatation .
+# 
+# http://menelastop.ics.upmc.fr/MinuteDuration
+
+:MinuteDuration a owl:Class ;
+	rdfs:subClassOf :TemporalDuration .
+# 
+# http://menelastop.ics.upmc.fr/MmHg
+
+:MmHg a owl:Class ;
+	rdfs:subClassOf :PressureUnit .
+# 
+# http://menelastop.ics.upmc.fr/MmolPerLitre
+
+:MmolPerLitre a owl:Class ;
+	rdfs:subClassOf :ConcentrationUnit .
+# 
+# http://menelastop.ics.upmc.fr/MonthDatation
+
+:MonthDatation a owl:Class ;
+	rdfs:subClassOf :TemporalDatation .
+# 
+# http://menelastop.ics.upmc.fr/MonthDuration
+
+:MonthDuration a owl:Class ;
+	rdfs:subClassOf :TemporalDuration .
+# 
+# http://menelastop.ics.upmc.fr/MonthUnit
+
+:MonthUnit a owl:Class ;
+	rdfs:subClassOf :TimeStuff .
+# 
+# http://menelastop.ics.upmc.fr/MorphoState
+
+:MorphoState a owl:Class ;
+	rdfs:subClassOf :StateOfPhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/Normal
+
+:Normal a owl:Class ;
+	rdfs:subClassOf :Normality .
+# 
+# http://menelastop.ics.upmc.fr/Normality
+
+:Normality a owl:Class ;
+	rdfs:subClassOf :MetaFunctionalObjectQualifier .
+# 
+# http://menelastop.ics.upmc.fr/NotEnough
+
+:NotEnough a owl:Class ;
+	rdfs:subClassOf :Estimation .
+# 
+# http://menelastop.ics.upmc.fr/Notion
+
+:Notion a owl:Class ;
+	rdfs:subClassOf :IdealObject .
+# 
+# http://menelastop.ics.upmc.fr/OccurrenceUnit
+
+:OccurrenceUnit a owl:Class ;
+	rdfs:subClassOf :GeneralUnit .
+# 
+# http://menelastop.ics.upmc.fr/Once
+
+:Once a owl:Class ;
+	rdfs:subClassOf :WeightUnit .
+# 
+# http://menelastop.ics.upmc.fr/PacketYear
+
+:PacketYear a owl:Class ;
+	rdfs:subClassOf :ParticularUnit .
+# 
+# http://menelastop.ics.upmc.fr/ParticularUnit
+
+:ParticularUnit a owl:Class ;
+	rdfs:subClassOf :AbsoluteUnit .
+# 
+# http://menelastop.ics.upmc.fr/PerCent
+
+:PerCent a owl:Class ;
+	rdfs:subClassOf :RelativeUnit .
+# 
+# http://menelastop.ics.upmc.fr/PhysicalObject
+
+:PhysicalObject a owl:Class ;
+	rdfs:subClassOf :AbstractObject .
+# 
+# http://menelastop.ics.upmc.fr/PhysicalObjectAttribute
+
+:PhysicalObjectAttribute a owl:Class ;
+	rdfs:subClassOf :Attribute .
+# 
+# http://menelastop.ics.upmc.fr/PhysicalScenario
+
+:PhysicalScenario a owl:Class ;
+	rdfs:subClassOf :Scenario .
+# 
+# http://menelastop.ics.upmc.fr/PhysicalState
+
+:PhysicalState a owl:Class ;
+	rdfs:subClassOf :StateOfPhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/PhysicalUnit
+
+:PhysicalUnit a owl:Class ;
+	rdfs:subClassOf :GeneralUnit .
+# 
+# http://menelastop.ics.upmc.fr/Pint
+
+:Pint a owl:Class ;
+	rdfs:subClassOf :VolumeUnit .
+# 
+# http://menelastop.ics.upmc.fr/Pound
+
+:Pound a owl:Class ;
+	rdfs:subClassOf :WeightUnit .
+# 
+# http://menelastop.ics.upmc.fr/PowerUnit
+
+:PowerUnit a owl:Class ;
+	rdfs:subClassOf :PhysicalUnit .
+# 
+# http://menelastop.ics.upmc.fr/PressureUnit
+
+:PressureUnit a owl:Class ;
+	rdfs:subClassOf :PhysicalUnit .
+# 
+# http://menelastop.ics.upmc.fr/Proposition
+
+:Proposition a owl:Class ;
+	rdfs:subClassOf :DerivedNotion .
+# 
+# http://menelastop.ics.upmc.fr/PseudoChange
+
+:PseudoChange a owl:Class ;
+	rdfs:subClassOf :Change .
+# 
+# http://menelastop.ics.upmc.fr/PseudoEvent
+
+:PseudoEvent a owl:Class ;
+	rdfs:subClassOf :PseudoChange .
+# 
+# http://menelastop.ics.upmc.fr/PseudoObject
+
+:PseudoObject a owl:Class ;
+	rdfs:subClassOf :PhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/PseudoProcessus
+
+:PseudoProcessus a owl:Class ;
+	rdfs:subClassOf :PseudoChange .
+# 
+# http://menelastop.ics.upmc.fr/PseudoState
+
+:PseudoState a owl:Class ;
+	rdfs:subClassOf :State .
+# 
+# http://menelastop.ics.upmc.fr/RealChange
+
+:RealChange a owl:Class ;
+	rdfs:subClassOf :Change .
+# 
+# http://menelastop.ics.upmc.fr/RealObject
+
+:RealObject a owl:Class ;
+	rdfs:subClassOf :PhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/RealState
+
+:RealState a owl:Class ;
+	rdfs:subClassOf :State .
+# 
+# http://menelastop.ics.upmc.fr/RelativeUnit
+
+:RelativeUnit a owl:Class ;
+	rdfs:subClassOf :Unit .
+# 
+# http://menelastop.ics.upmc.fr/Scenario
+
+:Scenario a owl:Class ;
+	rdfs:subClassOf :PseudoState .
+# 
+# http://menelastop.ics.upmc.fr/SecondDuration
+
+:SecondDuration a owl:Class ;
+	rdfs:subClassOf :TemporalDuration .
+# 
+# http://menelastop.ics.upmc.fr/SocialEvent
+
+:SocialEvent a owl:Class ;
+	rdfs:subClassOf :PseudoEvent .
+# 
+# http://menelastop.ics.upmc.fr/Something
+
+:Something a owl:Class ;
+	rdfs:subClassOf :DerivedNotion .
+# 
+# http://menelastop.ics.upmc.fr/SpaceUnit
+
+:SpaceUnit a owl:Class ;
+	rdfs:subClassOf :GeneralUnit .
+# 
+# http://menelastop.ics.upmc.fr/SpatialState
+
+:SpatialState a owl:Class ;
+	rdfs:subClassOf :StateOfPhysicalObject .
+# 
+# http://menelastop.ics.upmc.fr/SquareCentimetre
+
+:SquareCentimetre a owl:Class ;
+	rdfs:subClassOf :SurfaceUnit .
+# 
+# http://menelastop.ics.upmc.fr/SquareDecimetre
+
+:SquareDecimetre a owl:Class ;
+	rdfs:subClassOf :SurfaceUnit .
+# 
+# http://menelastop.ics.upmc.fr/SquareKilometre
+
+:SquareKilometre a owl:Class ;
+	rdfs:subClassOf :SurfaceUnit .
+# 
+# http://menelastop.ics.upmc.fr/SquareMetre
+
+:SquareMetre a owl:Class ;
+	rdfs:subClassOf :SurfaceUnit .
+# 
+# http://menelastop.ics.upmc.fr/SquareMilimetre
+
+:SquareMilimetre a owl:Class ;
+	rdfs:subClassOf :SurfaceUnit .
+# 
+# http://menelastop.ics.upmc.fr/State
+
+:State a owl:Class ;
+	rdfs:subClassOf :MaterialForm .
+# 
+# http://menelastop.ics.upmc.fr/StateOfIdealObject
+
+:StateOfIdealObject a owl:Class ;
+	rdfs:subClassOf :RealState .
+# 
+# http://menelastop.ics.upmc.fr/StateOfIntentionalObject
+
+:StateOfIntentionalObject a owl:Class ;
+	rdfs:subClassOf :RealState .
+# 
+# http://menelastop.ics.upmc.fr/StateOfMind
+
+:StateOfMind a owl:Class ;
+	rdfs:subClassOf :RealState .
+# 
+# http://menelastop.ics.upmc.fr/StateOfPhysicalObject
+
+:StateOfPhysicalObject a owl:Class ;
+	rdfs:subClassOf :RealState .
+# 
+# http://menelastop.ics.upmc.fr/Substratum
+
+:Substratum a owl:Class ;
+	rdfs:subClassOf :Entity .
+# 
+# http://menelastop.ics.upmc.fr/Sufficient
+
+:Sufficient a owl:Class ;
+	rdfs:subClassOf :Axiology .
+# 
+# http://menelastop.ics.upmc.fr/SurfaceUnit
+
+:SurfaceUnit a owl:Class ;
+	rdfs:subClassOf :SpaceUnit .
+# 
+# http://menelastop.ics.upmc.fr/TemperatureUnit
+
+:TemperatureUnit a owl:Class ;
+	rdfs:subClassOf :PhysicalUnit .
+# 
+# http://menelastop.ics.upmc.fr/TemporalDatation
+
+:TemporalDatation a owl:Class ;
+	rdfs:subClassOf :TemporalUnit .
+# 
+# http://menelastop.ics.upmc.fr/TemporalDuration
+
+:TemporalDuration a owl:Class ;
+	rdfs:subClassOf :TemporalUnit .
+# 
+# http://menelastop.ics.upmc.fr/TemporalUnit
+
+:TemporalUnit a owl:Class ;
+	rdfs:subClassOf :GeneralUnit .
+# 
+# http://menelastop.ics.upmc.fr/TimeStuff
+
+:TimeStuff a owl:Class ;
+	rdfs:subClassOf :DerivedNotion .
+# 
+# http://menelastop.ics.upmc.fr/TooMuch
+
+:TooMuch a owl:Class ;
+	rdfs:subClassOf :Estimation .
+# 
+# http://menelastop.ics.upmc.fr/Typical
+
+:Typical a owl:Class ;
+	rdfs:subClassOf :Typicality .
+# 
+# http://menelastop.ics.upmc.fr/Typicality
+
+:Typicality a owl:Class ;
+	rdfs:subClassOf :MetaFunctionalObjectQualifier .
+# 
+# http://menelastop.ics.upmc.fr/UnintentionalChange
+
+:UnintentionalChange a owl:Class ;
+	rdfs:subClassOf :RealChange .
+# 
+# http://menelastop.ics.upmc.fr/Unit
+
+:Unit a owl:Class ;
+	rdfs:subClassOf :MetaQuantitativeValue .
+# 
+# http://menelastop.ics.upmc.fr/Very
+
+:Very a owl:Class ;
+	rdfs:subClassOf :intensity .
+# 
+# http://menelastop.ics.upmc.fr/ViewPoint
+
+:ViewPoint a owl:Class ;
+	rdfs:subClassOf :IdealObject .
+# 
+# http://menelastop.ics.upmc.fr/VolumeUnit
+
+:VolumeUnit a owl:Class ;
+	rdfs:subClassOf :SpaceUnit .
+# 
+# http://menelastop.ics.upmc.fr/Watt
+
+:Watt a owl:Class ;
+	rdfs:subClassOf :PowerUnit .
+# 
+# http://menelastop.ics.upmc.fr/WeekDayDatation
+
+:WeekDayDatation a owl:Class ;
+	rdfs:subClassOf :TemporalDatation .
+# 
+# http://menelastop.ics.upmc.fr/WeekDuration
+
+:WeekDuration a owl:Class ;
+	rdfs:subClassOf :TemporalDuration .
+# 
+# http://menelastop.ics.upmc.fr/WeightUnit
+
+:WeightUnit a owl:Class ;
+	rdfs:subClassOf :PhysicalUnit .
+# 
+# http://menelastop.ics.upmc.fr/WiggersUnit
+
+:WiggersUnit a owl:Class ;
+	rdfs:subClassOf :GeneralUnit .
+# 
+# http://menelastop.ics.upmc.fr/Yard
+
+:Yard a owl:Class ;
+	rdfs:subClassOf :LengthUnit .
+# 
+# http://menelastop.ics.upmc.fr/YearDatation
+
+:YearDatation a owl:Class ;
+	rdfs:subClassOf :TemporalDatation .
+# 
+# http://menelastop.ics.upmc.fr/YearDuration
+
+:YearDuration a owl:Class ;
+	rdfs:subClassOf :TemporalDuration .
+# 
+# http://menelastop.ics.upmc.fr/YearUnit
+
+:YearUnit a owl:Class ;
+	rdfs:subClassOf :TimeStuff .
+# 
+# http://menelastop.ics.upmc.fr/YearWeekDatation
+
+:YearWeekDatation a owl:Class ;
+	rdfs:subClassOf :TemporalDatation .
+# 
+# http://menelastop.ics.upmc.fr/abandon
+
+:abandon a owl:Class ;
+	rdfs:subClassOf :intentional_change_about_state .
+# 
+# http://menelastop.ics.upmc.fr/absolute_evaluation_role
+
+:absolute_evaluation_role a owl:Class ;
+	rdfs:subClassOf :intentional_val .
+# 
+# http://menelastop.ics.upmc.fr/action_attr
+
+:action_attr a owl:Class ;
+	rdfs:subClassOf :AttributDObjetIntentionnel .
+# 
+# http://menelastop.ics.upmc.fr/administrative_state
+
+:administrative_state a owl:Class ;
+	rdfs:subClassOf :CulturalState .
+# 
+# http://menelastop.ics.upmc.fr/adoption
+
+:adoption a owl:Class ;
+	rdfs:subClassOf :intentional_change_about_state .
+# 
+# http://menelastop.ics.upmc.fr/after
+
+:after a owl:Class ;
+	rdfs:subClassOf :during_intentional_object .
+# 
+# http://menelastop.ics.upmc.fr/afternoon
+
+:afternoon a owl:Class ;
+	rdfs:subClassOf :relative_time_stamp .
+# 
+# http://menelastop.ics.upmc.fr/agglomerat
+
+:agglomerat a owl:Class ;
+	rdfs:subClassOf :mass_object .
+# 
+# http://menelastop.ics.upmc.fr/alethic_modality
+
+:alethic_modality a owl:Class ;
+	rdfs:subClassOf :thetic_modality .
+# 
+# http://menelastop.ics.upmc.fr/allow
+
+:allow a owl:Class ;
+	rdfs:subClassOf :deontic_modality .
+# 
+# http://menelastop.ics.upmc.fr/analogical_role
+
+:analogical_role a owl:Class ;
+	rdfs:subClassOf :morpho_role_function .
+# 
+# http://menelastop.ics.upmc.fr/ancient
+
+:ancient a owl:Class ;
+	rdfs:subClassOf :instanciation_val .
+# 
+# http://menelastop.ics.upmc.fr/animal
+
+:animal a owl:Class ;
+	rdfs:subClassOf :animate .
+# 
+# http://menelastop.ics.upmc.fr/animate
+
+:animate a owl:Class ;
+	rdfs:subClassOf :countable_object .
+# 
+# http://menelastop.ics.upmc.fr/anterior
+
+:anterior a owl:Class ;
+	rdfs:subClassOf :volumic_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/antero_lateral
+
+:antero_lateral a owl:Class ;
+	rdfs:subClassOf :volumic_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/artificial_object
+
+:artificial_object a owl:Class ;
+	rdfs:subClassOf :inanimate ;
+	owl:disjointWith :natural_object .
+# 
+# http://menelastop.ics.upmc.fr/aspect_val
+
+:aspect_val a owl:Class ;
+	rdfs:subClassOf :absolute_evaluation_role .
+# 
+# http://menelastop.ics.upmc.fr/asymmetrical
+
+:asymmetrical a owl:Class ;
+	rdfs:subClassOf :aspect_val .
+# 
+# http://menelastop.ics.upmc.fr/at_the_beginning
+
+:at_the_beginning a owl:Class ;
+	rdfs:subClassOf :during_intentional_object .
+# 
+# http://menelastop.ics.upmc.fr/at_the_end
+
+:at_the_end a owl:Class ;
+	rdfs:subClassOf :during_intentional_object .
+# 
+# http://menelastop.ics.upmc.fr/at_the_maximum
+
+:at_the_maximum a owl:Class ;
+	rdfs:subClassOf :during_intentional_object .
+# 
+# http://menelastop.ics.upmc.fr/at_the_minimum
+
+:at_the_minimum a owl:Class ;
+	rdfs:subClassOf :during_intentional_object .
+# 
+# http://menelastop.ics.upmc.fr/autonomous
+
+:autonomous a owl:Class ;
+	rdfs:subClassOf :manner_val .
+# 
+# http://menelastop.ics.upmc.fr/avoid
+
+:avoid a owl:Class ;
+	rdfs:subClassOf :wantic_modality .
+# 
+# http://menelastop.ics.upmc.fr/bacteria
+
+:bacteria a owl:Class ;
+	rdfs:subClassOf :animate .
+# 
+# http://menelastop.ics.upmc.fr/bad_quality
+
+:bad_quality a owl:Class ;
+	rdfs:subClassOf :quality_modality .
+# 
+# http://menelastop.ics.upmc.fr/before
+
+:before a owl:Class ;
+	rdfs:subClassOf :during_intentional_object .
+# 
+# http://menelastop.ics.upmc.fr/begin
+
+:begin a owl:Class ;
+	rdfs:subClassOf :intentional_change_about_change .
+# 
+# http://menelastop.ics.upmc.fr/belief
+
+:belief a owl:Class ;
+	rdfs:subClassOf :epistemic_modality .
+# 
+# http://menelastop.ics.upmc.fr/benign
+
+:benign a owl:Class ;
+	rdfs:subClassOf :gravity_modality .
+# 
+# http://menelastop.ics.upmc.fr/bent
+
+:bent a owl:Class ;
+	rdfs:subClassOf :aspect_val .
+# 
+# http://menelastop.ics.upmc.fr/big_change
+
+:big_change a owl:Class ;
+	rdfs:subClassOf :unintentional_val .
+# 
+# http://menelastop.ics.upmc.fr/bilateral
+
+:bilateral a owl:Class ;
+	rdfs:subClassOf :planar_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/calcified_aspect
+
+:calcified_aspect a owl:Class ;
+	rdfs:subClassOf :aspect_val .
+# 
+# http://menelastop.ics.upmc.fr/cancel
+
+:cancel a owl:Class ;
+	rdfs:subClassOf :intentional_change_about_change .
+# 
+# http://menelastop.ics.upmc.fr/category
+
+:category a owl:Class ;
+	rdfs:subClassOf :MetaQuantitativeValue .
+# 
+# http://menelastop.ics.upmc.fr/common_noun
+
+:common_noun a owl:Class ;
+	rdfs:subClassOf :word .
+# 
+# http://menelastop.ics.upmc.fr/communicating
+
+:communicating a owl:Class ;
+	rdfs:subClassOf :mental_change_dialogal_action .
+# 
+# http://menelastop.ics.upmc.fr/communication_state
+
+:communication_state a owl:Class ;
+	rdfs:subClassOf :CulturalState .
+# 
+# http://menelastop.ics.upmc.fr/complement
+
+:complement a owl:Class ;
+	rdfs:subClassOf :intentional_change_about_change .
+# 
+# http://menelastop.ics.upmc.fr/complete
+
+:complete a owl:Class ;
+	rdfs:subClassOf :state_completness_val .
+# 
+# http://menelastop.ics.upmc.fr/concave
+
+:concave a owl:Class ;
+	rdfs:subClassOf :aspect_val .
+# 
+# http://menelastop.ics.upmc.fr/concentric
+
+:concentric a owl:Class ;
+	rdfs:subClassOf :aspect_val .
+# 
+# http://menelastop.ics.upmc.fr/consider
+
+:consider a owl:Class ;
+	rdfs:subClassOf :epistemic_modality .
+# 
+# http://menelastop.ics.upmc.fr/continue
+
+:continue a owl:Class ;
+	rdfs:subClassOf :intentional_change_about_change .
+# 
+# http://menelastop.ics.upmc.fr/continuous_val
+
+:continuous_val a owl:Class ;
+	rdfs:subClassOf :quantitative_val .
+# 
+# http://menelastop.ics.upmc.fr/contracted_role
+
+:contracted_role a owl:Class ;
+	rdfs:subClassOf :intentional_val .
+# 
+# http://menelastop.ics.upmc.fr/convex
+
+:convex a owl:Class ;
+	rdfs:subClassOf :aspect_val .
+# 
+# http://menelastop.ics.upmc.fr/countable_object
+
+:countable_object a owl:Class ;
+	rdfs:subClassOf :RealObject .
+# 
+# http://menelastop.ics.upmc.fr/cracked
+
+:cracked a owl:Class ;
+	rdfs:subClassOf :aspect_val .
+# 
+# http://menelastop.ics.upmc.fr/cultural_change_action
+
+:cultural_change_action a owl:Class ;
+	rdfs:subClassOf :physical_intentional_change .
+# 
+# http://menelastop.ics.upmc.fr/cultural_consequence
+
+:cultural_consequence a owl:Class ;
+	rdfs:subClassOf :intentional_consequence .
+# 
+# http://menelastop.ics.upmc.fr/cultural_process
+
+:cultural_process a owl:Class ;
+	rdfs:subClassOf :process .
+# 
+# http://menelastop.ics.upmc.fr/cultural_role_function
+
+:cultural_role_function a owl:Class ;
+	rdfs:subClassOf :meta_physical_functional_object .
+# 
+# http://menelastop.ics.upmc.fr/currently
+
+:currently a owl:Class ;
+	rdfs:subClassOf :relative_time_stamp .
+# 
+# http://menelastop.ics.upmc.fr/date_time_stamp
+
+:date_time_stamp a owl:Class ;
+	rdfs:subClassOf :temporal_object .
+# 
+# http://menelastop.ics.upmc.fr/defined_by_IO_temporal_object
+
+:defined_by_IO_temporal_object a owl:Class ;
+	rdfs:subClassOf :temporal_object .
+# 
+# http://menelastop.ics.upmc.fr/defined_by_process_interval
+
+:defined_by_process_interval a owl:Class ;
+	rdfs:subClassOf :defined_by_IO_temporal_object .
+# 
+# http://menelastop.ics.upmc.fr/defined_by_process_temporal_object
+
+:defined_by_process_temporal_object a owl:Class ;
+	rdfs:subClassOf :defined_by_IO_temporal_object .
+# 
+# http://menelastop.ics.upmc.fr/definitive
+
+:definitive a owl:Class ;
+	rdfs:subClassOf :temporal_object_validity .
+# 
+# http://menelastop.ics.upmc.fr/delegate
+
+:delegate a owl:Class ;
+	rdfs:subClassOf :intentional_change_about_change .
+# 
+# http://menelastop.ics.upmc.fr/deontic_modality
+
+:deontic_modality a owl:Class ;
+	rdfs:subClassOf :thetic_modality .
+# 
+# http://menelastop.ics.upmc.fr/dependency_modality
+
+:dependency_modality a owl:Class ;
+	rdfs:subClassOf :thetic_modality .
+# 
+# http://menelastop.ics.upmc.fr/desire
+
+:desire a owl:Class ;
+	rdfs:subClassOf :wantic_modality .
+# 
+# http://menelastop.ics.upmc.fr/different
+
+:different a owl:Class ;
+	rdfs:subClassOf :instanciation_val .
+# 
+# http://menelastop.ics.upmc.fr/dimension
+
+:dimension a owl:Class ;
+	rdfs:subClassOf :spatial_role_function .
+# 
+# http://menelastop.ics.upmc.fr/direction
+
+:direction a owl:Class ;
+	rdfs:subClassOf :spatial_role_function .
+# 
+# http://menelastop.ics.upmc.fr/discrete_val
+
+:discrete_val a owl:Class ;
+	rdfs:subClassOf :quantitative_val .
+# 
+# http://menelastop.ics.upmc.fr/discussing
+
+:discussing a owl:Class ;
+	rdfs:subClassOf :mental_change_dialogal_action .
+# 
+# http://menelastop.ics.upmc.fr/distal
+
+:distal a owl:Class ;
+	rdfs:subClassOf :linear_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/distinction_modality
+
+:distinction_modality a owl:Class ;
+	rdfs:subClassOf :thetic_modality .
+# 
+# http://menelastop.ics.upmc.fr/diurnal
+
+:diurnal a owl:Class ;
+	rdfs:subClassOf :relative_time_stamp .
+# 
+# http://menelastop.ics.upmc.fr/doubt
+
+:doubt a owl:Class ;
+	rdfs:subClassOf :epistemic_modality .
+# 
+# http://menelastop.ics.upmc.fr/downstream
+
+:downstream a owl:Class ;
+	rdfs:subClassOf :linear_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/during_intentional_object
+
+:during_intentional_object a owl:Class ;
+	rdfs:subClassOf :temporal_object_role_function .
+# 
+# http://menelastop.ics.upmc.fr/early
+
+:early a owl:Class ;
+	rdfs:subClassOf :occurrence_val .
+# 
+# http://menelastop.ics.upmc.fr/economical_consequence
+
+:economical_consequence a owl:Class ;
+	rdfs:subClassOf :cultural_consequence .
+# 
+# http://menelastop.ics.upmc.fr/edge
+
+:edge a owl:Class ;
+	rdfs:subClassOf :planar_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/end
+
+:end a owl:Class ;
+	rdfs:subClassOf :linear_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/energy_cost
+
+:energy_cost a owl:Class ;
+	rdfs:subClassOf :physical_consequence .
+# 
+# http://menelastop.ics.upmc.fr/epistemic_modality
+
+:epistemic_modality a owl:Class ;
+	rdfs:subClassOf :thetic_modality .
+# 
+# http://menelastop.ics.upmc.fr/evening
+
+:evening a owl:Class ;
+	rdfs:subClassOf :relative_time_stamp .
+# 
+# http://menelastop.ics.upmc.fr/event
+
+:event a owl:Class ;
+	rdfs:subClassOf :UnintentionalChange .
+# 
+# http://menelastop.ics.upmc.fr/excentric
+
+:excentric a owl:Class ;
+	rdfs:subClassOf :aspect_val .
+# 
+# http://menelastop.ics.upmc.fr/execute
+
+:execute a owl:Class ;
+	rdfs:subClassOf :intentional_change_about_change .
+# 
+# http://menelastop.ics.upmc.fr/expanding
+
+:expanding a owl:Class ;
+	rdfs:subClassOf :state_evolution_val .
+# 
+# http://menelastop.ics.upmc.fr/external
+
+:external a owl:Class ;
+	rdfs:subClassOf :volumic_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/fail
+
+:fail a owl:Class ;
+	rdfs:subClassOf :intentional_change_about_change .
+# 
+# http://menelastop.ics.upmc.fr/finish
+
+:finish a owl:Class ;
+	rdfs:subClassOf :intentional_change_about_change .
+# 
+# http://menelastop.ics.upmc.fr/forbid
+
+:forbid a owl:Class ;
+	rdfs:subClassOf :deontic_modality .
+# 
+# http://menelastop.ics.upmc.fr/foresee
+
+:foresee a owl:Class ;
+	rdfs:subClassOf :epistemic_modality .
+# 
+# http://menelastop.ics.upmc.fr/formal
+
+:formal a owl:Class ;
+	rdfs:subClassOf :manner_val .
+# 
+# http://menelastop.ics.upmc.fr/frequency_attr
+
+:frequency_attr a owl:Class ;
+	rdfs:subClassOf :AttributDObjetIntentionnel .
+# 
+# http://menelastop.ics.upmc.fr/general_category
+
+:general_category a owl:Class ;
+	rdfs:subClassOf :category .
+# 
+# http://menelastop.ics.upmc.fr/globally
+
+:globally a owl:Class ;
+	rdfs:subClassOf :manner_val .
+# 
+# http://menelastop.ics.upmc.fr/globally_considered
+
+:globally_considered a owl:Class ;
+	rdfs:subClassOf :distinction_modality .
+# 
+# http://menelastop.ics.upmc.fr/good_quality
+
+:good_quality a owl:Class ;
+	rdfs:subClassOf :quality_modality .
+# 
+# http://menelastop.ics.upmc.fr/gravity_modality
+
+:gravity_modality a owl:Class ;
+	rdfs:subClassOf :thetic_modality .
+# 
+# http://menelastop.ics.upmc.fr/high
+
+:high a owl:Class ;
+	rdfs:subClassOf :hyper .
+# 
+# http://menelastop.ics.upmc.fr/human_being
+
+:human_being a owl:Class ;
+	rdfs:subClassOf :animate .
+# 
+# http://menelastop.ics.upmc.fr/hyper
+
+:hyper a owl:Class ;
+	rdfs:subClassOf :general_category .
+# 
+# http://menelastop.ics.upmc.fr/hypo
+
+:hypo a owl:Class ;
+	rdfs:subClassOf :general_category .
+# 
+# http://menelastop.ics.upmc.fr/ignorance
+
+:ignorance a owl:Class ;
+	rdfs:subClassOf :epistemic_modality .
+# 
+# http://menelastop.ics.upmc.fr/impossibility
+
+:impossibility a owl:Class ;
+	rdfs:subClassOf :alethic_modality .
+# 
+# http://menelastop.ics.upmc.fr/inanimate
+
+:inanimate a owl:Class ;
+	rdfs:subClassOf :countable_object .
+# 
+# http://menelastop.ics.upmc.fr/indefinite
+
+:indefinite a owl:Class ;
+	rdfs:subClassOf :general_category .
+# 
+# http://menelastop.ics.upmc.fr/indifferent
+
+:indifferent a owl:Class ;
+	rdfs:subClassOf :worry_modality .
+# 
+# http://menelastop.ics.upmc.fr/inefficient
+
+:inefficient a owl:Class ;
+	rdfs:subClassOf :manner_val .
+# 
+# http://menelastop.ics.upmc.fr/inferior
+
+:inferior a owl:Class ;
+	rdfs:subClassOf :volumic_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/infero_anterior
+
+:infero_anterior a owl:Class ;
+	rdfs:subClassOf :volumic_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/infero_lateral
+
+:infero_lateral a owl:Class ;
+	rdfs:subClassOf :volumic_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/infero_posterior
+
+:infero_posterior a owl:Class ;
+	rdfs:subClassOf :volumic_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/infinite
+
+:infinite a owl:Class ;
+	rdfs:subClassOf :general_category .
+# 
+# http://menelastop.ics.upmc.fr/info_object
+
+:info_object a owl:Class ;
+	rdfs:subClassOf :PseudoObject .
+# 
+# http://menelastop.ics.upmc.fr/informed
+
+:informed a owl:Class ;
+	rdfs:subClassOf :communication_state ;
+	owl:disjointWith :unaware_of .
+# 
+# http://menelastop.ics.upmc.fr/inorganic_agglomerat
+
+:inorganic_agglomerat a owl:Class ;
+	rdfs:subClassOf :agglomerat .
+# 
+# http://menelastop.ics.upmc.fr/instanciation_val
+
+:instanciation_val a owl:Class ;
+	rdfs:subClassOf :qualitative_val .
+# 
+# http://menelastop.ics.upmc.fr/intensity
+
+:intensity a owl:Class ;
+	rdfs:subClassOf :MetaFunctionalObjectQualifier .
+# 
+# http://menelastop.ics.upmc.fr/intentional_change_about_change
+
+:intentional_change_about_change a owl:Class ;
+	rdfs:subClassOf :intentional_change_controlling .
+# 
+# http://menelastop.ics.upmc.fr/intentional_change_about_state
+
+:intentional_change_about_state a owl:Class ;
+	rdfs:subClassOf :intentional_change_controlling .
+# 
+# http://menelastop.ics.upmc.fr/intentional_change_controlling
+
+:intentional_change_controlling a owl:Class ;
+	rdfs:subClassOf :IntentionalChange .
+# 
+# http://menelastop.ics.upmc.fr/intentional_change_state
+
+:intentional_change_state a owl:Class ;
+	rdfs:subClassOf :IntentionalChange .
+# 
+# http://menelastop.ics.upmc.fr/intentional_consequence
+
+:intentional_consequence a owl:Class ;
+	rdfs:subClassOf :intentional_functional_object .
+# 
+# http://menelastop.ics.upmc.fr/intentional_functional_object
+
+:intentional_functional_object a owl:Class ;
+	rdfs:subClassOf :FunctionalObject .
+# 
+# http://menelastop.ics.upmc.fr/intentional_val
+
+:intentional_val a owl:Class ;
+	rdfs:subClassOf :qualitative_val .
+# 
+# http://menelastop.ics.upmc.fr/intermediate
+
+:intermediate a owl:Class ;
+	rdfs:subClassOf :linear_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/internal
+
+:internal a owl:Class ;
+	rdfs:subClassOf :volumic_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/irregular
+
+:irregular a owl:Class ;
+	rdfs:subClassOf :aspect_val .
+# 
+# http://menelastop.ics.upmc.fr/isolated
+
+:isolated a owl:Class ;
+	rdfs:subClassOf :temporal_manifestation_val .
+# 
+# http://menelastop.ics.upmc.fr/just_after
+
+:just_after a owl:Class ;
+	rdfs:subClassOf :during_intentional_object .
+# 
+# http://menelastop.ics.upmc.fr/just_before
+
+:just_before a owl:Class ;
+	rdfs:subClassOf :during_intentional_object .
+# 
+# http://menelastop.ics.upmc.fr/knowledge
+
+:knowledge a owl:Class ;
+	rdfs:subClassOf :epistemic_modality .
+# 
+# http://menelastop.ics.upmc.fr/late
+
+:late a owl:Class ;
+	rdfs:subClassOf :occurrence_val .
+# 
+# http://menelastop.ics.upmc.fr/lateral
+
+:lateral a owl:Class ;
+	rdfs:subClassOf :planar_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/leaf
+
+:leaf a owl:Class ;
+	rdfs:subClassOf :network_location .
+# 
+# http://menelastop.ics.upmc.fr/left
+
+:left a owl:Class ;
+	rdfs:subClassOf :planar_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/linear
+
+:linear a owl:Class ;
+	rdfs:subClassOf :dimension .
+# 
+# http://menelastop.ics.upmc.fr/linear_relative_location
+
+:linear_relative_location a owl:Class ;
+	rdfs:subClassOf :relative_location .
+# 
+# http://menelastop.ics.upmc.fr/long
+
+:long a owl:Class ;
+	rdfs:subClassOf :aspect_val .
+# 
+# http://menelastop.ics.upmc.fr/long_after
+
+:long_after a owl:Class ;
+	rdfs:subClassOf :during_intentional_object .
+# 
+# http://menelastop.ics.upmc.fr/long_before
+
+:long_before a owl:Class ;
+	rdfs:subClassOf :during_intentional_object .
+# 
+# http://menelastop.ics.upmc.fr/low
+
+:low a owl:Class ;
+	rdfs:subClassOf :hypo .
+# 
+# http://menelastop.ics.upmc.fr/low_change
+
+:low_change a owl:Class ;
+	rdfs:subClassOf :unintentional_val .
+# 
+# http://menelastop.ics.upmc.fr/manifestation_condition_val
+
+:manifestation_condition_val a owl:Class ;
+	rdfs:subClassOf :temporal_object_role_function .
+# 
+# http://menelastop.ics.upmc.fr/manner_val
+
+:manner_val a owl:Class ;
+	rdfs:subClassOf :contracted_role .
+# 
+# http://menelastop.ics.upmc.fr/manufactured_mass_object
+
+:manufactured_mass_object a owl:Class ;
+	rdfs:subClassOf :mass_object .
+# 
+# http://menelastop.ics.upmc.fr/marginal
+
+:marginal a owl:Class ;
+	rdfs:subClassOf :social_state ;
+	owl:disjointWith :reinserted .
+# 
+# http://menelastop.ics.upmc.fr/mass_object
+
+:mass_object a owl:Class ;
+	rdfs:subClassOf :RealObject .
+# 
+# http://menelastop.ics.upmc.fr/max
+
+:max a owl:Class ;
+	rdfs:subClassOf :hyper .
+# 
+# http://menelastop.ics.upmc.fr/medium_change
+
+:medium_change a owl:Class ;
+	rdfs:subClassOf :unintentional_val .
+# 
+# http://menelastop.ics.upmc.fr/medium_quality
+
+:medium_quality a owl:Class ;
+	rdfs:subClassOf :quality_modality .
+# 
+# http://menelastop.ics.upmc.fr/mental_change_action
+
+:mental_change_action a owl:Class ;
+	rdfs:subClassOf :intentional_change_state .
+# 
+# http://menelastop.ics.upmc.fr/mental_change_dialogal_action
+
+:mental_change_dialogal_action a owl:Class ;
+	rdfs:subClassOf :mental_change_action .
+# 
+# http://menelastop.ics.upmc.fr/mental_change_external_action
+
+:mental_change_external_action a owl:Class ;
+	rdfs:subClassOf :mental_change_action .
+# 
+# http://menelastop.ics.upmc.fr/mental_change_internal_action
+
+:mental_change_internal_action a owl:Class ;
+	rdfs:subClassOf :mental_change_action .
+# 
+# http://menelastop.ics.upmc.fr/mental_consequence
+
+:mental_consequence a owl:Class ;
+	rdfs:subClassOf :intentional_consequence .
+# 
+# http://menelastop.ics.upmc.fr/meta_intentional_functional_object
+
+:meta_intentional_functional_object a owl:Class ;
+	rdfs:subClassOf :MetaFunctionalObject .
+# 
+# http://menelastop.ics.upmc.fr/meta_physical_functional_object
+
+:meta_physical_functional_object a owl:Class ;
+	rdfs:subClassOf :MetaFunctionalObject .
+# 
+# http://menelastop.ics.upmc.fr/mid
+
+:mid a owl:Class ;
+	rdfs:subClassOf :volumic_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/min
+
+:min a owl:Class ;
+	rdfs:subClassOf :hypo .
+# 
+# http://menelastop.ics.upmc.fr/moderate
+
+:moderate a owl:Class ;
+	rdfs:subClassOf :general_category .
+# 
+# http://menelastop.ics.upmc.fr/momentary
+
+:momentary a owl:Class ;
+	rdfs:subClassOf :temporal_object_validity .
+# 
+# http://menelastop.ics.upmc.fr/morning
+
+:morning a owl:Class ;
+	rdfs:subClassOf :relative_time_stamp .
+# 
+# http://menelastop.ics.upmc.fr/morpho_change_action
+
+:morpho_change_action a owl:Class ;
+	rdfs:subClassOf :physical_intentional_change .
+# 
+# http://menelastop.ics.upmc.fr/morpho_process
+
+:morpho_process a owl:Class ;
+	rdfs:subClassOf :process .
+# 
+# http://menelastop.ics.upmc.fr/morpho_role_function
+
+:morpho_role_function a owl:Class ;
+	rdfs:subClassOf :meta_physical_functional_object .
+# 
+# http://menelastop.ics.upmc.fr/morphologic_object
+
+:morphologic_object a owl:Class ;
+	rdfs:subClassOf :PseudoObject .
+# 
+# http://menelastop.ics.upmc.fr/morphological_consequence
+
+:morphological_consequence a owl:Class ;
+	rdfs:subClassOf :intentional_consequence .
+# 
+# http://menelastop.ics.upmc.fr/must
+
+:must a owl:Class ;
+	rdfs:subClassOf :deontic_modality .
+# 
+# http://menelastop.ics.upmc.fr/natural_object
+
+:natural_object a owl:Class ;
+	rdfs:subClassOf :inanimate .
+# 
+# http://menelastop.ics.upmc.fr/necessity
+
+:necessity a owl:Class ;
+	rdfs:subClassOf :alethic_modality .
+# 
+# http://menelastop.ics.upmc.fr/neglect
+
+:neglect a owl:Class ;
+	rdfs:subClassOf :epistemic_modality .
+# 
+# http://menelastop.ics.upmc.fr/network_location
+
+:network_location a owl:Class ;
+	rdfs:subClassOf :spatial_role_function .
+# 
+# http://menelastop.ics.upmc.fr/never
+
+:never a owl:Class ;
+	rdfs:subClassOf :temporal_manifestation_val .
+# 
+# http://menelastop.ics.upmc.fr/new
+
+:new a owl:Class ;
+	rdfs:subClassOf :instanciation_val .
+# 
+# http://menelastop.ics.upmc.fr/nocturnal
+
+:nocturnal a owl:Class ;
+	rdfs:subClassOf :relative_time_stamp .
+# 
+# http://menelastop.ics.upmc.fr/noematic_future
+
+:noematic_future a owl:Class ;
+	rdfs:subClassOf :time_modality .
+# 
+# http://menelastop.ics.upmc.fr/noematic_past
+
+:noematic_past a owl:Class ;
+	rdfs:subClassOf :time_modality .
+# 
+# http://menelastop.ics.upmc.fr/noon
+
+:noon a owl:Class ;
+	rdfs:subClassOf :relative_time_stamp .
+# 
+# http://menelastop.ics.upmc.fr/now
+
+:now a owl:Class ;
+	rdfs:subClassOf :relative_time_stamp .
+# 
+# http://menelastop.ics.upmc.fr/occurrence_val
+
+:occurrence_val a owl:Class ;
+	rdfs:subClassOf :temporal_object_role_function .
+# 
+# http://menelastop.ics.upmc.fr/often
+
+:often a owl:Class ;
+	rdfs:subClassOf :temporal_manifestation_val .
+# 
+# http://menelastop.ics.upmc.fr/order
+
+:order a owl:Class ;
+	rdfs:subClassOf :wantic_modality .
+# 
+# http://menelastop.ics.upmc.fr/organic_agglomerat
+
+:organic_agglomerat a owl:Class ;
+	rdfs:subClassOf :agglomerat .
+# 
+# http://menelastop.ics.upmc.fr/original
+
+:original a owl:Class ;
+	rdfs:subClassOf :temporal_manifestation_val .
+# 
+# http://menelastop.ics.upmc.fr/ostium
+
+:ostium a owl:Class ;
+	rdfs:subClassOf :linear_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/pain_cost
+
+:pain_cost a owl:Class ;
+	rdfs:subClassOf :physical_consequence .
+# 
+# http://menelastop.ics.upmc.fr/particular_category
+
+:particular_category a owl:Class ;
+	rdfs:subClassOf :category .
+# 
+# http://menelastop.ics.upmc.fr/peripheral
+
+:peripheral a owl:Class ;
+	rdfs:subClassOf :volumic_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/permanent
+
+:permanent a owl:Class ;
+	rdfs:subClassOf :temporal_manifestation_val .
+# 
+# http://menelastop.ics.upmc.fr/persistence
+
+:persistence a owl:Class ;
+	rdfs:subClassOf :intentional_change_about_state .
+# 
+# http://menelastop.ics.upmc.fr/physical_change_action
+
+:physical_change_action a owl:Class ;
+	rdfs:subClassOf :physical_intentional_change .
+# 
+# http://menelastop.ics.upmc.fr/physical_consequence
+
+:physical_consequence a owl:Class ;
+	rdfs:subClassOf :intentional_consequence .
+# 
+# http://menelastop.ics.upmc.fr/physical_functional_object
+
+:physical_functional_object a owl:Class ;
+	rdfs:subClassOf :FunctionalObject .
+# 
+# http://menelastop.ics.upmc.fr/physical_intentional_change
+
+:physical_intentional_change a owl:Class ;
+	rdfs:subClassOf :intentional_change_state .
+# 
+# http://menelastop.ics.upmc.fr/physical_process
+
+:physical_process a owl:Class ;
+	rdfs:subClassOf :process .
+# 
+# http://menelastop.ics.upmc.fr/physical_role_function
+
+:physical_role_function a owl:Class ;
+	rdfs:subClassOf :meta_physical_functional_object .
+# 
+# http://menelastop.ics.upmc.fr/physical_systemic_object
+
+:physical_systemic_object a owl:Class ;
+	rdfs:subClassOf :systemic_object .
+# 
+# http://menelastop.ics.upmc.fr/physical_val
+
+:physical_val a owl:Class ;
+	rdfs:subClassOf :qualitative_val .
+# 
+# http://menelastop.ics.upmc.fr/plan
+
+:plan a owl:Class ;
+	rdfs:subClassOf :intentional_change_about_change .
+# 
+# http://menelastop.ics.upmc.fr/planar
+
+:planar a owl:Class ;
+	rdfs:subClassOf :dimension .
+# 
+# http://menelastop.ics.upmc.fr/planar_relative_location
+
+:planar_relative_location a owl:Class ;
+	rdfs:subClassOf :relative_location .
+# 
+# http://menelastop.ics.upmc.fr/pointed
+
+:pointed a owl:Class ;
+	rdfs:subClassOf :aspect_val .
+# 
+# http://menelastop.ics.upmc.fr/possibility
+
+:possibility a owl:Class ;
+	rdfs:subClassOf :alethic_modality .
+# 
+# http://menelastop.ics.upmc.fr/posterior
+
+:posterior a owl:Class ;
+	rdfs:subClassOf :volumic_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/postero_lateral
+
+:postero_lateral a owl:Class ;
+	rdfs:subClassOf :volumic_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/postpone
+
+:postpone a owl:Class ;
+	rdfs:subClassOf :intentional_change_about_change .
+# 
+# http://menelastop.ics.upmc.fr/precisely_considered
+
+:precisely_considered a owl:Class ;
+	rdfs:subClassOf :distinction_modality .
+# 
+# http://menelastop.ics.upmc.fr/pressure_cost
+
+:pressure_cost a owl:Class ;
+	rdfs:subClassOf :physical_consequence .
+# 
+# http://menelastop.ics.upmc.fr/problem
+
+:problem a owl:Class ;
+	rdfs:subClassOf :epistemic_modality .
+# 
+# http://menelastop.ics.upmc.fr/process
+
+:process a owl:Class ;
+	rdfs:subClassOf :UnintentionalChange .
+# 
+# http://menelastop.ics.upmc.fr/prolonged
+
+:prolonged a owl:Class ;
+	rdfs:subClassOf :temporal_manifestation_val .
+# 
+# http://menelastop.ics.upmc.fr/proper_noun
+
+:proper_noun a owl:Class ;
+	rdfs:subClassOf :word .
+# 
+# http://menelastop.ics.upmc.fr/protocol
+
+:protocol a owl:Class ;
+	rdfs:subClassOf :PseudoProcessus .
+# 
+# http://menelastop.ics.upmc.fr/proximal
+
+:proximal a owl:Class ;
+	rdfs:subClassOf :linear_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/psy_dependent
+
+:psy_dependent a owl:Class ;
+	rdfs:subClassOf :dependency_modality .
+# 
+# http://menelastop.ics.upmc.fr/psy_independent
+
+:psy_independent a owl:Class ;
+	rdfs:subClassOf :dependency_modality .
+# 
+# http://menelastop.ics.upmc.fr/qualitative_val
+
+:qualitative_val a owl:Class ;
+	rdfs:subClassOf :value .
+# 
+# http://menelastop.ics.upmc.fr/quality_modality
+
+:quality_modality a owl:Class ;
+	rdfs:subClassOf :thetic_modality .
+# 
+# http://menelastop.ics.upmc.fr/quantitative_val
+
+:quantitative_val a owl:Class ;
+	rdfs:subClassOf :value .
+# 
+# http://menelastop.ics.upmc.fr/recently
+
+:recently a owl:Class ;
+	rdfs:subClassOf :relative_time_stamp .
+# 
+# http://menelastop.ics.upmc.fr/recidive
+
+:recidive a owl:Class ;
+	rdfs:subClassOf :instanciation_val .
+# 
+# http://menelastop.ics.upmc.fr/recurrent
+
+:recurrent a owl:Class ;
+	rdfs:subClassOf :temporal_manifestation_val .
+# 
+# http://menelastop.ics.upmc.fr/regressive
+
+:regressive a owl:Class ;
+	rdfs:subClassOf :state_evolution_val .
+# 
+# http://menelastop.ics.upmc.fr/regular
+
+:regular a owl:Class ;
+	rdfs:subClassOf :aspect_val .
+# 
+# http://menelastop.ics.upmc.fr/regularly
+
+:regularly a owl:Class ;
+	rdfs:subClassOf :manner_val .
+# 
+# http://menelastop.ics.upmc.fr/reinserted
+
+:reinserted a owl:Class ;
+	rdfs:subClassOf :social_state .
+# 
+# http://menelastop.ics.upmc.fr/relative_location
+
+:relative_location a owl:Class ;
+	rdfs:subClassOf :spatial_role_function .
+# 
+# http://menelastop.ics.upmc.fr/relative_time_stamp
+
+:relative_time_stamp a owl:Class ;
+	rdfs:subClassOf :temporal_object_role_function .
+# 
+# http://menelastop.ics.upmc.fr/repeat
+
+:repeat a owl:Class ;
+	rdfs:subClassOf :intentional_change_about_change .
+# 
+# http://menelastop.ics.upmc.fr/reshape
+
+:reshape a owl:Class ;
+	rdfs:subClassOf :aspect_val .
+# 
+# http://menelastop.ics.upmc.fr/right
+
+:right a owl:Class ;
+	rdfs:subClassOf :planar_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/root
+
+:root a owl:Class ;
+	rdfs:subClassOf :network_location .
+# 
+# http://menelastop.ics.upmc.fr/satisfaction_modality
+
+:satisfaction_modality a owl:Class ;
+	rdfs:subClassOf :thetic_modality .
+# 
+# http://menelastop.ics.upmc.fr/satisfactory
+
+:satisfactory a owl:Class ;
+	rdfs:subClassOf :satisfaction_modality .
+# 
+# http://menelastop.ics.upmc.fr/secondary
+
+:secondary a owl:Class ;
+	rdfs:subClassOf :temporal_manifestation_val .
+# 
+# http://menelastop.ics.upmc.fr/segment_i
+
+:segment_i a owl:Class ;
+	rdfs:subClassOf :linear_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/segment_ii
+
+:segment_ii a owl:Class ;
+	rdfs:subClassOf :linear_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/segment_iii
+
+:segment_iii a owl:Class ;
+	rdfs:subClassOf :linear_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/serious
+
+:serious a owl:Class ;
+	rdfs:subClassOf :gravity_modality .
+# 
+# http://menelastop.ics.upmc.fr/short
+
+:short a owl:Class ;
+	rdfs:subClassOf :aspect_val .
+# 
+# http://menelastop.ics.upmc.fr/simple
+
+:simple a owl:Class ;
+	rdfs:subClassOf :manner_val .
+# 
+# http://menelastop.ics.upmc.fr/social_state
+
+:social_state a owl:Class ;
+	rdfs:subClassOf :CulturalState .
+# 
+# http://menelastop.ics.upmc.fr/sociologic_object
+
+:sociologic_object a owl:Class ;
+	rdfs:subClassOf :systemic_object .
+# 
+# http://menelastop.ics.upmc.fr/spatial_change_action
+
+:spatial_change_action a owl:Class ;
+	rdfs:subClassOf :physical_intentional_change .
+# 
+# http://menelastop.ics.upmc.fr/spatial_process
+
+:spatial_process a owl:Class ;
+	rdfs:subClassOf :process .
+# 
+# http://menelastop.ics.upmc.fr/spatial_role_function
+
+:spatial_role_function a owl:Class ;
+	rdfs:subClassOf :meta_physical_functional_object .
+# 
+# http://menelastop.ics.upmc.fr/spontaneous
+
+:spontaneous a owl:Class ;
+	rdfs:subClassOf :temporal_manifestation_val .
+# 
+# http://menelastop.ics.upmc.fr/stable
+
+:stable a owl:Class ;
+	rdfs:subClassOf :state_evolution_val .
+# 
+# http://menelastop.ics.upmc.fr/standard
+
+:standard a owl:Class ;
+	rdfs:subClassOf :occurrence_val .
+# 
+# http://menelastop.ics.upmc.fr/state_attr
+
+:state_attr a owl:Class ;
+	rdfs:subClassOf :AttributDObjetIntentionnel .
+# 
+# http://menelastop.ics.upmc.fr/state_completness_val
+
+:state_completness_val a owl:Class ;
+	rdfs:subClassOf :contracted_role .
+# 
+# http://menelastop.ics.upmc.fr/state_evolution_val
+
+:state_evolution_val a owl:Class ;
+	rdfs:subClassOf :contracted_role .
+# 
+# http://menelastop.ics.upmc.fr/stop
+
+:stop a owl:Class ;
+	rdfs:subClassOf :intentional_change_about_change .
+# 
+# http://menelastop.ics.upmc.fr/substance
+
+:substance a owl:Class ;
+	rdfs:subClassOf :mass_object .
+# 
+# http://menelastop.ics.upmc.fr/supervision
+
+:supervision a owl:Class ;
+	rdfs:subClassOf :intentional_change_about_change .
+# 
+# http://menelastop.ics.upmc.fr/surprise
+
+:surprise a owl:Class ;
+	rdfs:subClassOf :epistemic_modality .
+# 
+# http://menelastop.ics.upmc.fr/symmetrical
+
+:symmetrical a owl:Class ;
+	rdfs:subClassOf :aspect_val .
+# 
+# http://menelastop.ics.upmc.fr/systemic_object
+
+:systemic_object a owl:Class ;
+	rdfs:subClassOf :PseudoObject .
+# 
+# http://menelastop.ics.upmc.fr/teaching
+
+:teaching a owl:Class ;
+	rdfs:subClassOf :mental_change_dialogal_action .
+# 
+# http://menelastop.ics.upmc.fr/temporal_interval
+
+:temporal_interval a owl:Class ;
+	rdfs:subClassOf :temporal_object .
+# 
+# http://menelastop.ics.upmc.fr/temporal_manifestation_val
+
+:temporal_manifestation_val a owl:Class ;
+	rdfs:subClassOf :temporal_object_role_function .
+# 
+# http://menelastop.ics.upmc.fr/temporal_object
+
+:temporal_object a owl:Class ;
+	rdfs:subClassOf :intentional_functional_object .
+# 
+# http://menelastop.ics.upmc.fr/temporal_object_role_function
+
+:temporal_object_role_function a owl:Class ;
+	rdfs:subClassOf :meta_intentional_functional_object .
+# 
+# http://menelastop.ics.upmc.fr/temporal_object_validity
+
+:temporal_object_validity a owl:Class ;
+	rdfs:subClassOf :meta_intentional_functional_object .
+# 
+# http://menelastop.ics.upmc.fr/temporary
+
+:temporary a owl:Class ;
+	rdfs:subClassOf :temporal_manifestation_val .
+# 
+# http://menelastop.ics.upmc.fr/thetic_modality
+
+:thetic_modality a owl:Class ;
+	rdfs:subClassOf :intentional_functional_object .
+# 
+# http://menelastop.ics.upmc.fr/time_modality
+
+:time_modality a owl:Class ;
+	rdfs:subClassOf :thetic_modality .
+# 
+# http://menelastop.ics.upmc.fr/tissue
+
+:tissue a owl:Class ;
+	rdfs:subClassOf :mass_object .
+# 
+# http://menelastop.ics.upmc.fr/today
+
+:today a owl:Class ;
+	rdfs:subClassOf :relative_time_stamp .
+# 
+# http://menelastop.ics.upmc.fr/tomorrow
+
+:tomorrow a owl:Class ;
+	rdfs:subClassOf :relative_time_stamp .
+# 
+# http://menelastop.ics.upmc.fr/trigger
+
+:trigger a owl:Class ;
+	rdfs:subClassOf :unintentional_change_controlling .
+# 
+# http://menelastop.ics.upmc.fr/trunk
+
+:trunk a owl:Class ;
+	rdfs:subClassOf :network_location .
+# 
+# http://menelastop.ics.upmc.fr/try
+
+:try a owl:Class ;
+	rdfs:subClassOf :intentional_change_about_change .
+# 
+# http://menelastop.ics.upmc.fr/tubular
+
+:tubular a owl:Class ;
+	rdfs:subClassOf :aspect_val .
+# 
+# http://menelastop.ics.upmc.fr/tune
+
+:tune a owl:Class ;
+	rdfs:subClassOf :intentional_change_about_change .
+# 
+# http://menelastop.ics.upmc.fr/unaware_of
+
+:unaware_of a owl:Class ;
+	rdfs:subClassOf :communication_state .
+# 
+# http://menelastop.ics.upmc.fr/uncomplete
+
+:uncomplete a owl:Class ;
+	rdfs:subClassOf :state_completness_val .
+# 
+# http://menelastop.ics.upmc.fr/unintentional_attr
+
+:unintentional_attr a owl:Class ;
+	rdfs:subClassOf :AttributDObjetIntentionnel .
+# 
+# http://menelastop.ics.upmc.fr/unintentional_change_controlling
+
+:unintentional_change_controlling a owl:Class ;
+	rdfs:subClassOf :UnintentionalChange .
+# 
+# http://menelastop.ics.upmc.fr/unintentional_val
+
+:unintentional_val a owl:Class ;
+	rdfs:subClassOf :contracted_role .
+# 
+# http://menelastop.ics.upmc.fr/unsatisfactory
+
+:unsatisfactory a owl:Class ;
+	rdfs:subClassOf :satisfaction_modality .
+# 
+# http://menelastop.ics.upmc.fr/unstable
+
+:unstable a owl:Class ;
+	rdfs:subClassOf :state_evolution_val .
+# 
+# http://menelastop.ics.upmc.fr/upstream
+
+:upstream a owl:Class ;
+	rdfs:subClassOf :linear_relative_location .
+# 
+# http://menelastop.ics.upmc.fr/usual
+
+:usual a owl:Class ;
+	rdfs:subClassOf :temporal_object_validity .
+# 
+# http://menelastop.ics.upmc.fr/value
+
+:value a owl:Class ;
+	rdfs:subClassOf :MetaFunctionalObject .
+# 
+# http://menelastop.ics.upmc.fr/vegetal
+
+:vegetal a owl:Class ;
+	rdfs:subClassOf :animate .
+# 
+# http://menelastop.ics.upmc.fr/very_high
+
+:very_high a owl:Class ;
+	rdfs:subClassOf :hyper .
+# 
+# http://menelastop.ics.upmc.fr/very_low
+
+:very_low a owl:Class ;
+	rdfs:subClassOf :hypo .
+# 
+# http://menelastop.ics.upmc.fr/virus
+
+:virus a owl:Class ;
+	rdfs:subClassOf :animate .
+# 
+# http://menelastop.ics.upmc.fr/volumic
+
+:volumic a owl:Class ;
+	rdfs:subClassOf :dimension .
+# 
+# http://menelastop.ics.upmc.fr/volumic_relative_location
+
+:volumic_relative_location a owl:Class ;
+	rdfs:subClassOf :relative_location .
+# 
+# http://menelastop.ics.upmc.fr/want
+
+:want a owl:Class ;
+	rdfs:subClassOf :wantic_modality .
+# 
+# http://menelastop.ics.upmc.fr/wantic_modality
+
+:wantic_modality a owl:Class ;
+	rdfs:subClassOf :thetic_modality .
+# 
+# http://menelastop.ics.upmc.fr/warning
+
+:warning a owl:Class ;
+	rdfs:subClassOf :mental_change_dialogal_action .
+# 
+# http://menelastop.ics.upmc.fr/when_big_exertion
+
+:when_big_exertion a owl:Class ;
+	rdfs:subClassOf :when_exercise .
+# 
+# http://menelastop.ics.upmc.fr/when_emotions
+
+:when_emotions a owl:Class ;
+	rdfs:subClassOf :manifestation_condition_val .
+# 
+# http://menelastop.ics.upmc.fr/when_exercise
+
+:when_exercise a owl:Class ;
+	rdfs:subClassOf :manifestation_condition_val .
+# 
+# http://menelastop.ics.upmc.fr/when_moderate_exertion
+
+:when_moderate_exertion a owl:Class ;
+	rdfs:subClassOf :when_exercise .
+# 
+# http://menelastop.ics.upmc.fr/when_rest
+
+:when_rest a owl:Class ;
+	rdfs:subClassOf :manifestation_condition_val .
+# 
+# http://menelastop.ics.upmc.fr/when_sleep
+
+:when_sleep a owl:Class ;
+	rdfs:subClassOf :manifestation_condition_val .
+# 
+# http://menelastop.ics.upmc.fr/word
+
+:word a owl:Class ;
+	rdfs:subClassOf :qualitative_val .
+# 
+# http://menelastop.ics.upmc.fr/worry_modality
+
+:worry_modality a owl:Class ;
+	rdfs:subClassOf :thetic_modality .
+# 
+# http://menelastop.ics.upmc.fr/worrying
+
+:worrying a owl:Class ;
+	rdfs:subClassOf :worry_modality .
+# 
+# http://menelastop.ics.upmc.fr/yesterday
+
+:yesterday a owl:Class ;
+	rdfs:subClassOf :relative_time_stamp .
+# 
+# Generated by the OWL API (version 5.0.4.20161016-1358) https://github.com/owlcs/owlapi/

@@ -1,0 +1,1146 @@
+<http://cbmi.med.harvard.edu/asdphenotype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_1
+<http://cbmi.med.harvard.edu/asdphenotype#Class_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_8> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_10
+<http://cbmi.med.harvard.edu/asdphenotype#Class_10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_10> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_148> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_100
+<http://cbmi.med.harvard.edu/asdphenotype#Class_100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_148> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_102
+<http://cbmi.med.harvard.edu/asdphenotype#Class_102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_102> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_138> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_103
+<http://cbmi.med.harvard.edu/asdphenotype#Class_103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_103> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_138> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_104
+<http://cbmi.med.harvard.edu/asdphenotype#Class_104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_104> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_174> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_11
+<http://cbmi.med.harvard.edu/asdphenotype#Class_11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_11> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_158> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_110
+<http://cbmi.med.harvard.edu/asdphenotype#Class_110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_110> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_162> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_111
+<http://cbmi.med.harvard.edu/asdphenotype#Class_111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_111> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_665> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_112
+<http://cbmi.med.harvard.edu/asdphenotype#Class_112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_112> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_517> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_116
+<http://cbmi.med.harvard.edu/asdphenotype#Class_116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_116> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_168> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_119
+<http://cbmi.med.harvard.edu/asdphenotype#Class_119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_119> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_96> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_120
+<http://cbmi.med.harvard.edu/asdphenotype#Class_120> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_120> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_516> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_121
+<http://cbmi.med.harvard.edu/asdphenotype#Class_121> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_121> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_96> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_123
+<http://cbmi.med.harvard.edu/asdphenotype#Class_123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_123> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_235> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_125
+<http://cbmi.med.harvard.edu/asdphenotype#Class_125> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_125> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_6> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_126
+<http://cbmi.med.harvard.edu/asdphenotype#Class_126> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_126> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_110> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_128
+<http://cbmi.med.harvard.edu/asdphenotype#Class_128> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_128> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_385> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_130
+<http://cbmi.med.harvard.edu/asdphenotype#Class_130> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_130> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_516> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_131
+<http://cbmi.med.harvard.edu/asdphenotype#Class_131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_131> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_216> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_132
+<http://cbmi.med.harvard.edu/asdphenotype#Class_132> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_132> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_160> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_134
+<http://cbmi.med.harvard.edu/asdphenotype#Class_134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_134> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_60> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_136
+<http://cbmi.med.harvard.edu/asdphenotype#Class_136> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_136> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_245> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_137
+<http://cbmi.med.harvard.edu/asdphenotype#Class_137> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_137> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_516> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_138
+<http://cbmi.med.harvard.edu/asdphenotype#Class_138> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_138> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_406> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_140
+<http://cbmi.med.harvard.edu/asdphenotype#Class_140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_140> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_160> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_142
+<http://cbmi.med.harvard.edu/asdphenotype#Class_142> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_142> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_516> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_145
+<http://cbmi.med.harvard.edu/asdphenotype#Class_145> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_145> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_42> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_146
+<http://cbmi.med.harvard.edu/asdphenotype#Class_146> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_146> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_42> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_148
+<http://cbmi.med.harvard.edu/asdphenotype#Class_148> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_148> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_154> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_149
+<http://cbmi.med.harvard.edu/asdphenotype#Class_149> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_149> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_250> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_15
+<http://cbmi.med.harvard.edu/asdphenotype#Class_15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_15> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_66> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_152
+<http://cbmi.med.harvard.edu/asdphenotype#Class_152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_152> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_301> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_153
+<http://cbmi.med.harvard.edu/asdphenotype#Class_153> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_153> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_301> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_154
+<http://cbmi.med.harvard.edu/asdphenotype#Class_154> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_154> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_301> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_155
+<http://cbmi.med.harvard.edu/asdphenotype#Class_155> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_155> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_152> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_156
+<http://cbmi.med.harvard.edu/asdphenotype#Class_156> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_156> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_152> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_158
+<http://cbmi.med.harvard.edu/asdphenotype#Class_158> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_158> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_152> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_160
+<http://cbmi.med.harvard.edu/asdphenotype#Class_160> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_160> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_152> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_161
+<http://cbmi.med.harvard.edu/asdphenotype#Class_161> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_161> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_755> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_162
+<http://cbmi.med.harvard.edu/asdphenotype#Class_162> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_162> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_155> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_163
+<http://cbmi.med.harvard.edu/asdphenotype#Class_163> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_163> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_97> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_164
+<http://cbmi.med.harvard.edu/asdphenotype#Class_164> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_164> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_165> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_165
+<http://cbmi.med.harvard.edu/asdphenotype#Class_165> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_165> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_158> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_166
+<http://cbmi.med.harvard.edu/asdphenotype#Class_166> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_166> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_152> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_168
+<http://cbmi.med.harvard.edu/asdphenotype#Class_168> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_168> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_166> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_17
+<http://cbmi.med.harvard.edu/asdphenotype#Class_17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_17> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_189> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_170
+<http://cbmi.med.harvard.edu/asdphenotype#Class_170> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_170> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_49> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_171
+<http://cbmi.med.harvard.edu/asdphenotype#Class_171> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_171> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_516> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_172
+<http://cbmi.med.harvard.edu/asdphenotype#Class_172> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_172> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_148> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_173
+<http://cbmi.med.harvard.edu/asdphenotype#Class_173> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_173> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_529> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_174
+<http://cbmi.med.harvard.edu/asdphenotype#Class_174> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_174> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_49> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_175
+<http://cbmi.med.harvard.edu/asdphenotype#Class_175> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_175> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_148> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_176
+<http://cbmi.med.harvard.edu/asdphenotype#Class_176> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_176> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_156> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_177
+<http://cbmi.med.harvard.edu/asdphenotype#Class_177> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_177> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_156> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_178
+<http://cbmi.med.harvard.edu/asdphenotype#Class_178> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_178> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_365> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_18
+<http://cbmi.med.harvard.edu/asdphenotype#Class_18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_18> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_156> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_180
+<http://cbmi.med.harvard.edu/asdphenotype#Class_180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_180> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_97> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_181
+<http://cbmi.med.harvard.edu/asdphenotype#Class_181> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_181> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_452> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_183
+<http://cbmi.med.harvard.edu/asdphenotype#Class_183> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_183> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_293> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_184
+<http://cbmi.med.harvard.edu/asdphenotype#Class_184> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_184> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_293> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_185
+<http://cbmi.med.harvard.edu/asdphenotype#Class_185> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_185> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_85> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_187
+<http://cbmi.med.harvard.edu/asdphenotype#Class_187> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_187> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_60> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_188
+<http://cbmi.med.harvard.edu/asdphenotype#Class_188> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_188> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_253> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_189
+<http://cbmi.med.harvard.edu/asdphenotype#Class_189> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_189> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_156> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_19
+<http://cbmi.med.harvard.edu/asdphenotype#Class_19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_19> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_287> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_192
+<http://cbmi.med.harvard.edu/asdphenotype#Class_192> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_192> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_229> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_2
+<http://cbmi.med.harvard.edu/asdphenotype#Class_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_158> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_20
+<http://cbmi.med.harvard.edu/asdphenotype#Class_20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_20> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_156> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_200
+<http://cbmi.med.harvard.edu/asdphenotype#Class_200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_532> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_201
+<http://cbmi.med.harvard.edu/asdphenotype#Class_201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_201> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_293> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_206
+<http://cbmi.med.harvard.edu/asdphenotype#Class_206> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_206> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_665> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_207
+<http://cbmi.med.harvard.edu/asdphenotype#Class_207> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_207> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_42> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_210
+<http://cbmi.med.harvard.edu/asdphenotype#Class_210> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_210> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_42> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_212
+<http://cbmi.med.harvard.edu/asdphenotype#Class_212> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_212> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_406> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_216
+<http://cbmi.med.harvard.edu/asdphenotype#Class_216> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_216> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_365> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_217
+<http://cbmi.med.harvard.edu/asdphenotype#Class_217> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_217> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_111> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_218
+<http://cbmi.med.harvard.edu/asdphenotype#Class_218> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_218> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_110> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_219
+<http://cbmi.med.harvard.edu/asdphenotype#Class_219> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_219> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_110> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_22
+<http://cbmi.med.harvard.edu/asdphenotype#Class_22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_22> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_156> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_226
+<http://cbmi.med.harvard.edu/asdphenotype#Class_226> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_226> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_755> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_229
+<http://cbmi.med.harvard.edu/asdphenotype#Class_229> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_229> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_15> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_230
+<http://cbmi.med.harvard.edu/asdphenotype#Class_230> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_230> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_229> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_231
+<http://cbmi.med.harvard.edu/asdphenotype#Class_231> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_231> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_47> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_233
+<http://cbmi.med.harvard.edu/asdphenotype#Class_233> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_233> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_47> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_235
+<http://cbmi.med.harvard.edu/asdphenotype#Class_235> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_235> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_6> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_239
+<http://cbmi.med.harvard.edu/asdphenotype#Class_239> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_239> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_47> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_240
+<http://cbmi.med.harvard.edu/asdphenotype#Class_240> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_240> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_67> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_241
+<http://cbmi.med.harvard.edu/asdphenotype#Class_241> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_241> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_284> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_243
+<http://cbmi.med.harvard.edu/asdphenotype#Class_243> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_243> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_283> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_244
+<http://cbmi.med.harvard.edu/asdphenotype#Class_244> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_244> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_250> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_245
+<http://cbmi.med.harvard.edu/asdphenotype#Class_245> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_245> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_160> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_248
+<http://cbmi.med.harvard.edu/asdphenotype#Class_248> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_248> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_287> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_249
+<http://cbmi.med.harvard.edu/asdphenotype#Class_249> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_249> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_30> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_250
+<http://cbmi.med.harvard.edu/asdphenotype#Class_250> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_250> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_67> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_251
+<http://cbmi.med.harvard.edu/asdphenotype#Class_251> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_251> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_49> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_253
+<http://cbmi.med.harvard.edu/asdphenotype#Class_253> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_253> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_15> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_254
+<http://cbmi.med.harvard.edu/asdphenotype#Class_254> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_254> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_177> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_255
+<http://cbmi.med.harvard.edu/asdphenotype#Class_255> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_255> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_176> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_256
+<http://cbmi.med.harvard.edu/asdphenotype#Class_256> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_256> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_111> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_257
+<http://cbmi.med.harvard.edu/asdphenotype#Class_257> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_257> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_284> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_261
+<http://cbmi.med.harvard.edu/asdphenotype#Class_261> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_261> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_385> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_262
+<http://cbmi.med.harvard.edu/asdphenotype#Class_262> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_262> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_156> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_263
+<http://cbmi.med.harvard.edu/asdphenotype#Class_263> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_263> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_54> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_268
+<http://cbmi.med.harvard.edu/asdphenotype#Class_268> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_268> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_54> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_27
+<http://cbmi.med.harvard.edu/asdphenotype#Class_27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_27> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_245> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_270
+<http://cbmi.med.harvard.edu/asdphenotype#Class_270> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_270> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_155> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_271
+<http://cbmi.med.harvard.edu/asdphenotype#Class_271> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_271> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_263> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_272
+<http://cbmi.med.harvard.edu/asdphenotype#Class_272> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_272> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_177> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_273
+<http://cbmi.med.harvard.edu/asdphenotype#Class_273> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_273> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_177> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_274
+<http://cbmi.med.harvard.edu/asdphenotype#Class_274> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_274> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_176> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_275
+<http://cbmi.med.harvard.edu/asdphenotype#Class_275> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_275> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_176> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_276
+<http://cbmi.med.harvard.edu/asdphenotype#Class_276> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_276> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_665> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_279
+<http://cbmi.med.harvard.edu/asdphenotype#Class_279> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_279> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_307> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_28
+<http://cbmi.med.harvard.edu/asdphenotype#Class_28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_28> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_67> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_283
+<http://cbmi.med.harvard.edu/asdphenotype#Class_283> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_283> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_153> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_284
+<http://cbmi.med.harvard.edu/asdphenotype#Class_284> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_284> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_283> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_287
+<http://cbmi.med.harvard.edu/asdphenotype#Class_287> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_287> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_66> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_288
+<http://cbmi.med.harvard.edu/asdphenotype#Class_288> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_288> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_262> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_293
+<http://cbmi.med.harvard.edu/asdphenotype#Class_293> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_293> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_270> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_297
+<http://cbmi.med.harvard.edu/asdphenotype#Class_297> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_297> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_6> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_299
+<http://cbmi.med.harvard.edu/asdphenotype#Class_299> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_299> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_30> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_3
+<http://cbmi.med.harvard.edu/asdphenotype#Class_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_30> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_30
+<http://cbmi.med.harvard.edu/asdphenotype#Class_30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_30> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_155> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_301
+<http://cbmi.med.harvard.edu/asdphenotype#Class_301> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_304
+<http://cbmi.med.harvard.edu/asdphenotype#Class_304> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_304> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_15> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_306
+<http://cbmi.med.harvard.edu/asdphenotype#Class_306> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_306> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_253> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_307
+<http://cbmi.med.harvard.edu/asdphenotype#Class_307> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_307> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_177> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_308
+<http://cbmi.med.harvard.edu/asdphenotype#Class_308> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_308> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_452> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_310
+<http://cbmi.med.harvard.edu/asdphenotype#Class_310> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_310> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_60> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_312
+<http://cbmi.med.harvard.edu/asdphenotype#Class_312> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_312> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_284> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_319
+<http://cbmi.med.harvard.edu/asdphenotype#Class_319> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_319> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_140> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_32
+<http://cbmi.med.harvard.edu/asdphenotype#Class_32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_32> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_753> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_321
+<http://cbmi.med.harvard.edu/asdphenotype#Class_321> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_321> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_54> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_322
+<http://cbmi.med.harvard.edu/asdphenotype#Class_322> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_322> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_49> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_324
+<http://cbmi.med.harvard.edu/asdphenotype#Class_324> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_324> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_176> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_327
+<http://cbmi.med.harvard.edu/asdphenotype#Class_327> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_327> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_235> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_328
+<http://cbmi.med.harvard.edu/asdphenotype#Class_328> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_328> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_235> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_329
+<http://cbmi.med.harvard.edu/asdphenotype#Class_329> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_329> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_140> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_331
+<http://cbmi.med.harvard.edu/asdphenotype#Class_331> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_331> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_385> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_332
+<http://cbmi.med.harvard.edu/asdphenotype#Class_332> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_332> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_262> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_34
+<http://cbmi.med.harvard.edu/asdphenotype#Class_34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_34> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_753> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_344
+<http://cbmi.med.harvard.edu/asdphenotype#Class_344> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_344> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_96> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_348
+<http://cbmi.med.harvard.edu/asdphenotype#Class_348> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_348> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_54> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_35
+<http://cbmi.med.harvard.edu/asdphenotype#Class_35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_35> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_406> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_356
+<http://cbmi.med.harvard.edu/asdphenotype#Class_356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_356> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_253> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_357
+<http://cbmi.med.harvard.edu/asdphenotype#Class_357> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_357> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_30> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_360
+<http://cbmi.med.harvard.edu/asdphenotype#Class_360> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_360> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_177> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_365
+<http://cbmi.med.harvard.edu/asdphenotype#Class_365> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_365> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_154> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_368
+<http://cbmi.med.harvard.edu/asdphenotype#Class_368> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_368> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_529> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_37
+<http://cbmi.med.harvard.edu/asdphenotype#Class_37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_37> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_250> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_370
+<http://cbmi.med.harvard.edu/asdphenotype#Class_370> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_370> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_529> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_372
+<http://cbmi.med.harvard.edu/asdphenotype#Class_372> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_372> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_527> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_373
+<http://cbmi.med.harvard.edu/asdphenotype#Class_373> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_373> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_372> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_376
+<http://cbmi.med.harvard.edu/asdphenotype#Class_376> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_376> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_365> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_378
+<http://cbmi.med.harvard.edu/asdphenotype#Class_378> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_378> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_372> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_38
+<http://cbmi.med.harvard.edu/asdphenotype#Class_38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_38> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_406> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_381
+<http://cbmi.med.harvard.edu/asdphenotype#Class_381> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_381> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_527> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_384
+<http://cbmi.med.harvard.edu/asdphenotype#Class_384> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_384> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_148> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_385
+<http://cbmi.med.harvard.edu/asdphenotype#Class_385> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_385> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_154> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_386
+<http://cbmi.med.harvard.edu/asdphenotype#Class_386> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_386> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_385> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_387
+<http://cbmi.med.harvard.edu/asdphenotype#Class_387> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_387> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_527> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_389
+<http://cbmi.med.harvard.edu/asdphenotype#Class_389> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_389> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_376> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_39
+<http://cbmi.med.harvard.edu/asdphenotype#Class_39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_39> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_11> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_392
+<http://cbmi.med.harvard.edu/asdphenotype#Class_392> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_392> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_376> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_393
+<http://cbmi.med.harvard.edu/asdphenotype#Class_393> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_393> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_365> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_394
+<http://cbmi.med.harvard.edu/asdphenotype#Class_394> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_394> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_393> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_398
+<http://cbmi.med.harvard.edu/asdphenotype#Class_398> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_398> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_393> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_4
+<http://cbmi.med.harvard.edu/asdphenotype#Class_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_158> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_406
+<http://cbmi.med.harvard.edu/asdphenotype#Class_406> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_406> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_154> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_407
+<http://cbmi.med.harvard.edu/asdphenotype#Class_407> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_407> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_406> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_41
+<http://cbmi.med.harvard.edu/asdphenotype#Class_41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_41> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_42> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_413
+<http://cbmi.med.harvard.edu/asdphenotype#Class_413> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_413> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_517> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_42
+<http://cbmi.med.harvard.edu/asdphenotype#Class_42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_42> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_66> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_421
+<http://cbmi.med.harvard.edu/asdphenotype#Class_421> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_421> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_527> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_422
+<http://cbmi.med.harvard.edu/asdphenotype#Class_422> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_422> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_365> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_424
+<http://cbmi.med.harvard.edu/asdphenotype#Class_424> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_424> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_422> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_429
+<http://cbmi.med.harvard.edu/asdphenotype#Class_429> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_429> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_527> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_43
+<http://cbmi.med.harvard.edu/asdphenotype#Class_43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_43> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_168> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_433
+<http://cbmi.med.harvard.edu/asdphenotype#Class_433> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_433> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_422> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_437
+<http://cbmi.med.harvard.edu/asdphenotype#Class_437> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_437> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_422> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_442
+<http://cbmi.med.harvard.edu/asdphenotype#Class_442> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_442> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_365> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_449
+<http://cbmi.med.harvard.edu/asdphenotype#Class_449> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_449> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_519> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_45
+<http://cbmi.med.harvard.edu/asdphenotype#Class_45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_45> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_189> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_452
+<http://cbmi.med.harvard.edu/asdphenotype#Class_452> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_452> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_455> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_454
+<http://cbmi.med.harvard.edu/asdphenotype#Class_454> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_454> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_163> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_455
+<http://cbmi.med.harvard.edu/asdphenotype#Class_455> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_455> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_365> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_457
+<http://cbmi.med.harvard.edu/asdphenotype#Class_457> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_457> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_455> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_458
+<http://cbmi.med.harvard.edu/asdphenotype#Class_458> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_458> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_457> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_460
+<http://cbmi.med.harvard.edu/asdphenotype#Class_460> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_460> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_457> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_464
+<http://cbmi.med.harvard.edu/asdphenotype#Class_464> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_464> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_455> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_466
+<http://cbmi.med.harvard.edu/asdphenotype#Class_466> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_466> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_163> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_467
+<http://cbmi.med.harvard.edu/asdphenotype#Class_467> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_467> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_163> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_468
+<http://cbmi.med.harvard.edu/asdphenotype#Class_468> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_468> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_455> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_47
+<http://cbmi.med.harvard.edu/asdphenotype#Class_47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_47> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_6> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_470
+<http://cbmi.med.harvard.edu/asdphenotype#Class_470> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_470> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_468> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_471
+<http://cbmi.med.harvard.edu/asdphenotype#Class_471> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_471> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_468> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_487
+<http://cbmi.med.harvard.edu/asdphenotype#Class_487> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_487> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_365> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_488
+<http://cbmi.med.harvard.edu/asdphenotype#Class_488> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_488> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_487> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_49
+<http://cbmi.med.harvard.edu/asdphenotype#Class_49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_49> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_538> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_494
+<http://cbmi.med.harvard.edu/asdphenotype#Class_494> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_494> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_216> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_496
+<http://cbmi.med.harvard.edu/asdphenotype#Class_496> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_496> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_494> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_497
+<http://cbmi.med.harvard.edu/asdphenotype#Class_497> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_497> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_494> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_5
+<http://cbmi.med.harvard.edu/asdphenotype#Class_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_386> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_50
+<http://cbmi.med.harvard.edu/asdphenotype#Class_50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_50> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_174> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_500
+<http://cbmi.med.harvard.edu/asdphenotype#Class_500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_452> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_502
+<http://cbmi.med.harvard.edu/asdphenotype#Class_502> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_502> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_517> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_503
+<http://cbmi.med.harvard.edu/asdphenotype#Class_503> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_503> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_517> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_505
+<http://cbmi.med.harvard.edu/asdphenotype#Class_505> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_505> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_517> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_506
+<http://cbmi.med.harvard.edu/asdphenotype#Class_506> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_506> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_376> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_508
+<http://cbmi.med.harvard.edu/asdphenotype#Class_508> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_508> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_455> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_516
+<http://cbmi.med.harvard.edu/asdphenotype#Class_516> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_516> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_365> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_517
+<http://cbmi.med.harvard.edu/asdphenotype#Class_517> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_517> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_216> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_519
+<http://cbmi.med.harvard.edu/asdphenotype#Class_519> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_519> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_517> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_52
+<http://cbmi.med.harvard.edu/asdphenotype#Class_52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_52> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_174> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_522
+<http://cbmi.med.harvard.edu/asdphenotype#Class_522> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_522> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_386> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_523
+<http://cbmi.med.harvard.edu/asdphenotype#Class_523> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_523> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_517> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_524
+<http://cbmi.med.harvard.edu/asdphenotype#Class_524> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_524> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_519> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_527
+<http://cbmi.med.harvard.edu/asdphenotype#Class_527> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_527> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_365> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_529
+<http://cbmi.med.harvard.edu/asdphenotype#Class_529> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_529> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_155> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_53
+<http://cbmi.med.harvard.edu/asdphenotype#Class_53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_53> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_174> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_531
+<http://cbmi.med.harvard.edu/asdphenotype#Class_531> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_531> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_155> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_532
+<http://cbmi.med.harvard.edu/asdphenotype#Class_532> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_532> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_49> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_534
+<http://cbmi.med.harvard.edu/asdphenotype#Class_534> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_534> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_15> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_535
+<http://cbmi.med.harvard.edu/asdphenotype#Class_535> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_535> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_176> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_538
+<http://cbmi.med.harvard.edu/asdphenotype#Class_538> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_538> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_153> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_54
+<http://cbmi.med.harvard.edu/asdphenotype#Class_54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_54> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_538> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_545
+<http://cbmi.med.harvard.edu/asdphenotype#Class_545> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_545> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_538> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_547
+<http://cbmi.med.harvard.edu/asdphenotype#Class_547> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_547> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_67> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_549
+<http://cbmi.med.harvard.edu/asdphenotype#Class_549> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_549> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_385> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_56
+<http://cbmi.med.harvard.edu/asdphenotype#Class_56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_56> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_174> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_57
+<http://cbmi.med.harvard.edu/asdphenotype#Class_57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_57> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_168> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_579
+<http://cbmi.med.harvard.edu/asdphenotype#Class_579> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_579> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_304> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_58
+<http://cbmi.med.harvard.edu/asdphenotype#Class_58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_58> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_162> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_581
+<http://cbmi.med.harvard.edu/asdphenotype#Class_581> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_581> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_263> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_585
+<http://cbmi.med.harvard.edu/asdphenotype#Class_585> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_585> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_148> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_6
+<http://cbmi.med.harvard.edu/asdphenotype#Class_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_6> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_166> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_60
+<http://cbmi.med.harvard.edu/asdphenotype#Class_60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_60> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_283> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_601
+<http://cbmi.med.harvard.edu/asdphenotype#Class_601> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_601> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_385> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_61
+<http://cbmi.med.harvard.edu/asdphenotype#Class_61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_61> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_60> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_62
+<http://cbmi.med.harvard.edu/asdphenotype#Class_62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_62> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_60> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_629
+<http://cbmi.med.harvard.edu/asdphenotype#Class_629> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_629> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_148> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_63
+<http://cbmi.med.harvard.edu/asdphenotype#Class_63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_63> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_365> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_634
+<http://cbmi.med.harvard.edu/asdphenotype#Class_634> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_634> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_385> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_638
+<http://cbmi.med.harvard.edu/asdphenotype#Class_638> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_638> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_385> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_64
+<http://cbmi.med.harvard.edu/asdphenotype#Class_64> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_64> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_304> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_656
+<http://cbmi.med.harvard.edu/asdphenotype#Class_656> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_656> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_384> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_66
+<http://cbmi.med.harvard.edu/asdphenotype#Class_66> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_66> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_153> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_665
+<http://cbmi.med.harvard.edu/asdphenotype#Class_665> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_665> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_406> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_67
+<http://cbmi.med.harvard.edu/asdphenotype#Class_67> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_67> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_283> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_677
+<http://cbmi.med.harvard.edu/asdphenotype#Class_677> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_677> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_665> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_682
+<http://cbmi.med.harvard.edu/asdphenotype#Class_682> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_682> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_406> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_685
+<http://cbmi.med.harvard.edu/asdphenotype#Class_685> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_685> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_665> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_689
+<http://cbmi.med.harvard.edu/asdphenotype#Class_689> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_689> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_138> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_7
+<http://cbmi.med.harvard.edu/asdphenotype#Class_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_7> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_386> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_700
+<http://cbmi.med.harvard.edu/asdphenotype#Class_700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_385> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_716
+<http://cbmi.med.harvard.edu/asdphenotype#Class_716> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_716> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_455> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_724
+<http://cbmi.med.harvard.edu/asdphenotype#Class_724> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_724> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_753> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_734
+<http://cbmi.med.harvard.edu/asdphenotype#Class_734> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_734> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_384> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_737
+<http://cbmi.med.harvard.edu/asdphenotype#Class_737> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_737> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_384> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_741
+<http://cbmi.med.harvard.edu/asdphenotype#Class_741> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_741> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_487> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_742
+<http://cbmi.med.harvard.edu/asdphenotype#Class_742> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_742> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_138> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_75
+<http://cbmi.med.harvard.edu/asdphenotype#Class_75> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_75> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_307> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_753
+<http://cbmi.med.harvard.edu/asdphenotype#Class_753> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_753> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_152> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_755
+<http://cbmi.med.harvard.edu/asdphenotype#Class_755> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_755> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_158> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_756
+<http://cbmi.med.harvard.edu/asdphenotype#Class_756> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_756> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_755> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_757
+<http://cbmi.med.harvard.edu/asdphenotype#Class_757> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_757> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_755> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_76
+<http://cbmi.med.harvard.edu/asdphenotype#Class_76> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_76> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_54> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_777
+<http://cbmi.med.harvard.edu/asdphenotype#Class_777> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_777> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_163> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_782
+<http://cbmi.med.harvard.edu/asdphenotype#Class_782> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_782> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_455> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_8
+<http://cbmi.med.harvard.edu/asdphenotype#Class_8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_8> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_165> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_82
+<http://cbmi.med.harvard.edu/asdphenotype#Class_82> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_82> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_66> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_84
+<http://cbmi.med.harvard.edu/asdphenotype#Class_84> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_84> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_245> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_85
+<http://cbmi.med.harvard.edu/asdphenotype#Class_85> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_85> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_67> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_86
+<http://cbmi.med.harvard.edu/asdphenotype#Class_86> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_86> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_148> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_87
+<http://cbmi.med.harvard.edu/asdphenotype#Class_87> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_87> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_532> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_88
+<http://cbmi.med.harvard.edu/asdphenotype#Class_88> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_88> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_11> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_9
+<http://cbmi.med.harvard.edu/asdphenotype#Class_9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_9> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_8> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_90
+<http://cbmi.med.harvard.edu/asdphenotype#Class_90> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_90> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_85> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_92
+<http://cbmi.med.harvard.edu/asdphenotype#Class_92> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_92> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_270> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_93
+<http://cbmi.med.harvard.edu/asdphenotype#Class_93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_93> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_250> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_96
+<http://cbmi.med.harvard.edu/asdphenotype#Class_96> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_96> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_162> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_97
+<http://cbmi.med.harvard.edu/asdphenotype#Class_97> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_97> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_154> .
+# 
+# http://cbmi.med.harvard.edu/asdphenotype#Class_99
+<http://cbmi.med.harvard.edu/asdphenotype#Class_99> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cbmi.med.harvard.edu/asdphenotype#Class_99> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cbmi.med.harvard.edu/asdphenotype#Class_283> .
+# 
+# Generated by the OWL API (version 5.0.4.20161016-1358) https://github.com/owlcs/owlapi/

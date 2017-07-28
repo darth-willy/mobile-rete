@@ -1,0 +1,2612 @@
+@prefix : <http://purl.obolibrary.org/obo/mixscv.minimal-information-about-any-sequence-mixs-controlled-vocabularies.2.orig> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://purl.obolibrary.org/obo/mixscv.minimal-information-about-any-sequence-mixs-controlled-vocabularies.2.orig> a owl:Ontology .
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/MVC_0000000
+
+<http://purl.obolibrary.org/obo/MVC_0000000> a owl:Class .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000001
+
+<http://purl.obolibrary.org/obo/MVC_0000001> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000000> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000002
+
+<http://purl.obolibrary.org/obo/MVC_0000002> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000000> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000003
+
+<http://purl.obolibrary.org/obo/MVC_0000003> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000000> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000004
+
+<http://purl.obolibrary.org/obo/MVC_0000004> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000000> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000005
+
+<http://purl.obolibrary.org/obo/MVC_0000005> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000000> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000006
+
+<http://purl.obolibrary.org/obo/MVC_0000006> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000000> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000007
+
+<http://purl.obolibrary.org/obo/MVC_0000007> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000000> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000008
+
+<http://purl.obolibrary.org/obo/MVC_0000008> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000000> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000009
+
+<http://purl.obolibrary.org/obo/MVC_0000009> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000000> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000010
+
+<http://purl.obolibrary.org/obo/MVC_0000010> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000000> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000011
+
+<http://purl.obolibrary.org/obo/MVC_0000011> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000000> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000012
+
+<http://purl.obolibrary.org/obo/MVC_0000012> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000000> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000013
+
+<http://purl.obolibrary.org/obo/MVC_0000013> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000000> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000014
+
+<http://purl.obolibrary.org/obo/MVC_0000014> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000000> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000015
+
+<http://purl.obolibrary.org/obo/MVC_0000015> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000000> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000016
+
+<http://purl.obolibrary.org/obo/MVC_0000016> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000000> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000017
+
+<http://purl.obolibrary.org/obo/MVC_0000017> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000000> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000018
+
+<http://purl.obolibrary.org/obo/MVC_0000018> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000000> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000019
+
+<http://purl.obolibrary.org/obo/MVC_0000019> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000000> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000020
+
+<http://purl.obolibrary.org/obo/MVC_0000020> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000000> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000021
+
+<http://purl.obolibrary.org/obo/MVC_0000021> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000000> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000022
+
+<http://purl.obolibrary.org/obo/MVC_0000022> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000000> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000023
+
+<http://purl.obolibrary.org/obo/MVC_0000023> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000000> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000024
+
+<http://purl.obolibrary.org/obo/MVC_0000024> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000000> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000025
+
+<http://purl.obolibrary.org/obo/MVC_0000025> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000012> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000026
+
+<http://purl.obolibrary.org/obo/MVC_0000026> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000012> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000027
+
+<http://purl.obolibrary.org/obo/MVC_0000027> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000012> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000028
+
+<http://purl.obolibrary.org/obo/MVC_0000028> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000012> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000029
+
+<http://purl.obolibrary.org/obo/MVC_0000029> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000012> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000030
+
+<http://purl.obolibrary.org/obo/MVC_0000030> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000012> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000031
+
+<http://purl.obolibrary.org/obo/MVC_0000031> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000012> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000032
+
+<http://purl.obolibrary.org/obo/MVC_0000032> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000006> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000033
+
+<http://purl.obolibrary.org/obo/MVC_0000033> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000006> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000034
+
+<http://purl.obolibrary.org/obo/MVC_0000034> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000006> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000035
+
+<http://purl.obolibrary.org/obo/MVC_0000035> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000006> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000036
+
+<http://purl.obolibrary.org/obo/MVC_0000036> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000006> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000037
+
+<http://purl.obolibrary.org/obo/MVC_0000037> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000006> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000038
+
+<http://purl.obolibrary.org/obo/MVC_0000038> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000006> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000039
+
+<http://purl.obolibrary.org/obo/MVC_0000039> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000006> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000040
+
+<http://purl.obolibrary.org/obo/MVC_0000040> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000005> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000041
+
+<http://purl.obolibrary.org/obo/MVC_0000041> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000005> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000042
+
+<http://purl.obolibrary.org/obo/MVC_0000042> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000005> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000043
+
+<http://purl.obolibrary.org/obo/MVC_0000043> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000005> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000044
+
+<http://purl.obolibrary.org/obo/MVC_0000044> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000005> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000045
+
+<http://purl.obolibrary.org/obo/MVC_0000045> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000005> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000046
+
+<http://purl.obolibrary.org/obo/MVC_0000046> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000016> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000047
+
+<http://purl.obolibrary.org/obo/MVC_0000047> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000016> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000048
+
+<http://purl.obolibrary.org/obo/MVC_0000048> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000019> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000049
+
+<http://purl.obolibrary.org/obo/MVC_0000049> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000019> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000050
+
+<http://purl.obolibrary.org/obo/MVC_0000050> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000019> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000051
+
+<http://purl.obolibrary.org/obo/MVC_0000051> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000019> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000052
+
+<http://purl.obolibrary.org/obo/MVC_0000052> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000019> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000053
+
+<http://purl.obolibrary.org/obo/MVC_0000053> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000019> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000054
+
+<http://purl.obolibrary.org/obo/MVC_0000054> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000023> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000055
+
+<http://purl.obolibrary.org/obo/MVC_0000055> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000023> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000056
+
+<http://purl.obolibrary.org/obo/MVC_0000056> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000023> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000057
+
+<http://purl.obolibrary.org/obo/MVC_0000057> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000009> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000058
+
+<http://purl.obolibrary.org/obo/MVC_0000058> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000009> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000059
+
+<http://purl.obolibrary.org/obo/MVC_0000059> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000009> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000060
+
+<http://purl.obolibrary.org/obo/MVC_0000060> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000009> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000061
+
+<http://purl.obolibrary.org/obo/MVC_0000061> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000009> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000062
+
+<http://purl.obolibrary.org/obo/MVC_0000062> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000009> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000063
+
+<http://purl.obolibrary.org/obo/MVC_0000063> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000009> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000064
+
+<http://purl.obolibrary.org/obo/MVC_0000064> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000014> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000065
+
+<http://purl.obolibrary.org/obo/MVC_0000065> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000014> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000066
+
+<http://purl.obolibrary.org/obo/MVC_0000066> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000013> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000067
+
+<http://purl.obolibrary.org/obo/MVC_0000067> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000013> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000068
+
+<http://purl.obolibrary.org/obo/MVC_0000068> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000013> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000069
+
+<http://purl.obolibrary.org/obo/MVC_0000069> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000013> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000070
+
+<http://purl.obolibrary.org/obo/MVC_0000070> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000013> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000071
+
+<http://purl.obolibrary.org/obo/MVC_0000071> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000013> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000072
+
+<http://purl.obolibrary.org/obo/MVC_0000072> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000013> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000073
+
+<http://purl.obolibrary.org/obo/MVC_0000073> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000013> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000074
+
+<http://purl.obolibrary.org/obo/MVC_0000074> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000013> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000075
+
+<http://purl.obolibrary.org/obo/MVC_0000075> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000013> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000076
+
+<http://purl.obolibrary.org/obo/MVC_0000076> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000013> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000077
+
+<http://purl.obolibrary.org/obo/MVC_0000077> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000013> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000078
+
+<http://purl.obolibrary.org/obo/MVC_0000078> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000013> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000079
+
+<http://purl.obolibrary.org/obo/MVC_0000079> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000013> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000080
+
+<http://purl.obolibrary.org/obo/MVC_0000080> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000013> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000081
+
+<http://purl.obolibrary.org/obo/MVC_0000081> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000013> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000082
+
+<http://purl.obolibrary.org/obo/MVC_0000082> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000013> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000083
+
+<http://purl.obolibrary.org/obo/MVC_0000083> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000013> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000084
+
+<http://purl.obolibrary.org/obo/MVC_0000084> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000013> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000085
+
+<http://purl.obolibrary.org/obo/MVC_0000085> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000013> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000086
+
+<http://purl.obolibrary.org/obo/MVC_0000086> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000013> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000087
+
+<http://purl.obolibrary.org/obo/MVC_0000087> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000013> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000088
+
+<http://purl.obolibrary.org/obo/MVC_0000088> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000089
+
+<http://purl.obolibrary.org/obo/MVC_0000089> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000090
+
+<http://purl.obolibrary.org/obo/MVC_0000090> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000091
+
+<http://purl.obolibrary.org/obo/MVC_0000091> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000092
+
+<http://purl.obolibrary.org/obo/MVC_0000092> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000093
+
+<http://purl.obolibrary.org/obo/MVC_0000093> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000094
+
+<http://purl.obolibrary.org/obo/MVC_0000094> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000095
+
+<http://purl.obolibrary.org/obo/MVC_0000095> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000096
+
+<http://purl.obolibrary.org/obo/MVC_0000096> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000097
+
+<http://purl.obolibrary.org/obo/MVC_0000097> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000098
+
+<http://purl.obolibrary.org/obo/MVC_0000098> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000099
+
+<http://purl.obolibrary.org/obo/MVC_0000099> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000100
+
+<http://purl.obolibrary.org/obo/MVC_0000100> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000101
+
+<http://purl.obolibrary.org/obo/MVC_0000101> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000102
+
+<http://purl.obolibrary.org/obo/MVC_0000102> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000103
+
+<http://purl.obolibrary.org/obo/MVC_0000103> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000104
+
+<http://purl.obolibrary.org/obo/MVC_0000104> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000105
+
+<http://purl.obolibrary.org/obo/MVC_0000105> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000106
+
+<http://purl.obolibrary.org/obo/MVC_0000106> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000107
+
+<http://purl.obolibrary.org/obo/MVC_0000107> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000108
+
+<http://purl.obolibrary.org/obo/MVC_0000108> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000109
+
+<http://purl.obolibrary.org/obo/MVC_0000109> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000110
+
+<http://purl.obolibrary.org/obo/MVC_0000110> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000111
+
+<http://purl.obolibrary.org/obo/MVC_0000111> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000112
+
+<http://purl.obolibrary.org/obo/MVC_0000112> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000113
+
+<http://purl.obolibrary.org/obo/MVC_0000113> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000114
+
+<http://purl.obolibrary.org/obo/MVC_0000114> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000115
+
+<http://purl.obolibrary.org/obo/MVC_0000115> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000116
+
+<http://purl.obolibrary.org/obo/MVC_0000116> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000117
+
+<http://purl.obolibrary.org/obo/MVC_0000117> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000118
+
+<http://purl.obolibrary.org/obo/MVC_0000118> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000119
+
+<http://purl.obolibrary.org/obo/MVC_0000119> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000120
+
+<http://purl.obolibrary.org/obo/MVC_0000120> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000121
+
+<http://purl.obolibrary.org/obo/MVC_0000121> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000122
+
+<http://purl.obolibrary.org/obo/MVC_0000122> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000123
+
+<http://purl.obolibrary.org/obo/MVC_0000123> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000124
+
+<http://purl.obolibrary.org/obo/MVC_0000124> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000125
+
+<http://purl.obolibrary.org/obo/MVC_0000125> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000126
+
+<http://purl.obolibrary.org/obo/MVC_0000126> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000127
+
+<http://purl.obolibrary.org/obo/MVC_0000127> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000128
+
+<http://purl.obolibrary.org/obo/MVC_0000128> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000129
+
+<http://purl.obolibrary.org/obo/MVC_0000129> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000130
+
+<http://purl.obolibrary.org/obo/MVC_0000130> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000131
+
+<http://purl.obolibrary.org/obo/MVC_0000131> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000132
+
+<http://purl.obolibrary.org/obo/MVC_0000132> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000133
+
+<http://purl.obolibrary.org/obo/MVC_0000133> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000134
+
+<http://purl.obolibrary.org/obo/MVC_0000134> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000135
+
+<http://purl.obolibrary.org/obo/MVC_0000135> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000015> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000136
+
+<http://purl.obolibrary.org/obo/MVC_0000136> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000137
+
+<http://purl.obolibrary.org/obo/MVC_0000137> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000138
+
+<http://purl.obolibrary.org/obo/MVC_0000138> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000139
+
+<http://purl.obolibrary.org/obo/MVC_0000139> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000140
+
+<http://purl.obolibrary.org/obo/MVC_0000140> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000141
+
+<http://purl.obolibrary.org/obo/MVC_0000141> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000142
+
+<http://purl.obolibrary.org/obo/MVC_0000142> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000143
+
+<http://purl.obolibrary.org/obo/MVC_0000143> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000144
+
+<http://purl.obolibrary.org/obo/MVC_0000144> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000145
+
+<http://purl.obolibrary.org/obo/MVC_0000145> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000146
+
+<http://purl.obolibrary.org/obo/MVC_0000146> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000147
+
+<http://purl.obolibrary.org/obo/MVC_0000147> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000148
+
+<http://purl.obolibrary.org/obo/MVC_0000148> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000149
+
+<http://purl.obolibrary.org/obo/MVC_0000149> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000150
+
+<http://purl.obolibrary.org/obo/MVC_0000150> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000151
+
+<http://purl.obolibrary.org/obo/MVC_0000151> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000152
+
+<http://purl.obolibrary.org/obo/MVC_0000152> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000153
+
+<http://purl.obolibrary.org/obo/MVC_0000153> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000154
+
+<http://purl.obolibrary.org/obo/MVC_0000154> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000155
+
+<http://purl.obolibrary.org/obo/MVC_0000155> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000156
+
+<http://purl.obolibrary.org/obo/MVC_0000156> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000157
+
+<http://purl.obolibrary.org/obo/MVC_0000157> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000158
+
+<http://purl.obolibrary.org/obo/MVC_0000158> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000159
+
+<http://purl.obolibrary.org/obo/MVC_0000159> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000160
+
+<http://purl.obolibrary.org/obo/MVC_0000160> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000161
+
+<http://purl.obolibrary.org/obo/MVC_0000161> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000162
+
+<http://purl.obolibrary.org/obo/MVC_0000162> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000163
+
+<http://purl.obolibrary.org/obo/MVC_0000163> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000164
+
+<http://purl.obolibrary.org/obo/MVC_0000164> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000165
+
+<http://purl.obolibrary.org/obo/MVC_0000165> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000166
+
+<http://purl.obolibrary.org/obo/MVC_0000166> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000167
+
+<http://purl.obolibrary.org/obo/MVC_0000167> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000168
+
+<http://purl.obolibrary.org/obo/MVC_0000168> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000169
+
+<http://purl.obolibrary.org/obo/MVC_0000169> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000170
+
+<http://purl.obolibrary.org/obo/MVC_0000170> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000171
+
+<http://purl.obolibrary.org/obo/MVC_0000171> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000172
+
+<http://purl.obolibrary.org/obo/MVC_0000172> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000173
+
+<http://purl.obolibrary.org/obo/MVC_0000173> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000174
+
+<http://purl.obolibrary.org/obo/MVC_0000174> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000175
+
+<http://purl.obolibrary.org/obo/MVC_0000175> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000176
+
+<http://purl.obolibrary.org/obo/MVC_0000176> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000177
+
+<http://purl.obolibrary.org/obo/MVC_0000177> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000178
+
+<http://purl.obolibrary.org/obo/MVC_0000178> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000179
+
+<http://purl.obolibrary.org/obo/MVC_0000179> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000180
+
+<http://purl.obolibrary.org/obo/MVC_0000180> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000181
+
+<http://purl.obolibrary.org/obo/MVC_0000181> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000182
+
+<http://purl.obolibrary.org/obo/MVC_0000182> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000183
+
+<http://purl.obolibrary.org/obo/MVC_0000183> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000184
+
+<http://purl.obolibrary.org/obo/MVC_0000184> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000185
+
+<http://purl.obolibrary.org/obo/MVC_0000185> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000186
+
+<http://purl.obolibrary.org/obo/MVC_0000186> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000187
+
+<http://purl.obolibrary.org/obo/MVC_0000187> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000188
+
+<http://purl.obolibrary.org/obo/MVC_0000188> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000189
+
+<http://purl.obolibrary.org/obo/MVC_0000189> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000190
+
+<http://purl.obolibrary.org/obo/MVC_0000190> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000191
+
+<http://purl.obolibrary.org/obo/MVC_0000191> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000192
+
+<http://purl.obolibrary.org/obo/MVC_0000192> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000193
+
+<http://purl.obolibrary.org/obo/MVC_0000193> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000194
+
+<http://purl.obolibrary.org/obo/MVC_0000194> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000195
+
+<http://purl.obolibrary.org/obo/MVC_0000195> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000196
+
+<http://purl.obolibrary.org/obo/MVC_0000196> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000197
+
+<http://purl.obolibrary.org/obo/MVC_0000197> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000198
+
+<http://purl.obolibrary.org/obo/MVC_0000198> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000199
+
+<http://purl.obolibrary.org/obo/MVC_0000199> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000200
+
+<http://purl.obolibrary.org/obo/MVC_0000200> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000201
+
+<http://purl.obolibrary.org/obo/MVC_0000201> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000202
+
+<http://purl.obolibrary.org/obo/MVC_0000202> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000203
+
+<http://purl.obolibrary.org/obo/MVC_0000203> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000204
+
+<http://purl.obolibrary.org/obo/MVC_0000204> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000205
+
+<http://purl.obolibrary.org/obo/MVC_0000205> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000206
+
+<http://purl.obolibrary.org/obo/MVC_0000206> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000207
+
+<http://purl.obolibrary.org/obo/MVC_0000207> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000208
+
+<http://purl.obolibrary.org/obo/MVC_0000208> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000209
+
+<http://purl.obolibrary.org/obo/MVC_0000209> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000210
+
+<http://purl.obolibrary.org/obo/MVC_0000210> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000211
+
+<http://purl.obolibrary.org/obo/MVC_0000211> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000212
+
+<http://purl.obolibrary.org/obo/MVC_0000212> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000213
+
+<http://purl.obolibrary.org/obo/MVC_0000213> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000214
+
+<http://purl.obolibrary.org/obo/MVC_0000214> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000215
+
+<http://purl.obolibrary.org/obo/MVC_0000215> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000216
+
+<http://purl.obolibrary.org/obo/MVC_0000216> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000217
+
+<http://purl.obolibrary.org/obo/MVC_0000217> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000218
+
+<http://purl.obolibrary.org/obo/MVC_0000218> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000219
+
+<http://purl.obolibrary.org/obo/MVC_0000219> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000220
+
+<http://purl.obolibrary.org/obo/MVC_0000220> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000221
+
+<http://purl.obolibrary.org/obo/MVC_0000221> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000222
+
+<http://purl.obolibrary.org/obo/MVC_0000222> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000223
+
+<http://purl.obolibrary.org/obo/MVC_0000223> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000224
+
+<http://purl.obolibrary.org/obo/MVC_0000224> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000225
+
+<http://purl.obolibrary.org/obo/MVC_0000225> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000226
+
+<http://purl.obolibrary.org/obo/MVC_0000226> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000227
+
+<http://purl.obolibrary.org/obo/MVC_0000227> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000228
+
+<http://purl.obolibrary.org/obo/MVC_0000228> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000229
+
+<http://purl.obolibrary.org/obo/MVC_0000229> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000230
+
+<http://purl.obolibrary.org/obo/MVC_0000230> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000231
+
+<http://purl.obolibrary.org/obo/MVC_0000231> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000232
+
+<http://purl.obolibrary.org/obo/MVC_0000232> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000233
+
+<http://purl.obolibrary.org/obo/MVC_0000233> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000234
+
+<http://purl.obolibrary.org/obo/MVC_0000234> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000235
+
+<http://purl.obolibrary.org/obo/MVC_0000235> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000236
+
+<http://purl.obolibrary.org/obo/MVC_0000236> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000237
+
+<http://purl.obolibrary.org/obo/MVC_0000237> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000238
+
+<http://purl.obolibrary.org/obo/MVC_0000238> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000239
+
+<http://purl.obolibrary.org/obo/MVC_0000239> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000240
+
+<http://purl.obolibrary.org/obo/MVC_0000240> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000241
+
+<http://purl.obolibrary.org/obo/MVC_0000241> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000242
+
+<http://purl.obolibrary.org/obo/MVC_0000242> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000243
+
+<http://purl.obolibrary.org/obo/MVC_0000243> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000244
+
+<http://purl.obolibrary.org/obo/MVC_0000244> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000245
+
+<http://purl.obolibrary.org/obo/MVC_0000245> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000246
+
+<http://purl.obolibrary.org/obo/MVC_0000246> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000247
+
+<http://purl.obolibrary.org/obo/MVC_0000247> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000248
+
+<http://purl.obolibrary.org/obo/MVC_0000248> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000249
+
+<http://purl.obolibrary.org/obo/MVC_0000249> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000250
+
+<http://purl.obolibrary.org/obo/MVC_0000250> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000251
+
+<http://purl.obolibrary.org/obo/MVC_0000251> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000252
+
+<http://purl.obolibrary.org/obo/MVC_0000252> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000253
+
+<http://purl.obolibrary.org/obo/MVC_0000253> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000254
+
+<http://purl.obolibrary.org/obo/MVC_0000254> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000255
+
+<http://purl.obolibrary.org/obo/MVC_0000255> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000256
+
+<http://purl.obolibrary.org/obo/MVC_0000256> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000257
+
+<http://purl.obolibrary.org/obo/MVC_0000257> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000258
+
+<http://purl.obolibrary.org/obo/MVC_0000258> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000259
+
+<http://purl.obolibrary.org/obo/MVC_0000259> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000260
+
+<http://purl.obolibrary.org/obo/MVC_0000260> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000261
+
+<http://purl.obolibrary.org/obo/MVC_0000261> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000262
+
+<http://purl.obolibrary.org/obo/MVC_0000262> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000263
+
+<http://purl.obolibrary.org/obo/MVC_0000263> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000264
+
+<http://purl.obolibrary.org/obo/MVC_0000264> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000265
+
+<http://purl.obolibrary.org/obo/MVC_0000265> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000266
+
+<http://purl.obolibrary.org/obo/MVC_0000266> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000267
+
+<http://purl.obolibrary.org/obo/MVC_0000267> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000268
+
+<http://purl.obolibrary.org/obo/MVC_0000268> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000269
+
+<http://purl.obolibrary.org/obo/MVC_0000269> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000270
+
+<http://purl.obolibrary.org/obo/MVC_0000270> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000271
+
+<http://purl.obolibrary.org/obo/MVC_0000271> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000272
+
+<http://purl.obolibrary.org/obo/MVC_0000272> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000273
+
+<http://purl.obolibrary.org/obo/MVC_0000273> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000274
+
+<http://purl.obolibrary.org/obo/MVC_0000274> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000275
+
+<http://purl.obolibrary.org/obo/MVC_0000275> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000276
+
+<http://purl.obolibrary.org/obo/MVC_0000276> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000277
+
+<http://purl.obolibrary.org/obo/MVC_0000277> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000278
+
+<http://purl.obolibrary.org/obo/MVC_0000278> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000279
+
+<http://purl.obolibrary.org/obo/MVC_0000279> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000280
+
+<http://purl.obolibrary.org/obo/MVC_0000280> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000281
+
+<http://purl.obolibrary.org/obo/MVC_0000281> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000282
+
+<http://purl.obolibrary.org/obo/MVC_0000282> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000283
+
+<http://purl.obolibrary.org/obo/MVC_0000283> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000284
+
+<http://purl.obolibrary.org/obo/MVC_0000284> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000285
+
+<http://purl.obolibrary.org/obo/MVC_0000285> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000286
+
+<http://purl.obolibrary.org/obo/MVC_0000286> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000287
+
+<http://purl.obolibrary.org/obo/MVC_0000287> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000288
+
+<http://purl.obolibrary.org/obo/MVC_0000288> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000289
+
+<http://purl.obolibrary.org/obo/MVC_0000289> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000290
+
+<http://purl.obolibrary.org/obo/MVC_0000290> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000291
+
+<http://purl.obolibrary.org/obo/MVC_0000291> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000292
+
+<http://purl.obolibrary.org/obo/MVC_0000292> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000293
+
+<http://purl.obolibrary.org/obo/MVC_0000293> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000294
+
+<http://purl.obolibrary.org/obo/MVC_0000294> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000295
+
+<http://purl.obolibrary.org/obo/MVC_0000295> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000296
+
+<http://purl.obolibrary.org/obo/MVC_0000296> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000297
+
+<http://purl.obolibrary.org/obo/MVC_0000297> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000298
+
+<http://purl.obolibrary.org/obo/MVC_0000298> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000299
+
+<http://purl.obolibrary.org/obo/MVC_0000299> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000300
+
+<http://purl.obolibrary.org/obo/MVC_0000300> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000301
+
+<http://purl.obolibrary.org/obo/MVC_0000301> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000302
+
+<http://purl.obolibrary.org/obo/MVC_0000302> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000303
+
+<http://purl.obolibrary.org/obo/MVC_0000303> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000304
+
+<http://purl.obolibrary.org/obo/MVC_0000304> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000305
+
+<http://purl.obolibrary.org/obo/MVC_0000305> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000306
+
+<http://purl.obolibrary.org/obo/MVC_0000306> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000307
+
+<http://purl.obolibrary.org/obo/MVC_0000307> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000308
+
+<http://purl.obolibrary.org/obo/MVC_0000308> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000309
+
+<http://purl.obolibrary.org/obo/MVC_0000309> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000310
+
+<http://purl.obolibrary.org/obo/MVC_0000310> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000311
+
+<http://purl.obolibrary.org/obo/MVC_0000311> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000312
+
+<http://purl.obolibrary.org/obo/MVC_0000312> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000313
+
+<http://purl.obolibrary.org/obo/MVC_0000313> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000314
+
+<http://purl.obolibrary.org/obo/MVC_0000314> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000315
+
+<http://purl.obolibrary.org/obo/MVC_0000315> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000316
+
+<http://purl.obolibrary.org/obo/MVC_0000316> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000317
+
+<http://purl.obolibrary.org/obo/MVC_0000317> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000318
+
+<http://purl.obolibrary.org/obo/MVC_0000318> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000319
+
+<http://purl.obolibrary.org/obo/MVC_0000319> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000320
+
+<http://purl.obolibrary.org/obo/MVC_0000320> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000321
+
+<http://purl.obolibrary.org/obo/MVC_0000321> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000322
+
+<http://purl.obolibrary.org/obo/MVC_0000322> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000323
+
+<http://purl.obolibrary.org/obo/MVC_0000323> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000324
+
+<http://purl.obolibrary.org/obo/MVC_0000324> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000325
+
+<http://purl.obolibrary.org/obo/MVC_0000325> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000326
+
+<http://purl.obolibrary.org/obo/MVC_0000326> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000327
+
+<http://purl.obolibrary.org/obo/MVC_0000327> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000328
+
+<http://purl.obolibrary.org/obo/MVC_0000328> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000329
+
+<http://purl.obolibrary.org/obo/MVC_0000329> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000330
+
+<http://purl.obolibrary.org/obo/MVC_0000330> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000331
+
+<http://purl.obolibrary.org/obo/MVC_0000331> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000332
+
+<http://purl.obolibrary.org/obo/MVC_0000332> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000333
+
+<http://purl.obolibrary.org/obo/MVC_0000333> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000334
+
+<http://purl.obolibrary.org/obo/MVC_0000334> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000335
+
+<http://purl.obolibrary.org/obo/MVC_0000335> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000336
+
+<http://purl.obolibrary.org/obo/MVC_0000336> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000337
+
+<http://purl.obolibrary.org/obo/MVC_0000337> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000338
+
+<http://purl.obolibrary.org/obo/MVC_0000338> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000339
+
+<http://purl.obolibrary.org/obo/MVC_0000339> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000340
+
+<http://purl.obolibrary.org/obo/MVC_0000340> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000341
+
+<http://purl.obolibrary.org/obo/MVC_0000341> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000342
+
+<http://purl.obolibrary.org/obo/MVC_0000342> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000343
+
+<http://purl.obolibrary.org/obo/MVC_0000343> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000344
+
+<http://purl.obolibrary.org/obo/MVC_0000344> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000345
+
+<http://purl.obolibrary.org/obo/MVC_0000345> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000346
+
+<http://purl.obolibrary.org/obo/MVC_0000346> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000347
+
+<http://purl.obolibrary.org/obo/MVC_0000347> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000348
+
+<http://purl.obolibrary.org/obo/MVC_0000348> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000349
+
+<http://purl.obolibrary.org/obo/MVC_0000349> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000350
+
+<http://purl.obolibrary.org/obo/MVC_0000350> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000351
+
+<http://purl.obolibrary.org/obo/MVC_0000351> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000352
+
+<http://purl.obolibrary.org/obo/MVC_0000352> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000353
+
+<http://purl.obolibrary.org/obo/MVC_0000353> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000354
+
+<http://purl.obolibrary.org/obo/MVC_0000354> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000355
+
+<http://purl.obolibrary.org/obo/MVC_0000355> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000356
+
+<http://purl.obolibrary.org/obo/MVC_0000356> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000357
+
+<http://purl.obolibrary.org/obo/MVC_0000357> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000358
+
+<http://purl.obolibrary.org/obo/MVC_0000358> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000359
+
+<http://purl.obolibrary.org/obo/MVC_0000359> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000360
+
+<http://purl.obolibrary.org/obo/MVC_0000360> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000361
+
+<http://purl.obolibrary.org/obo/MVC_0000361> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000362
+
+<http://purl.obolibrary.org/obo/MVC_0000362> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000363
+
+<http://purl.obolibrary.org/obo/MVC_0000363> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000364
+
+<http://purl.obolibrary.org/obo/MVC_0000364> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000365
+
+<http://purl.obolibrary.org/obo/MVC_0000365> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000366
+
+<http://purl.obolibrary.org/obo/MVC_0000366> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000367
+
+<http://purl.obolibrary.org/obo/MVC_0000367> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000368
+
+<http://purl.obolibrary.org/obo/MVC_0000368> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000369
+
+<http://purl.obolibrary.org/obo/MVC_0000369> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000370
+
+<http://purl.obolibrary.org/obo/MVC_0000370> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000371
+
+<http://purl.obolibrary.org/obo/MVC_0000371> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000372
+
+<http://purl.obolibrary.org/obo/MVC_0000372> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000373
+
+<http://purl.obolibrary.org/obo/MVC_0000373> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000374
+
+<http://purl.obolibrary.org/obo/MVC_0000374> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000375
+
+<http://purl.obolibrary.org/obo/MVC_0000375> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000376
+
+<http://purl.obolibrary.org/obo/MVC_0000376> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000377
+
+<http://purl.obolibrary.org/obo/MVC_0000377> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000378
+
+<http://purl.obolibrary.org/obo/MVC_0000378> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000379
+
+<http://purl.obolibrary.org/obo/MVC_0000379> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000380
+
+<http://purl.obolibrary.org/obo/MVC_0000380> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000381
+
+<http://purl.obolibrary.org/obo/MVC_0000381> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000382
+
+<http://purl.obolibrary.org/obo/MVC_0000382> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000383
+
+<http://purl.obolibrary.org/obo/MVC_0000383> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000384
+
+<http://purl.obolibrary.org/obo/MVC_0000384> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000385
+
+<http://purl.obolibrary.org/obo/MVC_0000385> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000386
+
+<http://purl.obolibrary.org/obo/MVC_0000386> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000387
+
+<http://purl.obolibrary.org/obo/MVC_0000387> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000388
+
+<http://purl.obolibrary.org/obo/MVC_0000388> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000389
+
+<http://purl.obolibrary.org/obo/MVC_0000389> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000390
+
+<http://purl.obolibrary.org/obo/MVC_0000390> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000391
+
+<http://purl.obolibrary.org/obo/MVC_0000391> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000392
+
+<http://purl.obolibrary.org/obo/MVC_0000392> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000393
+
+<http://purl.obolibrary.org/obo/MVC_0000393> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000394
+
+<http://purl.obolibrary.org/obo/MVC_0000394> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000395
+
+<http://purl.obolibrary.org/obo/MVC_0000395> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000396
+
+<http://purl.obolibrary.org/obo/MVC_0000396> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000397
+
+<http://purl.obolibrary.org/obo/MVC_0000397> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000398
+
+<http://purl.obolibrary.org/obo/MVC_0000398> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000399
+
+<http://purl.obolibrary.org/obo/MVC_0000399> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000400
+
+<http://purl.obolibrary.org/obo/MVC_0000400> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000401
+
+<http://purl.obolibrary.org/obo/MVC_0000401> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000402
+
+<http://purl.obolibrary.org/obo/MVC_0000402> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000020> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000403
+
+<http://purl.obolibrary.org/obo/MVC_0000403> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000404
+
+<http://purl.obolibrary.org/obo/MVC_0000404> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000405
+
+<http://purl.obolibrary.org/obo/MVC_0000405> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000406
+
+<http://purl.obolibrary.org/obo/MVC_0000406> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000407
+
+<http://purl.obolibrary.org/obo/MVC_0000407> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000408
+
+<http://purl.obolibrary.org/obo/MVC_0000408> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000409
+
+<http://purl.obolibrary.org/obo/MVC_0000409> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000410
+
+<http://purl.obolibrary.org/obo/MVC_0000410> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000411
+
+<http://purl.obolibrary.org/obo/MVC_0000411> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000412
+
+<http://purl.obolibrary.org/obo/MVC_0000412> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000413
+
+<http://purl.obolibrary.org/obo/MVC_0000413> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000414
+
+<http://purl.obolibrary.org/obo/MVC_0000414> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000415
+
+<http://purl.obolibrary.org/obo/MVC_0000415> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000416
+
+<http://purl.obolibrary.org/obo/MVC_0000416> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000417
+
+<http://purl.obolibrary.org/obo/MVC_0000417> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000418
+
+<http://purl.obolibrary.org/obo/MVC_0000418> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000419
+
+<http://purl.obolibrary.org/obo/MVC_0000419> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000420
+
+<http://purl.obolibrary.org/obo/MVC_0000420> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000421
+
+<http://purl.obolibrary.org/obo/MVC_0000421> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000422
+
+<http://purl.obolibrary.org/obo/MVC_0000422> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000423
+
+<http://purl.obolibrary.org/obo/MVC_0000423> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000424
+
+<http://purl.obolibrary.org/obo/MVC_0000424> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000425
+
+<http://purl.obolibrary.org/obo/MVC_0000425> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000426
+
+<http://purl.obolibrary.org/obo/MVC_0000426> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000427
+
+<http://purl.obolibrary.org/obo/MVC_0000427> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000428
+
+<http://purl.obolibrary.org/obo/MVC_0000428> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000429
+
+<http://purl.obolibrary.org/obo/MVC_0000429> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000430
+
+<http://purl.obolibrary.org/obo/MVC_0000430> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000431
+
+<http://purl.obolibrary.org/obo/MVC_0000431> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000432
+
+<http://purl.obolibrary.org/obo/MVC_0000432> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000433
+
+<http://purl.obolibrary.org/obo/MVC_0000433> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000434
+
+<http://purl.obolibrary.org/obo/MVC_0000434> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000021> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000435
+
+<http://purl.obolibrary.org/obo/MVC_0000435> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000002> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000436
+
+<http://purl.obolibrary.org/obo/MVC_0000436> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000002> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000437
+
+<http://purl.obolibrary.org/obo/MVC_0000437> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000002> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000438
+
+<http://purl.obolibrary.org/obo/MVC_0000438> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000002> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000439
+
+<http://purl.obolibrary.org/obo/MVC_0000439> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000002> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000440
+
+<http://purl.obolibrary.org/obo/MVC_0000440> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000002> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000441
+
+<http://purl.obolibrary.org/obo/MVC_0000441> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000002> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000442
+
+<http://purl.obolibrary.org/obo/MVC_0000442> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000002> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000443
+
+<http://purl.obolibrary.org/obo/MVC_0000443> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000010> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000444
+
+<http://purl.obolibrary.org/obo/MVC_0000444> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000010> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000445
+
+<http://purl.obolibrary.org/obo/MVC_0000445> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000010> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000446
+
+<http://purl.obolibrary.org/obo/MVC_0000446> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000010> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000447
+
+<http://purl.obolibrary.org/obo/MVC_0000447> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000010> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000448
+
+<http://purl.obolibrary.org/obo/MVC_0000448> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000010> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000449
+
+<http://purl.obolibrary.org/obo/MVC_0000449> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000010> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000450
+
+<http://purl.obolibrary.org/obo/MVC_0000450> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000451
+
+<http://purl.obolibrary.org/obo/MVC_0000451> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000452
+
+<http://purl.obolibrary.org/obo/MVC_0000452> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000453
+
+<http://purl.obolibrary.org/obo/MVC_0000453> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000454
+
+<http://purl.obolibrary.org/obo/MVC_0000454> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000455
+
+<http://purl.obolibrary.org/obo/MVC_0000455> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000456
+
+<http://purl.obolibrary.org/obo/MVC_0000456> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000457
+
+<http://purl.obolibrary.org/obo/MVC_0000457> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000458
+
+<http://purl.obolibrary.org/obo/MVC_0000458> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000459
+
+<http://purl.obolibrary.org/obo/MVC_0000459> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000460
+
+<http://purl.obolibrary.org/obo/MVC_0000460> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000461
+
+<http://purl.obolibrary.org/obo/MVC_0000461> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000462
+
+<http://purl.obolibrary.org/obo/MVC_0000462> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000463
+
+<http://purl.obolibrary.org/obo/MVC_0000463> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000464
+
+<http://purl.obolibrary.org/obo/MVC_0000464> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000465
+
+<http://purl.obolibrary.org/obo/MVC_0000465> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000466
+
+<http://purl.obolibrary.org/obo/MVC_0000466> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000467
+
+<http://purl.obolibrary.org/obo/MVC_0000467> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000468
+
+<http://purl.obolibrary.org/obo/MVC_0000468> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000469
+
+<http://purl.obolibrary.org/obo/MVC_0000469> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000470
+
+<http://purl.obolibrary.org/obo/MVC_0000470> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000471
+
+<http://purl.obolibrary.org/obo/MVC_0000471> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000472
+
+<http://purl.obolibrary.org/obo/MVC_0000472> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000473
+
+<http://purl.obolibrary.org/obo/MVC_0000473> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000474
+
+<http://purl.obolibrary.org/obo/MVC_0000474> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000475
+
+<http://purl.obolibrary.org/obo/MVC_0000475> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000476
+
+<http://purl.obolibrary.org/obo/MVC_0000476> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000001> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000477
+
+<http://purl.obolibrary.org/obo/MVC_0000477> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000018> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000478
+
+<http://purl.obolibrary.org/obo/MVC_0000478> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000018> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000479
+
+<http://purl.obolibrary.org/obo/MVC_0000479> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000018> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000480
+
+<http://purl.obolibrary.org/obo/MVC_0000480> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000018> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000481
+
+<http://purl.obolibrary.org/obo/MVC_0000481> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000018> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000482
+
+<http://purl.obolibrary.org/obo/MVC_0000482> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000024> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000483
+
+<http://purl.obolibrary.org/obo/MVC_0000483> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000024> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000484
+
+<http://purl.obolibrary.org/obo/MVC_0000484> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000024> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000485
+
+<http://purl.obolibrary.org/obo/MVC_0000485> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000024> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000486
+
+<http://purl.obolibrary.org/obo/MVC_0000486> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000024> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000487
+
+<http://purl.obolibrary.org/obo/MVC_0000487> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000024> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000488
+
+<http://purl.obolibrary.org/obo/MVC_0000488> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000024> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000489
+
+<http://purl.obolibrary.org/obo/MVC_0000489> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000022> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000490
+
+<http://purl.obolibrary.org/obo/MVC_0000490> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000022> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000491
+
+<http://purl.obolibrary.org/obo/MVC_0000491> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000022> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000492
+
+<http://purl.obolibrary.org/obo/MVC_0000492> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000022> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000493
+
+<http://purl.obolibrary.org/obo/MVC_0000493> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000022> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000494
+
+<http://purl.obolibrary.org/obo/MVC_0000494> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000022> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000495
+
+<http://purl.obolibrary.org/obo/MVC_0000495> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000022> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000496
+
+<http://purl.obolibrary.org/obo/MVC_0000496> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000022> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000497
+
+<http://purl.obolibrary.org/obo/MVC_0000497> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000008> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000498
+
+<http://purl.obolibrary.org/obo/MVC_0000498> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000008> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000499
+
+<http://purl.obolibrary.org/obo/MVC_0000499> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000008> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000500
+
+<http://purl.obolibrary.org/obo/MVC_0000500> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000007> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000501
+
+<http://purl.obolibrary.org/obo/MVC_0000501> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000007> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000502
+
+<http://purl.obolibrary.org/obo/MVC_0000502> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000007> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000503
+
+<http://purl.obolibrary.org/obo/MVC_0000503> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000007> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000504
+
+<http://purl.obolibrary.org/obo/MVC_0000504> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000007> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000505
+
+<http://purl.obolibrary.org/obo/MVC_0000505> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000011> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000506
+
+<http://purl.obolibrary.org/obo/MVC_0000506> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000011> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000507
+
+<http://purl.obolibrary.org/obo/MVC_0000507> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000011> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000508
+
+<http://purl.obolibrary.org/obo/MVC_0000508> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000011> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000509
+
+<http://purl.obolibrary.org/obo/MVC_0000509> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000004> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000510
+
+<http://purl.obolibrary.org/obo/MVC_0000510> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000004> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000511
+
+<http://purl.obolibrary.org/obo/MVC_0000511> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000004> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000512
+
+<http://purl.obolibrary.org/obo/MVC_0000512> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000004> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000513
+
+<http://purl.obolibrary.org/obo/MVC_0000513> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000004> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000514
+
+<http://purl.obolibrary.org/obo/MVC_0000514> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000017> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000515
+
+<http://purl.obolibrary.org/obo/MVC_0000515> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000017> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000516
+
+<http://purl.obolibrary.org/obo/MVC_0000516> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000017> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000517
+
+<http://purl.obolibrary.org/obo/MVC_0000517> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000003> .
+# 
+# http://purl.obolibrary.org/obo/MVC_0000518
+
+<http://purl.obolibrary.org/obo/MVC_0000518> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/MVC_0000003> .
+# 
+# Generated by the OWL API (version 5.0.4.20161016-1358) https://github.com/owlcs/owlapi/

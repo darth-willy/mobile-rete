@@ -1,0 +1,1829 @@
+@prefix : <http://purl.bioontology.org/ontology/phenX/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://purl.bioontology.org/ontology/phenX/> a owl:Ontology .
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.bioontology.org/ontology/phenX/010000
+
+:010000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/010100
+
+:010100 a owl:Class ;
+	rdfs:subClassOf :010000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/010200
+
+:010200 a owl:Class ;
+	rdfs:subClassOf :010000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/010300
+
+:010300 a owl:Class ;
+	rdfs:subClassOf :010000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/010400
+
+:010400 a owl:Class ;
+	rdfs:subClassOf :010000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/010500
+
+:010500 a owl:Class ;
+	rdfs:subClassOf :010000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/010600
+
+:010600 a owl:Class ;
+	rdfs:subClassOf :010000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/010700
+
+:010700 a owl:Class ;
+	rdfs:subClassOf :010000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/010800
+
+:010800 a owl:Class ;
+	rdfs:subClassOf :010000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/010900
+
+:010900 a owl:Class ;
+	rdfs:subClassOf :010000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/011000
+
+:011000 a owl:Class ;
+	rdfs:subClassOf :010000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/011100
+
+:011100 a owl:Class ;
+	rdfs:subClassOf :010000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/011200
+
+:011200 a owl:Class ;
+	rdfs:subClassOf :010000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/011300
+
+:011300 a owl:Class ;
+	rdfs:subClassOf :010000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/011400
+
+:011400 a owl:Class ;
+	rdfs:subClassOf :010000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/011500
+
+:011500 a owl:Class ;
+	rdfs:subClassOf :010000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/020000
+
+:020000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/020100
+
+:020100 a owl:Class ;
+	rdfs:subClassOf :020000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/020200
+
+:020200 a owl:Class ;
+	rdfs:subClassOf :020000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/020300
+
+:020300 a owl:Class ;
+	rdfs:subClassOf :020000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/020400
+
+:020400 a owl:Class ;
+	rdfs:subClassOf :020000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/020500
+
+:020500 a owl:Class ;
+	rdfs:subClassOf :020000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/020600
+
+:020600 a owl:Class ;
+	rdfs:subClassOf :020000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/020700
+
+:020700 a owl:Class ;
+	rdfs:subClassOf :020000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/020800
+
+:020800 a owl:Class ;
+	rdfs:subClassOf :020000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/020900
+
+:020900 a owl:Class ;
+	rdfs:subClassOf :020000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/021000
+
+:021000 a owl:Class ;
+	rdfs:subClassOf :020000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/021100
+
+:021100 a owl:Class ;
+	rdfs:subClassOf :020000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/021200
+
+:021200 a owl:Class ;
+	rdfs:subClassOf :020000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/021300
+
+:021300 a owl:Class ;
+	rdfs:subClassOf :020000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/021400
+
+:021400 a owl:Class ;
+	rdfs:subClassOf :020000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/021500
+
+:021500 a owl:Class ;
+	rdfs:subClassOf :020000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/021600
+
+:021600 a owl:Class ;
+	rdfs:subClassOf :020000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/030000
+
+:030000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/030100
+
+:030100 a owl:Class ;
+	rdfs:subClassOf :030000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/030200
+
+:030200 a owl:Class ;
+	rdfs:subClassOf :030000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/030300
+
+:030300 a owl:Class ;
+	rdfs:subClassOf :030000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/030400
+
+:030400 a owl:Class ;
+	rdfs:subClassOf :030000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/030500
+
+:030500 a owl:Class ;
+	rdfs:subClassOf :030000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/030600
+
+:030600 a owl:Class ;
+	rdfs:subClassOf :030000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/030700
+
+:030700 a owl:Class ;
+	rdfs:subClassOf :030000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/030800
+
+:030800 a owl:Class ;
+	rdfs:subClassOf :030000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/030900
+
+:030900 a owl:Class ;
+	rdfs:subClassOf :030000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/031000
+
+:031000 a owl:Class ;
+	rdfs:subClassOf :030000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/031100
+
+:031100 a owl:Class ;
+	rdfs:subClassOf :030000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/031200
+
+:031200 a owl:Class ;
+	rdfs:subClassOf :030000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/031300
+
+:031300 a owl:Class ;
+	rdfs:subClassOf :030000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/031400
+
+:031400 a owl:Class ;
+	rdfs:subClassOf :030000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/040000
+
+:040000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/040100
+
+:040100 a owl:Class ;
+	rdfs:subClassOf :040000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/040200
+
+:040200 a owl:Class ;
+	rdfs:subClassOf :040000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/040300
+
+:040300 a owl:Class ;
+	rdfs:subClassOf :040000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/040400
+
+:040400 a owl:Class ;
+	rdfs:subClassOf :040000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/040500
+
+:040500 a owl:Class ;
+	rdfs:subClassOf :040000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/040600
+
+:040600 a owl:Class ;
+	rdfs:subClassOf :040000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/040700
+
+:040700 a owl:Class ;
+	rdfs:subClassOf :040000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/040800
+
+:040800 a owl:Class ;
+	rdfs:subClassOf :040000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/040900
+
+:040900 a owl:Class ;
+	rdfs:subClassOf :040000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/041000
+
+:041000 a owl:Class ;
+	rdfs:subClassOf :040000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/041100
+
+:041100 a owl:Class ;
+	rdfs:subClassOf :040000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/041200
+
+:041200 a owl:Class ;
+	rdfs:subClassOf :040000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/041300
+
+:041300 a owl:Class ;
+	rdfs:subClassOf :040000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/041400
+
+:041400 a owl:Class ;
+	rdfs:subClassOf :040000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/050000
+
+:050000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/050100
+
+:050100 a owl:Class ;
+	rdfs:subClassOf :050000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/050200
+
+:050200 a owl:Class ;
+	rdfs:subClassOf :050000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/050300
+
+:050300 a owl:Class ;
+	rdfs:subClassOf :050000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/050400
+
+:050400 a owl:Class ;
+	rdfs:subClassOf :050000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/050500
+
+:050500 a owl:Class ;
+	rdfs:subClassOf :050000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/050600
+
+:050600 a owl:Class ;
+	rdfs:subClassOf :050000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/050700
+
+:050700 a owl:Class ;
+	rdfs:subClassOf :050000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/050800
+
+:050800 a owl:Class ;
+	rdfs:subClassOf :050000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/050900
+
+:050900 a owl:Class ;
+	rdfs:subClassOf :050000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/051000
+
+:051000 a owl:Class ;
+	rdfs:subClassOf :050000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/051100
+
+:051100 a owl:Class ;
+	rdfs:subClassOf :050000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/051200
+
+:051200 a owl:Class ;
+	rdfs:subClassOf :050000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/060000
+
+:060000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/060100
+
+:060100 a owl:Class ;
+	rdfs:subClassOf :060000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/060200
+
+:060200 a owl:Class ;
+	rdfs:subClassOf :060000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/060300
+
+:060300 a owl:Class ;
+	rdfs:subClassOf :060000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/060400
+
+:060400 a owl:Class ;
+	rdfs:subClassOf :060000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/060500
+
+:060500 a owl:Class ;
+	rdfs:subClassOf :060000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/060600
+
+:060600 a owl:Class ;
+	rdfs:subClassOf :060000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/060700
+
+:060700 a owl:Class ;
+	rdfs:subClassOf :060000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/060800
+
+:060800 a owl:Class ;
+	rdfs:subClassOf :060000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/060900
+
+:060900 a owl:Class ;
+	rdfs:subClassOf :060000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/061000
+
+:061000 a owl:Class ;
+	rdfs:subClassOf :060000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/061100
+
+:061100 a owl:Class ;
+	rdfs:subClassOf :060000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/061200
+
+:061200 a owl:Class ;
+	rdfs:subClassOf :060000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/061300
+
+:061300 a owl:Class ;
+	rdfs:subClassOf :060000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/061400
+
+:061400 a owl:Class ;
+	rdfs:subClassOf :060000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/070000
+
+:070000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/070100
+
+:070100 a owl:Class ;
+	rdfs:subClassOf :070000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/070200
+
+:070200 a owl:Class ;
+	rdfs:subClassOf :070000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/070300
+
+:070300 a owl:Class ;
+	rdfs:subClassOf :070000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/070400
+
+:070400 a owl:Class ;
+	rdfs:subClassOf :070000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/070500
+
+:070500 a owl:Class ;
+	rdfs:subClassOf :070000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/070600
+
+:070600 a owl:Class ;
+	rdfs:subClassOf :070000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/070700
+
+:070700 a owl:Class ;
+	rdfs:subClassOf :070000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/070800
+
+:070800 a owl:Class ;
+	rdfs:subClassOf :070000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/070900
+
+:070900 a owl:Class ;
+	rdfs:subClassOf :070000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/071000
+
+:071000 a owl:Class ;
+	rdfs:subClassOf :070000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/071100
+
+:071100 a owl:Class ;
+	rdfs:subClassOf :070000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/071200
+
+:071200 a owl:Class ;
+	rdfs:subClassOf :070000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/080000
+
+:080000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/080100
+
+:080100 a owl:Class ;
+	rdfs:subClassOf :080000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/080200
+
+:080200 a owl:Class ;
+	rdfs:subClassOf :080000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/080300
+
+:080300 a owl:Class ;
+	rdfs:subClassOf :080000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/080400
+
+:080400 a owl:Class ;
+	rdfs:subClassOf :080000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/080500
+
+:080500 a owl:Class ;
+	rdfs:subClassOf :080000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/080600
+
+:080600 a owl:Class ;
+	rdfs:subClassOf :080000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/080700
+
+:080700 a owl:Class ;
+	rdfs:subClassOf :080000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/080800
+
+:080800 a owl:Class ;
+	rdfs:subClassOf :080000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/080900
+
+:080900 a owl:Class ;
+	rdfs:subClassOf :080000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/081000
+
+:081000 a owl:Class ;
+	rdfs:subClassOf :080000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/081100
+
+:081100 a owl:Class ;
+	rdfs:subClassOf :080000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/081200
+
+:081200 a owl:Class ;
+	rdfs:subClassOf :080000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/081300
+
+:081300 a owl:Class ;
+	rdfs:subClassOf :080000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/081400
+
+:081400 a owl:Class ;
+	rdfs:subClassOf :080000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/081500
+
+:081500 a owl:Class ;
+	rdfs:subClassOf :080000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/090000
+
+:090000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/090200
+
+:090200 a owl:Class ;
+	rdfs:subClassOf :090000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/090300
+
+:090300 a owl:Class ;
+	rdfs:subClassOf :090000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/090400
+
+:090400 a owl:Class ;
+	rdfs:subClassOf :090000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/090600
+
+:090600 a owl:Class ;
+	rdfs:subClassOf :090000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/090700
+
+:090700 a owl:Class ;
+	rdfs:subClassOf :090000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/090800
+
+:090800 a owl:Class ;
+	rdfs:subClassOf :090000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/090900
+
+:090900 a owl:Class ;
+	rdfs:subClassOf :090000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/091000
+
+:091000 a owl:Class ;
+	rdfs:subClassOf :090000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/091100
+
+:091100 a owl:Class ;
+	rdfs:subClassOf :090000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/091300
+
+:091300 a owl:Class ;
+	rdfs:subClassOf :090000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/091400
+
+:091400 a owl:Class ;
+	rdfs:subClassOf :090000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/091500
+
+:091500 a owl:Class ;
+	rdfs:subClassOf :090000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/091600
+
+:091600 a owl:Class ;
+	rdfs:subClassOf :090000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/091700
+
+:091700 a owl:Class ;
+	rdfs:subClassOf :090000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/100000
+
+:100000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/100100
+
+:100100 a owl:Class ;
+	rdfs:subClassOf :100000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/100200
+
+:100200 a owl:Class ;
+	rdfs:subClassOf :100000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/100300
+
+:100300 a owl:Class ;
+	rdfs:subClassOf :100000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/100400
+
+:100400 a owl:Class ;
+	rdfs:subClassOf :100000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/100500
+
+:100500 a owl:Class ;
+	rdfs:subClassOf :100000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/100600
+
+:100600 a owl:Class ;
+	rdfs:subClassOf :100000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/100700
+
+:100700 a owl:Class ;
+	rdfs:subClassOf :100000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/100800
+
+:100800 a owl:Class ;
+	rdfs:subClassOf :100000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/100900
+
+:100900 a owl:Class ;
+	rdfs:subClassOf :100000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/101000
+
+:101000 a owl:Class ;
+	rdfs:subClassOf :100000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/101100
+
+:101100 a owl:Class ;
+	rdfs:subClassOf :100000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/101200
+
+:101200 a owl:Class ;
+	rdfs:subClassOf :100000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/101300
+
+:101300 a owl:Class ;
+	rdfs:subClassOf :100000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/101400
+
+:101400 a owl:Class ;
+	rdfs:subClassOf :100000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/101500
+
+:101500 a owl:Class ;
+	rdfs:subClassOf :100000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/110000
+
+:110000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/110100
+
+:110100 a owl:Class ;
+	rdfs:subClassOf :110000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/110200
+
+:110200 a owl:Class ;
+	rdfs:subClassOf :110000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/110300
+
+:110300 a owl:Class ;
+	rdfs:subClassOf :110000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/110400
+
+:110400 a owl:Class ;
+	rdfs:subClassOf :110000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/110500
+
+:110500 a owl:Class ;
+	rdfs:subClassOf :110000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/110600
+
+:110600 a owl:Class ;
+	rdfs:subClassOf :110000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/110700
+
+:110700 a owl:Class ;
+	rdfs:subClassOf :110000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/110800
+
+:110800 a owl:Class ;
+	rdfs:subClassOf :110000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/110900
+
+:110900 a owl:Class ;
+	rdfs:subClassOf :110000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/111000
+
+:111000 a owl:Class ;
+	rdfs:subClassOf :110000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/111100
+
+:111100 a owl:Class ;
+	rdfs:subClassOf :110000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/111200
+
+:111200 a owl:Class ;
+	rdfs:subClassOf :110000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/111300
+
+:111300 a owl:Class ;
+	rdfs:subClassOf :110000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/111400
+
+:111400 a owl:Class ;
+	rdfs:subClassOf :110000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/111500
+
+:111500 a owl:Class ;
+	rdfs:subClassOf :110000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/120000
+
+:120000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/120100
+
+:120100 a owl:Class ;
+	rdfs:subClassOf :120000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/120200
+
+:120200 a owl:Class ;
+	rdfs:subClassOf :120000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/120300
+
+:120300 a owl:Class ;
+	rdfs:subClassOf :120000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/120400
+
+:120400 a owl:Class ;
+	rdfs:subClassOf :120000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/120500
+
+:120500 a owl:Class ;
+	rdfs:subClassOf :120000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/120600
+
+:120600 a owl:Class ;
+	rdfs:subClassOf :120000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/120700
+
+:120700 a owl:Class ;
+	rdfs:subClassOf :120000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/120900
+
+:120900 a owl:Class ;
+	rdfs:subClassOf :120000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/121000
+
+:121000 a owl:Class ;
+	rdfs:subClassOf :120000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/121100
+
+:121100 a owl:Class ;
+	rdfs:subClassOf :120000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/121300
+
+:121300 a owl:Class ;
+	rdfs:subClassOf :120000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/121400
+
+:121400 a owl:Class ;
+	rdfs:subClassOf :120000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/121500
+
+:121500 a owl:Class ;
+	rdfs:subClassOf :120000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/121600
+
+:121600 a owl:Class ;
+	rdfs:subClassOf :120000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/130000
+
+:130000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/130100
+
+:130100 a owl:Class ;
+	rdfs:subClassOf :130000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/130200
+
+:130200 a owl:Class ;
+	rdfs:subClassOf :130000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/130300
+
+:130300 a owl:Class ;
+	rdfs:subClassOf :130000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/130400
+
+:130400 a owl:Class ;
+	rdfs:subClassOf :130000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/130500
+
+:130500 a owl:Class ;
+	rdfs:subClassOf :130000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/130600
+
+:130600 a owl:Class ;
+	rdfs:subClassOf :130000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/130700
+
+:130700 a owl:Class ;
+	rdfs:subClassOf :130000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/130800
+
+:130800 a owl:Class ;
+	rdfs:subClassOf :130000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/130900
+
+:130900 a owl:Class ;
+	rdfs:subClassOf :130000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/131000
+
+:131000 a owl:Class ;
+	rdfs:subClassOf :130000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/131100
+
+:131100 a owl:Class ;
+	rdfs:subClassOf :130000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/131200
+
+:131200 a owl:Class ;
+	rdfs:subClassOf :130000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/131300
+
+:131300 a owl:Class ;
+	rdfs:subClassOf :130000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/131400
+
+:131400 a owl:Class ;
+	rdfs:subClassOf :130000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/140000
+
+:140000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/140100
+
+:140100 a owl:Class ;
+	rdfs:subClassOf :140000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/140200
+
+:140200 a owl:Class ;
+	rdfs:subClassOf :140000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/140300
+
+:140300 a owl:Class ;
+	rdfs:subClassOf :140000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/140400
+
+:140400 a owl:Class ;
+	rdfs:subClassOf :140000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/140500
+
+:140500 a owl:Class ;
+	rdfs:subClassOf :140000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/140600
+
+:140600 a owl:Class ;
+	rdfs:subClassOf :140000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/140700
+
+:140700 a owl:Class ;
+	rdfs:subClassOf :140000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/140800
+
+:140800 a owl:Class ;
+	rdfs:subClassOf :140000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/140900
+
+:140900 a owl:Class ;
+	rdfs:subClassOf :140000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/141000
+
+:141000 a owl:Class ;
+	rdfs:subClassOf :140000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/141200
+
+:141200 a owl:Class ;
+	rdfs:subClassOf :140000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/141300
+
+:141300 a owl:Class ;
+	rdfs:subClassOf :140000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/141400
+
+:141400 a owl:Class ;
+	rdfs:subClassOf :140000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/141500
+
+:141500 a owl:Class ;
+	rdfs:subClassOf :140000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/141600
+
+:141600 a owl:Class ;
+	rdfs:subClassOf :140000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/150000
+
+:150000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/150100
+
+:150100 a owl:Class ;
+	rdfs:subClassOf :150000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/150200
+
+:150200 a owl:Class ;
+	rdfs:subClassOf :150000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/150300
+
+:150300 a owl:Class ;
+	rdfs:subClassOf :150000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/150400
+
+:150400 a owl:Class ;
+	rdfs:subClassOf :150000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/150500
+
+:150500 a owl:Class ;
+	rdfs:subClassOf :150000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/150600
+
+:150600 a owl:Class ;
+	rdfs:subClassOf :150000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/150700
+
+:150700 a owl:Class ;
+	rdfs:subClassOf :150000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/150800
+
+:150800 a owl:Class ;
+	rdfs:subClassOf :150000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/150900
+
+:150900 a owl:Class ;
+	rdfs:subClassOf :150000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/151000
+
+:151000 a owl:Class ;
+	rdfs:subClassOf :150000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/151100
+
+:151100 a owl:Class ;
+	rdfs:subClassOf :150000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/151200
+
+:151200 a owl:Class ;
+	rdfs:subClassOf :150000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/151300
+
+:151300 a owl:Class ;
+	rdfs:subClassOf :150000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/151400
+
+:151400 a owl:Class ;
+	rdfs:subClassOf :150000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/160000
+
+:160000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/160100
+
+:160100 a owl:Class ;
+	rdfs:subClassOf :160000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/160200
+
+:160200 a owl:Class ;
+	rdfs:subClassOf :160000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/160300
+
+:160300 a owl:Class ;
+	rdfs:subClassOf :160000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/160400
+
+:160400 a owl:Class ;
+	rdfs:subClassOf :160000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/160500
+
+:160500 a owl:Class ;
+	rdfs:subClassOf :160000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/160600
+
+:160600 a owl:Class ;
+	rdfs:subClassOf :160000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/160700
+
+:160700 a owl:Class ;
+	rdfs:subClassOf :160000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/160800
+
+:160800 a owl:Class ;
+	rdfs:subClassOf :160000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/160900
+
+:160900 a owl:Class ;
+	rdfs:subClassOf :160000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/161000
+
+:161000 a owl:Class ;
+	rdfs:subClassOf :160000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/161100
+
+:161100 a owl:Class ;
+	rdfs:subClassOf :160000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/161200
+
+:161200 a owl:Class ;
+	rdfs:subClassOf :160000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/161300
+
+:161300 a owl:Class ;
+	rdfs:subClassOf :160000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/161400
+
+:161400 a owl:Class ;
+	rdfs:subClassOf :160000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/161600
+
+:161600 a owl:Class ;
+	rdfs:subClassOf :160000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/170000
+
+:170000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/170100
+
+:170100 a owl:Class ;
+	rdfs:subClassOf :170000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/170200
+
+:170200 a owl:Class ;
+	rdfs:subClassOf :170000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/170300
+
+:170300 a owl:Class ;
+	rdfs:subClassOf :170000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/170400
+
+:170400 a owl:Class ;
+	rdfs:subClassOf :170000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/170500
+
+:170500 a owl:Class ;
+	rdfs:subClassOf :170000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/170600
+
+:170600 a owl:Class ;
+	rdfs:subClassOf :170000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/170700
+
+:170700 a owl:Class ;
+	rdfs:subClassOf :170000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/170800
+
+:170800 a owl:Class ;
+	rdfs:subClassOf :170000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/170900
+
+:170900 a owl:Class ;
+	rdfs:subClassOf :170000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/171000
+
+:171000 a owl:Class ;
+	rdfs:subClassOf :170000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/180000
+
+:180000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/180100
+
+:180100 a owl:Class ;
+	rdfs:subClassOf :180000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/180200
+
+:180200 a owl:Class ;
+	rdfs:subClassOf :180000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/180300
+
+:180300 a owl:Class ;
+	rdfs:subClassOf :180000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/180400
+
+:180400 a owl:Class ;
+	rdfs:subClassOf :180000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/180500
+
+:180500 a owl:Class ;
+	rdfs:subClassOf :180000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/180600
+
+:180600 a owl:Class ;
+	rdfs:subClassOf :180000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/180700
+
+:180700 a owl:Class ;
+	rdfs:subClassOf :180000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/180800
+
+:180800 a owl:Class ;
+	rdfs:subClassOf :180000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/180900
+
+:180900 a owl:Class ;
+	rdfs:subClassOf :180000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/181000
+
+:181000 a owl:Class ;
+	rdfs:subClassOf :180000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/181100
+
+:181100 a owl:Class ;
+	rdfs:subClassOf :180000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/181200
+
+:181200 a owl:Class ;
+	rdfs:subClassOf :180000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/181300
+
+:181300 a owl:Class ;
+	rdfs:subClassOf :180000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/181400
+
+:181400 a owl:Class ;
+	rdfs:subClassOf :180000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/181500
+
+:181500 a owl:Class ;
+	rdfs:subClassOf :180000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/190000
+
+:190000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/190100
+
+:190100 a owl:Class ;
+	rdfs:subClassOf :190000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/190200
+
+:190200 a owl:Class ;
+	rdfs:subClassOf :190000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/190300
+
+:190300 a owl:Class ;
+	rdfs:subClassOf :190000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/190400
+
+:190400 a owl:Class ;
+	rdfs:subClassOf :190000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/190500
+
+:190500 a owl:Class ;
+	rdfs:subClassOf :190000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/190600
+
+:190600 a owl:Class ;
+	rdfs:subClassOf :190000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/190700
+
+:190700 a owl:Class ;
+	rdfs:subClassOf :190000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/190800
+
+:190800 a owl:Class ;
+	rdfs:subClassOf :190000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/190900
+
+:190900 a owl:Class ;
+	rdfs:subClassOf :190000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/191000
+
+:191000 a owl:Class ;
+	rdfs:subClassOf :190000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/191100
+
+:191100 a owl:Class ;
+	rdfs:subClassOf :190000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/191200
+
+:191200 a owl:Class ;
+	rdfs:subClassOf :190000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/200000
+
+:200000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/200100
+
+:200100 a owl:Class ;
+	rdfs:subClassOf :200000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/200200
+
+:200200 a owl:Class ;
+	rdfs:subClassOf :200000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/200300
+
+:200300 a owl:Class ;
+	rdfs:subClassOf :200000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/200400
+
+:200400 a owl:Class ;
+	rdfs:subClassOf :200000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/200500
+
+:200500 a owl:Class ;
+	rdfs:subClassOf :200000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/200600
+
+:200600 a owl:Class ;
+	rdfs:subClassOf :200000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/200700
+
+:200700 a owl:Class ;
+	rdfs:subClassOf :200000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/200800
+
+:200800 a owl:Class ;
+	rdfs:subClassOf :200000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/200900
+
+:200900 a owl:Class ;
+	rdfs:subClassOf :200000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/201000
+
+:201000 a owl:Class ;
+	rdfs:subClassOf :200000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/201100
+
+:201100 a owl:Class ;
+	rdfs:subClassOf :200000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/201200
+
+:201200 a owl:Class ;
+	rdfs:subClassOf :200000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/201300
+
+:201300 a owl:Class ;
+	rdfs:subClassOf :200000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/201400
+
+:201400 a owl:Class ;
+	rdfs:subClassOf :200000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/201500
+
+:201500 a owl:Class ;
+	rdfs:subClassOf :200000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/210000
+
+:210000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/210100
+
+:210100 a owl:Class ;
+	rdfs:subClassOf :210000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/210200
+
+:210200 a owl:Class ;
+	rdfs:subClassOf :210000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/210300
+
+:210300 a owl:Class ;
+	rdfs:subClassOf :210000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/210400
+
+:210400 a owl:Class ;
+	rdfs:subClassOf :210000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/210500
+
+:210500 a owl:Class ;
+	rdfs:subClassOf :210000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/210600
+
+:210600 a owl:Class ;
+	rdfs:subClassOf :210000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/210700
+
+:210700 a owl:Class ;
+	rdfs:subClassOf :210000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/210800
+
+:210800 a owl:Class ;
+	rdfs:subClassOf :210000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/210900
+
+:210900 a owl:Class ;
+	rdfs:subClassOf :210000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/211000
+
+:211000 a owl:Class ;
+	rdfs:subClassOf :210000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/211100
+
+:211100 a owl:Class ;
+	rdfs:subClassOf :210000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/211200
+
+:211200 a owl:Class ;
+	rdfs:subClassOf :210000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/211300
+
+:211300 a owl:Class ;
+	rdfs:subClassOf :210000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/211400
+
+:211400 a owl:Class ;
+	rdfs:subClassOf :210000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/211500
+
+:211500 a owl:Class ;
+	rdfs:subClassOf :210000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/510000
+
+:510000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/510100
+
+:510100 a owl:Class ;
+	rdfs:subClassOf :510000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/510200
+
+:510200 a owl:Class ;
+	rdfs:subClassOf :510000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/510300
+
+:510300 a owl:Class ;
+	rdfs:subClassOf :510000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/510400
+
+:510400 a owl:Class ;
+	rdfs:subClassOf :510000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/510500
+
+:510500 a owl:Class ;
+	rdfs:subClassOf :510000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/510600
+
+:510600 a owl:Class ;
+	rdfs:subClassOf :510000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/510700
+
+:510700 a owl:Class ;
+	rdfs:subClassOf :510000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/520000
+
+:520000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/520100
+
+:520100 a owl:Class ;
+	rdfs:subClassOf :520000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/520200
+
+:520200 a owl:Class ;
+	rdfs:subClassOf :520000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/520300
+
+:520300 a owl:Class ;
+	rdfs:subClassOf :520000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/520400
+
+:520400 a owl:Class ;
+	rdfs:subClassOf :520000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/520500
+
+:520500 a owl:Class ;
+	rdfs:subClassOf :520000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/530000
+
+:530000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/530100
+
+:530100 a owl:Class ;
+	rdfs:subClassOf :530000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/530200
+
+:530200 a owl:Class ;
+	rdfs:subClassOf :530000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/530300
+
+:530300 a owl:Class ;
+	rdfs:subClassOf :530000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/530400
+
+:530400 a owl:Class ;
+	rdfs:subClassOf :530000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/530500
+
+:530500 a owl:Class ;
+	rdfs:subClassOf :530000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/530600
+
+:530600 a owl:Class ;
+	rdfs:subClassOf :530000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/530700
+
+:530700 a owl:Class ;
+	rdfs:subClassOf :530000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/540000
+
+:540000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/540100
+
+:540100 a owl:Class ;
+	rdfs:subClassOf :540000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/540200
+
+:540200 a owl:Class ;
+	rdfs:subClassOf :540000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/540300
+
+:540300 a owl:Class ;
+	rdfs:subClassOf :540000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/540400
+
+:540400 a owl:Class ;
+	rdfs:subClassOf :540000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/540500
+
+:540500 a owl:Class ;
+	rdfs:subClassOf :540000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/540600
+
+:540600 a owl:Class ;
+	rdfs:subClassOf :540000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/550000
+
+:550000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/550100
+
+:550100 a owl:Class ;
+	rdfs:subClassOf :550000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/550200
+
+:550200 a owl:Class ;
+	rdfs:subClassOf :550000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/550300
+
+:550300 a owl:Class ;
+	rdfs:subClassOf :550000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/550400
+
+:550400 a owl:Class ;
+	rdfs:subClassOf :550000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/550500
+
+:550500 a owl:Class ;
+	rdfs:subClassOf :550000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/550600
+
+:550600 a owl:Class ;
+	rdfs:subClassOf :550000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/550700
+
+:550700 a owl:Class ;
+	rdfs:subClassOf :550000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/550800
+
+:550800 a owl:Class ;
+	rdfs:subClassOf :550000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/560000
+
+:560000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/560100
+
+:560100 a owl:Class ;
+	rdfs:subClassOf :560000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/560200
+
+:560200 a owl:Class ;
+	rdfs:subClassOf :560000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/560300
+
+:560300 a owl:Class ;
+	rdfs:subClassOf :560000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/560400
+
+:560400 a owl:Class ;
+	rdfs:subClassOf :560000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/560500
+
+:560500 a owl:Class ;
+	rdfs:subClassOf :560000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/560600
+
+:560600 a owl:Class ;
+	rdfs:subClassOf :560000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/560700
+
+:560700 a owl:Class ;
+	rdfs:subClassOf :560000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/560800
+
+:560800 a owl:Class ;
+	rdfs:subClassOf :560000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/570000
+
+:570000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/570100
+
+:570100 a owl:Class ;
+	rdfs:subClassOf :570000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/570200
+
+:570200 a owl:Class ;
+	rdfs:subClassOf :570000 .
+# 
+# http://purl.bioontology.org/ontology/phenX/580000
+
+:580000 a owl:Class .
+# 
+# http://purl.bioontology.org/ontology/phenX/580100
+
+:580100 a owl:Class ;
+	rdfs:subClassOf :580000 .
+# 
+# Generated by the OWL API (version 5.0.4.20161016-1358) https://github.com/owlcs/owlapi/

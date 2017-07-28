@@ -1,0 +1,456 @@
+<http://www.owl-ontologies.com/Ontology1361987617.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Activity_Factor_or_Equation
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Activity_Factor_or_Equation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Activity_Factor_or_Equation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Activity_Physical_Assessment> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Activity_Physical_Assessment
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Activity_Physical_Assessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Activity_Physical_Assessment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#ResearchNutritionAssessmentProcedure> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Activity_Questionnaire
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Activity_Questionnaire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Activity_Questionnaire> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Activity_Physical_Assessment> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Adjusted_Body_Weight_Equation_for_Obesity
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Adjusted_Body_Weight_Equation_for_Obesity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Adjusted_Body_Weight_Equation_for_Obesity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Predicted_Equation> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Anthropometrics
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Anthropometrics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Anthropometrics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#BodyComposition> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Anthropometrics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.owl-ontologies.com/Ontology1361987617.owl#Anthropometrics_BMI> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.owl-ontologies.com/Ontology1361987617.owl#Anthropometrics_Height> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.owl-ontologies.com/Ontology1361987617.owl#Anthropometrics_Weight> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Anthropometrics_BMI
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Anthropometrics_BMI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Anthropometrics_BMI> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Anthropometrics> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Anthropometrics_Height
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Anthropometrics_Height> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Anthropometrics_Height> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Anthropometrics> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Anthropometrics_Weight
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Anthropometrics_Weight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Anthropometrics_Weight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Anthropometrics> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Assessory_Nutrient
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Assessory_Nutrient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Assessory_Nutrient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Single_Nutrient_Intake> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Bike
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Bike> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Bike> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Activity_Physical_Assessment> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Bioelectric_Impedence
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Bioelectric_Impedence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Bioelectric_Impedence> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#BodyComposition> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#BodPod
+<http://www.owl-ontologies.com/Ontology1361987617.owl#BodPod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#BodPod> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#BodyComposition> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#BodyComposition
+<http://www.owl-ontologies.com/Ontology1361987617.owl#BodyComposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#BodyComposition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#ResearchNutritionAssessmentProcedure> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#CHO
+<http://www.owl-ontologies.com/Ontology1361987617.owl#CHO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#CHO> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#MacronutrientsControlled> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#DEXA
+<http://www.owl-ontologies.com/Ontology1361987617.owl#DEXA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#DEXA> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#BodyComposition> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Day_1_Inpatient
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Day_1_Inpatient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Day_1_Inpatient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#RotatingMenuCycle> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Day_2_Inpatient
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Day_2_Inpatient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Day_2_Inpatient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#RotatingMenuCycle> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Day_5_Inpatient
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Day_5_Inpatient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Day_5_Inpatient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#RotatingMenuCycle> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Day_Rotation_1
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Day_Rotation_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Day_Rotation_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Menu_Rotation> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Day_Rotation_3
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Day_Rotation_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Day_Rotation_3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Menu_Rotation> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Day_Rotation_5
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Day_Rotation_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Day_Rotation_5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Menu_Rotation> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#DesignDiet
+<http://www.owl-ontologies.com/Ontology1361987617.owl#DesignDiet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#DesignDiet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#ProtocolDevelopment> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#DietMealsServed
+<http://www.owl-ontologies.com/Ontology1361987617.owl#DietMealsServed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#DietMealsServed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#DietPlan> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#DietPlan
+<http://www.owl-ontologies.com/Ontology1361987617.owl#DietPlan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#DietPlan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#NutritionRoles> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Diet_Review
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Diet_Review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Diet_Review> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Screening> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Education
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Education> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Education> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Nutrition_Assessment_Care_Plan> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Energy_Expediture
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Energy_Expediture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Energy_Expediture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#ResearchNutritionAssessmentProcedure> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Enteral
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Enteral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Enteral> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Formula> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#FAT
+<http://www.owl-ontologies.com/Ontology1361987617.owl#FAT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#FAT> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#MacronutrientsControlled> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#FAT> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.owl-ontologies.com/Ontology1361987617.owl#Saturated> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.owl-ontologies.com/Ontology1361987617.owl#TransFattyAcids> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.owl-ontologies.com/Ontology1361987617.owl#Unsaturated> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Fiber
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Fiber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Fiber> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#MacronutrientsControlled> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Food_Frequency_Questionnaires
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Food_Frequency_Questionnaires> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Food_Frequency_Questionnaires> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Nutrient_Analysis> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Food_Recall
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Food_Recall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Food_Recall> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Nutrient_Analysis> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Food_Record_3_4_Day
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Food_Record_3_4_Day> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Food_Record_3_4_Day> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Food_Recall> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Food_Record_7_Day
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Food_Record_7_Day> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Food_Record_7_Day> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Food_Recall> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Formula
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Formula> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Formula> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Theraputic> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Grip_Strength
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Grip_Strength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Grip_Strength> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Activity_Physical_Assessment> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Group
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Group> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Education> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Harris_Benedict_Equation
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Harris_Benedict_Equation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Harris_Benedict_Equation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Predicted_Equation> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Hip_Waist_Measurement
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Hip_Waist_Measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Hip_Waist_Measurement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#BodyComposition> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Hip_Waist_Measurement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.owl-ontologies.com/Ontology1361987617.owl#Hip_Waist_Measurement_Hip_Circumference> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.owl-ontologies.com/Ontology1361987617.owl#Hip_Waist_Measurement_Waist_Circumference> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.owl-ontologies.com/Ontology1361987617.owl#Hip_Waist_Measurement_Waist_To_Hip_Ratio> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Hip_Waist_Measurement_Hip_Circumference
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Hip_Waist_Measurement_Hip_Circumference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Hip_Waist_Measurement_Hip_Circumference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Hip_Waist_Measurement> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Hip_Waist_Measurement_Waist_Circumference
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Hip_Waist_Measurement_Waist_Circumference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Hip_Waist_Measurement_Waist_Circumference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Hip_Waist_Measurement> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Hip_Waist_Measurement_Waist_To_Hip_Ratio
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Hip_Waist_Measurement_Waist_To_Hip_Ratio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Hip_Waist_Measurement_Waist_To_Hip_Ratio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Hip_Waist_Measurement> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Hour_24_Diet_Recall
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Hour_24_Diet_Recall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Hour_24_Diet_Recall> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Nutrient_Analysis> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Individual
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Individual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Individual> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Education> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Inpatient
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Inpatient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Inpatient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#DietMealsServed> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Macronutrient
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Macronutrient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Macronutrient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Single_Nutrient_Intake> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Macronutrient_Prot_Dev_Carbohydrate
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Macronutrient_Prot_Dev_Carbohydrate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Macronutrient_Prot_Dev_Carbohydrate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Macronutrient_Prot_dev> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Macronutrient_Prot_Dev_Fat
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Macronutrient_Prot_Dev_Fat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Macronutrient_Prot_Dev_Fat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Macronutrient_Prot_dev> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Macronutrient_Prot_Dev_Fiber
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Macronutrient_Prot_Dev_Fiber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Macronutrient_Prot_Dev_Fiber> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Macronutrient_Prot_dev> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Macronutrient_Prot_Dev_Protein
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Macronutrient_Prot_Dev_Protein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Macronutrient_Prot_Dev_Protein> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Macronutrient_Prot_dev> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Macronutrient_Prot_dev
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Macronutrient_Prot_dev> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Macronutrient_Prot_dev> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Nutrient_Composition> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#MacronutrientsControlled
+<http://www.owl-ontologies.com/Ontology1361987617.owl#MacronutrientsControlled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#MacronutrientsControlled> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Metabolic> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Menu_Rotation
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Menu_Rotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Menu_Rotation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#DesignDiet> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Metabolic
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Metabolic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Metabolic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#DietPlan> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Metabolic_Diet_Protocol
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Metabolic_Diet_Protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Metabolic_Diet_Protocol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Screening> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Metabolic_Monitor_Cart
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Metabolic_Monitor_Cart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Metabolic_Monitor_Cart> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Energy_Expediture> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Micronutrient
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Micronutrient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Micronutrient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Single_Nutrient_Intake> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Micronutrient_Prot_dev
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Micronutrient_Prot_dev> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Micronutrient_Prot_dev> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Nutrient_Composition> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#MicronutrientsControlled
+<http://www.owl-ontologies.com/Ontology1361987617.owl#MicronutrientsControlled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#MicronutrientsControlled> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Metabolic> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Minute_6_Walk
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Minute_6_Walk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Minute_6_Walk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Activity_Physical_Assessment> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Mono
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Mono> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Mono> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Unsaturated> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Navigation
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Navigation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Navigation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#ProtocolDevelopment> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Nutraceuticals_Prot_Dev_Omega_3_Fatty_Acids
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Nutraceuticals_Prot_Dev_Omega_3_Fatty_Acids> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Nutraceuticals_Prot_Dev_Omega_3_Fatty_Acids> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Nutraceuticals_Prot_dev> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Nutraceuticals_Prot_Dev_Resveratrol
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Nutraceuticals_Prot_Dev_Resveratrol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Nutraceuticals_Prot_Dev_Resveratrol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Nutraceuticals_Prot_dev> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Nutraceuticals_Prot_dev
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Nutraceuticals_Prot_dev> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Nutraceuticals_Prot_dev> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Nutrient_Composition> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Nutrient_Analysis
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Nutrient_Analysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Nutrient_Analysis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Nutrition_Assessment_Care_Plan> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Nutrient_Composition
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Nutrient_Composition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Nutrient_Composition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#DesignDiet> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#NutritionCapabilities
+<http://www.owl-ontologies.com/Ontology1361987617.owl#NutritionCapabilities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#NutritionRoles
+<http://www.owl-ontologies.com/Ontology1361987617.owl#NutritionRoles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#NutritionRoles> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#NutritionCapabilities> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Nutrition_Assessment_Care_Plan
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Nutrition_Assessment_Care_Plan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Nutrition_Assessment_Care_Plan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#ResearchNutritionAssessmentProcedure> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Outpatient
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Outpatient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Outpatient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#DietMealsServed> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#PRO
+<http://www.owl-ontologies.com/Ontology1361987617.owl#PRO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#PRO> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#MacronutrientsControlled> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Parenteral
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Parenteral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Parenteral> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Formula> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#PctBodyFat
+<http://www.owl-ontologies.com/Ontology1361987617.owl#PctBodyFat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#PctBodyFat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#BodPod> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#PctLeanMass
+<http://www.owl-ontologies.com/Ontology1361987617.owl#PctLeanMass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#PctLeanMass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#BodPod> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Poly
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Poly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Poly> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Unsaturated> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Predicted_Equation
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Predicted_Equation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Predicted_Equation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Energy_Expediture> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#ProtocolDevelopment
+<http://www.owl-ontologies.com/Ontology1361987617.owl#ProtocolDevelopment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#ProtocolDevelopment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#NutritionRoles> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Regular
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Regular> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Regular> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#DietPlan> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Regular> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Theraputic> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#ResearchNutritionAssessmentProcedure
+<http://www.owl-ontologies.com/Ontology1361987617.owl#ResearchNutritionAssessmentProcedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#ResearchNutritionAssessmentProcedure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#NutritionRoles> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#RotatingMenuCycle
+<http://www.owl-ontologies.com/Ontology1361987617.owl#RotatingMenuCycle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#RotatingMenuCycle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Metabolic> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Saturated
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Saturated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Saturated> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#FAT> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#ScientificLiterature
+<http://www.owl-ontologies.com/Ontology1361987617.owl#ScientificLiterature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#ScientificLiterature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#ProtocolDevelopment> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Screening
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Screening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Screening> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Nutrition_Assessment_Care_Plan> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Single_Nutrient_Intake
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Single_Nutrient_Intake> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Single_Nutrient_Intake> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Nutrient_Analysis> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Skinfold
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Skinfold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Skinfold> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#BodyComposition> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Skinfold_Subscapular
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Skinfold_Subscapular> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Skinfold_Subscapular> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Skinfold> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Skinfold_Suprailiac
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Skinfold_Suprailiac> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Skinfold_Suprailiac> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Skinfold> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Snacks
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Snacks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Snacks> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#DietPlan> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Spirometry
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Spirometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Spirometry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Whole_Calorimetry> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Theraputic
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Theraputic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Theraputic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#DietPlan> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#TransFattyAcids
+<http://www.owl-ontologies.com/Ontology1361987617.owl#TransFattyAcids> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#TransFattyAcids> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#FAT> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Treadmill
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Treadmill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Treadmill> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Activity_Physical_Assessment> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Underwater_Weighing
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Underwater_Weighing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Underwater_Weighing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#BodyComposition> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Underwater_Weighing_PctBodyFat
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Underwater_Weighing_PctBodyFat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Underwater_Weighing_PctBodyFat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Underwater_Weighing> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Underwater_Weighing_PctLeanMass
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Underwater_Weighing_PctLeanMass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Underwater_Weighing_PctLeanMass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Underwater_Weighing> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Unsaturated
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Unsaturated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Unsaturated> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#FAT> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Unsaturated> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.owl-ontologies.com/Ontology1361987617.owl#Mono> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.owl-ontologies.com/Ontology1361987617.owl#Poly> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Water
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Water> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#MacronutrientsControlled> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#WholeFood
+<http://www.owl-ontologies.com/Ontology1361987617.owl#WholeFood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#WholeFood> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Theraputic> .
+# 
+# http://www.owl-ontologies.com/Ontology1361987617.owl#Whole_Calorimetry
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Whole_Calorimetry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/Ontology1361987617.owl#Whole_Calorimetry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/Ontology1361987617.owl#Energy_Expediture> .
+# 
+# Generated by the OWL API (version 5.0.4.20161016-1358) https://github.com/owlcs/owlapi/

@@ -1,0 +1,2710 @@
+@prefix : <http://proteomeontology.org/cpo.owl> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://proteomeontology.org/cpo.owl> a owl:Ontology .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasExperiment
+
+<http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasExperiment> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Experiment> .
+# 
+# http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasLCColumnType
+
+<http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasLCColumnType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCColumnType> .
+# 
+# http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasLCSeprationMethod
+
+<http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasLCSeprationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCSeprationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasMSInstrument
+
+<http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasMSInstrument> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrument> .
+# 
+# http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasMSInstrumentType
+
+<http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasMSInstrumentType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrumentType> .
+# 
+# http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasMSResultFile
+
+<http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasMSResultFile> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSResultFile> .
+# 
+# http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasMSRun
+
+<http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasMSRun> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSRun> .
+# 
+# http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasMSSearchDB
+
+<http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasMSSearchDB> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchDB> .
+# 
+# http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasMSSearchMethod
+
+<http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasMSSearchMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasPerformanceSite
+
+<http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasPerformanceSite> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PerformanceSite> .
+# 
+# http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasPreparationReagentMap
+
+<http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasPreparationReagentMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PreparationReagentMap> .
+# 
+# http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasReagent
+
+<http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasReagent> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Reagent> .
+# 
+# http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasSamplePreparationMethod
+
+<http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasSamplePreparationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasStandardProteinSampleMap
+
+<http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasStandardProteinSampleMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> .
+# 
+# http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasStudyDesign
+
+<http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasStudyDesign> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyDesign> .
+# 
+# http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasStudyProtocol
+
+<http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasStudyProtocol> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyProtocol> .
+# 
+# http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasStudySample
+
+<http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasStudySample> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudySample> .
+# 
+# http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasStudyTeam
+
+<http://proteomeontology.org/cpo.owl#CPTACCatalogProteinHasStudyTeam> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#ExperimentHasCPTACCatalogProtein
+
+<http://proteomeontology.org/cpo.owl#ExperimentHasCPTACCatalogProtein> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Experiment> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> .
+# 
+# http://proteomeontology.org/cpo.owl#ExperimentHasLCColumnType
+
+<http://proteomeontology.org/cpo.owl#ExperimentHasLCColumnType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Experiment> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCColumnType> .
+# 
+# http://proteomeontology.org/cpo.owl#ExperimentHasLCSeprationMethod
+
+<http://proteomeontology.org/cpo.owl#ExperimentHasLCSeprationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Experiment> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCSeprationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#ExperimentHasMSInstrument
+
+<http://proteomeontology.org/cpo.owl#ExperimentHasMSInstrument> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Experiment> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrument> .
+# 
+# http://proteomeontology.org/cpo.owl#ExperimentHasMSInstrumentType
+
+<http://proteomeontology.org/cpo.owl#ExperimentHasMSInstrumentType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Experiment> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrumentType> .
+# 
+# http://proteomeontology.org/cpo.owl#ExperimentHasMSResultFile
+
+<http://proteomeontology.org/cpo.owl#ExperimentHasMSResultFile> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Experiment> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSResultFile> .
+# 
+# http://proteomeontology.org/cpo.owl#ExperimentHasMSRun
+
+<http://proteomeontology.org/cpo.owl#ExperimentHasMSRun> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Experiment> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSRun> .
+# 
+# http://proteomeontology.org/cpo.owl#ExperimentHasMSSearchDB
+
+<http://proteomeontology.org/cpo.owl#ExperimentHasMSSearchDB> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Experiment> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchDB> .
+# 
+# http://proteomeontology.org/cpo.owl#ExperimentHasMSSearchMethod
+
+<http://proteomeontology.org/cpo.owl#ExperimentHasMSSearchMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Experiment> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#ExperimentHasPerformanceSite
+
+<http://proteomeontology.org/cpo.owl#ExperimentHasPerformanceSite> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Experiment> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PerformanceSite> .
+# 
+# http://proteomeontology.org/cpo.owl#ExperimentHasPreparationReagentMap
+
+<http://proteomeontology.org/cpo.owl#ExperimentHasPreparationReagentMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Experiment> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PreparationReagentMap> .
+# 
+# http://proteomeontology.org/cpo.owl#ExperimentHasReagent
+
+<http://proteomeontology.org/cpo.owl#ExperimentHasReagent> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Experiment> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Reagent> .
+# 
+# http://proteomeontology.org/cpo.owl#ExperimentHasSamplePreparationMethod
+
+<http://proteomeontology.org/cpo.owl#ExperimentHasSamplePreparationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Experiment> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#ExperimentHasStandardProteinSampleMap
+
+<http://proteomeontology.org/cpo.owl#ExperimentHasStandardProteinSampleMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Experiment> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> .
+# 
+# http://proteomeontology.org/cpo.owl#ExperimentHasStudyDesign
+
+<http://proteomeontology.org/cpo.owl#ExperimentHasStudyDesign> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Experiment> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyDesign> .
+# 
+# http://proteomeontology.org/cpo.owl#ExperimentHasStudyProtocol
+
+<http://proteomeontology.org/cpo.owl#ExperimentHasStudyProtocol> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Experiment> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyProtocol> .
+# 
+# http://proteomeontology.org/cpo.owl#ExperimentHasStudySample
+
+<http://proteomeontology.org/cpo.owl#ExperimentHasStudySample> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Experiment> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudySample> .
+# 
+# http://proteomeontology.org/cpo.owl#ExperimentHasStudyTeam
+
+<http://proteomeontology.org/cpo.owl#ExperimentHasStudyTeam> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Experiment> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#LCColumnTypeHasCPTACCatalogProtein
+
+<http://proteomeontology.org/cpo.owl#LCColumnTypeHasCPTACCatalogProtein> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCColumnType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> .
+# 
+# http://proteomeontology.org/cpo.owl#LCColumnTypeHasExperiment
+
+<http://proteomeontology.org/cpo.owl#LCColumnTypeHasExperiment> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCColumnType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Experiment> .
+# 
+# http://proteomeontology.org/cpo.owl#LCColumnTypeHasLCSeprationMethod
+
+<http://proteomeontology.org/cpo.owl#LCColumnTypeHasLCSeprationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCColumnType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCSeprationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#LCColumnTypeHasMSInstrument
+
+<http://proteomeontology.org/cpo.owl#LCColumnTypeHasMSInstrument> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCColumnType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrument> .
+# 
+# http://proteomeontology.org/cpo.owl#LCColumnTypeHasMSInstrumentType
+
+<http://proteomeontology.org/cpo.owl#LCColumnTypeHasMSInstrumentType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCColumnType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrumentType> .
+# 
+# http://proteomeontology.org/cpo.owl#LCColumnTypeHasMSResultFile
+
+<http://proteomeontology.org/cpo.owl#LCColumnTypeHasMSResultFile> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCColumnType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSResultFile> .
+# 
+# http://proteomeontology.org/cpo.owl#LCColumnTypeHasMSRun
+
+<http://proteomeontology.org/cpo.owl#LCColumnTypeHasMSRun> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCColumnType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSRun> .
+# 
+# http://proteomeontology.org/cpo.owl#LCColumnTypeHasMSSearchDB
+
+<http://proteomeontology.org/cpo.owl#LCColumnTypeHasMSSearchDB> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCColumnType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchDB> .
+# 
+# http://proteomeontology.org/cpo.owl#LCColumnTypeHasMSSearchMethod
+
+<http://proteomeontology.org/cpo.owl#LCColumnTypeHasMSSearchMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCColumnType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#LCColumnTypeHasPerformanceSite
+
+<http://proteomeontology.org/cpo.owl#LCColumnTypeHasPerformanceSite> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCColumnType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PerformanceSite> .
+# 
+# http://proteomeontology.org/cpo.owl#LCColumnTypeHasPreparationReagentMap
+
+<http://proteomeontology.org/cpo.owl#LCColumnTypeHasPreparationReagentMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCColumnType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PreparationReagentMap> .
+# 
+# http://proteomeontology.org/cpo.owl#LCColumnTypeHasReagent
+
+<http://proteomeontology.org/cpo.owl#LCColumnTypeHasReagent> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCColumnType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Reagent> .
+# 
+# http://proteomeontology.org/cpo.owl#LCColumnTypeHasSamplePreparationMethod
+
+<http://proteomeontology.org/cpo.owl#LCColumnTypeHasSamplePreparationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCColumnType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#LCColumnTypeHasStandardProteinSampleMap
+
+<http://proteomeontology.org/cpo.owl#LCColumnTypeHasStandardProteinSampleMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCColumnType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> .
+# 
+# http://proteomeontology.org/cpo.owl#LCColumnTypeHasStudyDesign
+
+<http://proteomeontology.org/cpo.owl#LCColumnTypeHasStudyDesign> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCColumnType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyDesign> .
+# 
+# http://proteomeontology.org/cpo.owl#LCColumnTypeHasStudyProtocol
+
+<http://proteomeontology.org/cpo.owl#LCColumnTypeHasStudyProtocol> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCColumnType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyProtocol> .
+# 
+# http://proteomeontology.org/cpo.owl#LCColumnTypeHasStudySample
+
+<http://proteomeontology.org/cpo.owl#LCColumnTypeHasStudySample> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCColumnType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudySample> .
+# 
+# http://proteomeontology.org/cpo.owl#LCColumnTypeHasStudyTeam
+
+<http://proteomeontology.org/cpo.owl#LCColumnTypeHasStudyTeam> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCColumnType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#LCSeprationMethodHasCPTACCatalogProtein
+
+<http://proteomeontology.org/cpo.owl#LCSeprationMethodHasCPTACCatalogProtein> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCSeprationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> .
+# 
+# http://proteomeontology.org/cpo.owl#LCSeprationMethodHasExperiment
+
+<http://proteomeontology.org/cpo.owl#LCSeprationMethodHasExperiment> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCSeprationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Experiment> .
+# 
+# http://proteomeontology.org/cpo.owl#LCSeprationMethodHasLCColumnType
+
+<http://proteomeontology.org/cpo.owl#LCSeprationMethodHasLCColumnType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCSeprationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCColumnType> .
+# 
+# http://proteomeontology.org/cpo.owl#LCSeprationMethodHasMSInstrument
+
+<http://proteomeontology.org/cpo.owl#LCSeprationMethodHasMSInstrument> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCSeprationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrument> .
+# 
+# http://proteomeontology.org/cpo.owl#LCSeprationMethodHasMSInstrumentType
+
+<http://proteomeontology.org/cpo.owl#LCSeprationMethodHasMSInstrumentType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCSeprationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrumentType> .
+# 
+# http://proteomeontology.org/cpo.owl#LCSeprationMethodHasMSResultFile
+
+<http://proteomeontology.org/cpo.owl#LCSeprationMethodHasMSResultFile> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCSeprationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSResultFile> .
+# 
+# http://proteomeontology.org/cpo.owl#LCSeprationMethodHasMSRun
+
+<http://proteomeontology.org/cpo.owl#LCSeprationMethodHasMSRun> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCSeprationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSRun> .
+# 
+# http://proteomeontology.org/cpo.owl#LCSeprationMethodHasMSSearchDB
+
+<http://proteomeontology.org/cpo.owl#LCSeprationMethodHasMSSearchDB> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCSeprationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchDB> .
+# 
+# http://proteomeontology.org/cpo.owl#LCSeprationMethodHasMSSearchMethod
+
+<http://proteomeontology.org/cpo.owl#LCSeprationMethodHasMSSearchMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCSeprationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#LCSeprationMethodHasPerformanceSite
+
+<http://proteomeontology.org/cpo.owl#LCSeprationMethodHasPerformanceSite> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCSeprationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PerformanceSite> .
+# 
+# http://proteomeontology.org/cpo.owl#LCSeprationMethodHasPreparationReagentMap
+
+<http://proteomeontology.org/cpo.owl#LCSeprationMethodHasPreparationReagentMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCSeprationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PreparationReagentMap> .
+# 
+# http://proteomeontology.org/cpo.owl#LCSeprationMethodHasReagent
+
+<http://proteomeontology.org/cpo.owl#LCSeprationMethodHasReagent> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCSeprationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Reagent> .
+# 
+# http://proteomeontology.org/cpo.owl#LCSeprationMethodHasSamplePreparationMethod
+
+<http://proteomeontology.org/cpo.owl#LCSeprationMethodHasSamplePreparationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCSeprationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#LCSeprationMethodHasStandardProteinSampleMap
+
+<http://proteomeontology.org/cpo.owl#LCSeprationMethodHasStandardProteinSampleMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCSeprationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> .
+# 
+# http://proteomeontology.org/cpo.owl#LCSeprationMethodHasStudyDesign
+
+<http://proteomeontology.org/cpo.owl#LCSeprationMethodHasStudyDesign> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCSeprationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyDesign> .
+# 
+# http://proteomeontology.org/cpo.owl#LCSeprationMethodHasStudyProtocol
+
+<http://proteomeontology.org/cpo.owl#LCSeprationMethodHasStudyProtocol> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCSeprationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyProtocol> .
+# 
+# http://proteomeontology.org/cpo.owl#LCSeprationMethodHasStudySample
+
+<http://proteomeontology.org/cpo.owl#LCSeprationMethodHasStudySample> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCSeprationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudySample> .
+# 
+# http://proteomeontology.org/cpo.owl#LCSeprationMethodHasStudyTeam
+
+<http://proteomeontology.org/cpo.owl#LCSeprationMethodHasStudyTeam> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCSeprationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentHasCPTACCatalogProtein
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentHasCPTACCatalogProtein> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrument> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentHasExperiment
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentHasExperiment> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrument> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Experiment> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentHasLCColumnType
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentHasLCColumnType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrument> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCColumnType> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentHasLCSeprationMethod
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentHasLCSeprationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrument> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCSeprationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentHasMSInstrumentType
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentHasMSInstrumentType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrument> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrumentType> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentHasMSResultFile
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentHasMSResultFile> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrument> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSResultFile> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentHasMSRun
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentHasMSRun> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrument> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSRun> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentHasMSSearchDB
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentHasMSSearchDB> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrument> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchDB> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentHasMSSearchMethod
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentHasMSSearchMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrument> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentHasPerformanceSite
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentHasPerformanceSite> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrument> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PerformanceSite> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentHasPreparationReagentMap
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentHasPreparationReagentMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrument> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PreparationReagentMap> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentHasReagent
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentHasReagent> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrument> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Reagent> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentHasSamplePreparationMethod
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentHasSamplePreparationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrument> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentHasStandardProteinSampleMap
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentHasStandardProteinSampleMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrument> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentHasStudyDesign
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentHasStudyDesign> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrument> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyDesign> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentHasStudyProtocol
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentHasStudyProtocol> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrument> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyProtocol> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentHasStudySample
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentHasStudySample> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrument> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudySample> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentHasStudyTeam
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentHasStudyTeam> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrument> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasCPTACCatalogProtein
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasCPTACCatalogProtein> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrumentType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasExperiment
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasExperiment> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrumentType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Experiment> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasLCColumnType
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasLCColumnType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrumentType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCColumnType> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasLCSeprationMethod
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasLCSeprationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrumentType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCSeprationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasMSInstrument
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasMSInstrument> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrumentType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrument> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasMSResultFile
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasMSResultFile> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrumentType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSResultFile> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasMSRun
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasMSRun> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrumentType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSRun> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasMSSearchDB
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasMSSearchDB> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrumentType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchDB> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasMSSearchMethod
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasMSSearchMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrumentType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasPerformanceSite
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasPerformanceSite> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrumentType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PerformanceSite> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasPreparationReagentMap
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasPreparationReagentMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrumentType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PreparationReagentMap> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasReagent
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasReagent> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrumentType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Reagent> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasSamplePreparationMethod
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasSamplePreparationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrumentType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasStandardProteinSampleMap
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasStandardProteinSampleMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrumentType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasStudyDesign
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasStudyDesign> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrumentType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyDesign> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasStudyProtocol
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasStudyProtocol> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrumentType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyProtocol> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasStudySample
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasStudySample> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrumentType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudySample> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasStudyTeam
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentTypeHasStudyTeam> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrumentType> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#MSResultFileHasCPTACCatalogProtein
+
+<http://proteomeontology.org/cpo.owl#MSResultFileHasCPTACCatalogProtein> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSResultFile> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> .
+# 
+# http://proteomeontology.org/cpo.owl#MSResultFileHasExperiment
+
+<http://proteomeontology.org/cpo.owl#MSResultFileHasExperiment> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSResultFile> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Experiment> .
+# 
+# http://proteomeontology.org/cpo.owl#MSResultFileHasLCColumnType
+
+<http://proteomeontology.org/cpo.owl#MSResultFileHasLCColumnType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSResultFile> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCColumnType> .
+# 
+# http://proteomeontology.org/cpo.owl#MSResultFileHasLCSeprationMethod
+
+<http://proteomeontology.org/cpo.owl#MSResultFileHasLCSeprationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSResultFile> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCSeprationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#MSResultFileHasMSInstrument
+
+<http://proteomeontology.org/cpo.owl#MSResultFileHasMSInstrument> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSResultFile> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrument> .
+# 
+# http://proteomeontology.org/cpo.owl#MSResultFileHasMSInstrumentType
+
+<http://proteomeontology.org/cpo.owl#MSResultFileHasMSInstrumentType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSResultFile> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrumentType> .
+# 
+# http://proteomeontology.org/cpo.owl#MSResultFileHasMSRun
+
+<http://proteomeontology.org/cpo.owl#MSResultFileHasMSRun> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSResultFile> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSRun> .
+# 
+# http://proteomeontology.org/cpo.owl#MSResultFileHasMSSearchDB
+
+<http://proteomeontology.org/cpo.owl#MSResultFileHasMSSearchDB> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSResultFile> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchDB> .
+# 
+# http://proteomeontology.org/cpo.owl#MSResultFileHasMSSearchMethod
+
+<http://proteomeontology.org/cpo.owl#MSResultFileHasMSSearchMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSResultFile> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#MSResultFileHasPerformanceSite
+
+<http://proteomeontology.org/cpo.owl#MSResultFileHasPerformanceSite> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSResultFile> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PerformanceSite> .
+# 
+# http://proteomeontology.org/cpo.owl#MSResultFileHasPreparationReagentMap
+
+<http://proteomeontology.org/cpo.owl#MSResultFileHasPreparationReagentMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSResultFile> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PreparationReagentMap> .
+# 
+# http://proteomeontology.org/cpo.owl#MSResultFileHasReagent
+
+<http://proteomeontology.org/cpo.owl#MSResultFileHasReagent> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSResultFile> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Reagent> .
+# 
+# http://proteomeontology.org/cpo.owl#MSResultFileHasSamplePreparationMethod
+
+<http://proteomeontology.org/cpo.owl#MSResultFileHasSamplePreparationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSResultFile> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#MSResultFileHasStandardProteinSampleMap
+
+<http://proteomeontology.org/cpo.owl#MSResultFileHasStandardProteinSampleMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSResultFile> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> .
+# 
+# http://proteomeontology.org/cpo.owl#MSResultFileHasStudyDesign
+
+<http://proteomeontology.org/cpo.owl#MSResultFileHasStudyDesign> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSResultFile> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyDesign> .
+# 
+# http://proteomeontology.org/cpo.owl#MSResultFileHasStudyProtocol
+
+<http://proteomeontology.org/cpo.owl#MSResultFileHasStudyProtocol> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSResultFile> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyProtocol> .
+# 
+# http://proteomeontology.org/cpo.owl#MSResultFileHasStudySample
+
+<http://proteomeontology.org/cpo.owl#MSResultFileHasStudySample> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSResultFile> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudySample> .
+# 
+# http://proteomeontology.org/cpo.owl#MSResultFileHasStudyTeam
+
+<http://proteomeontology.org/cpo.owl#MSResultFileHasStudyTeam> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSResultFile> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#MSRunHasCPTACCatalogProtein
+
+<http://proteomeontology.org/cpo.owl#MSRunHasCPTACCatalogProtein> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSRun> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> .
+# 
+# http://proteomeontology.org/cpo.owl#MSRunHasExperiment
+
+<http://proteomeontology.org/cpo.owl#MSRunHasExperiment> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSRun> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Experiment> .
+# 
+# http://proteomeontology.org/cpo.owl#MSRunHasLCColumnType
+
+<http://proteomeontology.org/cpo.owl#MSRunHasLCColumnType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSRun> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCColumnType> .
+# 
+# http://proteomeontology.org/cpo.owl#MSRunHasLCSeprationMethod
+
+<http://proteomeontology.org/cpo.owl#MSRunHasLCSeprationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSRun> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCSeprationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#MSRunHasMSInstrument
+
+<http://proteomeontology.org/cpo.owl#MSRunHasMSInstrument> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSRun> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrument> .
+# 
+# http://proteomeontology.org/cpo.owl#MSRunHasMSInstrumentType
+
+<http://proteomeontology.org/cpo.owl#MSRunHasMSInstrumentType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSRun> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrumentType> .
+# 
+# http://proteomeontology.org/cpo.owl#MSRunHasMSResultFile
+
+<http://proteomeontology.org/cpo.owl#MSRunHasMSResultFile> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSRun> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSResultFile> .
+# 
+# http://proteomeontology.org/cpo.owl#MSRunHasMSSearchDB
+
+<http://proteomeontology.org/cpo.owl#MSRunHasMSSearchDB> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSRun> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchDB> .
+# 
+# http://proteomeontology.org/cpo.owl#MSRunHasMSSearchMethod
+
+<http://proteomeontology.org/cpo.owl#MSRunHasMSSearchMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSRun> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#MSRunHasPerformanceSite
+
+<http://proteomeontology.org/cpo.owl#MSRunHasPerformanceSite> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSRun> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PerformanceSite> .
+# 
+# http://proteomeontology.org/cpo.owl#MSRunHasPreparationReagentMap
+
+<http://proteomeontology.org/cpo.owl#MSRunHasPreparationReagentMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSRun> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PreparationReagentMap> .
+# 
+# http://proteomeontology.org/cpo.owl#MSRunHasReagent
+
+<http://proteomeontology.org/cpo.owl#MSRunHasReagent> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSRun> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Reagent> .
+# 
+# http://proteomeontology.org/cpo.owl#MSRunHasSamplePreparationMethod
+
+<http://proteomeontology.org/cpo.owl#MSRunHasSamplePreparationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSRun> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#MSRunHasStandardProteinSampleMap
+
+<http://proteomeontology.org/cpo.owl#MSRunHasStandardProteinSampleMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSRun> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> .
+# 
+# http://proteomeontology.org/cpo.owl#MSRunHasStudyDesign
+
+<http://proteomeontology.org/cpo.owl#MSRunHasStudyDesign> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSRun> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyDesign> .
+# 
+# http://proteomeontology.org/cpo.owl#MSRunHasStudyProtocol
+
+<http://proteomeontology.org/cpo.owl#MSRunHasStudyProtocol> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSRun> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyProtocol> .
+# 
+# http://proteomeontology.org/cpo.owl#MSRunHasStudySample
+
+<http://proteomeontology.org/cpo.owl#MSRunHasStudySample> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSRun> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudySample> .
+# 
+# http://proteomeontology.org/cpo.owl#MSRunHasStudyTeam
+
+<http://proteomeontology.org/cpo.owl#MSRunHasStudyTeam> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSRun> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchDBHasCPTACCatalogProtein
+
+<http://proteomeontology.org/cpo.owl#MSSearchDBHasCPTACCatalogProtein> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchDB> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchDBHasExperiment
+
+<http://proteomeontology.org/cpo.owl#MSSearchDBHasExperiment> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchDB> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Experiment> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchDBHasLCColumnType
+
+<http://proteomeontology.org/cpo.owl#MSSearchDBHasLCColumnType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchDB> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCColumnType> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchDBHasLCSeprationMethod
+
+<http://proteomeontology.org/cpo.owl#MSSearchDBHasLCSeprationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchDB> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCSeprationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchDBHasMSInstrument
+
+<http://proteomeontology.org/cpo.owl#MSSearchDBHasMSInstrument> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchDB> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrument> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchDBHasMSInstrumentType
+
+<http://proteomeontology.org/cpo.owl#MSSearchDBHasMSInstrumentType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchDB> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrumentType> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchDBHasMSResultFile
+
+<http://proteomeontology.org/cpo.owl#MSSearchDBHasMSResultFile> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchDB> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSResultFile> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchDBHasMSRun
+
+<http://proteomeontology.org/cpo.owl#MSSearchDBHasMSRun> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchDB> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSRun> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchDBHasMSSearchMethod
+
+<http://proteomeontology.org/cpo.owl#MSSearchDBHasMSSearchMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchDB> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchDBHasPerformanceSite
+
+<http://proteomeontology.org/cpo.owl#MSSearchDBHasPerformanceSite> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchDB> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PerformanceSite> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchDBHasPreparationReagentMap
+
+<http://proteomeontology.org/cpo.owl#MSSearchDBHasPreparationReagentMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchDB> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PreparationReagentMap> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchDBHasReagent
+
+<http://proteomeontology.org/cpo.owl#MSSearchDBHasReagent> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchDB> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Reagent> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchDBHasSamplePreparationMethod
+
+<http://proteomeontology.org/cpo.owl#MSSearchDBHasSamplePreparationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchDB> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchDBHasStandardProteinSampleMap
+
+<http://proteomeontology.org/cpo.owl#MSSearchDBHasStandardProteinSampleMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchDB> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchDBHasStudyDesign
+
+<http://proteomeontology.org/cpo.owl#MSSearchDBHasStudyDesign> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchDB> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyDesign> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchDBHasStudyProtocol
+
+<http://proteomeontology.org/cpo.owl#MSSearchDBHasStudyProtocol> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchDB> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyProtocol> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchDBHasStudySample
+
+<http://proteomeontology.org/cpo.owl#MSSearchDBHasStudySample> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchDB> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudySample> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchDBHasStudyTeam
+
+<http://proteomeontology.org/cpo.owl#MSSearchDBHasStudyTeam> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchDB> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchMethodHasCPTACCatalogProtein
+
+<http://proteomeontology.org/cpo.owl#MSSearchMethodHasCPTACCatalogProtein> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchMethodHasExperiment
+
+<http://proteomeontology.org/cpo.owl#MSSearchMethodHasExperiment> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Experiment> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchMethodHasLCColumnType
+
+<http://proteomeontology.org/cpo.owl#MSSearchMethodHasLCColumnType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCColumnType> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchMethodHasLCSeprationMethod
+
+<http://proteomeontology.org/cpo.owl#MSSearchMethodHasLCSeprationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCSeprationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchMethodHasMSInstrument
+
+<http://proteomeontology.org/cpo.owl#MSSearchMethodHasMSInstrument> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrument> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchMethodHasMSInstrumentType
+
+<http://proteomeontology.org/cpo.owl#MSSearchMethodHasMSInstrumentType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrumentType> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchMethodHasMSResultFile
+
+<http://proteomeontology.org/cpo.owl#MSSearchMethodHasMSResultFile> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSResultFile> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchMethodHasMSRun
+
+<http://proteomeontology.org/cpo.owl#MSSearchMethodHasMSRun> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSRun> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchMethodHasMSSearchDB
+
+<http://proteomeontology.org/cpo.owl#MSSearchMethodHasMSSearchDB> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchDB> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchMethodHasPerformanceSite
+
+<http://proteomeontology.org/cpo.owl#MSSearchMethodHasPerformanceSite> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PerformanceSite> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchMethodHasPreparationReagentMap
+
+<http://proteomeontology.org/cpo.owl#MSSearchMethodHasPreparationReagentMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PreparationReagentMap> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchMethodHasReagent
+
+<http://proteomeontology.org/cpo.owl#MSSearchMethodHasReagent> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Reagent> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchMethodHasSamplePreparationMethod
+
+<http://proteomeontology.org/cpo.owl#MSSearchMethodHasSamplePreparationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchMethodHasStandardProteinSampleMap
+
+<http://proteomeontology.org/cpo.owl#MSSearchMethodHasStandardProteinSampleMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchMethodHasStudyDesign
+
+<http://proteomeontology.org/cpo.owl#MSSearchMethodHasStudyDesign> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyDesign> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchMethodHasStudyProtocol
+
+<http://proteomeontology.org/cpo.owl#MSSearchMethodHasStudyProtocol> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyProtocol> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchMethodHasStudySample
+
+<http://proteomeontology.org/cpo.owl#MSSearchMethodHasStudySample> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudySample> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchMethodHasStudyTeam
+
+<http://proteomeontology.org/cpo.owl#MSSearchMethodHasStudyTeam> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#PerformanceSiteHasCPTACCatalogProtein
+
+<http://proteomeontology.org/cpo.owl#PerformanceSiteHasCPTACCatalogProtein> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PerformanceSite> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> .
+# 
+# http://proteomeontology.org/cpo.owl#PerformanceSiteHasExperiment
+
+<http://proteomeontology.org/cpo.owl#PerformanceSiteHasExperiment> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PerformanceSite> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Experiment> .
+# 
+# http://proteomeontology.org/cpo.owl#PerformanceSiteHasLCColumnType
+
+<http://proteomeontology.org/cpo.owl#PerformanceSiteHasLCColumnType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PerformanceSite> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCColumnType> .
+# 
+# http://proteomeontology.org/cpo.owl#PerformanceSiteHasLCSeprationMethod
+
+<http://proteomeontology.org/cpo.owl#PerformanceSiteHasLCSeprationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PerformanceSite> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCSeprationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#PerformanceSiteHasMSInstrument
+
+<http://proteomeontology.org/cpo.owl#PerformanceSiteHasMSInstrument> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PerformanceSite> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrument> .
+# 
+# http://proteomeontology.org/cpo.owl#PerformanceSiteHasMSInstrumentType
+
+<http://proteomeontology.org/cpo.owl#PerformanceSiteHasMSInstrumentType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PerformanceSite> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrumentType> .
+# 
+# http://proteomeontology.org/cpo.owl#PerformanceSiteHasMSResultFile
+
+<http://proteomeontology.org/cpo.owl#PerformanceSiteHasMSResultFile> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PerformanceSite> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSResultFile> .
+# 
+# http://proteomeontology.org/cpo.owl#PerformanceSiteHasMSRun
+
+<http://proteomeontology.org/cpo.owl#PerformanceSiteHasMSRun> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PerformanceSite> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSRun> .
+# 
+# http://proteomeontology.org/cpo.owl#PerformanceSiteHasMSSearchDB
+
+<http://proteomeontology.org/cpo.owl#PerformanceSiteHasMSSearchDB> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PerformanceSite> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchDB> .
+# 
+# http://proteomeontology.org/cpo.owl#PerformanceSiteHasMSSearchMethod
+
+<http://proteomeontology.org/cpo.owl#PerformanceSiteHasMSSearchMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PerformanceSite> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#PerformanceSiteHasPreparationReagentMap
+
+<http://proteomeontology.org/cpo.owl#PerformanceSiteHasPreparationReagentMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PerformanceSite> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PreparationReagentMap> .
+# 
+# http://proteomeontology.org/cpo.owl#PerformanceSiteHasReagent
+
+<http://proteomeontology.org/cpo.owl#PerformanceSiteHasReagent> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PerformanceSite> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Reagent> .
+# 
+# http://proteomeontology.org/cpo.owl#PerformanceSiteHasSamplePreparationMethod
+
+<http://proteomeontology.org/cpo.owl#PerformanceSiteHasSamplePreparationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PerformanceSite> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#PerformanceSiteHasStandardProteinSampleMap
+
+<http://proteomeontology.org/cpo.owl#PerformanceSiteHasStandardProteinSampleMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PerformanceSite> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> .
+# 
+# http://proteomeontology.org/cpo.owl#PerformanceSiteHasStudyDesign
+
+<http://proteomeontology.org/cpo.owl#PerformanceSiteHasStudyDesign> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PerformanceSite> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyDesign> .
+# 
+# http://proteomeontology.org/cpo.owl#PerformanceSiteHasStudyProtocol
+
+<http://proteomeontology.org/cpo.owl#PerformanceSiteHasStudyProtocol> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PerformanceSite> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyProtocol> .
+# 
+# http://proteomeontology.org/cpo.owl#PerformanceSiteHasStudySample
+
+<http://proteomeontology.org/cpo.owl#PerformanceSiteHasStudySample> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PerformanceSite> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudySample> .
+# 
+# http://proteomeontology.org/cpo.owl#PerformanceSiteHasStudyTeam
+
+<http://proteomeontology.org/cpo.owl#PerformanceSiteHasStudyTeam> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PerformanceSite> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#PreparationReagentMapHasCPTACCatalogProtein
+
+<http://proteomeontology.org/cpo.owl#PreparationReagentMapHasCPTACCatalogProtein> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PreparationReagentMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> .
+# 
+# http://proteomeontology.org/cpo.owl#PreparationReagentMapHasExperiment
+
+<http://proteomeontology.org/cpo.owl#PreparationReagentMapHasExperiment> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PreparationReagentMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Experiment> .
+# 
+# http://proteomeontology.org/cpo.owl#PreparationReagentMapHasLCColumnType
+
+<http://proteomeontology.org/cpo.owl#PreparationReagentMapHasLCColumnType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PreparationReagentMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCColumnType> .
+# 
+# http://proteomeontology.org/cpo.owl#PreparationReagentMapHasLCSeprationMethod
+
+<http://proteomeontology.org/cpo.owl#PreparationReagentMapHasLCSeprationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PreparationReagentMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCSeprationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#PreparationReagentMapHasMSInstrument
+
+<http://proteomeontology.org/cpo.owl#PreparationReagentMapHasMSInstrument> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PreparationReagentMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrument> .
+# 
+# http://proteomeontology.org/cpo.owl#PreparationReagentMapHasMSInstrumentType
+
+<http://proteomeontology.org/cpo.owl#PreparationReagentMapHasMSInstrumentType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PreparationReagentMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrumentType> .
+# 
+# http://proteomeontology.org/cpo.owl#PreparationReagentMapHasMSResultFile
+
+<http://proteomeontology.org/cpo.owl#PreparationReagentMapHasMSResultFile> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PreparationReagentMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSResultFile> .
+# 
+# http://proteomeontology.org/cpo.owl#PreparationReagentMapHasMSRun
+
+<http://proteomeontology.org/cpo.owl#PreparationReagentMapHasMSRun> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PreparationReagentMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSRun> .
+# 
+# http://proteomeontology.org/cpo.owl#PreparationReagentMapHasMSSearchDB
+
+<http://proteomeontology.org/cpo.owl#PreparationReagentMapHasMSSearchDB> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PreparationReagentMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchDB> .
+# 
+# http://proteomeontology.org/cpo.owl#PreparationReagentMapHasMSSearchMethod
+
+<http://proteomeontology.org/cpo.owl#PreparationReagentMapHasMSSearchMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PreparationReagentMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#PreparationReagentMapHasPerformanceSite
+
+<http://proteomeontology.org/cpo.owl#PreparationReagentMapHasPerformanceSite> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PreparationReagentMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PerformanceSite> .
+# 
+# http://proteomeontology.org/cpo.owl#PreparationReagentMapHasReagent
+
+<http://proteomeontology.org/cpo.owl#PreparationReagentMapHasReagent> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PreparationReagentMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Reagent> .
+# 
+# http://proteomeontology.org/cpo.owl#PreparationReagentMapHasSamplePreparationMethod
+
+<http://proteomeontology.org/cpo.owl#PreparationReagentMapHasSamplePreparationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PreparationReagentMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#PreparationReagentMapHasStandardProteinSampleMap
+
+<http://proteomeontology.org/cpo.owl#PreparationReagentMapHasStandardProteinSampleMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PreparationReagentMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> .
+# 
+# http://proteomeontology.org/cpo.owl#PreparationReagentMapHasStudyDesign
+
+<http://proteomeontology.org/cpo.owl#PreparationReagentMapHasStudyDesign> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PreparationReagentMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyDesign> .
+# 
+# http://proteomeontology.org/cpo.owl#PreparationReagentMapHasStudyProtocol
+
+<http://proteomeontology.org/cpo.owl#PreparationReagentMapHasStudyProtocol> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PreparationReagentMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyProtocol> .
+# 
+# http://proteomeontology.org/cpo.owl#PreparationReagentMapHasStudySample
+
+<http://proteomeontology.org/cpo.owl#PreparationReagentMapHasStudySample> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PreparationReagentMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudySample> .
+# 
+# http://proteomeontology.org/cpo.owl#PreparationReagentMapHasStudyTeam
+
+<http://proteomeontology.org/cpo.owl#PreparationReagentMapHasStudyTeam> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PreparationReagentMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#ReagentHasCPTACCatalogProtein
+
+<http://proteomeontology.org/cpo.owl#ReagentHasCPTACCatalogProtein> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Reagent> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> .
+# 
+# http://proteomeontology.org/cpo.owl#ReagentHasExperiment
+
+<http://proteomeontology.org/cpo.owl#ReagentHasExperiment> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Reagent> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Experiment> .
+# 
+# http://proteomeontology.org/cpo.owl#ReagentHasLCColumnType
+
+<http://proteomeontology.org/cpo.owl#ReagentHasLCColumnType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Reagent> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCColumnType> .
+# 
+# http://proteomeontology.org/cpo.owl#ReagentHasLCSeprationMethod
+
+<http://proteomeontology.org/cpo.owl#ReagentHasLCSeprationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Reagent> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCSeprationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#ReagentHasMSInstrument
+
+<http://proteomeontology.org/cpo.owl#ReagentHasMSInstrument> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Reagent> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrument> .
+# 
+# http://proteomeontology.org/cpo.owl#ReagentHasMSInstrumentType
+
+<http://proteomeontology.org/cpo.owl#ReagentHasMSInstrumentType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Reagent> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrumentType> .
+# 
+# http://proteomeontology.org/cpo.owl#ReagentHasMSResultFile
+
+<http://proteomeontology.org/cpo.owl#ReagentHasMSResultFile> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Reagent> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSResultFile> .
+# 
+# http://proteomeontology.org/cpo.owl#ReagentHasMSRun
+
+<http://proteomeontology.org/cpo.owl#ReagentHasMSRun> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Reagent> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSRun> .
+# 
+# http://proteomeontology.org/cpo.owl#ReagentHasMSSearchDB
+
+<http://proteomeontology.org/cpo.owl#ReagentHasMSSearchDB> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Reagent> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchDB> .
+# 
+# http://proteomeontology.org/cpo.owl#ReagentHasMSSearchMethod
+
+<http://proteomeontology.org/cpo.owl#ReagentHasMSSearchMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Reagent> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#ReagentHasPerformanceSite
+
+<http://proteomeontology.org/cpo.owl#ReagentHasPerformanceSite> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Reagent> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PerformanceSite> .
+# 
+# http://proteomeontology.org/cpo.owl#ReagentHasPreparationReagentMap
+
+<http://proteomeontology.org/cpo.owl#ReagentHasPreparationReagentMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Reagent> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PreparationReagentMap> .
+# 
+# http://proteomeontology.org/cpo.owl#ReagentHasSamplePreparationMethod
+
+<http://proteomeontology.org/cpo.owl#ReagentHasSamplePreparationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Reagent> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#ReagentHasStandardProteinSampleMap
+
+<http://proteomeontology.org/cpo.owl#ReagentHasStandardProteinSampleMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Reagent> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> .
+# 
+# http://proteomeontology.org/cpo.owl#ReagentHasStudyDesign
+
+<http://proteomeontology.org/cpo.owl#ReagentHasStudyDesign> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Reagent> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyDesign> .
+# 
+# http://proteomeontology.org/cpo.owl#ReagentHasStudyProtocol
+
+<http://proteomeontology.org/cpo.owl#ReagentHasStudyProtocol> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Reagent> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyProtocol> .
+# 
+# http://proteomeontology.org/cpo.owl#ReagentHasStudySample
+
+<http://proteomeontology.org/cpo.owl#ReagentHasStudySample> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Reagent> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudySample> .
+# 
+# http://proteomeontology.org/cpo.owl#ReagentHasStudyTeam
+
+<http://proteomeontology.org/cpo.owl#ReagentHasStudyTeam> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Reagent> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasCPTACCatalogProtein
+
+<http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasCPTACCatalogProtein> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> .
+# 
+# http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasExperiment
+
+<http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasExperiment> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Experiment> .
+# 
+# http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasLCColumnType
+
+<http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasLCColumnType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCColumnType> .
+# 
+# http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasLCSeprationMethod
+
+<http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasLCSeprationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCSeprationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasMSInstrument
+
+<http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasMSInstrument> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrument> .
+# 
+# http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasMSInstrumentType
+
+<http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasMSInstrumentType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrumentType> .
+# 
+# http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasMSResultFile
+
+<http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasMSResultFile> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSResultFile> .
+# 
+# http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasMSRun
+
+<http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasMSRun> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSRun> .
+# 
+# http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasMSSearchDB
+
+<http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasMSSearchDB> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchDB> .
+# 
+# http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasMSSearchMethod
+
+<http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasMSSearchMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasPerformanceSite
+
+<http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasPerformanceSite> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PerformanceSite> .
+# 
+# http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasPreparationReagentMap
+
+<http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasPreparationReagentMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PreparationReagentMap> .
+# 
+# http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasReagent
+
+<http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasReagent> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Reagent> .
+# 
+# http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasStandardProteinSampleMap
+
+<http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasStandardProteinSampleMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> .
+# 
+# http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasStudyDesign
+
+<http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasStudyDesign> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyDesign> .
+# 
+# http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasStudyProtocol
+
+<http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasStudyProtocol> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyProtocol> .
+# 
+# http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasStudySample
+
+<http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasStudySample> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudySample> .
+# 
+# http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasStudyTeam
+
+<http://proteomeontology.org/cpo.owl#SamplePreparationMethodHasStudyTeam> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasCPTACCatalogProtein
+
+<http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasCPTACCatalogProtein> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> .
+# 
+# http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasExperiment
+
+<http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasExperiment> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Experiment> .
+# 
+# http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasLCColumnType
+
+<http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasLCColumnType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCColumnType> .
+# 
+# http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasLCSeprationMethod
+
+<http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasLCSeprationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCSeprationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasMSInstrument
+
+<http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasMSInstrument> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrument> .
+# 
+# http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasMSInstrumentType
+
+<http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasMSInstrumentType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrumentType> .
+# 
+# http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasMSResultFile
+
+<http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasMSResultFile> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSResultFile> .
+# 
+# http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasMSRun
+
+<http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasMSRun> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSRun> .
+# 
+# http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasMSSearchDB
+
+<http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasMSSearchDB> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchDB> .
+# 
+# http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasMSSearchMethod
+
+<http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasMSSearchMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasPerformanceSite
+
+<http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasPerformanceSite> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PerformanceSite> .
+# 
+# http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasPreparationReagentMap
+
+<http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasPreparationReagentMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PreparationReagentMap> .
+# 
+# http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasReagent
+
+<http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasReagent> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Reagent> .
+# 
+# http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasSamplePreparationMethod
+
+<http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasSamplePreparationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasStudyDesign
+
+<http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasStudyDesign> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyDesign> .
+# 
+# http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasStudyProtocol
+
+<http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasStudyProtocol> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyProtocol> .
+# 
+# http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasStudySample
+
+<http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasStudySample> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudySample> .
+# 
+# http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasStudyTeam
+
+<http://proteomeontology.org/cpo.owl#StandardProteinSampleMapHasStudyTeam> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyDesignHasCPTACCatalogProtein
+
+<http://proteomeontology.org/cpo.owl#StudyDesignHasCPTACCatalogProtein> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyDesign> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyDesignHasExperiment
+
+<http://proteomeontology.org/cpo.owl#StudyDesignHasExperiment> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyDesign> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Experiment> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyDesignHasLCColumnType
+
+<http://proteomeontology.org/cpo.owl#StudyDesignHasLCColumnType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyDesign> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCColumnType> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyDesignHasLCSeprationMethod
+
+<http://proteomeontology.org/cpo.owl#StudyDesignHasLCSeprationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyDesign> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCSeprationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyDesignHasMSInstrument
+
+<http://proteomeontology.org/cpo.owl#StudyDesignHasMSInstrument> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyDesign> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrument> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyDesignHasMSInstrumentType
+
+<http://proteomeontology.org/cpo.owl#StudyDesignHasMSInstrumentType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyDesign> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrumentType> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyDesignHasMSResultFile
+
+<http://proteomeontology.org/cpo.owl#StudyDesignHasMSResultFile> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyDesign> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSResultFile> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyDesignHasMSRun
+
+<http://proteomeontology.org/cpo.owl#StudyDesignHasMSRun> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyDesign> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSRun> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyDesignHasMSSearchDB
+
+<http://proteomeontology.org/cpo.owl#StudyDesignHasMSSearchDB> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyDesign> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchDB> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyDesignHasMSSearchMethod
+
+<http://proteomeontology.org/cpo.owl#StudyDesignHasMSSearchMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyDesign> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyDesignHasPerformanceSite
+
+<http://proteomeontology.org/cpo.owl#StudyDesignHasPerformanceSite> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyDesign> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PerformanceSite> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyDesignHasPreparationReagentMap
+
+<http://proteomeontology.org/cpo.owl#StudyDesignHasPreparationReagentMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyDesign> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PreparationReagentMap> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyDesignHasReagent
+
+<http://proteomeontology.org/cpo.owl#StudyDesignHasReagent> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyDesign> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Reagent> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyDesignHasSamplePreparationMethod
+
+<http://proteomeontology.org/cpo.owl#StudyDesignHasSamplePreparationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyDesign> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyDesignHasStandardProteinSampleMap
+
+<http://proteomeontology.org/cpo.owl#StudyDesignHasStandardProteinSampleMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyDesign> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyDesignHasStudyProtocol
+
+<http://proteomeontology.org/cpo.owl#StudyDesignHasStudyProtocol> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyDesign> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyProtocol> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyDesignHasStudySample
+
+<http://proteomeontology.org/cpo.owl#StudyDesignHasStudySample> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyDesign> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudySample> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyDesignHasStudyTeam
+
+<http://proteomeontology.org/cpo.owl#StudyDesignHasStudyTeam> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyDesign> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyProtocolHasCPTACCatalogProtein
+
+<http://proteomeontology.org/cpo.owl#StudyProtocolHasCPTACCatalogProtein> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyProtocol> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyProtocolHasExperiment
+
+<http://proteomeontology.org/cpo.owl#StudyProtocolHasExperiment> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyProtocol> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Experiment> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyProtocolHasLCColumnType
+
+<http://proteomeontology.org/cpo.owl#StudyProtocolHasLCColumnType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyProtocol> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCColumnType> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyProtocolHasLCSeprationMethod
+
+<http://proteomeontology.org/cpo.owl#StudyProtocolHasLCSeprationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyProtocol> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCSeprationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyProtocolHasMSInstrument
+
+<http://proteomeontology.org/cpo.owl#StudyProtocolHasMSInstrument> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyProtocol> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrument> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyProtocolHasMSInstrumentType
+
+<http://proteomeontology.org/cpo.owl#StudyProtocolHasMSInstrumentType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyProtocol> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrumentType> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyProtocolHasMSResultFile
+
+<http://proteomeontology.org/cpo.owl#StudyProtocolHasMSResultFile> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyProtocol> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSResultFile> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyProtocolHasMSRun
+
+<http://proteomeontology.org/cpo.owl#StudyProtocolHasMSRun> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyProtocol> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSRun> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyProtocolHasMSSearchDB
+
+<http://proteomeontology.org/cpo.owl#StudyProtocolHasMSSearchDB> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyProtocol> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchDB> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyProtocolHasMSSearchMethod
+
+<http://proteomeontology.org/cpo.owl#StudyProtocolHasMSSearchMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyProtocol> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyProtocolHasPerformanceSite
+
+<http://proteomeontology.org/cpo.owl#StudyProtocolHasPerformanceSite> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyProtocol> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PerformanceSite> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyProtocolHasPreparationReagentMap
+
+<http://proteomeontology.org/cpo.owl#StudyProtocolHasPreparationReagentMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyProtocol> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PreparationReagentMap> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyProtocolHasReagent
+
+<http://proteomeontology.org/cpo.owl#StudyProtocolHasReagent> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyProtocol> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Reagent> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyProtocolHasSamplePreparationMethod
+
+<http://proteomeontology.org/cpo.owl#StudyProtocolHasSamplePreparationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyProtocol> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyProtocolHasStandardProteinSampleMap
+
+<http://proteomeontology.org/cpo.owl#StudyProtocolHasStandardProteinSampleMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyProtocol> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyProtocolHasStudyDesign
+
+<http://proteomeontology.org/cpo.owl#StudyProtocolHasStudyDesign> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyProtocol> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyDesign> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyProtocolHasStudySample
+
+<http://proteomeontology.org/cpo.owl#StudyProtocolHasStudySample> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyProtocol> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudySample> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyProtocolHasStudyTeam
+
+<http://proteomeontology.org/cpo.owl#StudyProtocolHasStudyTeam> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyProtocol> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#StudySampleHasCPTACCatalogProtein
+
+<http://proteomeontology.org/cpo.owl#StudySampleHasCPTACCatalogProtein> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudySample> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> .
+# 
+# http://proteomeontology.org/cpo.owl#StudySampleHasExperiment
+
+<http://proteomeontology.org/cpo.owl#StudySampleHasExperiment> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudySample> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Experiment> .
+# 
+# http://proteomeontology.org/cpo.owl#StudySampleHasLCColumnType
+
+<http://proteomeontology.org/cpo.owl#StudySampleHasLCColumnType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudySample> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCColumnType> .
+# 
+# http://proteomeontology.org/cpo.owl#StudySampleHasLCSeprationMethod
+
+<http://proteomeontology.org/cpo.owl#StudySampleHasLCSeprationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudySample> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCSeprationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#StudySampleHasMSInstrument
+
+<http://proteomeontology.org/cpo.owl#StudySampleHasMSInstrument> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudySample> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrument> .
+# 
+# http://proteomeontology.org/cpo.owl#StudySampleHasMSInstrumentType
+
+<http://proteomeontology.org/cpo.owl#StudySampleHasMSInstrumentType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudySample> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrumentType> .
+# 
+# http://proteomeontology.org/cpo.owl#StudySampleHasMSResultFile
+
+<http://proteomeontology.org/cpo.owl#StudySampleHasMSResultFile> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudySample> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSResultFile> .
+# 
+# http://proteomeontology.org/cpo.owl#StudySampleHasMSRun
+
+<http://proteomeontology.org/cpo.owl#StudySampleHasMSRun> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudySample> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSRun> .
+# 
+# http://proteomeontology.org/cpo.owl#StudySampleHasMSSearchDB
+
+<http://proteomeontology.org/cpo.owl#StudySampleHasMSSearchDB> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudySample> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchDB> .
+# 
+# http://proteomeontology.org/cpo.owl#StudySampleHasMSSearchMethod
+
+<http://proteomeontology.org/cpo.owl#StudySampleHasMSSearchMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudySample> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#StudySampleHasPerformanceSite
+
+<http://proteomeontology.org/cpo.owl#StudySampleHasPerformanceSite> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudySample> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PerformanceSite> .
+# 
+# http://proteomeontology.org/cpo.owl#StudySampleHasPreparationReagentMap
+
+<http://proteomeontology.org/cpo.owl#StudySampleHasPreparationReagentMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudySample> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PreparationReagentMap> .
+# 
+# http://proteomeontology.org/cpo.owl#StudySampleHasReagent
+
+<http://proteomeontology.org/cpo.owl#StudySampleHasReagent> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudySample> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Reagent> .
+# 
+# http://proteomeontology.org/cpo.owl#StudySampleHasSamplePreparationMethod
+
+<http://proteomeontology.org/cpo.owl#StudySampleHasSamplePreparationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudySample> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#StudySampleHasStandardProteinSampleMap
+
+<http://proteomeontology.org/cpo.owl#StudySampleHasStandardProteinSampleMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudySample> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> .
+# 
+# http://proteomeontology.org/cpo.owl#StudySampleHasStudyDesign
+
+<http://proteomeontology.org/cpo.owl#StudySampleHasStudyDesign> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudySample> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyDesign> .
+# 
+# http://proteomeontology.org/cpo.owl#StudySampleHasStudyProtocol
+
+<http://proteomeontology.org/cpo.owl#StudySampleHasStudyProtocol> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudySample> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyProtocol> .
+# 
+# http://proteomeontology.org/cpo.owl#StudySampleHasStudyTeam
+
+<http://proteomeontology.org/cpo.owl#StudySampleHasStudyTeam> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudySample> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyTeamHasCPTACCatalogProtein
+
+<http://proteomeontology.org/cpo.owl#StudyTeamHasCPTACCatalogProtein> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyTeam> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyTeamHasExperiment
+
+<http://proteomeontology.org/cpo.owl#StudyTeamHasExperiment> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyTeam> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Experiment> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyTeamHasLCColumnType
+
+<http://proteomeontology.org/cpo.owl#StudyTeamHasLCColumnType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyTeam> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCColumnType> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyTeamHasLCSeprationMethod
+
+<http://proteomeontology.org/cpo.owl#StudyTeamHasLCSeprationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyTeam> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#LCSeprationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyTeamHasMSInstrument
+
+<http://proteomeontology.org/cpo.owl#StudyTeamHasMSInstrument> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyTeam> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrument> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyTeamHasMSInstrumentType
+
+<http://proteomeontology.org/cpo.owl#StudyTeamHasMSInstrumentType> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyTeam> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSInstrumentType> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyTeamHasMSResultFile
+
+<http://proteomeontology.org/cpo.owl#StudyTeamHasMSResultFile> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyTeam> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSResultFile> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyTeamHasMSRun
+
+<http://proteomeontology.org/cpo.owl#StudyTeamHasMSRun> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyTeam> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSRun> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyTeamHasMSSearchDB
+
+<http://proteomeontology.org/cpo.owl#StudyTeamHasMSSearchDB> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyTeam> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchDB> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyTeamHasMSSearchMethod
+
+<http://proteomeontology.org/cpo.owl#StudyTeamHasMSSearchMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyTeam> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#MSSearchMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyTeamHasPerformanceSite
+
+<http://proteomeontology.org/cpo.owl#StudyTeamHasPerformanceSite> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyTeam> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PerformanceSite> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyTeamHasPreparationReagentMap
+
+<http://proteomeontology.org/cpo.owl#StudyTeamHasPreparationReagentMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyTeam> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#PreparationReagentMap> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyTeamHasReagent
+
+<http://proteomeontology.org/cpo.owl#StudyTeamHasReagent> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyTeam> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#Reagent> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyTeamHasSamplePreparationMethod
+
+<http://proteomeontology.org/cpo.owl#StudyTeamHasSamplePreparationMethod> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyTeam> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyTeamHasStandardProteinSampleMap
+
+<http://proteomeontology.org/cpo.owl#StudyTeamHasStandardProteinSampleMap> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyTeam> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyTeamHasStudyDesign
+
+<http://proteomeontology.org/cpo.owl#StudyTeamHasStudyDesign> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyTeam> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyDesign> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyTeamHasStudyProtocol
+
+<http://proteomeontology.org/cpo.owl#StudyTeamHasStudyProtocol> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyTeam> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudyProtocol> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyTeamHasStudySample
+
+<http://proteomeontology.org/cpo.owl#StudyTeamHasStudySample> a owl:ObjectProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyTeam> ;
+	rdfs:range <http://proteomeontology.org/cpo.owl#StudySample> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://proteomeontology.org/cpo.owl#AliasFileID
+
+<http://proteomeontology.org/cpo.owl#AliasFileID> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSResultFile> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#ApprovalDate
+
+<http://proteomeontology.org/cpo.owl#ApprovalDate> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyDesign> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#AuthorContact
+
+<http://proteomeontology.org/cpo.owl#AuthorContact> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCSeprationMethod> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#AuthorName
+
+<http://proteomeontology.org/cpo.owl#AuthorName> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCSeprationMethod> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#CPTACDesignID
+
+<http://proteomeontology.org/cpo.owl#CPTACDesignID> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyDesign> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#CPTACFileID
+
+<http://proteomeontology.org/cpo.owl#CPTACFileID> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSResultFile> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#CPTACInstrumentID
+
+<http://proteomeontology.org/cpo.owl#CPTACInstrumentID> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrument> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#CPTACProteinID
+
+<http://proteomeontology.org/cpo.owl#CPTACProteinID> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#CPTACSampleID
+
+<http://proteomeontology.org/cpo.owl#CPTACSampleID> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudySample> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#ColumnManufacture
+
+<http://proteomeontology.org/cpo.owl#ColumnManufacture> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCColumnType> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#ColumnTypeName
+
+<http://proteomeontology.org/cpo.owl#ColumnTypeName> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCColumnType> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#CompletionDate
+
+<http://proteomeontology.org/cpo.owl#CompletionDate> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyDesign> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#Concentration
+
+<http://proteomeontology.org/cpo.owl#Concentration> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#ConcentrationMethod
+
+<http://proteomeontology.org/cpo.owl#ConcentrationMethod> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#Concentrations
+
+<http://proteomeontology.org/cpo.owl#Concentrations> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PreparationReagentMap> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#ContactPerson
+
+<http://proteomeontology.org/cpo.owl#ContactPerson> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrument> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#CreationDate
+
+<http://proteomeontology.org/cpo.owl#CreationDate> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#DesignComment
+
+<http://proteomeontology.org/cpo.owl#DesignComment> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyDesign> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#Dilluent
+
+<http://proteomeontology.org/cpo.owl#Dilluent> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#FileType
+
+<http://proteomeontology.org/cpo.owl#FileType> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSResultFile> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#FinalDillution
+
+<http://proteomeontology.org/cpo.owl#FinalDillution> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#FlowRate
+
+<http://proteomeontology.org/cpo.owl#FlowRate> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCColumnType> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#GeneName
+
+<http://proteomeontology.org/cpo.owl#GeneName> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#GeneOntologyID
+
+<http://proteomeontology.org/cpo.owl#GeneOntologyID> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#IPIID
+
+<http://proteomeontology.org/cpo.owl#IPIID> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#InjectionDate
+
+<http://proteomeontology.org/cpo.owl#InjectionDate> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCColumnType> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#InnerDiameter
+
+<http://proteomeontology.org/cpo.owl#InnerDiameter> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCColumnType> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#InstrumentManufacture
+
+<http://proteomeontology.org/cpo.owl#InstrumentManufacture> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrumentType> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#InstrumentName
+
+<http://proteomeontology.org/cpo.owl#InstrumentName> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrumentType> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#InstrumentTypeID
+
+<http://proteomeontology.org/cpo.owl#InstrumentTypeID> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrumentType> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#LCColumnTypeID
+
+<http://proteomeontology.org/cpo.owl#LCColumnTypeID> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCColumnType> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#LCSeprationID
+
+<http://proteomeontology.org/cpo.owl#LCSeprationID> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCSeprationMethod> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#LaunchDate
+
+<http://proteomeontology.org/cpo.owl#LaunchDate> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyDesign> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#Length
+
+<http://proteomeontology.org/cpo.owl#Length> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCColumnType> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchDBID
+
+<http://proteomeontology.org/cpo.owl#MSSearchDBID> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchDB> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchDBVersion
+
+<http://proteomeontology.org/cpo.owl#MSSearchDBVersion> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchDB> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchID
+
+<http://proteomeontology.org/cpo.owl#MSSearchID> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchMethod> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#MethodComment
+
+<http://proteomeontology.org/cpo.owl#MethodComment> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCSeprationMethod> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#MethodCreationDate
+
+<http://proteomeontology.org/cpo.owl#MethodCreationDate> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCSeprationMethod> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#Name
+
+<http://proteomeontology.org/cpo.owl#Name> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSInstrument> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#PDBID
+
+<http://proteomeontology.org/cpo.owl#PDBID> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#PIEmail
+
+<http://proteomeontology.org/cpo.owl#PIEmail> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyTeam> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#PIName
+
+<http://proteomeontology.org/cpo.owl#PIName> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyTeam> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#ParameterSetting
+
+<http://proteomeontology.org/cpo.owl#ParameterSetting> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchMethod> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#PerformanceSiteID
+
+<http://proteomeontology.org/cpo.owl#PerformanceSiteID> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PerformanceSite> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#PrepComment
+
+<http://proteomeontology.org/cpo.owl#PrepComment> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#PrepName
+
+<http://proteomeontology.org/cpo.owl#PrepName> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#PreprationMethod
+
+<http://proteomeontology.org/cpo.owl#PreprationMethod> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#ProgressCode
+
+<http://proteomeontology.org/cpo.owl#ProgressCode> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyDesign> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#ProteinOntologyID
+
+<http://proteomeontology.org/cpo.owl#ProteinOntologyID> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#ProtocolAuthorContact
+
+<http://proteomeontology.org/cpo.owl#ProtocolAuthorContact> a owl:DatatypeProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyProtocol> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#ProtocolAuthorName
+
+<http://proteomeontology.org/cpo.owl#ProtocolAuthorName> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyProtocol> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#ProtocolComment
+
+<http://proteomeontology.org/cpo.owl#ProtocolComment> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyProtocol> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#ProtocolCreationDate
+
+<http://proteomeontology.org/cpo.owl#ProtocolCreationDate> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyProtocol> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#ProtocolSOPFlag
+
+<http://proteomeontology.org/cpo.owl#ProtocolSOPFlag> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyProtocol> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#ProviderName
+
+<http://proteomeontology.org/cpo.owl#ProviderName> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#ProviderProteinID
+
+<http://proteomeontology.org/cpo.owl#ProviderProteinID> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#PublicFlag
+
+<http://proteomeontology.org/cpo.owl#PublicFlag> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSResultFile> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#Purpose
+
+<http://proteomeontology.org/cpo.owl#Purpose> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyDesign> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#ReagentID
+
+<http://proteomeontology.org/cpo.owl#ReagentID> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Reagent> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#ReagentManufacture
+
+<http://proteomeontology.org/cpo.owl#ReagentManufacture> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Reagent> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#ReagentName
+
+<http://proteomeontology.org/cpo.owl#ReagentName> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Reagent> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#ReagentType
+
+<http://proteomeontology.org/cpo.owl#ReagentType> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Reagent> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#RunID
+
+<http://proteomeontology.org/cpo.owl#RunID> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSRun> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#SOPFlag
+
+<http://proteomeontology.org/cpo.owl#SOPFlag> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCSeprationMethod> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#SPrepID
+
+<http://proteomeontology.org/cpo.owl#SPrepID> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#SampleAuthorContact
+
+<http://proteomeontology.org/cpo.owl#SampleAuthorContact> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#SampleAuthorName
+
+<http://proteomeontology.org/cpo.owl#SampleAuthorName> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#SampleCreationDate
+
+<http://proteomeontology.org/cpo.owl#SampleCreationDate> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudySample> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#SearchComment
+
+<http://proteomeontology.org/cpo.owl#SearchComment> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchMethod> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#SeprationName
+
+<http://proteomeontology.org/cpo.owl#SeprationName> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCSeprationMethod> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#SiteContactEmail
+
+<http://proteomeontology.org/cpo.owl#SiteContactEmail> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PerformanceSite> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#SiteContactPerson
+
+<http://proteomeontology.org/cpo.owl#SiteContactPerson> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PerformanceSite> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#SiteName
+
+<http://proteomeontology.org/cpo.owl#SiteName> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PerformanceSite> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#SoftwarePipeline
+
+<http://proteomeontology.org/cpo.owl#SoftwarePipeline> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSSearchMethod> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#StartDate
+
+<http://proteomeontology.org/cpo.owl#StartDate> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#Experiment> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#StudyComment
+
+<http://proteomeontology.org/cpo.owl#StudyComment> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudySample> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#SwissProtID
+
+<http://proteomeontology.org/cpo.owl#SwissProtID> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#TeamContactEmail
+
+<http://proteomeontology.org/cpo.owl#TeamContactEmail> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyTeam> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#TeamContactPerson
+
+<http://proteomeontology.org/cpo.owl#TeamContactPerson> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyTeam> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#TeamID
+
+<http://proteomeontology.org/cpo.owl#TeamID> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyTeam> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#TeamName
+
+<http://proteomeontology.org/cpo.owl#TeamName> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#StudyTeam> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#Temp
+
+<http://proteomeontology.org/cpo.owl#Temp> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#LCColumnType> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#Temprature
+
+<http://proteomeontology.org/cpo.owl#Temprature> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PreparationReagentMap> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#Time
+
+<http://proteomeontology.org/cpo.owl#Time> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#PreparationReagentMap> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#TrancheURI
+
+<http://proteomeontology.org/cpo.owl#TrancheURI> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSResultFile> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#UniProtName
+
+<http://proteomeontology.org/cpo.owl#UniProtName> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> ;
+	rdfs:range xsd:string .
+# 
+# http://proteomeontology.org/cpo.owl#WithdrawnFlag
+
+<http://proteomeontology.org/cpo.owl#WithdrawnFlag> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:domain <http://proteomeontology.org/cpo.owl#MSResultFile> ;
+	rdfs:range xsd:string .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://proteomeontology.org/cpo.owl#CPTACCatalogProtein
+
+<http://proteomeontology.org/cpo.owl#CPTACCatalogProtein> a owl:Class ;
+	owl:disjointWith <http://proteomeontology.org/cpo.owl#Experiment> , <http://proteomeontology.org/cpo.owl#LCColumnType> , <http://proteomeontology.org/cpo.owl#LCSeprationMethod> , <http://proteomeontology.org/cpo.owl#MSInstrument> , <http://proteomeontology.org/cpo.owl#MSInstrumentType> , <http://proteomeontology.org/cpo.owl#MSResultFile> , <http://proteomeontology.org/cpo.owl#MSRun> , <http://proteomeontology.org/cpo.owl#MSSearchDB> , <http://proteomeontology.org/cpo.owl#MSSearchMethod> , <http://proteomeontology.org/cpo.owl#PerformanceSite> , <http://proteomeontology.org/cpo.owl#PreparationReagentMap> , <http://proteomeontology.org/cpo.owl#Reagent> , <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> , <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> , <http://proteomeontology.org/cpo.owl#StudyDesign> , <http://proteomeontology.org/cpo.owl#StudyProtocol> , <http://proteomeontology.org/cpo.owl#StudySample> , <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#Experiment
+
+<http://proteomeontology.org/cpo.owl#Experiment> a owl:Class ;
+	owl:disjointWith <http://proteomeontology.org/cpo.owl#LCColumnType> , <http://proteomeontology.org/cpo.owl#LCSeprationMethod> , <http://proteomeontology.org/cpo.owl#MSInstrument> , <http://proteomeontology.org/cpo.owl#MSInstrumentType> , <http://proteomeontology.org/cpo.owl#MSResultFile> , <http://proteomeontology.org/cpo.owl#MSRun> , <http://proteomeontology.org/cpo.owl#MSSearchDB> , <http://proteomeontology.org/cpo.owl#MSSearchMethod> , <http://proteomeontology.org/cpo.owl#PerformanceSite> , <http://proteomeontology.org/cpo.owl#PreparationReagentMap> , <http://proteomeontology.org/cpo.owl#Reagent> , <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> , <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> , <http://proteomeontology.org/cpo.owl#StudyDesign> , <http://proteomeontology.org/cpo.owl#StudyProtocol> , <http://proteomeontology.org/cpo.owl#StudySample> , <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#LCColumnType
+
+<http://proteomeontology.org/cpo.owl#LCColumnType> a owl:Class ;
+	owl:disjointWith <http://proteomeontology.org/cpo.owl#LCSeprationMethod> , <http://proteomeontology.org/cpo.owl#MSInstrument> , <http://proteomeontology.org/cpo.owl#MSInstrumentType> , <http://proteomeontology.org/cpo.owl#MSResultFile> , <http://proteomeontology.org/cpo.owl#MSRun> , <http://proteomeontology.org/cpo.owl#MSSearchDB> , <http://proteomeontology.org/cpo.owl#MSSearchMethod> , <http://proteomeontology.org/cpo.owl#PerformanceSite> , <http://proteomeontology.org/cpo.owl#PreparationReagentMap> , <http://proteomeontology.org/cpo.owl#Reagent> , <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> , <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> , <http://proteomeontology.org/cpo.owl#StudyDesign> , <http://proteomeontology.org/cpo.owl#StudyProtocol> , <http://proteomeontology.org/cpo.owl#StudySample> , <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#LCSeprationMethod
+
+<http://proteomeontology.org/cpo.owl#LCSeprationMethod> a owl:Class ;
+	owl:disjointWith <http://proteomeontology.org/cpo.owl#MSInstrument> , <http://proteomeontology.org/cpo.owl#MSInstrumentType> , <http://proteomeontology.org/cpo.owl#MSResultFile> , <http://proteomeontology.org/cpo.owl#MSRun> , <http://proteomeontology.org/cpo.owl#MSSearchDB> , <http://proteomeontology.org/cpo.owl#MSSearchMethod> , <http://proteomeontology.org/cpo.owl#PerformanceSite> , <http://proteomeontology.org/cpo.owl#PreparationReagentMap> , <http://proteomeontology.org/cpo.owl#Reagent> , <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> , <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> , <http://proteomeontology.org/cpo.owl#StudyDesign> , <http://proteomeontology.org/cpo.owl#StudyProtocol> , <http://proteomeontology.org/cpo.owl#StudySample> , <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrument
+
+<http://proteomeontology.org/cpo.owl#MSInstrument> a owl:Class ;
+	owl:disjointWith <http://proteomeontology.org/cpo.owl#MSInstrumentType> , <http://proteomeontology.org/cpo.owl#MSResultFile> , <http://proteomeontology.org/cpo.owl#MSRun> , <http://proteomeontology.org/cpo.owl#MSSearchDB> , <http://proteomeontology.org/cpo.owl#MSSearchMethod> , <http://proteomeontology.org/cpo.owl#PerformanceSite> , <http://proteomeontology.org/cpo.owl#PreparationReagentMap> , <http://proteomeontology.org/cpo.owl#Reagent> , <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> , <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> , <http://proteomeontology.org/cpo.owl#StudyDesign> , <http://proteomeontology.org/cpo.owl#StudyProtocol> , <http://proteomeontology.org/cpo.owl#StudySample> , <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#MSInstrumentType
+
+<http://proteomeontology.org/cpo.owl#MSInstrumentType> a owl:Class ;
+	owl:disjointWith <http://proteomeontology.org/cpo.owl#MSResultFile> , <http://proteomeontology.org/cpo.owl#MSRun> , <http://proteomeontology.org/cpo.owl#MSSearchDB> , <http://proteomeontology.org/cpo.owl#MSSearchMethod> , <http://proteomeontology.org/cpo.owl#PerformanceSite> , <http://proteomeontology.org/cpo.owl#PreparationReagentMap> , <http://proteomeontology.org/cpo.owl#Reagent> , <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> , <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> , <http://proteomeontology.org/cpo.owl#StudyDesign> , <http://proteomeontology.org/cpo.owl#StudyProtocol> , <http://proteomeontology.org/cpo.owl#StudySample> , <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#MSResultFile
+
+<http://proteomeontology.org/cpo.owl#MSResultFile> a owl:Class ;
+	owl:disjointWith <http://proteomeontology.org/cpo.owl#MSRun> , <http://proteomeontology.org/cpo.owl#MSSearchDB> , <http://proteomeontology.org/cpo.owl#MSSearchMethod> , <http://proteomeontology.org/cpo.owl#PerformanceSite> , <http://proteomeontology.org/cpo.owl#PreparationReagentMap> , <http://proteomeontology.org/cpo.owl#Reagent> , <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> , <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> , <http://proteomeontology.org/cpo.owl#StudyDesign> , <http://proteomeontology.org/cpo.owl#StudyProtocol> , <http://proteomeontology.org/cpo.owl#StudySample> , <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#MSRun
+
+<http://proteomeontology.org/cpo.owl#MSRun> a owl:Class ;
+	owl:disjointWith <http://proteomeontology.org/cpo.owl#MSSearchDB> , <http://proteomeontology.org/cpo.owl#MSSearchMethod> , <http://proteomeontology.org/cpo.owl#PerformanceSite> , <http://proteomeontology.org/cpo.owl#PreparationReagentMap> , <http://proteomeontology.org/cpo.owl#Reagent> , <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> , <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> , <http://proteomeontology.org/cpo.owl#StudyDesign> , <http://proteomeontology.org/cpo.owl#StudyProtocol> , <http://proteomeontology.org/cpo.owl#StudySample> , <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchDB
+
+<http://proteomeontology.org/cpo.owl#MSSearchDB> a owl:Class ;
+	owl:disjointWith <http://proteomeontology.org/cpo.owl#MSSearchMethod> , <http://proteomeontology.org/cpo.owl#PerformanceSite> , <http://proteomeontology.org/cpo.owl#PreparationReagentMap> , <http://proteomeontology.org/cpo.owl#Reagent> , <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> , <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> , <http://proteomeontology.org/cpo.owl#StudyDesign> , <http://proteomeontology.org/cpo.owl#StudyProtocol> , <http://proteomeontology.org/cpo.owl#StudySample> , <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#MSSearchMethod
+
+<http://proteomeontology.org/cpo.owl#MSSearchMethod> a owl:Class ;
+	owl:disjointWith <http://proteomeontology.org/cpo.owl#PerformanceSite> , <http://proteomeontology.org/cpo.owl#PreparationReagentMap> , <http://proteomeontology.org/cpo.owl#Reagent> , <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> , <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> , <http://proteomeontology.org/cpo.owl#StudyDesign> , <http://proteomeontology.org/cpo.owl#StudyProtocol> , <http://proteomeontology.org/cpo.owl#StudySample> , <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#PerformanceSite
+
+<http://proteomeontology.org/cpo.owl#PerformanceSite> a owl:Class ;
+	owl:disjointWith <http://proteomeontology.org/cpo.owl#PreparationReagentMap> , <http://proteomeontology.org/cpo.owl#Reagent> , <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> , <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> , <http://proteomeontology.org/cpo.owl#StudyDesign> , <http://proteomeontology.org/cpo.owl#StudyProtocol> , <http://proteomeontology.org/cpo.owl#StudySample> , <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#PreparationReagentMap
+
+<http://proteomeontology.org/cpo.owl#PreparationReagentMap> a owl:Class ;
+	owl:disjointWith <http://proteomeontology.org/cpo.owl#Reagent> , <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> , <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> , <http://proteomeontology.org/cpo.owl#StudyDesign> , <http://proteomeontology.org/cpo.owl#StudyProtocol> , <http://proteomeontology.org/cpo.owl#StudySample> , <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#Reagent
+
+<http://proteomeontology.org/cpo.owl#Reagent> a owl:Class ;
+	owl:disjointWith <http://proteomeontology.org/cpo.owl#SamplePreparationMethod> , <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> , <http://proteomeontology.org/cpo.owl#StudyDesign> , <http://proteomeontology.org/cpo.owl#StudyProtocol> , <http://proteomeontology.org/cpo.owl#StudySample> , <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#SamplePreparationMethod
+
+<http://proteomeontology.org/cpo.owl#SamplePreparationMethod> a owl:Class ;
+	owl:disjointWith <http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> , <http://proteomeontology.org/cpo.owl#StudyDesign> , <http://proteomeontology.org/cpo.owl#StudyProtocol> , <http://proteomeontology.org/cpo.owl#StudySample> , <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#StandardProteinSampleMap
+
+<http://proteomeontology.org/cpo.owl#StandardProteinSampleMap> a owl:Class ;
+	owl:disjointWith <http://proteomeontology.org/cpo.owl#StudyDesign> , <http://proteomeontology.org/cpo.owl#StudyProtocol> , <http://proteomeontology.org/cpo.owl#StudySample> , <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyDesign
+
+<http://proteomeontology.org/cpo.owl#StudyDesign> a owl:Class ;
+	owl:disjointWith <http://proteomeontology.org/cpo.owl#StudyProtocol> , <http://proteomeontology.org/cpo.owl#StudySample> , <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyProtocol
+
+<http://proteomeontology.org/cpo.owl#StudyProtocol> a owl:Class ;
+	owl:disjointWith <http://proteomeontology.org/cpo.owl#StudySample> , <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#StudySample
+
+<http://proteomeontology.org/cpo.owl#StudySample> a owl:Class ;
+	owl:disjointWith <http://proteomeontology.org/cpo.owl#StudyTeam> .
+# 
+# http://proteomeontology.org/cpo.owl#StudyTeam
+
+<http://proteomeontology.org/cpo.owl#StudyTeam> a owl:Class .
+# 
+# Generated by the OWL API (version 5.0.4.20161016-1358) https://github.com/owlcs/owlapi/

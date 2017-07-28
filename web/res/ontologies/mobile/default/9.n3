@@ -1,0 +1,897 @@
+@prefix : <http://purl.obolibrary.org/obo/co-wheat.wheat-trait-ontology.1.orig> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://purl.obolibrary.org/obo/co-wheat.wheat-trait-ontology.1.orig> a owl:Ontology .
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000000
+
+<http://purl.obolibrary.org/obo/CO_321#_0000000> a owl:Class .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000001
+
+<http://purl.obolibrary.org/obo/CO_321#_0000001> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000000> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000002
+
+<http://purl.obolibrary.org/obo/CO_321#_0000002> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000000> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000003
+
+<http://purl.obolibrary.org/obo/CO_321#_0000003> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000000> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000004
+
+<http://purl.obolibrary.org/obo/CO_321#_0000004> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000000> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000005
+
+<http://purl.obolibrary.org/obo/CO_321#_0000005> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000001> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000006
+
+<http://purl.obolibrary.org/obo/CO_321#_0000006> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000140> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000007
+
+<http://purl.obolibrary.org/obo/CO_321#_0000007> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000001> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000008
+
+<http://purl.obolibrary.org/obo/CO_321#_0000008> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000001> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000009
+
+<http://purl.obolibrary.org/obo/CO_321#_0000009> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000001> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000010
+
+<http://purl.obolibrary.org/obo/CO_321#_0000010> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000001> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000011
+
+<http://purl.obolibrary.org/obo/CO_321#_0000011> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000001> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000012
+
+<http://purl.obolibrary.org/obo/CO_321#_0000012> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000013
+
+<http://purl.obolibrary.org/obo/CO_321#_0000013> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000001> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000014
+
+<http://purl.obolibrary.org/obo/CO_321#_0000014> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000001> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000015
+
+<http://purl.obolibrary.org/obo/CO_321#_0000015> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000001> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000016
+
+<http://purl.obolibrary.org/obo/CO_321#_0000016> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000001> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000017
+
+<http://purl.obolibrary.org/obo/CO_321#_0000017> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000001> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000018
+
+<http://purl.obolibrary.org/obo/CO_321#_0000018> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000140> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000019
+
+<http://purl.obolibrary.org/obo/CO_321#_0000019> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000001> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000020
+
+<http://purl.obolibrary.org/obo/CO_321#_0000020> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000001> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000021
+
+<http://purl.obolibrary.org/obo/CO_321#_0000021> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000022
+
+<http://purl.obolibrary.org/obo/CO_321#_0000022> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000001> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000023
+
+<http://purl.obolibrary.org/obo/CO_321#_0000023> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000001> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000024
+
+<http://purl.obolibrary.org/obo/CO_321#_0000024> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000001> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000025
+
+<http://purl.obolibrary.org/obo/CO_321#_0000025> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000026
+
+<http://purl.obolibrary.org/obo/CO_321#_0000026> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000027
+
+<http://purl.obolibrary.org/obo/CO_321#_0000027> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000028
+
+<http://purl.obolibrary.org/obo/CO_321#_0000028> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000140> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000029
+
+<http://purl.obolibrary.org/obo/CO_321#_0000029> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000030
+
+<http://purl.obolibrary.org/obo/CO_321#_0000030> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000031
+
+<http://purl.obolibrary.org/obo/CO_321#_0000031> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000032
+
+<http://purl.obolibrary.org/obo/CO_321#_0000032> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000033
+
+<http://purl.obolibrary.org/obo/CO_321#_0000033> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000034
+
+<http://purl.obolibrary.org/obo/CO_321#_0000034> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000035
+
+<http://purl.obolibrary.org/obo/CO_321#_0000035> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000036
+
+<http://purl.obolibrary.org/obo/CO_321#_0000036> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000037
+
+<http://purl.obolibrary.org/obo/CO_321#_0000037> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000038
+
+<http://purl.obolibrary.org/obo/CO_321#_0000038> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000039
+
+<http://purl.obolibrary.org/obo/CO_321#_0000039> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000040
+
+<http://purl.obolibrary.org/obo/CO_321#_0000040> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000041
+
+<http://purl.obolibrary.org/obo/CO_321#_0000041> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000042
+
+<http://purl.obolibrary.org/obo/CO_321#_0000042> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000043
+
+<http://purl.obolibrary.org/obo/CO_321#_0000043> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000044
+
+<http://purl.obolibrary.org/obo/CO_321#_0000044> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000045
+
+<http://purl.obolibrary.org/obo/CO_321#_0000045> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000046
+
+<http://purl.obolibrary.org/obo/CO_321#_0000046> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000047
+
+<http://purl.obolibrary.org/obo/CO_321#_0000047> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000048
+
+<http://purl.obolibrary.org/obo/CO_321#_0000048> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000049
+
+<http://purl.obolibrary.org/obo/CO_321#_0000049> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000050
+
+<http://purl.obolibrary.org/obo/CO_321#_0000050> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000051
+
+<http://purl.obolibrary.org/obo/CO_321#_0000051> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000052
+
+<http://purl.obolibrary.org/obo/CO_321#_0000052> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000053
+
+<http://purl.obolibrary.org/obo/CO_321#_0000053> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000054
+
+<http://purl.obolibrary.org/obo/CO_321#_0000054> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000055
+
+<http://purl.obolibrary.org/obo/CO_321#_0000055> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000056
+
+<http://purl.obolibrary.org/obo/CO_321#_0000056> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000057
+
+<http://purl.obolibrary.org/obo/CO_321#_0000057> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000058
+
+<http://purl.obolibrary.org/obo/CO_321#_0000058> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000059
+
+<http://purl.obolibrary.org/obo/CO_321#_0000059> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000060
+
+<http://purl.obolibrary.org/obo/CO_321#_0000060> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000061
+
+<http://purl.obolibrary.org/obo/CO_321#_0000061> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000062
+
+<http://purl.obolibrary.org/obo/CO_321#_0000062> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000063
+
+<http://purl.obolibrary.org/obo/CO_321#_0000063> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000140> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000064
+
+<http://purl.obolibrary.org/obo/CO_321#_0000064> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000065
+
+<http://purl.obolibrary.org/obo/CO_321#_0000065> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000066
+
+<http://purl.obolibrary.org/obo/CO_321#_0000066> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000067
+
+<http://purl.obolibrary.org/obo/CO_321#_0000067> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000068
+
+<http://purl.obolibrary.org/obo/CO_321#_0000068> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000069
+
+<http://purl.obolibrary.org/obo/CO_321#_0000069> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000070
+
+<http://purl.obolibrary.org/obo/CO_321#_0000070> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000071
+
+<http://purl.obolibrary.org/obo/CO_321#_0000071> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000072
+
+<http://purl.obolibrary.org/obo/CO_321#_0000072> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000073
+
+<http://purl.obolibrary.org/obo/CO_321#_0000073> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000074
+
+<http://purl.obolibrary.org/obo/CO_321#_0000074> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000075
+
+<http://purl.obolibrary.org/obo/CO_321#_0000075> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000076
+
+<http://purl.obolibrary.org/obo/CO_321#_0000076> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000004> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000077
+
+<http://purl.obolibrary.org/obo/CO_321#_0000077> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000004> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000078
+
+<http://purl.obolibrary.org/obo/CO_321#_0000078> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000076> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000079
+
+<http://purl.obolibrary.org/obo/CO_321#_0000079> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000076> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000080
+
+<http://purl.obolibrary.org/obo/CO_321#_0000080> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000076> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000081
+
+<http://purl.obolibrary.org/obo/CO_321#_0000081> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000076> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000082
+
+<http://purl.obolibrary.org/obo/CO_321#_0000082> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000122> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000083
+
+<http://purl.obolibrary.org/obo/CO_321#_0000083> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000077> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000084
+
+<http://purl.obolibrary.org/obo/CO_321#_0000084> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000089> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000085
+
+<http://purl.obolibrary.org/obo/CO_321#_0000085> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000089> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000086
+
+<http://purl.obolibrary.org/obo/CO_321#_0000086> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000089> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000087
+
+<http://purl.obolibrary.org/obo/CO_321#_0000087> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000083> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000088
+
+<http://purl.obolibrary.org/obo/CO_321#_0000088> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000089> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000089
+
+<http://purl.obolibrary.org/obo/CO_321#_0000089> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000077> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000090
+
+<http://purl.obolibrary.org/obo/CO_321#_0000090> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000083> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000091
+
+<http://purl.obolibrary.org/obo/CO_321#_0000091> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000089> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000092
+
+<http://purl.obolibrary.org/obo/CO_321#_0000092> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000089> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000093
+
+<http://purl.obolibrary.org/obo/CO_321#_0000093> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000089> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000094
+
+<http://purl.obolibrary.org/obo/CO_321#_0000094> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000089> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000095
+
+<http://purl.obolibrary.org/obo/CO_321#_0000095> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000139> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000096
+
+<http://purl.obolibrary.org/obo/CO_321#_0000096> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000139> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000097
+
+<http://purl.obolibrary.org/obo/CO_321#_0000097> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000122> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000098
+
+<http://purl.obolibrary.org/obo/CO_321#_0000098> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000122> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000099
+
+<http://purl.obolibrary.org/obo/CO_321#_0000099> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000098> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000100
+
+<http://purl.obolibrary.org/obo/CO_321#_0000100> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000098> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000101
+
+<http://purl.obolibrary.org/obo/CO_321#_0000101> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000098> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000102
+
+<http://purl.obolibrary.org/obo/CO_321#_0000102> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000122> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000103
+
+<http://purl.obolibrary.org/obo/CO_321#_0000103> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000136> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000104
+
+<http://purl.obolibrary.org/obo/CO_321#_0000104> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000122> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000105
+
+<http://purl.obolibrary.org/obo/CO_321#_0000105> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000104> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000106
+
+<http://purl.obolibrary.org/obo/CO_321#_0000106> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000098> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000107
+
+<http://purl.obolibrary.org/obo/CO_321#_0000107> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000133> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000108
+
+<http://purl.obolibrary.org/obo/CO_321#_0000108> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000136> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000109
+
+<http://purl.obolibrary.org/obo/CO_321#_0000109> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000077> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000110
+
+<http://purl.obolibrary.org/obo/CO_321#_0000110> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000109> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000111
+
+<http://purl.obolibrary.org/obo/CO_321#_0000111> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000109> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000112
+
+<http://purl.obolibrary.org/obo/CO_321#_0000112> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000161> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000113
+
+<http://purl.obolibrary.org/obo/CO_321#_0000113> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000161> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000114
+
+<http://purl.obolibrary.org/obo/CO_321#_0000114> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000122> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000115
+
+<http://purl.obolibrary.org/obo/CO_321#_0000115> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000122> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000116
+
+<http://purl.obolibrary.org/obo/CO_321#_0000116> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000134> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000117
+
+<http://purl.obolibrary.org/obo/CO_321#_0000117> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000172> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000118
+
+<http://purl.obolibrary.org/obo/CO_321#_0000118> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000133> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000119
+
+<http://purl.obolibrary.org/obo/CO_321#_0000119> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000122> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000120
+
+<http://purl.obolibrary.org/obo/CO_321#_0000120> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000137> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000121
+
+<http://purl.obolibrary.org/obo/CO_321#_0000121> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000001> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000122
+
+<http://purl.obolibrary.org/obo/CO_321#_0000122> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000077> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000123
+
+<http://purl.obolibrary.org/obo/CO_321#_0000123> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000002> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000124
+
+<http://purl.obolibrary.org/obo/CO_321#_0000124> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000125
+
+<http://purl.obolibrary.org/obo/CO_321#_0000125> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000134> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000126
+
+<http://purl.obolibrary.org/obo/CO_321#_0000126> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000076> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000127
+
+<http://purl.obolibrary.org/obo/CO_321#_0000127> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000076> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000128
+
+<http://purl.obolibrary.org/obo/CO_321#_0000128> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000076> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000129
+
+<http://purl.obolibrary.org/obo/CO_321#_0000129> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000133> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000130
+
+<http://purl.obolibrary.org/obo/CO_321#_0000130> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000172> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000131
+
+<http://purl.obolibrary.org/obo/CO_321#_0000131> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000076> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000132
+
+<http://purl.obolibrary.org/obo/CO_321#_0000132> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000076> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000133
+
+<http://purl.obolibrary.org/obo/CO_321#_0000133> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000122> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000134
+
+<http://purl.obolibrary.org/obo/CO_321#_0000134> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000122> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000135
+
+<http://purl.obolibrary.org/obo/CO_321#_0000135> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000134> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000136
+
+<http://purl.obolibrary.org/obo/CO_321#_0000136> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000122> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000137
+
+<http://purl.obolibrary.org/obo/CO_321#_0000137> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000077> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000138
+
+<http://purl.obolibrary.org/obo/CO_321#_0000138> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000137> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000139
+
+<http://purl.obolibrary.org/obo/CO_321#_0000139> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000077> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000140
+
+<http://purl.obolibrary.org/obo/CO_321#_0000140> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000000> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000141
+
+<http://purl.obolibrary.org/obo/CO_321#_0000141> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000140> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000142
+
+<http://purl.obolibrary.org/obo/CO_321#_0000142> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000140> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000143
+
+<http://purl.obolibrary.org/obo/CO_321#_0000143> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000140> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000144
+
+<http://purl.obolibrary.org/obo/CO_321#_0000144> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000145
+
+<http://purl.obolibrary.org/obo/CO_321#_0000145> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000146
+
+<http://purl.obolibrary.org/obo/CO_321#_0000146> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000147
+
+<http://purl.obolibrary.org/obo/CO_321#_0000147> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000148
+
+<http://purl.obolibrary.org/obo/CO_321#_0000148> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000149
+
+<http://purl.obolibrary.org/obo/CO_321#_0000149> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000150
+
+<http://purl.obolibrary.org/obo/CO_321#_0000150> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000151
+
+<http://purl.obolibrary.org/obo/CO_321#_0000151> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000152
+
+<http://purl.obolibrary.org/obo/CO_321#_0000152> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000150> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000153
+
+<http://purl.obolibrary.org/obo/CO_321#_0000153> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000150> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000154
+
+<http://purl.obolibrary.org/obo/CO_321#_0000154> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000150> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000155
+
+<http://purl.obolibrary.org/obo/CO_321#_0000155> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000151> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000156
+
+<http://purl.obolibrary.org/obo/CO_321#_0000156> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000151> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000157
+
+<http://purl.obolibrary.org/obo/CO_321#_0000157> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000151> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000158
+
+<http://purl.obolibrary.org/obo/CO_321#_0000158> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000159
+
+<http://purl.obolibrary.org/obo/CO_321#_0000159> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000160
+
+<http://purl.obolibrary.org/obo/CO_321#_0000160> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000161
+
+<http://purl.obolibrary.org/obo/CO_321#_0000161> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000109> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000162
+
+<http://purl.obolibrary.org/obo/CO_321#_0000162> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000000> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000163
+
+<http://purl.obolibrary.org/obo/CO_321#_0000163> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000162> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000164
+
+<http://purl.obolibrary.org/obo/CO_321#_0000164> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000076> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000165
+
+<http://purl.obolibrary.org/obo/CO_321#_0000165> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000001> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000166
+
+<http://purl.obolibrary.org/obo/CO_321#_0000166> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000001> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000167
+
+<http://purl.obolibrary.org/obo/CO_321#_0000167> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000001> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000168
+
+<http://purl.obolibrary.org/obo/CO_321#_0000168> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000122> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000169
+
+<http://purl.obolibrary.org/obo/CO_321#_0000169> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000122> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000170
+
+<http://purl.obolibrary.org/obo/CO_321#_0000170> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000134> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000171
+
+<http://purl.obolibrary.org/obo/CO_321#_0000171> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000122> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000172
+
+<http://purl.obolibrary.org/obo/CO_321#_0000172> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000134> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000173
+
+<http://purl.obolibrary.org/obo/CO_321#_0000173> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000139> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000174
+
+<http://purl.obolibrary.org/obo/CO_321#_0000174> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000003> .
+# 
+# http://purl.obolibrary.org/obo/CO_321#_0000175
+
+<http://purl.obolibrary.org/obo/CO_321#_0000175> a owl:Class ;
+	rdfs:subClassOf <http://purl.obolibrary.org/obo/CO_321#_0000140> .
+# 
+# Generated by the OWL API (version 5.0.4.20161016-1358) https://github.com/owlcs/owlapi/

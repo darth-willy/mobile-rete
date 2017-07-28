@@ -1,0 +1,2223 @@
+@prefix : <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0> a owl:Ontology .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_agent_in
+
+<http://purl.org/obo/owlapi/relationship#OBO_REL_agent_in> a owl:ObjectProperty ;
+	rdfs:subPropertyOf <http://purl.org/obo/owlapi/relationship#OBO_REL_participates_in> .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_derived_into
+
+<http://purl.org/obo/owlapi/relationship#OBO_REL_derived_into> a owl:ObjectProperty , owl:TransitiveProperty .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_derives_from
+
+<http://purl.org/obo/owlapi/relationship#OBO_REL_derives_from> a owl:ObjectProperty , owl:TransitiveProperty .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_has_agent
+
+<http://purl.org/obo/owlapi/relationship#OBO_REL_has_agent> a owl:ObjectProperty ;
+	rdfs:subPropertyOf <http://purl.org/obo/owlapi/relationship#OBO_REL_has_participant> .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_has_improper_part
+
+<http://purl.org/obo/owlapi/relationship#OBO_REL_has_improper_part> a owl:ObjectProperty ;
+	rdfs:subPropertyOf <http://purl.org/obo/owlapi/relationship#OBO_REL_has_part> ;
+	a owl:TransitiveProperty , owl:ReflexiveProperty .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_has_integral_part
+
+<http://purl.org/obo/owlapi/relationship#OBO_REL_has_integral_part> a owl:ObjectProperty ;
+	rdfs:subPropertyOf <http://purl.org/obo/owlapi/relationship#OBO_REL_has_part> ;
+	a owl:TransitiveProperty , owl:ReflexiveProperty .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_has_part
+
+<http://purl.org/obo/owlapi/relationship#OBO_REL_has_part> a owl:ObjectProperty , owl:TransitiveProperty , owl:ReflexiveProperty .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_has_participant
+
+<http://purl.org/obo/owlapi/relationship#OBO_REL_has_participant> a owl:ObjectProperty .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_has_proper_part
+
+<http://purl.org/obo/owlapi/relationship#OBO_REL_has_proper_part> a owl:ObjectProperty ;
+	rdfs:subPropertyOf <http://purl.org/obo/owlapi/relationship#OBO_REL_has_part> ;
+	a owl:TransitiveProperty .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_improper_part_of
+
+<http://purl.org/obo/owlapi/relationship#OBO_REL_improper_part_of> a owl:ObjectProperty ;
+	rdfs:subPropertyOf <http://purl.org/obo/owlapi/relationship#OBO_REL_part_of> ;
+	a owl:ReflexiveProperty .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_integral_part_of
+
+<http://purl.org/obo/owlapi/relationship#OBO_REL_integral_part_of> a owl:ObjectProperty ;
+	rdfs:subPropertyOf <http://purl.org/obo/owlapi/relationship#OBO_REL_part_of> ;
+	a owl:TransitiveProperty , owl:ReflexiveProperty .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_is_a
+
+<http://purl.org/obo/owlapi/relationship#OBO_REL_is_a> a owl:ObjectProperty , owl:TransitiveProperty , owl:ReflexiveProperty .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_located_in
+
+<http://purl.org/obo/owlapi/relationship#OBO_REL_located_in> a owl:ObjectProperty , owl:TransitiveProperty , owl:ReflexiveProperty .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_location_of
+
+<http://purl.org/obo/owlapi/relationship#OBO_REL_location_of> a owl:ObjectProperty , owl:TransitiveProperty , owl:ReflexiveProperty .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_part_of
+
+<http://purl.org/obo/owlapi/relationship#OBO_REL_part_of> a owl:ObjectProperty , owl:TransitiveProperty , owl:ReflexiveProperty .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_participates_in
+
+<http://purl.org/obo/owlapi/relationship#OBO_REL_participates_in> a owl:ObjectProperty .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_preceded_by
+
+<http://purl.org/obo/owlapi/relationship#OBO_REL_preceded_by> a owl:ObjectProperty , owl:TransitiveProperty .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_precedes
+
+<http://purl.org/obo/owlapi/relationship#OBO_REL_precedes> a owl:ObjectProperty , owl:TransitiveProperty .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_proper_part_of
+
+<http://purl.org/obo/owlapi/relationship#OBO_REL_proper_part_of> a owl:ObjectProperty ;
+	rdfs:subPropertyOf <http://purl.org/obo/owlapi/relationship#OBO_REL_part_of> ;
+	a owl:TransitiveProperty .
+# 
+# http://purl.org/obo/owlapi/relationship#OBO_REL_transformation_of
+
+<http://purl.org/obo/owlapi/relationship#OBO_REL_transformation_of> a owl:ObjectProperty , owl:TransitiveProperty .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasExtentValueSet1D
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasExtentValueSet1D> a owl:DatatypeProperty , owl:FunctionalProperty .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasExtentValueSet2D
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasExtentValueSet2D> a owl:DatatypeProperty , owl:FunctionalProperty .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasExtentValueSet3D
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasExtentValueSet3D> a owl:DatatypeProperty , owl:FunctionalProperty .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasFloatValue
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasFloatValue> a owl:DatatypeProperty , owl:FunctionalProperty .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasFloatValueTarget
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasFloatValueTarget> a owl:DatatypeProperty , owl:FunctionalProperty .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasIntValue
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasIntValue> a owl:DatatypeProperty , owl:FunctionalProperty .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasIntValueTarget
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasIntValueTarget> a owl:DatatypeProperty , owl:FunctionalProperty .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasLocationValueSet1D
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasLocationValueSet1D> a owl:DatatypeProperty , owl:FunctionalProperty .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasLocationValueSet2D
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasLocationValueSet2D> a owl:DatatypeProperty , owl:FunctionalProperty .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasLocationValueSet3D
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasLocationValueSet3D> a owl:DatatypeProperty , owl:FunctionalProperty .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasLocationValueSetND
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasLocationValueSetND> a owl:DatatypeProperty , owl:FunctionalProperty .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasParameterValueSetND
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasParameterValueSetND> a owl:DatatypeProperty , owl:FunctionalProperty .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasPointsValueSetND
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasPointsValueSetND> a owl:DatatypeProperty , owl:FunctionalProperty .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasUnit
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasUnit> a owl:DatatypeProperty , owl:FunctionalProperty .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasVTKfieldID
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasVTKfieldID> a owl:DatatypeProperty , owl:FunctionalProperty .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasVTKtypeID
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#hasVTKtypeID> a owl:DatatypeProperty , owl:FunctionalProperty ;
+	rdfs:range xsd:int .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AcceptanceFunction
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AcceptanceFunction> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#EnergyFunction> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AdhesionEnergy
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AdhesionEnergy> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#EnergyQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AdhesionMolecule
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AdhesionMolecule> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembranePart> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AdhesiveProperty
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AdhesiveProperty> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MechanicalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Advection
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Advection> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Movement> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Age
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Age> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Anisotropy
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Anisotropy> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BodyShape> ;
+	owl:disjointWith <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Isotropy> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ApicalPart
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ApicalPart> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRegion> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Apoptosis
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Apoptosis> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDeath> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AreaEnergy
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AreaEnergy> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#EnergyQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AsymmetricCellDivisionOrientedCleavagePlane
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AsymmetricCellDivisionOrientedCleavagePlane> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Mitosis> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AsymmetricCellDivisionRandomCleavagePlane
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AsymmetricCellDivisionRandomCleavagePlane> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Mitosis> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AutophagicDeath
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AutophagicDeath> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDeath> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BarrierCrossing
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BarrierCrossing> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FundamentalPhysicalProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasalPart
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasalPart> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRegion> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaChange
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaChange> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaCreation
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaCreation> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaDeletion
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaDeletion> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaProcess
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaProcess> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtracellularMatrixProcess> ;
+	owl:disjointWith <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementMembrane
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementMembrane> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtraCellularMatrix> ;
+	owl:disjointWith <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrix> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BioEntityType
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BioEntityType> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BodyShape
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BodyShape> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Shape> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BoltzmannFactor
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BoltzmannFactor> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AcceptanceFunction> ;
+	owl:disjointWith <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MinimizationAcceptanceFunction> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Boundary
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Boundary> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalEntity> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BrushBorder
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BrushBorder> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembraneLocalStructure> ;
+	owl:disjointWith <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Filopodium> , <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Pseudopodium> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> a owl:Class ;
+	owl:disjointWith <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Process> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Process
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Process> a owl:Class .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CHASTEcenter
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CHASTEcenter> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatform> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Cell
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Cell> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BioEntityType> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellAdhesion
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellAdhesion> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellEnvironmentProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellAdvection
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellAdvection> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMovement> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellBasementLaminaContact
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellBasementLaminaContact> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellNonCellContact> ;
+	owl:disjointWith <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellInterstitialMatrixContact> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellBasementMembraneAdhesion
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellBasementMembraneAdhesion> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellNonCellAdhesion> ;
+	owl:disjointWith <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellInterstitialMatrixAdhesion> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellBorder
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellBorder> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellPart> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellCellAdhesion
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellCellAdhesion> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellAdhesion> ;
+	owl:disjointWith <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellNonCellAdhesion> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellCellContact
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellCellContact> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellContact> ;
+	owl:disjointWith <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellNonCellContact> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellCellProcess
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellCellProcess> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellContact
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellContact> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellEnvironmentProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDeath
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDeath> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExistentialCellProcesses> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDifferentiation
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDifferentiation> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExistentialCellProcesses> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDisplacement
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDisplacement> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMovement> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDivision
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDivision> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExistentialCellProcesses> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellEnvironmentProcess
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellEnvironmentProcess> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellExport
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellExport> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRelatedTransport> ;
+	owl:disjointWith <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellImport> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellFusion
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellFusion> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExistentialCellProcesses> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellGrowth
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellGrowth> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExistentialCellProcesses> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellImport
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellImport> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRelatedTransport> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellInterstitialMatrixAdhesion
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellInterstitialMatrixAdhesion> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellNonCellAdhesion> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellInterstitialMatrixContact
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellInterstitialMatrixContact> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellNonCellContact> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembrane
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembrane> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellBorder> ;
+	owl:disjointWith <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellWall> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembraneLocalStructure
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembraneLocalStructure> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembranePart
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembranePart> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellPart> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMotility
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMotility> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMovement> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMovement
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMovement> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalCellProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellNonCellAdhesion
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellNonCellAdhesion> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellAdhesion> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellNonCellContact
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellNonCellContact> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellContact> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellOrientationChange
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellOrientationChange> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalCellProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellPart
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellPart> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellProcess
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellProcess> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Process> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRegion
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRegion> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalEntity> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRelatedTransport
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRelatedTransport> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellEnvironmentProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRotation
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRotation> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMovement> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellShapeChange
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellShapeChange> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalCellProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellState
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellState> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellVolumeChange
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellVolumeChange> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalCellProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellWall
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellWall> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellBorder> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularChemicalProcess
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularChemicalProcess> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellEnvironmentProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularElectricalProcess
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularElectricalProcess> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellEnvironmentProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularKineticProcess
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularKineticProcess> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularPropertyProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularMechanicalProcess
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularMechanicalProcess> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularPropertyProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularPropertyProcess
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularPropertyProcess> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CenterModelPlatform
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CenterModelPlatform> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatformQualities> ;
+	owl:disjointWith <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContinousPlatform> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CenterOfMass
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CenterOfMass> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Location> ;
+	owl:disjointWith <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CenterOfVolume> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CenterOfVolume
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CenterOfVolume> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Location> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Charge
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Charge> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ElectricalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalAffinity
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalAffinity> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalDensity
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalDensity> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalLocalization
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalLocalization> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalPattern
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalPattern> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalPatternGradient
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalPatternGradient> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalPattern> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalProperty
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalProperty> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Chemotaxis
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Chemotaxis> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMovement> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Compucell3D
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Compucell3D> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatform> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatform
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatform> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemQualities> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatformQualities
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatformQualities> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemQualities> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContactSurfaceArea
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContactSurfaceArea> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContinousPlatform
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContinousPlatform> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatformQualities> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContinuousEntity
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContinuousEntity> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalEntityType> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContinuousExtent
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContinuousExtent> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtentGeometrical> ;
+	owl:disjointWith <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#DiscreteExtent> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Contraction
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Contraction> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VolumeChange> ;
+	owl:disjointWith <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Expansion> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CorpuscularEntity
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CorpuscularEntity> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalEntityType> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Creation
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Creation> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FundamentalPhysicalProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Cytoplasm
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Cytoplasm> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellPart> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Deletion
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Deletion> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FundamentalPhysicalProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#DiffuseEntity
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#DiffuseEntity> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalEntityType> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Diffusion
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Diffusion> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Movement> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimension1d
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimension1d> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimensionality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimension2d
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimension2d> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimensionality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimension3d
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimension3d> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimensionality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimensionality
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimensionality> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#DiscreteExtent
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#DiscreteExtent> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtentGeometrical> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Divisible
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Divisible> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dorsal
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dorsal> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OrganismalRegion> ;
+	owl:disjointWith <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Ventral> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ElectricalProperty
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ElectricalProperty> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ElectromechanicalField
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ElectromechanicalField> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Field> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Energy
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Energy> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#EnergyFunction
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#EnergyFunction> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#EnergyQuality
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#EnergyQuality> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExistentialCellProcesses
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExistentialCellProcesses> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Expansion
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Expansion> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VolumeChange> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtentGeometrical
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtentGeometrical> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtraCellularFluid
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtraCellularFluid> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BioEntityType> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtraCellularMatrix
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtraCellularMatrix> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BioEntityType> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtracellularMatrixProcess
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtracellularMatrixProcess> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Process> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Field
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Field> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FieldProcess
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FieldProcess> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Process> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FieldQuality
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FieldQuality> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Fill
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Fill> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Filopodium
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Filopodium> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembraneLocalStructure> ;
+	owl:disjointWith <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Pseudopodium> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FirstOrderRate
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FirstOrderRate> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#RateFunction> ;
+	owl:disjointWith <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SecondOrderRate> , <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ZerothOrderRate> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Fission
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Fission> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDivision> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FundamentalPhysicalProcess
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FundamentalPhysicalProcess> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Process> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GapJunction
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GapJunction> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembranePart> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GenerationalAge
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GenerationalAge> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Age> ;
+	owl:disjointWith <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalAge> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalCellProcess
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalCellProcess> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularPropertyProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalEntity
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalEntity> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalProperty
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalProperty> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GradientTexture
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GradientTexture> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Texture> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Hamlitonian
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Hamlitonian> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#EnergyQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Haptotaxis
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Haptotaxis> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMovement> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#HarmonicEnergy
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#HarmonicEnergy> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#EnergyFunction> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterentityExport
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterentityExport> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterentityTransport> ;
+	owl:disjointWith <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterentityImport> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterentityImport
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterentityImport> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterentityTransport> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterentityTransport
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterentityTransport> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Transport> ;
+	owl:disjointWith <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IntraentityTransport> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrix
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrix> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtraCellularMatrix> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixChange
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixChange> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixCreation
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixCreation> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixDeletion
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixDeletion> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixProcess
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixProcess> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtracellularMatrixProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IntraentityTransport
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IntraentityTransport> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Transport> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IonChannel
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IonChannel> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembranePart> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsApoptotic
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsApoptotic> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellState> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsDebris
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsDebris> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellState> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsGrowing
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsGrowing> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellState> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsHypoxic
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsHypoxic> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellState> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsNecrotic
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsNecrotic> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellState> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsQuiescent
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsQuiescent> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellState> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Isotropy
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Isotropy> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BodyShape> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#KineticProperty
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#KineticProperty> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#LJ_6_12Energy
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#LJ_6_12Energy> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#EnergyFunction> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#LateralPart
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#LateralPart> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRegion> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#LinearEnergy
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#LinearEnergy> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#EnergyFunction> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Location
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Location> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Mass
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Mass> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MechanicalProperty
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MechanicalProperty> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MedialPart
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MedialPart> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRegion> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Meiosis
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Meiosis> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDivision> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MembraneReceptor
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MembraneReceptor> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembranePart> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MinimizationAcceptanceFunction
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MinimizationAcceptanceFunction> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AcceptanceFunction> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Mitosis
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Mitosis> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDivision> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MolecularField
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MolecularField> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Field> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MolecularTargeting
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MolecularTargeting> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IntraentityTransport> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Molecule
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Molecule> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BioEntityType> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeBarrierCrossing
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeBarrierCrossing> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeChange
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeChange> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeCreation
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeCreation> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeDeletion
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeDeletion> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeDiffusion
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeDiffusion> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeMoleculeAdhesion
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeMoleculeAdhesion> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeProcess
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeProcess> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Process> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Movement
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Movement> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FundamentalPhysicalProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MovementField
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MovementField> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Necrosis
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Necrosis> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDeath> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Nucleus
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Nucleus> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellPart> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OpenAlea
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OpenAlea> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatform> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OpenSourcePlatform
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OpenSourcePlatform> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatformQualities> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OrganismalRegion
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OrganismalRegion> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalEntity> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Orientation
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Orientation> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Other
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Other> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatform> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OtherPublicationReference
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OtherPublicationReference> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatformQualities> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PatternTexture
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PatternTexture> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Texture> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhenotypicChange
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhenotypicChange> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FundamentalPhysicalProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalEntityType
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalEntityType> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PoissonRatio
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PoissonRatio> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MechanicalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PressureMechanical
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PressureMechanical> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MechanicalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Protrusion
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Protrusion> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Shape> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Pseudopodium
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Pseudopodium> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembraneLocalStructure> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Pump
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Pump> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembranePart> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Random
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Random> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#StatisticalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#RateFunction
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#RateFunction> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Rotation
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Rotation> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Movement> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SecondOrderRate
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SecondOrderRate> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#RateFunction> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Shape
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Shape> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ShapeChange
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ShapeChange> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FundamentalPhysicalProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SpacialExclusive
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SpacialExclusive> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#StatisticalProperty
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#StatisticalProperty> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhysicalObjectQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#StiffnessMechanical
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#StiffnessMechanical> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MechanicalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#StructuralProcess
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#StructuralProcess> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Process> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SurfaceArea
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SurfaceArea> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SymmetricCellDivisionOrientedCleavagePlane
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SymmetricCellDivisionOrientedCleavagePlane> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Mitosis> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SymmetricCellDivisionRandomCleavagePlane
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SymmetricCellDivisionRandomCleavagePlane> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Mitosis> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#System
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#System> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemBoundary
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemBoundary> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemQualities> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtent
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtent> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemQualities> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtentX
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtentX> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtent> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtentY
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtentY> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtent> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtentZ
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtentZ> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtent> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodic
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodic> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemBoundary> ;
+	owl:disjointWith <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWall> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodicX
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodicX> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodic> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodicY
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodicY> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodic> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodicZ
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodicZ> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodic> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPixelDistanceScale
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPixelDistanceScale> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemQualities> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemQualities
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemQualities> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Object> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWall
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWall> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemBoundary> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWallX
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWallX> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWall> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWallY
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWallY> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWall> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWallZ
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWallZ> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWall> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemperatureField
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemperatureField> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Field> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalAge
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalAge> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Age> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalEntity
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalEntity> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Process> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalInstant
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalInstant> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalEntity> ;
+	owl:disjointWith <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalInterval> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalInterval
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalInterval> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemporalEntity> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TensionMechanical
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TensionMechanical> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MechanicalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Texture
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Texture> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TightJunction
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TightJunction> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembranePart> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Translation
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Translation> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Movement> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Transport
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Transport> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CBO_Process> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#UniformTexture
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#UniformTexture> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Texture> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_FileName
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_FileName> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_Quality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_FileRoot
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_FileRoot> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_Quality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_FileTimeStep
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_FileTimeStep> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_Quality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_InitialCondition
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_InitialCondition> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_Quality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_Quality
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_Quality> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemQualities> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Ventral
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Ventral> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OrganismalRegion> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Volume
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Volume> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VolumeChange
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VolumeChange> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#FundamentalPhysicalProcess> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VolumeEnergy
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VolumeEnergy> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#EnergyQuality> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#YieldingThreshold
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#YieldingThreshold> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MechanicalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#YoungsModulus
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#YoungsModulus> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MechanicalProperty> .
+# 
+# http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ZerothOrderRate
+
+<http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ZerothOrderRate> a owl:Class ;
+	rdfs:subClassOf <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#RateFunction> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+
+_:genid1 a owl:AllDisjointClasses ;
+	owl:members _:genid5 .
+
+_:genid5 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AcceptanceFunction> ;
+	rdf:rest _:genid4 .
+
+_:genid4 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#HarmonicEnergy> ;
+	rdf:rest _:genid3 .
+
+_:genid3 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#LJ_6_12Energy> ;
+	rdf:rest _:genid2 .
+
+_:genid2 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#LinearEnergy> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid6 a owl:AllDisjointClasses ;
+	owl:members _:genid10 .
+
+_:genid10 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AdhesionEnergy> ;
+	rdf:rest _:genid9 .
+
+_:genid9 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AreaEnergy> ;
+	rdf:rest _:genid8 .
+
+_:genid8 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Hamlitonian> ;
+	rdf:rest _:genid7 .
+
+_:genid7 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VolumeEnergy> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid11 a owl:AllDisjointClasses ;
+	owl:members _:genid17 .
+
+_:genid17 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AdhesionMolecule> ;
+	rdf:rest _:genid16 .
+
+_:genid16 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GapJunction> ;
+	rdf:rest _:genid15 .
+
+_:genid15 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IonChannel> ;
+	rdf:rest _:genid14 .
+
+_:genid14 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MembraneReceptor> ;
+	rdf:rest _:genid13 .
+
+_:genid13 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Pump> ;
+	rdf:rest _:genid12 .
+
+_:genid12 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TightJunction> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid18 a owl:AllDisjointClasses ;
+	owl:members _:genid25 .
+
+_:genid25 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AdhesiveProperty> ;
+	rdf:rest _:genid24 .
+
+_:genid24 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PoissonRatio> ;
+	rdf:rest _:genid23 .
+
+_:genid23 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PressureMechanical> ;
+	rdf:rest _:genid22 .
+
+_:genid22 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#StiffnessMechanical> ;
+	rdf:rest _:genid21 .
+
+_:genid21 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TensionMechanical> ;
+	rdf:rest _:genid20 .
+
+_:genid20 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#YieldingThreshold> ;
+	rdf:rest _:genid19 .
+
+_:genid19 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#YoungsModulus> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid26 a owl:AllDisjointClasses ;
+	owl:members _:genid30 .
+
+_:genid30 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Advection> ;
+	rdf:rest _:genid29 .
+
+_:genid29 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Diffusion> ;
+	rdf:rest _:genid28 .
+
+_:genid28 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Rotation> ;
+	rdf:rest _:genid27 .
+
+_:genid27 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Translation> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid31 a owl:AllDisjointClasses ;
+	owl:members _:genid44 .
+
+_:genid44 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Age> ;
+	rdf:rest _:genid43 .
+
+_:genid43 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalProperty> ;
+	rdf:rest _:genid42 .
+
+_:genid42 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Divisible> ;
+	rdf:rest _:genid41 .
+
+_:genid41 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ElectricalProperty> ;
+	rdf:rest _:genid40 .
+
+_:genid40 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Energy> ;
+	rdf:rest _:genid39 .
+
+_:genid39 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Fill> ;
+	rdf:rest _:genid38 .
+
+_:genid38 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalProperty> ;
+	rdf:rest _:genid37 .
+
+_:genid37 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#KineticProperty> ;
+	rdf:rest _:genid36 .
+
+_:genid36 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Mass> ;
+	rdf:rest _:genid35 .
+
+_:genid35 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MechanicalProperty> ;
+	rdf:rest _:genid34 .
+
+_:genid34 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MovementField> ;
+	rdf:rest _:genid33 .
+
+_:genid33 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SpacialExclusive> ;
+	rdf:rest _:genid32 .
+
+_:genid32 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#StatisticalProperty> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid45 a owl:AllDisjointClasses ;
+	owl:members _:genid49 .
+
+_:genid49 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ApicalPart> ;
+	rdf:rest _:genid48 .
+
+_:genid48 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasalPart> ;
+	rdf:rest _:genid47 .
+
+_:genid47 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#LateralPart> ;
+	rdf:rest _:genid46 .
+
+_:genid46 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MedialPart> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid50 a owl:AllDisjointClasses ;
+	owl:members _:genid53 .
+
+_:genid53 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Apoptosis> ;
+	rdf:rest _:genid52 .
+
+_:genid52 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AutophagicDeath> ;
+	rdf:rest _:genid51 .
+
+_:genid51 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Necrosis> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid54 a owl:AllDisjointClasses ;
+	owl:members _:genid58 .
+
+_:genid58 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AsymmetricCellDivisionOrientedCleavagePlane> ;
+	rdf:rest _:genid57 .
+
+_:genid57 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#AsymmetricCellDivisionRandomCleavagePlane> ;
+	rdf:rest _:genid56 .
+
+_:genid56 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SymmetricCellDivisionOrientedCleavagePlane> ;
+	rdf:rest _:genid55 .
+
+_:genid55 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SymmetricCellDivisionRandomCleavagePlane> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid59 a owl:AllDisjointClasses ;
+	owl:members _:genid66 .
+
+_:genid66 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BarrierCrossing> ;
+	rdf:rest _:genid65 .
+
+_:genid65 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Creation> ;
+	rdf:rest _:genid64 .
+
+_:genid64 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Deletion> ;
+	rdf:rest _:genid63 .
+
+_:genid63 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Movement> ;
+	rdf:rest _:genid62 .
+
+_:genid62 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PhenotypicChange> ;
+	rdf:rest _:genid61 .
+
+_:genid61 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ShapeChange> ;
+	rdf:rest _:genid60 .
+
+_:genid60 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VolumeChange> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid67 a owl:AllDisjointClasses ;
+	owl:members _:genid70 .
+
+_:genid70 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaChange> ;
+	rdf:rest _:genid69 .
+
+_:genid69 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaCreation> ;
+	rdf:rest _:genid68 .
+
+_:genid68 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#BasementLaminaDeletion> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid71 a owl:AllDisjointClasses ;
+	owl:members _:genid74 .
+
+_:genid74 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Boundary> ;
+	rdf:rest _:genid73 .
+
+_:genid73 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRegion> ;
+	rdf:rest _:genid72 .
+
+_:genid72 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OrganismalRegion> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid75 a owl:AllDisjointClasses ;
+	owl:members _:genid79 .
+
+_:genid79 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CHASTEcenter> ;
+	rdf:rest _:genid78 .
+
+_:genid78 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Compucell3D> ;
+	rdf:rest _:genid77 .
+
+_:genid77 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#OpenAlea> ;
+	rdf:rest _:genid76 .
+
+_:genid76 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Other> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid80 a owl:AllDisjointClasses ;
+	owl:members _:genid84 .
+
+_:genid84 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Cell> ;
+	rdf:rest _:genid83 .
+
+_:genid83 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtraCellularFluid> ;
+	rdf:rest _:genid82 .
+
+_:genid82 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtraCellularMatrix> ;
+	rdf:rest _:genid81 .
+
+_:genid81 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Molecule> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid85 a owl:AllDisjointClasses ;
+	owl:members _:genid90 .
+
+_:genid90 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellAdhesion> ;
+	rdf:rest _:genid89 .
+
+_:genid89 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellContact> ;
+	rdf:rest _:genid88 .
+
+_:genid88 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRelatedTransport> ;
+	rdf:rest _:genid87 .
+
+_:genid87 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularChemicalProcess> ;
+	rdf:rest _:genid86 .
+
+_:genid86 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularElectricalProcess> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid91 a owl:AllDisjointClasses ;
+	owl:members _:genid97 .
+
+_:genid97 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellAdvection> ;
+	rdf:rest _:genid96 .
+
+_:genid96 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDisplacement> ;
+	rdf:rest _:genid95 .
+
+_:genid95 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMotility> ;
+	rdf:rest _:genid94 .
+
+_:genid94 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellRotation> ;
+	rdf:rest _:genid93 .
+
+_:genid93 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Chemotaxis> ;
+	rdf:rest _:genid92 .
+
+_:genid92 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Haptotaxis> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid98 a owl:AllDisjointClasses ;
+	owl:members _:genid102 .
+
+_:genid102 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellBorder> ;
+	rdf:rest _:genid101 .
+
+_:genid101 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMembranePart> ;
+	rdf:rest _:genid100 .
+
+_:genid100 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Cytoplasm> ;
+	rdf:rest _:genid99 .
+
+_:genid99 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Nucleus> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid103 a owl:AllDisjointClasses ;
+	owl:members _:genid107 .
+
+_:genid107 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellCellProcess> ;
+	rdf:rest _:genid106 .
+
+_:genid106 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellEnvironmentProcess> ;
+	rdf:rest _:genid105 .
+
+_:genid105 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularPropertyProcess> ;
+	rdf:rest _:genid104 .
+
+_:genid104 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExistentialCellProcesses> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid108 a owl:AllDisjointClasses ;
+	owl:members _:genid113 .
+
+_:genid113 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDeath> ;
+	rdf:rest _:genid112 .
+
+_:genid112 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDifferentiation> ;
+	rdf:rest _:genid111 .
+
+_:genid111 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellDivision> ;
+	rdf:rest _:genid110 .
+
+_:genid110 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellFusion> ;
+	rdf:rest _:genid109 .
+
+_:genid109 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellGrowth> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid114 a owl:AllDisjointClasses ;
+	owl:members _:genid118 .
+
+_:genid118 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellMovement> ;
+	rdf:rest _:genid117 .
+
+_:genid117 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellOrientationChange> ;
+	rdf:rest _:genid116 .
+
+_:genid116 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellShapeChange> ;
+	rdf:rest _:genid115 .
+
+_:genid115 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellVolumeChange> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid119 a owl:AllDisjointClasses ;
+	owl:members _:genid122 .
+
+_:genid122 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularKineticProcess> ;
+	rdf:rest _:genid121 .
+
+_:genid121 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CellularMechanicalProcess> ;
+	rdf:rest _:genid120 .
+
+_:genid120 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GeometricalCellProcess> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid123 a owl:AllDisjointClasses ;
+	owl:members _:genid127 .
+
+_:genid127 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalAffinity> ;
+	rdf:rest _:genid126 .
+
+_:genid126 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalDensity> ;
+	rdf:rest _:genid125 .
+
+_:genid125 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalLocalization> ;
+	rdf:rest _:genid124 .
+
+_:genid124 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ChemicalPattern> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid128 a owl:AllDisjointClasses ;
+	owl:members _:genid133 .
+
+_:genid133 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ComputationalPlatform> ;
+	rdf:rest _:genid132 .
+
+_:genid132 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemBoundary> ;
+	rdf:rest _:genid131 .
+
+_:genid131 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtent> ;
+	rdf:rest _:genid130 .
+
+_:genid130 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPixelDistanceScale> ;
+	rdf:rest _:genid129 .
+
+_:genid129 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_Quality> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid134 a owl:AllDisjointClasses ;
+	owl:members _:genid143 .
+
+_:genid143 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContactSurfaceArea> ;
+	rdf:rest _:genid142 .
+
+_:genid142 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimensionality> ;
+	rdf:rest _:genid141 .
+
+_:genid141 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ExtentGeometrical> ;
+	rdf:rest _:genid140 .
+
+_:genid140 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Location> ;
+	rdf:rest _:genid139 .
+
+_:genid139 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Orientation> ;
+	rdf:rest _:genid138 .
+
+_:genid138 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Shape> ;
+	rdf:rest _:genid137 .
+
+_:genid137 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SurfaceArea> ;
+	rdf:rest _:genid136 .
+
+_:genid136 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Texture> ;
+	rdf:rest _:genid135 .
+
+_:genid135 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Volume> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid144 a owl:AllDisjointClasses ;
+	owl:members _:genid147 .
+
+_:genid147 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ContinuousEntity> ;
+	rdf:rest _:genid146 .
+
+_:genid146 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#CorpuscularEntity> ;
+	rdf:rest _:genid145 .
+
+_:genid145 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#DiffuseEntity> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid148 a owl:AllDisjointClasses ;
+	owl:members _:genid151 .
+
+_:genid151 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimension1d> ;
+	rdf:rest _:genid150 .
+
+_:genid150 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimension2d> ;
+	rdf:rest _:genid149 .
+
+_:genid149 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Dimension3d> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid152 a owl:AllDisjointClasses ;
+	owl:members _:genid155 .
+
+_:genid155 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#ElectromechanicalField> ;
+	rdf:rest _:genid154 .
+
+_:genid154 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MolecularField> ;
+	rdf:rest _:genid153 .
+
+_:genid153 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#TemperatureField> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid156 a owl:AllDisjointClasses ;
+	owl:members _:genid159 .
+
+_:genid159 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Fission> ;
+	rdf:rest _:genid158 .
+
+_:genid158 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Meiosis> ;
+	rdf:rest _:genid157 .
+
+_:genid157 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#Mitosis> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid160 a owl:AllDisjointClasses ;
+	owl:members _:genid163 .
+
+_:genid163 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#GradientTexture> ;
+	rdf:rest _:genid162 .
+
+_:genid162 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#PatternTexture> ;
+	rdf:rest _:genid161 .
+
+_:genid161 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#UniformTexture> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid164 a owl:AllDisjointClasses ;
+	owl:members _:genid167 .
+
+_:genid167 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixChange> ;
+	rdf:rest _:genid166 .
+
+_:genid166 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixCreation> ;
+	rdf:rest _:genid165 .
+
+_:genid165 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#InterstitialMatrixDeletion> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid168 a owl:AllDisjointClasses ;
+	owl:members _:genid174 .
+
+_:genid174 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsApoptotic> ;
+	rdf:rest _:genid173 .
+
+_:genid173 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsDebris> ;
+	rdf:rest _:genid172 .
+
+_:genid172 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsGrowing> ;
+	rdf:rest _:genid171 .
+
+_:genid171 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsHypoxic> ;
+	rdf:rest _:genid170 .
+
+_:genid170 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsNecrotic> ;
+	rdf:rest _:genid169 .
+
+_:genid169 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#IsQuiescent> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid175 a owl:AllDisjointClasses ;
+	owl:members _:genid181 .
+
+_:genid181 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeBarrierCrossing> ;
+	rdf:rest _:genid180 .
+
+_:genid180 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeChange> ;
+	rdf:rest _:genid179 .
+
+_:genid179 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeCreation> ;
+	rdf:rest _:genid178 .
+
+_:genid178 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeDeletion> ;
+	rdf:rest _:genid177 .
+
+_:genid177 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeDiffusion> ;
+	rdf:rest _:genid176 .
+
+_:genid176 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#MoleculeMoleculeAdhesion> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid182 a owl:AllDisjointClasses ;
+	owl:members _:genid185 .
+
+_:genid185 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtentX> ;
+	rdf:rest _:genid184 .
+
+_:genid184 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtentY> ;
+	rdf:rest _:genid183 .
+
+_:genid183 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemExtentZ> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid186 a owl:AllDisjointClasses ;
+	owl:members _:genid189 .
+
+_:genid189 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodicX> ;
+	rdf:rest _:genid188 .
+
+_:genid188 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodicY> ;
+	rdf:rest _:genid187 .
+
+_:genid187 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemPeriodicZ> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid190 a owl:AllDisjointClasses ;
+	owl:members _:genid193 .
+
+_:genid193 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWallX> ;
+	rdf:rest _:genid192 .
+
+_:genid192 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWallY> ;
+	rdf:rest _:genid191 .
+
+_:genid191 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#SystemWallZ> ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid194 a owl:AllDisjointClasses ;
+	owl:members _:genid198 .
+
+_:genid198 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_FileName> ;
+	rdf:rest _:genid197 .
+
+_:genid197 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_FileRoot> ;
+	rdf:rest _:genid196 .
+
+_:genid196 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_FileTimeStep> ;
+	rdf:rest _:genid195 .
+
+_:genid195 a rdf:List ;
+	rdf:first <http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0.owl#VTK_InitialCondition> ;
+	rdf:rest rdf:nil .
+# 
+# Generated by the OWL API (version 5.0.4.20161016-1358) https://github.com/owlcs/owlapi/

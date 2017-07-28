@@ -1,0 +1,2569 @@
+@prefix : <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+_:genid783882192 a :Ontology .
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=10
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=10> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=100
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=100> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1001
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1001> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1002
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1002> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1003
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1003> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1004
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1004> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1005
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1005> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1006
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1006> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1007
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1007> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1008
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1008> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1009
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1009> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=101
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=101> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1010
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1010> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1011
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1011> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1012
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1012> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1013
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1013> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=102
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=102> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=103
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=103> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1033
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1033> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=104
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=104> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1048
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1048> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=105
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=105> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1061
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1061> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=11
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=11> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1110
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1110> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1112
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1112> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1121
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1121> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1135
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1135> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1171
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1171> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=12
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=12> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1203
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1203> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1206
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1206> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1242
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1242> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1290
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1290> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=13
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=13> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1301
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1301> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1305
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1305> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1306
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1306> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1307
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1307> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1308
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1308> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1309
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1309> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1310
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1310> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1311
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1311> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1312
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1312> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1313
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1313> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1314
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1314> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1315
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1315> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1316
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1316> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1317
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1317> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1323
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1323> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1324
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1324> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1325
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1325> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1326
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1326> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1327
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1327> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1328
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1328> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1329
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1329> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1330
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1330> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1331
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1331> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1332
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1332> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1333
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1333> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1334
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1334> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1335
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1335> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1336
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1336> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1337
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1337> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1338
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1338> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1339
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1339> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1340
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1340> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1341
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1341> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1342
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1342> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1343
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1343> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1344
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1344> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1345
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1345> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1346
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1346> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1347
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1347> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1348
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1348> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1349
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1349> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1350
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1350> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1351
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1351> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1352
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1352> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1353
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1353> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1354
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1354> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1355
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1355> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1356
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1356> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1357
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1357> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1358
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1358> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1359
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1359> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1360
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1360> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1361
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1361> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1362
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1362> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1363
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1363> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1364
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1364> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1365
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1365> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1366
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1366> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1367
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1367> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1368
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1368> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1369
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1369> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1370
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1370> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1371
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1371> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1372
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1372> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1373
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1373> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1374
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1374> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1375
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1375> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1376
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1376> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1377
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1377> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1378
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1378> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#ASHG_2007> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1379
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1379> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1380
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1380> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1381
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1381> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1382
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1382> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#ASHG_2007> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1383
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1383> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1384
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1384> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1385
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1385> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1386
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1386> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1387
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1387> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1388
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1388> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1389
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1389> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1390
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1390> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1391
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1391> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1392
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1392> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1393
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1393> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1394
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1394> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1395
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1395> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1396
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1396> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1397
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1397> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1398
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1398> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1399
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1399> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=14
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=14> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1400
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1400> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1401
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1401> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1402
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1402> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1403
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1403> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1404
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1404> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1405
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1405> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1406
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1406> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1407
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1407> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1408
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1408> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1409
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1409> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1410
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1410> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1411
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1411> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1412
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1412> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1413
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1413> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1414
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1414> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1415
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1415> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1416
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1416> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1417
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1417> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1418
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1418> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1419
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1419> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1420
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1420> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1421
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1421> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1422
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1422> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1423
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1423> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1424
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1424> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1425
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1425> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1426
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1426> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1427
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1427> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1428
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1428> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1429
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1429> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1430
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1430> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1431
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1431> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1432
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1432> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1433
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1433> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1434
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1434> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1435
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1435> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1436
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1436> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1437
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1437> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1438
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1438> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1439
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1439> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1440
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1440> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1441
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1441> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1442
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1442> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1443
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1443> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1444
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1444> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1445
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1445> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1446
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1446> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1447
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1447> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1448
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1448> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1449
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1449> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1450
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1450> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1451
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1451> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1452
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1452> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1453
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1453> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1454
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1454> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1455
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1455> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1456
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1456> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1457
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1457> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1458
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1458> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1459
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1459> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1460
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1460> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1461
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1461> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1462
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1462> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1463
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1463> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1464
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1464> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1465
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1465> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1466
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1466> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1467
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1467> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1468
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1468> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1469
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1469> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1470
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1470> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1471
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1471> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1472
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1472> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1473
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1473> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1474
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1474> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1475
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1475> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1476
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1476> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1477
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1477> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1478
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1478> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1479
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1479> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1480
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1480> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1481
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1481> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1482
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1482> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1483
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1483> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1484
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1484> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1485
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1485> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1486
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1486> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1487
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1487> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1488
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1488> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1489
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1489> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1490
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1490> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1491
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1491> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1492
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1492> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1493
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1493> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1494
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1494> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1495
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1495> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1496
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1496> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1497
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1497> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1498
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1498> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1499
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1499> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=15
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=15> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1500
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1500> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1501
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1501> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1502
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1502> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1503
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1503> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1504
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1504> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1505
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1505> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1506
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1506> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1507
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1507> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1508
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1508> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1509
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1509> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1510
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1510> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1511
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1511> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1512
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1512> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1513
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1513> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1514
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1514> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1515
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1515> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1516
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1516> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1517
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1517> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1518
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1518> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1519
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1519> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1520
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1520> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1521
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1521> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1522
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1522> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1523
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1523> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1524
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1524> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1525
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1525> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1526
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1526> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1527
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1527> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1528
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1528> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1529
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1529> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1530
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1530> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1531
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1531> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1532
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1532> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1533
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1533> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1534
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1534> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1535
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1535> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1536
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1536> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1537
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1537> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1538
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1538> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1539
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1539> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1540
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1540> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1541
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1541> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1542
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1542> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1543
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1543> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1544
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1544> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1545
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1545> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1546
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1546> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1547
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1547> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1548
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1548> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1549
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1549> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1550
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1550> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1551
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1551> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1552
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=1552> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=16
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=16> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=17
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=17> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=18
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=18> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=19
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=19> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=2
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=2> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=20
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=20> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=21
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=21> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=22
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=22> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=23
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=23> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=24
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=24> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=25
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=25> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=26
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=26> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=27
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=27> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=28
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=28> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=29
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=29> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=3
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=3> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=30
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=30> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=31
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=31> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=32
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=32> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=33
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=33> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=34
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=34> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=35
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=35> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=36
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=36> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=37
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=37> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=38
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=38> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=39
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=39> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=4
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=4> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=40
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=40> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=41
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=41> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=42
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=42> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=43
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=43> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=44
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=44> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=45
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=45> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=46
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=46> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=47
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=47> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=48
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=48> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=49
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=49> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=5
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=5> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=50
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=50> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=51
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=51> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=52
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=52> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=53
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=53> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=54
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=54> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=55
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=55> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=56
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=56> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=57
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=57> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=58
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=58> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=59
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=59> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=6
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=6> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=60
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=60> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=61
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=61> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=62
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=62> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=63
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=63> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=64
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=64> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=65
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=65> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=66
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=66> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=67
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=67> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=68
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=68> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=69
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=69> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=7
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=7> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=70
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=70> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=71
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=71> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=72
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=72> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=73
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=73> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=74
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=74> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=75
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=75> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=76
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=76> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=77
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=77> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=78
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=78> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=79
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=79> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=8
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=8> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=80
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=80> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=81
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=81> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=82
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=82> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=83
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=83> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=84
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=84> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=85
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=85> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=86
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=86> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=87
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=87> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=88
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=88> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=89
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=89> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=9
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=9> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#PMID> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=90
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=90> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=91
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=91> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=92
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=92> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=93
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=93> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=94
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=94> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=95
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=95> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=96
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=96> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=97
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=97> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=98
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=98> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=99
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHD:CaseReport?id=99> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:010101
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:010101> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Tetrallogy_of_Fallot_and_variants> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:010102
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:010102> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_position_and_connection_of_heart> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:010104
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:010104> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_position_and_connection_of_heart> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:010106
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:010106> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Tetrallogy_of_Fallot_and_variants> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:010107
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:010107> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_VA_valves_and_great_arteries> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:010109
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:010109> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_ventricles_and_ventricular_septum> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:010116
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:010116> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_great_veins> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:010117
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:010117> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_position_and_connection_of_heart> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:020102
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:020102> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_position_and_connection_of_heart> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:030109
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:030109> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_position_and_connection_of_heart> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:040701
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:040701> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_great_veins> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:040805
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:040805> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_great_veins> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:050401
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:050401> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_atriums_and_atrial_septum> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:050402
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:050402> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_atriums_and_atrial_septum> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:050500
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:050500> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_atriums_and_atrial_septum> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:050503
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:050503> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_atriums_and_atrial_septum> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:060101
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:060101> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_position_and_connection_of_heart> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:060134
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:060134> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_AV_valves_and_AV_septal_defect> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:060600
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:060600> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_AV_valves_and_AV_septal_defect> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:060601
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:060601> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_AV_valves_and_AV_septal_defect> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:060609
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:060609> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_AV_valves_and_AV_septal_defect> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:070900
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:070900> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_VA_valves_and_great_arteries> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:071000
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:071000> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_ventricles_and_ventricular_septum> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:071001
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:071001> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_ventricles_and_ventricular_septum> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:071101
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:071101> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_ventricles_and_ventricular_septum> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:090101
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:090101> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_position_and_connection_of_heart> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:090504
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:090504> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_VA_valves_and_great_arteries> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:090511
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:090511> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_VA_valves_and_great_arteries> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:090592
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:090592> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_VA_valves_and_great_arteries> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:091001
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:091001> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_VA_valves_and_great_arteries> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:091006
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:091006> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_VA_valves_and_great_arteries> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:091501
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:091501> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_VA_valves_and_great_arteries> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:091513
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:091513> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_VA_valves_and_great_arteries> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:091522
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:091522> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_VA_valves_and_great_arteries> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:091592
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:091592> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_VA_valves_and_great_arteries> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:091600
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:091600> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_VA_valves_and_great_arteries> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:092721
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:092721> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_coronary_arteries_and_arterial_duct_and_pericardium> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:092901
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:092901> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_VA_valves_and_great_arteries> .
+# 
+# http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:100100
+
+<http://homes.esat.kuleuven.be/~bioiuser/chdwiki/index.php/CHDEPCC:100100> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_coronary_arteries_and_arterial_duct_and_pericardium> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=ACTC
+
+<http://www.genenames.org/data/hgnc_data.php?match=ACTC> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=ACVR1
+
+<http://www.genenames.org/data/hgnc_data.php?match=ACVR1> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=ACVR2B
+
+<http://www.genenames.org/data/hgnc_data.php?match=ACVR2B> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=ALDH1A2
+
+<http://www.genenames.org/data/hgnc_data.php?match=ALDH1A2> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=ANKRD1
+
+<http://www.genenames.org/data/hgnc_data.php?match=ANKRD1> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=ATRX
+
+<http://www.genenames.org/data/hgnc_data.php?match=ATRX> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=BCOR
+
+<http://www.genenames.org/data/hgnc_data.php?match=BCOR> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=BRAF
+
+<http://www.genenames.org/data/hgnc_data.php?match=BRAF> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=CBP
+
+<http://www.genenames.org/data/hgnc_data.php?match=CBP> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=CFC1
+
+<http://www.genenames.org/data/hgnc_data.php?match=CFC1> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=CHD7
+
+<http://www.genenames.org/data/hgnc_data.php?match=CHD7> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=CITED2
+
+<http://www.genenames.org/data/hgnc_data.php?match=CITED2> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=COL2A1
+
+<http://www.genenames.org/data/hgnc_data.php?match=COL2A1> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=CRELD1
+
+<http://www.genenames.org/data/hgnc_data.php?match=CRELD1> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=CSDE1
+
+<http://www.genenames.org/data/hgnc_data.php?match=CSDE1> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=EHMT1
+
+<http://www.genenames.org/data/hgnc_data.php?match=EHMT1> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=ELN
+
+<http://www.genenames.org/data/hgnc_data.php?match=ELN> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=EVC
+
+<http://www.genenames.org/data/hgnc_data.php?match=EVC> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=EVC2
+
+<http://www.genenames.org/data/hgnc_data.php?match=EVC2> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=FBN1
+
+<http://www.genenames.org/data/hgnc_data.php?match=FBN1> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=FLNA
+
+<http://www.genenames.org/data/hgnc_data.php?match=FLNA> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=FOG2
+
+<http://www.genenames.org/data/hgnc_data.php?match=FOG2> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=FOXC1
+
+<http://www.genenames.org/data/hgnc_data.php?match=FOXC1> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=FOXH1
+
+<http://www.genenames.org/data/hgnc_data.php?match=FOXH1> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=FOXL2
+
+<http://www.genenames.org/data/hgnc_data.php?match=FOXL2> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=G6PC3
+
+<http://www.genenames.org/data/hgnc_data.php?match=G6PC3> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=GATA4
+
+<http://www.genenames.org/data/hgnc_data.php?match=GATA4> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=GATA6
+
+<http://www.genenames.org/data/hgnc_data.php?match=GATA6> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=GDF1
+
+<http://www.genenames.org/data/hgnc_data.php?match=GDF1> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=GJA1
+
+<http://www.genenames.org/data/hgnc_data.php?match=GJA1> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=GPC3
+
+<http://www.genenames.org/data/hgnc_data.php?match=GPC3> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=HAND2
+
+<http://www.genenames.org/data/hgnc_data.php?match=HAND2> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=HEY2
+
+<http://www.genenames.org/data/hgnc_data.php?match=HEY2> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=HOXA1
+
+<http://www.genenames.org/data/hgnc_data.php?match=HOXA1> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=HRAS
+
+<http://www.genenames.org/data/hgnc_data.php?match=HRAS> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=IRX4
+
+<http://www.genenames.org/data/hgnc_data.php?match=IRX4> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=JAG1
+
+<http://www.genenames.org/data/hgnc_data.php?match=JAG1> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=KRAS
+
+<http://www.genenames.org/data/hgnc_data.php?match=KRAS> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=LBR
+
+<http://www.genenames.org/data/hgnc_data.php?match=LBR> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=LEFTY2
+
+<http://www.genenames.org/data/hgnc_data.php?match=LEFTY2> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=MAP2K1
+
+<http://www.genenames.org/data/hgnc_data.php?match=MAP2K1> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=MAP2K2
+
+<http://www.genenames.org/data/hgnc_data.php?match=MAP2K2> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=MAP3K7IP2
+
+<http://www.genenames.org/data/hgnc_data.php?match=MAP3K7IP2> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=MGP
+
+<http://www.genenames.org/data/hgnc_data.php?match=MGP> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=MID1
+
+<http://www.genenames.org/data/hgnc_data.php?match=MID1> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=MLL2
+
+<http://www.genenames.org/data/hgnc_data.php?match=MLL2> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=MYH11
+
+<http://www.genenames.org/data/hgnc_data.php?match=MYH11> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=MYH6
+
+<http://www.genenames.org/data/hgnc_data.php?match=MYH6> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=MYH7
+
+<http://www.genenames.org/data/hgnc_data.php?match=MYH7> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=NF1
+
+<http://www.genenames.org/data/hgnc_data.php?match=NF1> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=NKX2-5
+
+<http://www.genenames.org/data/hgnc_data.php?match=NKX2-5> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=NKX2-6
+
+<http://www.genenames.org/data/hgnc_data.php?match=NKX2-6> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=NODAL
+
+<http://www.genenames.org/data/hgnc_data.php?match=NODAL> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=NOTCH1
+
+<http://www.genenames.org/data/hgnc_data.php?match=NOTCH1> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=NOTCH2
+
+<http://www.genenames.org/data/hgnc_data.php?match=NOTCH2> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=NPHP3
+
+<http://www.genenames.org/data/hgnc_data.php?match=NPHP3> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=NSD1
+
+<http://www.genenames.org/data/hgnc_data.php?match=NSD1> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=PDGFRA
+
+<http://www.genenames.org/data/hgnc_data.php?match=PDGFRA> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=PTPN11
+
+<http://www.genenames.org/data/hgnc_data.php?match=PTPN11> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=RAF1
+
+<http://www.genenames.org/data/hgnc_data.php?match=RAF1> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=RAI1
+
+<http://www.genenames.org/data/hgnc_data.php?match=RAI1> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=RBM10
+
+<http://www.genenames.org/data/hgnc_data.php?match=RBM10> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=ROR2
+
+<http://www.genenames.org/data/hgnc_data.php?match=ROR2> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=SALL4
+
+<http://www.genenames.org/data/hgnc_data.php?match=SALL4> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=SH3PXD2B
+
+<http://www.genenames.org/data/hgnc_data.php?match=SH3PXD2B> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=SHOC2
+
+<http://www.genenames.org/data/hgnc_data.php?match=SHOC2> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=SIP1
+
+<http://www.genenames.org/data/hgnc_data.php?match=SIP1> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=SLC2A10
+
+<http://www.genenames.org/data/hgnc_data.php?match=SLC2A10> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=SOS1
+
+<http://www.genenames.org/data/hgnc_data.php?match=SOS1> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=STRA6
+
+<http://www.genenames.org/data/hgnc_data.php?match=STRA6> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=TBX1
+
+<http://www.genenames.org/data/hgnc_data.php?match=TBX1> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=TBX20
+
+<http://www.genenames.org/data/hgnc_data.php?match=TBX20> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=TBX3
+
+<http://www.genenames.org/data/hgnc_data.php?match=TBX3> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=TBX5
+
+<http://www.genenames.org/data/hgnc_data.php?match=TBX5> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=TDGF1
+
+<http://www.genenames.org/data/hgnc_data.php?match=TDGF1> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=TFAP2B
+
+<http://www.genenames.org/data/hgnc_data.php?match=TFAP2B> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=THRAP2
+
+<http://www.genenames.org/data/hgnc_data.php?match=THRAP2> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=VEGF
+
+<http://www.genenames.org/data/hgnc_data.php?match=VEGF> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.genenames.org/data/hgnc_data.php?match=ZIC3
+
+<http://www.genenames.org/data/hgnc_data.php?match=ZIC3> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#ASHG_2007
+
+<http://www.semanticweb.org/owl/owlapi/turtle#ASHG_2007> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CaseReport> .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_AV_valves_and_AV_septal_defect
+
+<http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_AV_valves_and_AV_septal_defect> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CHD> .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_VA_valves_and_great_arteries
+
+<http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_VA_valves_and_great_arteries> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CHD> .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_atriums_and_atrial_septum
+
+<http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_atriums_and_atrial_septum> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CHD> .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_coronary_arteries_and_arterial_duct_and_pericardium
+
+<http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_coronary_arteries_and_arterial_duct_and_pericardium> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CHD> .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_great_veins
+
+<http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_great_veins> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CHD> .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_position_and_connection_of_heart
+
+<http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_position_and_connection_of_heart> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CHD> .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_ventricles_and_ventricular_septum
+
+<http://www.semanticweb.org/owl/owlapi/turtle#Abnormalities_of_ventricles_and_ventricular_septum> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CHD> .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#CHD
+
+<http://www.semanticweb.org/owl/owlapi/turtle#CHD> a :Class .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench
+
+<http://www.semanticweb.org/owl/owlapi/turtle#CME_Leuven_Bench> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CaseReport> .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#CaseReport
+
+<http://www.semanticweb.org/owl/owlapi/turtle#CaseReport> a :Class .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#Diagnostic_congenital_and_generic_cardiac_codes
+
+<http://www.semanticweb.org/owl/owlapi/turtle#Diagnostic_congenital_and_generic_cardiac_codes> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CHD> .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#Gene
+
+<http://www.semanticweb.org/owl/owlapi/turtle#Gene> a :Class .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#Heart_muscle_disease_and_cardiomyopathies
+
+<http://www.semanticweb.org/owl/owlapi/turtle#Heart_muscle_disease_and_cardiomyopathies> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CHD> .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes
+
+<http://www.semanticweb.org/owl/owlapi/turtle#Non_Syndromic_Genes> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Gene> .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#PMID
+
+<http://www.semanticweb.org/owl/owlapi/turtle#PMID> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CaseReport> .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#Rhytm_and_conduction_disturbances
+
+<http://www.semanticweb.org/owl/owlapi/turtle#Rhytm_and_conduction_disturbances> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CHD> .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes
+
+<http://www.semanticweb.org/owl/owlapi/turtle#Syndromic_Genes> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#Gene> .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#Tetrallogy_of_Fallot_and_variants
+
+<http://www.semanticweb.org/owl/owlapi/turtle#Tetrallogy_of_Fallot_and_variants> a :Class ;
+	rdfs:subClassOf <http://www.semanticweb.org/owl/owlapi/turtle#CHD> .
+# 
+# Generated by the OWL API (version 5.0.4.20161016-1358) https://github.com/owlcs/owlapi/

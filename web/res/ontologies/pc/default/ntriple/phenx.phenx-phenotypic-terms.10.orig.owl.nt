@@ -1,0 +1,1454 @@
+<http://purl.bioontology.org/ontology/phenX/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.bioontology.org/ontology/phenX/010000
+<http://purl.bioontology.org/ontology/phenX/010000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/010100
+<http://purl.bioontology.org/ontology/phenX/010100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/010100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/010000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/010200
+<http://purl.bioontology.org/ontology/phenX/010200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/010200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/010000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/010300
+<http://purl.bioontology.org/ontology/phenX/010300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/010300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/010000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/010400
+<http://purl.bioontology.org/ontology/phenX/010400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/010400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/010000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/010500
+<http://purl.bioontology.org/ontology/phenX/010500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/010500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/010000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/010600
+<http://purl.bioontology.org/ontology/phenX/010600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/010600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/010000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/010700
+<http://purl.bioontology.org/ontology/phenX/010700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/010700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/010000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/010800
+<http://purl.bioontology.org/ontology/phenX/010800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/010800> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/010000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/010900
+<http://purl.bioontology.org/ontology/phenX/010900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/010900> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/010000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/011000
+<http://purl.bioontology.org/ontology/phenX/011000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/011000> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/010000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/011100
+<http://purl.bioontology.org/ontology/phenX/011100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/011100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/010000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/011200
+<http://purl.bioontology.org/ontology/phenX/011200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/011200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/010000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/011300
+<http://purl.bioontology.org/ontology/phenX/011300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/011300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/010000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/011400
+<http://purl.bioontology.org/ontology/phenX/011400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/011400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/010000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/011500
+<http://purl.bioontology.org/ontology/phenX/011500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/011500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/010000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/020000
+<http://purl.bioontology.org/ontology/phenX/020000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/020100
+<http://purl.bioontology.org/ontology/phenX/020100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/020100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/020000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/020200
+<http://purl.bioontology.org/ontology/phenX/020200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/020200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/020000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/020300
+<http://purl.bioontology.org/ontology/phenX/020300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/020300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/020000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/020400
+<http://purl.bioontology.org/ontology/phenX/020400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/020400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/020000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/020500
+<http://purl.bioontology.org/ontology/phenX/020500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/020500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/020000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/020600
+<http://purl.bioontology.org/ontology/phenX/020600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/020600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/020000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/020700
+<http://purl.bioontology.org/ontology/phenX/020700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/020700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/020000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/020800
+<http://purl.bioontology.org/ontology/phenX/020800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/020800> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/020000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/020900
+<http://purl.bioontology.org/ontology/phenX/020900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/020900> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/020000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/021000
+<http://purl.bioontology.org/ontology/phenX/021000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/021000> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/020000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/021100
+<http://purl.bioontology.org/ontology/phenX/021100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/021100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/020000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/021200
+<http://purl.bioontology.org/ontology/phenX/021200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/021200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/020000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/021300
+<http://purl.bioontology.org/ontology/phenX/021300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/021300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/020000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/021400
+<http://purl.bioontology.org/ontology/phenX/021400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/021400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/020000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/021500
+<http://purl.bioontology.org/ontology/phenX/021500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/021500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/020000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/021600
+<http://purl.bioontology.org/ontology/phenX/021600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/021600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/020000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/030000
+<http://purl.bioontology.org/ontology/phenX/030000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/030100
+<http://purl.bioontology.org/ontology/phenX/030100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/030100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/030000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/030200
+<http://purl.bioontology.org/ontology/phenX/030200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/030200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/030000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/030300
+<http://purl.bioontology.org/ontology/phenX/030300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/030300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/030000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/030400
+<http://purl.bioontology.org/ontology/phenX/030400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/030400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/030000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/030500
+<http://purl.bioontology.org/ontology/phenX/030500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/030500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/030000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/030600
+<http://purl.bioontology.org/ontology/phenX/030600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/030600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/030000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/030700
+<http://purl.bioontology.org/ontology/phenX/030700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/030700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/030000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/030800
+<http://purl.bioontology.org/ontology/phenX/030800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/030800> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/030000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/030900
+<http://purl.bioontology.org/ontology/phenX/030900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/030900> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/030000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/031000
+<http://purl.bioontology.org/ontology/phenX/031000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/031000> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/030000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/031100
+<http://purl.bioontology.org/ontology/phenX/031100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/031100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/030000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/031200
+<http://purl.bioontology.org/ontology/phenX/031200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/031200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/030000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/031300
+<http://purl.bioontology.org/ontology/phenX/031300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/031300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/030000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/031400
+<http://purl.bioontology.org/ontology/phenX/031400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/031400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/030000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/040000
+<http://purl.bioontology.org/ontology/phenX/040000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/040100
+<http://purl.bioontology.org/ontology/phenX/040100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/040100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/040000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/040200
+<http://purl.bioontology.org/ontology/phenX/040200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/040200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/040000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/040300
+<http://purl.bioontology.org/ontology/phenX/040300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/040300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/040000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/040400
+<http://purl.bioontology.org/ontology/phenX/040400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/040400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/040000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/040500
+<http://purl.bioontology.org/ontology/phenX/040500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/040500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/040000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/040600
+<http://purl.bioontology.org/ontology/phenX/040600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/040600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/040000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/040700
+<http://purl.bioontology.org/ontology/phenX/040700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/040700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/040000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/040800
+<http://purl.bioontology.org/ontology/phenX/040800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/040800> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/040000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/040900
+<http://purl.bioontology.org/ontology/phenX/040900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/040900> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/040000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/041000
+<http://purl.bioontology.org/ontology/phenX/041000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/041000> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/040000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/041100
+<http://purl.bioontology.org/ontology/phenX/041100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/041100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/040000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/041200
+<http://purl.bioontology.org/ontology/phenX/041200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/041200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/040000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/041300
+<http://purl.bioontology.org/ontology/phenX/041300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/041300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/040000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/041400
+<http://purl.bioontology.org/ontology/phenX/041400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/041400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/040000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/050000
+<http://purl.bioontology.org/ontology/phenX/050000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/050100
+<http://purl.bioontology.org/ontology/phenX/050100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/050100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/050000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/050200
+<http://purl.bioontology.org/ontology/phenX/050200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/050200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/050000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/050300
+<http://purl.bioontology.org/ontology/phenX/050300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/050300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/050000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/050400
+<http://purl.bioontology.org/ontology/phenX/050400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/050400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/050000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/050500
+<http://purl.bioontology.org/ontology/phenX/050500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/050500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/050000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/050600
+<http://purl.bioontology.org/ontology/phenX/050600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/050600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/050000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/050700
+<http://purl.bioontology.org/ontology/phenX/050700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/050700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/050000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/050800
+<http://purl.bioontology.org/ontology/phenX/050800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/050800> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/050000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/050900
+<http://purl.bioontology.org/ontology/phenX/050900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/050900> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/050000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/051000
+<http://purl.bioontology.org/ontology/phenX/051000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/051000> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/050000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/051100
+<http://purl.bioontology.org/ontology/phenX/051100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/051100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/050000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/051200
+<http://purl.bioontology.org/ontology/phenX/051200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/051200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/050000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/060000
+<http://purl.bioontology.org/ontology/phenX/060000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/060100
+<http://purl.bioontology.org/ontology/phenX/060100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/060100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/060000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/060200
+<http://purl.bioontology.org/ontology/phenX/060200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/060200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/060000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/060300
+<http://purl.bioontology.org/ontology/phenX/060300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/060300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/060000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/060400
+<http://purl.bioontology.org/ontology/phenX/060400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/060400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/060000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/060500
+<http://purl.bioontology.org/ontology/phenX/060500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/060500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/060000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/060600
+<http://purl.bioontology.org/ontology/phenX/060600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/060600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/060000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/060700
+<http://purl.bioontology.org/ontology/phenX/060700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/060700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/060000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/060800
+<http://purl.bioontology.org/ontology/phenX/060800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/060800> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/060000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/060900
+<http://purl.bioontology.org/ontology/phenX/060900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/060900> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/060000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/061000
+<http://purl.bioontology.org/ontology/phenX/061000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/061000> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/060000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/061100
+<http://purl.bioontology.org/ontology/phenX/061100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/061100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/060000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/061200
+<http://purl.bioontology.org/ontology/phenX/061200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/061200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/060000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/061300
+<http://purl.bioontology.org/ontology/phenX/061300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/061300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/060000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/061400
+<http://purl.bioontology.org/ontology/phenX/061400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/061400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/060000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/070000
+<http://purl.bioontology.org/ontology/phenX/070000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/070100
+<http://purl.bioontology.org/ontology/phenX/070100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/070100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/070000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/070200
+<http://purl.bioontology.org/ontology/phenX/070200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/070200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/070000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/070300
+<http://purl.bioontology.org/ontology/phenX/070300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/070300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/070000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/070400
+<http://purl.bioontology.org/ontology/phenX/070400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/070400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/070000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/070500
+<http://purl.bioontology.org/ontology/phenX/070500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/070500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/070000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/070600
+<http://purl.bioontology.org/ontology/phenX/070600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/070600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/070000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/070700
+<http://purl.bioontology.org/ontology/phenX/070700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/070700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/070000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/070800
+<http://purl.bioontology.org/ontology/phenX/070800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/070800> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/070000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/070900
+<http://purl.bioontology.org/ontology/phenX/070900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/070900> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/070000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/071000
+<http://purl.bioontology.org/ontology/phenX/071000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/071000> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/070000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/071100
+<http://purl.bioontology.org/ontology/phenX/071100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/071100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/070000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/071200
+<http://purl.bioontology.org/ontology/phenX/071200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/071200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/070000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/080000
+<http://purl.bioontology.org/ontology/phenX/080000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/080100
+<http://purl.bioontology.org/ontology/phenX/080100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/080100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/080000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/080200
+<http://purl.bioontology.org/ontology/phenX/080200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/080200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/080000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/080300
+<http://purl.bioontology.org/ontology/phenX/080300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/080300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/080000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/080400
+<http://purl.bioontology.org/ontology/phenX/080400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/080400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/080000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/080500
+<http://purl.bioontology.org/ontology/phenX/080500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/080500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/080000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/080600
+<http://purl.bioontology.org/ontology/phenX/080600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/080600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/080000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/080700
+<http://purl.bioontology.org/ontology/phenX/080700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/080700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/080000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/080800
+<http://purl.bioontology.org/ontology/phenX/080800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/080800> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/080000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/080900
+<http://purl.bioontology.org/ontology/phenX/080900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/080900> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/080000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/081000
+<http://purl.bioontology.org/ontology/phenX/081000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/081000> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/080000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/081100
+<http://purl.bioontology.org/ontology/phenX/081100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/081100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/080000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/081200
+<http://purl.bioontology.org/ontology/phenX/081200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/081200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/080000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/081300
+<http://purl.bioontology.org/ontology/phenX/081300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/081300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/080000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/081400
+<http://purl.bioontology.org/ontology/phenX/081400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/081400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/080000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/081500
+<http://purl.bioontology.org/ontology/phenX/081500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/081500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/080000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/090000
+<http://purl.bioontology.org/ontology/phenX/090000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/090200
+<http://purl.bioontology.org/ontology/phenX/090200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/090200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/090000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/090300
+<http://purl.bioontology.org/ontology/phenX/090300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/090300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/090000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/090400
+<http://purl.bioontology.org/ontology/phenX/090400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/090400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/090000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/090600
+<http://purl.bioontology.org/ontology/phenX/090600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/090600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/090000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/090700
+<http://purl.bioontology.org/ontology/phenX/090700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/090700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/090000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/090800
+<http://purl.bioontology.org/ontology/phenX/090800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/090800> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/090000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/090900
+<http://purl.bioontology.org/ontology/phenX/090900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/090900> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/090000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/091000
+<http://purl.bioontology.org/ontology/phenX/091000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/091000> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/090000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/091100
+<http://purl.bioontology.org/ontology/phenX/091100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/091100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/090000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/091300
+<http://purl.bioontology.org/ontology/phenX/091300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/091300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/090000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/091400
+<http://purl.bioontology.org/ontology/phenX/091400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/091400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/090000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/091500
+<http://purl.bioontology.org/ontology/phenX/091500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/091500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/090000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/091600
+<http://purl.bioontology.org/ontology/phenX/091600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/091600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/090000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/091700
+<http://purl.bioontology.org/ontology/phenX/091700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/091700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/090000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/100000
+<http://purl.bioontology.org/ontology/phenX/100000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/100100
+<http://purl.bioontology.org/ontology/phenX/100100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/100100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/100000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/100200
+<http://purl.bioontology.org/ontology/phenX/100200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/100200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/100000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/100300
+<http://purl.bioontology.org/ontology/phenX/100300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/100300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/100000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/100400
+<http://purl.bioontology.org/ontology/phenX/100400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/100400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/100000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/100500
+<http://purl.bioontology.org/ontology/phenX/100500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/100500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/100000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/100600
+<http://purl.bioontology.org/ontology/phenX/100600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/100600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/100000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/100700
+<http://purl.bioontology.org/ontology/phenX/100700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/100700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/100000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/100800
+<http://purl.bioontology.org/ontology/phenX/100800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/100800> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/100000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/100900
+<http://purl.bioontology.org/ontology/phenX/100900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/100900> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/100000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/101000
+<http://purl.bioontology.org/ontology/phenX/101000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/101000> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/100000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/101100
+<http://purl.bioontology.org/ontology/phenX/101100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/101100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/100000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/101200
+<http://purl.bioontology.org/ontology/phenX/101200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/101200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/100000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/101300
+<http://purl.bioontology.org/ontology/phenX/101300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/101300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/100000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/101400
+<http://purl.bioontology.org/ontology/phenX/101400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/101400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/100000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/101500
+<http://purl.bioontology.org/ontology/phenX/101500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/101500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/100000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/110000
+<http://purl.bioontology.org/ontology/phenX/110000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/110100
+<http://purl.bioontology.org/ontology/phenX/110100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/110100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/110000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/110200
+<http://purl.bioontology.org/ontology/phenX/110200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/110200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/110000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/110300
+<http://purl.bioontology.org/ontology/phenX/110300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/110300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/110000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/110400
+<http://purl.bioontology.org/ontology/phenX/110400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/110400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/110000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/110500
+<http://purl.bioontology.org/ontology/phenX/110500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/110500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/110000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/110600
+<http://purl.bioontology.org/ontology/phenX/110600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/110600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/110000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/110700
+<http://purl.bioontology.org/ontology/phenX/110700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/110700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/110000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/110800
+<http://purl.bioontology.org/ontology/phenX/110800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/110800> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/110000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/110900
+<http://purl.bioontology.org/ontology/phenX/110900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/110900> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/110000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/111000
+<http://purl.bioontology.org/ontology/phenX/111000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/111000> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/110000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/111100
+<http://purl.bioontology.org/ontology/phenX/111100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/111100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/110000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/111200
+<http://purl.bioontology.org/ontology/phenX/111200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/111200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/110000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/111300
+<http://purl.bioontology.org/ontology/phenX/111300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/111300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/110000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/111400
+<http://purl.bioontology.org/ontology/phenX/111400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/111400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/110000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/111500
+<http://purl.bioontology.org/ontology/phenX/111500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/111500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/110000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/120000
+<http://purl.bioontology.org/ontology/phenX/120000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/120100
+<http://purl.bioontology.org/ontology/phenX/120100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/120100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/120000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/120200
+<http://purl.bioontology.org/ontology/phenX/120200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/120200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/120000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/120300
+<http://purl.bioontology.org/ontology/phenX/120300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/120300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/120000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/120400
+<http://purl.bioontology.org/ontology/phenX/120400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/120400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/120000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/120500
+<http://purl.bioontology.org/ontology/phenX/120500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/120500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/120000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/120600
+<http://purl.bioontology.org/ontology/phenX/120600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/120600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/120000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/120700
+<http://purl.bioontology.org/ontology/phenX/120700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/120700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/120000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/120900
+<http://purl.bioontology.org/ontology/phenX/120900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/120900> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/120000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/121000
+<http://purl.bioontology.org/ontology/phenX/121000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/121000> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/120000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/121100
+<http://purl.bioontology.org/ontology/phenX/121100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/121100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/120000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/121300
+<http://purl.bioontology.org/ontology/phenX/121300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/121300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/120000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/121400
+<http://purl.bioontology.org/ontology/phenX/121400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/121400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/120000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/121500
+<http://purl.bioontology.org/ontology/phenX/121500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/121500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/120000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/121600
+<http://purl.bioontology.org/ontology/phenX/121600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/121600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/120000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/130000
+<http://purl.bioontology.org/ontology/phenX/130000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/130100
+<http://purl.bioontology.org/ontology/phenX/130100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/130100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/130000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/130200
+<http://purl.bioontology.org/ontology/phenX/130200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/130200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/130000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/130300
+<http://purl.bioontology.org/ontology/phenX/130300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/130300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/130000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/130400
+<http://purl.bioontology.org/ontology/phenX/130400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/130400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/130000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/130500
+<http://purl.bioontology.org/ontology/phenX/130500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/130500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/130000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/130600
+<http://purl.bioontology.org/ontology/phenX/130600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/130600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/130000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/130700
+<http://purl.bioontology.org/ontology/phenX/130700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/130700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/130000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/130800
+<http://purl.bioontology.org/ontology/phenX/130800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/130800> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/130000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/130900
+<http://purl.bioontology.org/ontology/phenX/130900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/130900> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/130000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/131000
+<http://purl.bioontology.org/ontology/phenX/131000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/131000> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/130000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/131100
+<http://purl.bioontology.org/ontology/phenX/131100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/131100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/130000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/131200
+<http://purl.bioontology.org/ontology/phenX/131200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/131200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/130000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/131300
+<http://purl.bioontology.org/ontology/phenX/131300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/131300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/130000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/131400
+<http://purl.bioontology.org/ontology/phenX/131400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/131400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/130000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/140000
+<http://purl.bioontology.org/ontology/phenX/140000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/140100
+<http://purl.bioontology.org/ontology/phenX/140100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/140100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/140000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/140200
+<http://purl.bioontology.org/ontology/phenX/140200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/140200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/140000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/140300
+<http://purl.bioontology.org/ontology/phenX/140300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/140300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/140000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/140400
+<http://purl.bioontology.org/ontology/phenX/140400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/140400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/140000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/140500
+<http://purl.bioontology.org/ontology/phenX/140500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/140500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/140000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/140600
+<http://purl.bioontology.org/ontology/phenX/140600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/140600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/140000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/140700
+<http://purl.bioontology.org/ontology/phenX/140700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/140700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/140000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/140800
+<http://purl.bioontology.org/ontology/phenX/140800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/140800> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/140000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/140900
+<http://purl.bioontology.org/ontology/phenX/140900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/140900> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/140000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/141000
+<http://purl.bioontology.org/ontology/phenX/141000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/141000> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/140000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/141200
+<http://purl.bioontology.org/ontology/phenX/141200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/141200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/140000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/141300
+<http://purl.bioontology.org/ontology/phenX/141300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/141300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/140000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/141400
+<http://purl.bioontology.org/ontology/phenX/141400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/141400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/140000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/141500
+<http://purl.bioontology.org/ontology/phenX/141500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/141500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/140000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/141600
+<http://purl.bioontology.org/ontology/phenX/141600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/141600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/140000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/150000
+<http://purl.bioontology.org/ontology/phenX/150000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/150100
+<http://purl.bioontology.org/ontology/phenX/150100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/150100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/150000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/150200
+<http://purl.bioontology.org/ontology/phenX/150200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/150200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/150000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/150300
+<http://purl.bioontology.org/ontology/phenX/150300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/150300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/150000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/150400
+<http://purl.bioontology.org/ontology/phenX/150400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/150400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/150000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/150500
+<http://purl.bioontology.org/ontology/phenX/150500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/150500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/150000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/150600
+<http://purl.bioontology.org/ontology/phenX/150600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/150600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/150000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/150700
+<http://purl.bioontology.org/ontology/phenX/150700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/150700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/150000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/150800
+<http://purl.bioontology.org/ontology/phenX/150800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/150800> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/150000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/150900
+<http://purl.bioontology.org/ontology/phenX/150900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/150900> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/150000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/151000
+<http://purl.bioontology.org/ontology/phenX/151000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/151000> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/150000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/151100
+<http://purl.bioontology.org/ontology/phenX/151100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/151100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/150000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/151200
+<http://purl.bioontology.org/ontology/phenX/151200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/151200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/150000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/151300
+<http://purl.bioontology.org/ontology/phenX/151300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/151300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/150000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/151400
+<http://purl.bioontology.org/ontology/phenX/151400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/151400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/150000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/160000
+<http://purl.bioontology.org/ontology/phenX/160000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/160100
+<http://purl.bioontology.org/ontology/phenX/160100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/160100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/160000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/160200
+<http://purl.bioontology.org/ontology/phenX/160200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/160200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/160000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/160300
+<http://purl.bioontology.org/ontology/phenX/160300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/160300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/160000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/160400
+<http://purl.bioontology.org/ontology/phenX/160400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/160400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/160000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/160500
+<http://purl.bioontology.org/ontology/phenX/160500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/160500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/160000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/160600
+<http://purl.bioontology.org/ontology/phenX/160600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/160600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/160000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/160700
+<http://purl.bioontology.org/ontology/phenX/160700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/160700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/160000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/160800
+<http://purl.bioontology.org/ontology/phenX/160800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/160800> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/160000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/160900
+<http://purl.bioontology.org/ontology/phenX/160900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/160900> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/160000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/161000
+<http://purl.bioontology.org/ontology/phenX/161000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/161000> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/160000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/161100
+<http://purl.bioontology.org/ontology/phenX/161100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/161100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/160000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/161200
+<http://purl.bioontology.org/ontology/phenX/161200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/161200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/160000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/161300
+<http://purl.bioontology.org/ontology/phenX/161300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/161300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/160000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/161400
+<http://purl.bioontology.org/ontology/phenX/161400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/161400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/160000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/161600
+<http://purl.bioontology.org/ontology/phenX/161600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/161600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/160000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/170000
+<http://purl.bioontology.org/ontology/phenX/170000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/170100
+<http://purl.bioontology.org/ontology/phenX/170100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/170100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/170000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/170200
+<http://purl.bioontology.org/ontology/phenX/170200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/170200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/170000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/170300
+<http://purl.bioontology.org/ontology/phenX/170300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/170300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/170000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/170400
+<http://purl.bioontology.org/ontology/phenX/170400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/170400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/170000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/170500
+<http://purl.bioontology.org/ontology/phenX/170500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/170500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/170000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/170600
+<http://purl.bioontology.org/ontology/phenX/170600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/170600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/170000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/170700
+<http://purl.bioontology.org/ontology/phenX/170700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/170700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/170000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/170800
+<http://purl.bioontology.org/ontology/phenX/170800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/170800> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/170000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/170900
+<http://purl.bioontology.org/ontology/phenX/170900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/170900> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/170000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/171000
+<http://purl.bioontology.org/ontology/phenX/171000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/171000> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/170000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/180000
+<http://purl.bioontology.org/ontology/phenX/180000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/180100
+<http://purl.bioontology.org/ontology/phenX/180100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/180100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/180000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/180200
+<http://purl.bioontology.org/ontology/phenX/180200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/180200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/180000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/180300
+<http://purl.bioontology.org/ontology/phenX/180300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/180300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/180000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/180400
+<http://purl.bioontology.org/ontology/phenX/180400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/180400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/180000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/180500
+<http://purl.bioontology.org/ontology/phenX/180500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/180500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/180000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/180600
+<http://purl.bioontology.org/ontology/phenX/180600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/180600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/180000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/180700
+<http://purl.bioontology.org/ontology/phenX/180700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/180700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/180000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/180800
+<http://purl.bioontology.org/ontology/phenX/180800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/180800> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/180000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/180900
+<http://purl.bioontology.org/ontology/phenX/180900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/180900> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/180000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/181000
+<http://purl.bioontology.org/ontology/phenX/181000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/181000> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/180000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/181100
+<http://purl.bioontology.org/ontology/phenX/181100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/181100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/180000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/181200
+<http://purl.bioontology.org/ontology/phenX/181200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/181200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/180000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/181300
+<http://purl.bioontology.org/ontology/phenX/181300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/181300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/180000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/181400
+<http://purl.bioontology.org/ontology/phenX/181400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/181400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/180000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/181500
+<http://purl.bioontology.org/ontology/phenX/181500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/181500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/180000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/190000
+<http://purl.bioontology.org/ontology/phenX/190000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/190100
+<http://purl.bioontology.org/ontology/phenX/190100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/190100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/190000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/190200
+<http://purl.bioontology.org/ontology/phenX/190200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/190200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/190000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/190300
+<http://purl.bioontology.org/ontology/phenX/190300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/190300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/190000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/190400
+<http://purl.bioontology.org/ontology/phenX/190400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/190400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/190000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/190500
+<http://purl.bioontology.org/ontology/phenX/190500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/190500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/190000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/190600
+<http://purl.bioontology.org/ontology/phenX/190600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/190600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/190000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/190700
+<http://purl.bioontology.org/ontology/phenX/190700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/190700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/190000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/190800
+<http://purl.bioontology.org/ontology/phenX/190800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/190800> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/190000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/190900
+<http://purl.bioontology.org/ontology/phenX/190900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/190900> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/190000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/191000
+<http://purl.bioontology.org/ontology/phenX/191000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/191000> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/190000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/191100
+<http://purl.bioontology.org/ontology/phenX/191100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/191100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/190000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/191200
+<http://purl.bioontology.org/ontology/phenX/191200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/191200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/190000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/200000
+<http://purl.bioontology.org/ontology/phenX/200000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/200100
+<http://purl.bioontology.org/ontology/phenX/200100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/200100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/200000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/200200
+<http://purl.bioontology.org/ontology/phenX/200200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/200200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/200000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/200300
+<http://purl.bioontology.org/ontology/phenX/200300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/200300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/200000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/200400
+<http://purl.bioontology.org/ontology/phenX/200400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/200400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/200000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/200500
+<http://purl.bioontology.org/ontology/phenX/200500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/200500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/200000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/200600
+<http://purl.bioontology.org/ontology/phenX/200600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/200600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/200000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/200700
+<http://purl.bioontology.org/ontology/phenX/200700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/200700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/200000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/200800
+<http://purl.bioontology.org/ontology/phenX/200800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/200800> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/200000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/200900
+<http://purl.bioontology.org/ontology/phenX/200900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/200900> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/200000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/201000
+<http://purl.bioontology.org/ontology/phenX/201000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/201000> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/200000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/201100
+<http://purl.bioontology.org/ontology/phenX/201100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/201100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/200000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/201200
+<http://purl.bioontology.org/ontology/phenX/201200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/201200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/200000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/201300
+<http://purl.bioontology.org/ontology/phenX/201300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/201300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/200000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/201400
+<http://purl.bioontology.org/ontology/phenX/201400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/201400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/200000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/201500
+<http://purl.bioontology.org/ontology/phenX/201500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/201500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/200000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/210000
+<http://purl.bioontology.org/ontology/phenX/210000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/210100
+<http://purl.bioontology.org/ontology/phenX/210100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/210100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/210000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/210200
+<http://purl.bioontology.org/ontology/phenX/210200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/210200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/210000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/210300
+<http://purl.bioontology.org/ontology/phenX/210300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/210300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/210000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/210400
+<http://purl.bioontology.org/ontology/phenX/210400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/210400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/210000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/210500
+<http://purl.bioontology.org/ontology/phenX/210500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/210500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/210000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/210600
+<http://purl.bioontology.org/ontology/phenX/210600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/210600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/210000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/210700
+<http://purl.bioontology.org/ontology/phenX/210700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/210700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/210000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/210800
+<http://purl.bioontology.org/ontology/phenX/210800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/210800> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/210000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/210900
+<http://purl.bioontology.org/ontology/phenX/210900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/210900> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/210000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/211000
+<http://purl.bioontology.org/ontology/phenX/211000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/211000> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/210000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/211100
+<http://purl.bioontology.org/ontology/phenX/211100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/211100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/210000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/211200
+<http://purl.bioontology.org/ontology/phenX/211200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/211200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/210000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/211300
+<http://purl.bioontology.org/ontology/phenX/211300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/211300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/210000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/211400
+<http://purl.bioontology.org/ontology/phenX/211400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/211400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/210000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/211500
+<http://purl.bioontology.org/ontology/phenX/211500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/211500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/210000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/510000
+<http://purl.bioontology.org/ontology/phenX/510000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/510100
+<http://purl.bioontology.org/ontology/phenX/510100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/510100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/510000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/510200
+<http://purl.bioontology.org/ontology/phenX/510200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/510200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/510000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/510300
+<http://purl.bioontology.org/ontology/phenX/510300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/510300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/510000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/510400
+<http://purl.bioontology.org/ontology/phenX/510400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/510400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/510000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/510500
+<http://purl.bioontology.org/ontology/phenX/510500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/510500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/510000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/510600
+<http://purl.bioontology.org/ontology/phenX/510600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/510600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/510000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/510700
+<http://purl.bioontology.org/ontology/phenX/510700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/510700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/510000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/520000
+<http://purl.bioontology.org/ontology/phenX/520000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/520100
+<http://purl.bioontology.org/ontology/phenX/520100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/520100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/520000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/520200
+<http://purl.bioontology.org/ontology/phenX/520200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/520200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/520000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/520300
+<http://purl.bioontology.org/ontology/phenX/520300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/520300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/520000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/520400
+<http://purl.bioontology.org/ontology/phenX/520400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/520400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/520000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/520500
+<http://purl.bioontology.org/ontology/phenX/520500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/520500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/520000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/530000
+<http://purl.bioontology.org/ontology/phenX/530000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/530100
+<http://purl.bioontology.org/ontology/phenX/530100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/530100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/530000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/530200
+<http://purl.bioontology.org/ontology/phenX/530200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/530200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/530000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/530300
+<http://purl.bioontology.org/ontology/phenX/530300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/530300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/530000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/530400
+<http://purl.bioontology.org/ontology/phenX/530400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/530400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/530000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/530500
+<http://purl.bioontology.org/ontology/phenX/530500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/530500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/530000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/530600
+<http://purl.bioontology.org/ontology/phenX/530600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/530600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/530000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/530700
+<http://purl.bioontology.org/ontology/phenX/530700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/530700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/530000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/540000
+<http://purl.bioontology.org/ontology/phenX/540000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/540100
+<http://purl.bioontology.org/ontology/phenX/540100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/540100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/540000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/540200
+<http://purl.bioontology.org/ontology/phenX/540200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/540200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/540000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/540300
+<http://purl.bioontology.org/ontology/phenX/540300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/540300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/540000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/540400
+<http://purl.bioontology.org/ontology/phenX/540400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/540400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/540000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/540500
+<http://purl.bioontology.org/ontology/phenX/540500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/540500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/540000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/540600
+<http://purl.bioontology.org/ontology/phenX/540600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/540600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/540000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/550000
+<http://purl.bioontology.org/ontology/phenX/550000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/550100
+<http://purl.bioontology.org/ontology/phenX/550100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/550100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/550000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/550200
+<http://purl.bioontology.org/ontology/phenX/550200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/550200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/550000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/550300
+<http://purl.bioontology.org/ontology/phenX/550300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/550300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/550000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/550400
+<http://purl.bioontology.org/ontology/phenX/550400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/550400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/550000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/550500
+<http://purl.bioontology.org/ontology/phenX/550500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/550500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/550000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/550600
+<http://purl.bioontology.org/ontology/phenX/550600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/550600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/550000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/550700
+<http://purl.bioontology.org/ontology/phenX/550700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/550700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/550000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/550800
+<http://purl.bioontology.org/ontology/phenX/550800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/550800> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/550000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/560000
+<http://purl.bioontology.org/ontology/phenX/560000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/560100
+<http://purl.bioontology.org/ontology/phenX/560100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/560100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/560000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/560200
+<http://purl.bioontology.org/ontology/phenX/560200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/560200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/560000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/560300
+<http://purl.bioontology.org/ontology/phenX/560300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/560300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/560000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/560400
+<http://purl.bioontology.org/ontology/phenX/560400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/560400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/560000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/560500
+<http://purl.bioontology.org/ontology/phenX/560500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/560500> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/560000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/560600
+<http://purl.bioontology.org/ontology/phenX/560600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/560600> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/560000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/560700
+<http://purl.bioontology.org/ontology/phenX/560700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/560700> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/560000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/560800
+<http://purl.bioontology.org/ontology/phenX/560800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/560800> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/560000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/570000
+<http://purl.bioontology.org/ontology/phenX/570000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/570100
+<http://purl.bioontology.org/ontology/phenX/570100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/570100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/570000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/570200
+<http://purl.bioontology.org/ontology/phenX/570200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/570200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/570000> .
+# 
+# http://purl.bioontology.org/ontology/phenX/580000
+<http://purl.bioontology.org/ontology/phenX/580000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/phenX/580100
+<http://purl.bioontology.org/ontology/phenX/580100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/phenX/580100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/phenX/580000> .
+# 
+# Generated by the OWL API (version 5.0.4.20161016-1358) https://github.com/owlcs/owlapi/

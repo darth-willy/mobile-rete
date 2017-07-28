@@ -1,0 +1,1101 @@
+<http://internano.org/taxonomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://internano.org/taxonomy#INTERNANO_102
+<http://internano.org/taxonomy#INTERNANO_102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_102> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_5> .
+# 
+# http://internano.org/taxonomy#INTERNANO_103
+<http://internano.org/taxonomy#INTERNANO_103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_103> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_5> .
+# 
+# http://internano.org/taxonomy#INTERNANO_104
+<http://internano.org/taxonomy#INTERNANO_104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_104> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_5> .
+# 
+# http://internano.org/taxonomy#INTERNANO_105
+<http://internano.org/taxonomy#INTERNANO_105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_105> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_106
+<http://internano.org/taxonomy#INTERNANO_106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_106> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_5> .
+# 
+# http://internano.org/taxonomy#INTERNANO_107
+<http://internano.org/taxonomy#INTERNANO_107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_107> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_5> .
+# 
+# http://internano.org/taxonomy#INTERNANO_108
+<http://internano.org/taxonomy#INTERNANO_108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_108> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_5> .
+# 
+# http://internano.org/taxonomy#INTERNANO_109
+<http://internano.org/taxonomy#INTERNANO_109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_109> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_5> .
+# 
+# http://internano.org/taxonomy#INTERNANO_11
+<http://internano.org/taxonomy#INTERNANO_11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_11> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_5> .
+# 
+# http://internano.org/taxonomy#INTERNANO_110
+<http://internano.org/taxonomy#INTERNANO_110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_110> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_5> .
+# 
+# http://internano.org/taxonomy#INTERNANO_111
+<http://internano.org/taxonomy#INTERNANO_111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_111> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_5> .
+# 
+# http://internano.org/taxonomy#INTERNANO_112
+<http://internano.org/taxonomy#INTERNANO_112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_112> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_5> .
+# 
+# http://internano.org/taxonomy#INTERNANO_113
+<http://internano.org/taxonomy#INTERNANO_113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_113> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_6> .
+# 
+# http://internano.org/taxonomy#INTERNANO_114
+<http://internano.org/taxonomy#INTERNANO_114> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_114> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_6> .
+# 
+# http://internano.org/taxonomy#INTERNANO_115
+<http://internano.org/taxonomy#INTERNANO_115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_115> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_6> .
+# 
+# http://internano.org/taxonomy#INTERNANO_116
+<http://internano.org/taxonomy#INTERNANO_116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_116> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_6> .
+# 
+# http://internano.org/taxonomy#INTERNANO_117
+<http://internano.org/taxonomy#INTERNANO_117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_117> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_6> .
+# 
+# http://internano.org/taxonomy#INTERNANO_118
+<http://internano.org/taxonomy#INTERNANO_118> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_118> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_6> .
+# 
+# http://internano.org/taxonomy#INTERNANO_119
+<http://internano.org/taxonomy#INTERNANO_119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_119> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_6> .
+# 
+# http://internano.org/taxonomy#INTERNANO_12
+<http://internano.org/taxonomy#INTERNANO_12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_12> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_2> .
+# 
+# http://internano.org/taxonomy#INTERNANO_120
+<http://internano.org/taxonomy#INTERNANO_120> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_120> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_6> .
+# 
+# http://internano.org/taxonomy#INTERNANO_121
+<http://internano.org/taxonomy#INTERNANO_121> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_121> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_7> .
+# 
+# http://internano.org/taxonomy#INTERNANO_122
+<http://internano.org/taxonomy#INTERNANO_122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_122> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_7> .
+# 
+# http://internano.org/taxonomy#INTERNANO_123
+<http://internano.org/taxonomy#INTERNANO_123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_123> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_7> .
+# 
+# http://internano.org/taxonomy#INTERNANO_124
+<http://internano.org/taxonomy#INTERNANO_124> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_124> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_7> .
+# 
+# http://internano.org/taxonomy#INTERNANO_125
+<http://internano.org/taxonomy#INTERNANO_125> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_125> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_7> .
+# 
+# http://internano.org/taxonomy#INTERNANO_13
+<http://internano.org/taxonomy#INTERNANO_13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_13> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_2> .
+# 
+# http://internano.org/taxonomy#INTERNANO_130
+<http://internano.org/taxonomy#INTERNANO_130> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_130> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_4> .
+# 
+# http://internano.org/taxonomy#INTERNANO_131
+<http://internano.org/taxonomy#INTERNANO_131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_131> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_4> .
+# 
+# http://internano.org/taxonomy#INTERNANO_132
+<http://internano.org/taxonomy#INTERNANO_132> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_132> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_4> .
+# 
+# http://internano.org/taxonomy#INTERNANO_133
+<http://internano.org/taxonomy#INTERNANO_133> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_133> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_4> .
+# 
+# http://internano.org/taxonomy#INTERNANO_134
+<http://internano.org/taxonomy#INTERNANO_134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_134> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_4> .
+# 
+# http://internano.org/taxonomy#INTERNANO_135
+<http://internano.org/taxonomy#INTERNANO_135> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_135> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_4> .
+# 
+# http://internano.org/taxonomy#INTERNANO_136
+<http://internano.org/taxonomy#INTERNANO_136> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_136> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_4> .
+# 
+# http://internano.org/taxonomy#INTERNANO_137
+<http://internano.org/taxonomy#INTERNANO_137> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_137> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_4> .
+# 
+# http://internano.org/taxonomy#INTERNANO_138
+<http://internano.org/taxonomy#INTERNANO_138> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_138> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_4> .
+# 
+# http://internano.org/taxonomy#INTERNANO_139
+<http://internano.org/taxonomy#INTERNANO_139> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_139> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_4> .
+# 
+# http://internano.org/taxonomy#INTERNANO_14
+<http://internano.org/taxonomy#INTERNANO_14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_14> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_2> .
+# 
+# http://internano.org/taxonomy#INTERNANO_140
+<http://internano.org/taxonomy#INTERNANO_140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_140> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_4> .
+# 
+# http://internano.org/taxonomy#INTERNANO_141
+<http://internano.org/taxonomy#INTERNANO_141> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_141> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_12> .
+# 
+# http://internano.org/taxonomy#INTERNANO_142
+<http://internano.org/taxonomy#INTERNANO_142> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_142> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_12> .
+# 
+# http://internano.org/taxonomy#INTERNANO_143
+<http://internano.org/taxonomy#INTERNANO_143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_143> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_14> .
+# 
+# http://internano.org/taxonomy#INTERNANO_144
+<http://internano.org/taxonomy#INTERNANO_144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_144> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_16> .
+# 
+# http://internano.org/taxonomy#INTERNANO_145
+<http://internano.org/taxonomy#INTERNANO_145> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_145> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_130> .
+# 
+# http://internano.org/taxonomy#INTERNANO_146
+<http://internano.org/taxonomy#INTERNANO_146> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_146> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_130> .
+# 
+# http://internano.org/taxonomy#INTERNANO_147
+<http://internano.org/taxonomy#INTERNANO_147> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_147> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_130> .
+# 
+# http://internano.org/taxonomy#INTERNANO_148
+<http://internano.org/taxonomy#INTERNANO_148> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_148> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_130> .
+# 
+# http://internano.org/taxonomy#INTERNANO_149
+<http://internano.org/taxonomy#INTERNANO_149> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_149> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_130> .
+# 
+# http://internano.org/taxonomy#INTERNANO_15
+<http://internano.org/taxonomy#INTERNANO_15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_15> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_2> .
+# 
+# http://internano.org/taxonomy#INTERNANO_150
+<http://internano.org/taxonomy#INTERNANO_150> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_150> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_131> .
+# 
+# http://internano.org/taxonomy#INTERNANO_151
+<http://internano.org/taxonomy#INTERNANO_151> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_151> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_131> .
+# 
+# http://internano.org/taxonomy#INTERNANO_152
+<http://internano.org/taxonomy#INTERNANO_152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_152> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_131> .
+# 
+# http://internano.org/taxonomy#INTERNANO_153
+<http://internano.org/taxonomy#INTERNANO_153> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_153> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_131> .
+# 
+# http://internano.org/taxonomy#INTERNANO_154
+<http://internano.org/taxonomy#INTERNANO_154> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_154> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_131> .
+# 
+# http://internano.org/taxonomy#INTERNANO_155
+<http://internano.org/taxonomy#INTERNANO_155> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_155> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_131> .
+# 
+# http://internano.org/taxonomy#INTERNANO_156
+<http://internano.org/taxonomy#INTERNANO_156> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_156> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_131> .
+# 
+# http://internano.org/taxonomy#INTERNANO_157
+<http://internano.org/taxonomy#INTERNANO_157> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_157> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_132> .
+# 
+# http://internano.org/taxonomy#INTERNANO_158
+<http://internano.org/taxonomy#INTERNANO_158> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_158> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_132> .
+# 
+# http://internano.org/taxonomy#INTERNANO_159
+<http://internano.org/taxonomy#INTERNANO_159> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_159> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_132> .
+# 
+# http://internano.org/taxonomy#INTERNANO_16
+<http://internano.org/taxonomy#INTERNANO_16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_16> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_2> .
+# 
+# http://internano.org/taxonomy#INTERNANO_160
+<http://internano.org/taxonomy#INTERNANO_160> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_160> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_133> .
+# 
+# http://internano.org/taxonomy#INTERNANO_161
+<http://internano.org/taxonomy#INTERNANO_161> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_161> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_133> .
+# 
+# http://internano.org/taxonomy#INTERNANO_162
+<http://internano.org/taxonomy#INTERNANO_162> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_162> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_133> .
+# 
+# http://internano.org/taxonomy#INTERNANO_163
+<http://internano.org/taxonomy#INTERNANO_163> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_163> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_133> .
+# 
+# http://internano.org/taxonomy#INTERNANO_164
+<http://internano.org/taxonomy#INTERNANO_164> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_164> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_134> .
+# 
+# http://internano.org/taxonomy#INTERNANO_165
+<http://internano.org/taxonomy#INTERNANO_165> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_165> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_134> .
+# 
+# http://internano.org/taxonomy#INTERNANO_166
+<http://internano.org/taxonomy#INTERNANO_166> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_166> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_135> .
+# 
+# http://internano.org/taxonomy#INTERNANO_167
+<http://internano.org/taxonomy#INTERNANO_167> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_167> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_135> .
+# 
+# http://internano.org/taxonomy#INTERNANO_168
+<http://internano.org/taxonomy#INTERNANO_168> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_168> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_135> .
+# 
+# http://internano.org/taxonomy#INTERNANO_169
+<http://internano.org/taxonomy#INTERNANO_169> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_169> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_135> .
+# 
+# http://internano.org/taxonomy#INTERNANO_17
+<http://internano.org/taxonomy#INTERNANO_17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_17> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_2> .
+# 
+# http://internano.org/taxonomy#INTERNANO_170
+<http://internano.org/taxonomy#INTERNANO_170> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_170> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_171
+<http://internano.org/taxonomy#INTERNANO_171> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_171> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_172
+<http://internano.org/taxonomy#INTERNANO_172> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_172> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_173
+<http://internano.org/taxonomy#INTERNANO_173> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_173> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_174
+<http://internano.org/taxonomy#INTERNANO_174> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_174> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_175
+<http://internano.org/taxonomy#INTERNANO_175> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_175> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_176
+<http://internano.org/taxonomy#INTERNANO_176> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_176> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_177
+<http://internano.org/taxonomy#INTERNANO_177> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_177> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_178
+<http://internano.org/taxonomy#INTERNANO_178> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_178> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_179
+<http://internano.org/taxonomy#INTERNANO_179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_179> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_180
+<http://internano.org/taxonomy#INTERNANO_180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_180> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_181
+<http://internano.org/taxonomy#INTERNANO_181> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_181> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_182
+<http://internano.org/taxonomy#INTERNANO_182> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_182> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_183
+<http://internano.org/taxonomy#INTERNANO_183> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_183> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_184
+<http://internano.org/taxonomy#INTERNANO_184> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_184> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_185
+<http://internano.org/taxonomy#INTERNANO_185> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_185> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_186
+<http://internano.org/taxonomy#INTERNANO_186> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_186> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_187
+<http://internano.org/taxonomy#INTERNANO_187> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_187> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_188
+<http://internano.org/taxonomy#INTERNANO_188> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_188> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_189
+<http://internano.org/taxonomy#INTERNANO_189> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_189> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_190
+<http://internano.org/taxonomy#INTERNANO_190> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_190> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_137> .
+# 
+# http://internano.org/taxonomy#INTERNANO_191
+<http://internano.org/taxonomy#INTERNANO_191> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_191> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_137> .
+# 
+# http://internano.org/taxonomy#INTERNANO_192
+<http://internano.org/taxonomy#INTERNANO_192> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_192> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_137> .
+# 
+# http://internano.org/taxonomy#INTERNANO_193
+<http://internano.org/taxonomy#INTERNANO_193> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_193> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_137> .
+# 
+# http://internano.org/taxonomy#INTERNANO_194
+<http://internano.org/taxonomy#INTERNANO_194> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_194> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_137> .
+# 
+# http://internano.org/taxonomy#INTERNANO_195
+<http://internano.org/taxonomy#INTERNANO_195> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_195> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_137> .
+# 
+# http://internano.org/taxonomy#INTERNANO_196
+<http://internano.org/taxonomy#INTERNANO_196> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_196> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_137> .
+# 
+# http://internano.org/taxonomy#INTERNANO_197
+<http://internano.org/taxonomy#INTERNANO_197> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_197> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_137> .
+# 
+# http://internano.org/taxonomy#INTERNANO_198
+<http://internano.org/taxonomy#INTERNANO_198> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_198> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_137> .
+# 
+# http://internano.org/taxonomy#INTERNANO_199
+<http://internano.org/taxonomy#INTERNANO_199> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_199> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_137> .
+# 
+# http://internano.org/taxonomy#INTERNANO_2
+<http://internano.org/taxonomy#INTERNANO_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://internano.org/taxonomy#INTERNANO_200
+<http://internano.org/taxonomy#INTERNANO_200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_137> .
+# 
+# http://internano.org/taxonomy#INTERNANO_201
+<http://internano.org/taxonomy#INTERNANO_201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_201> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_137> .
+# 
+# http://internano.org/taxonomy#INTERNANO_202
+<http://internano.org/taxonomy#INTERNANO_202> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_202> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_137> .
+# 
+# http://internano.org/taxonomy#INTERNANO_203
+<http://internano.org/taxonomy#INTERNANO_203> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_203> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_138> .
+# 
+# http://internano.org/taxonomy#INTERNANO_204
+<http://internano.org/taxonomy#INTERNANO_204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_204> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_138> .
+# 
+# http://internano.org/taxonomy#INTERNANO_205
+<http://internano.org/taxonomy#INTERNANO_205> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_205> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_138> .
+# 
+# http://internano.org/taxonomy#INTERNANO_206
+<http://internano.org/taxonomy#INTERNANO_206> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_206> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_138> .
+# 
+# http://internano.org/taxonomy#INTERNANO_207
+<http://internano.org/taxonomy#INTERNANO_207> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_207> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_138> .
+# 
+# http://internano.org/taxonomy#INTERNANO_208
+<http://internano.org/taxonomy#INTERNANO_208> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_208> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_138> .
+# 
+# http://internano.org/taxonomy#INTERNANO_209
+<http://internano.org/taxonomy#INTERNANO_209> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_209> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_138> .
+# 
+# http://internano.org/taxonomy#INTERNANO_210
+<http://internano.org/taxonomy#INTERNANO_210> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_210> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_138> .
+# 
+# http://internano.org/taxonomy#INTERNANO_211
+<http://internano.org/taxonomy#INTERNANO_211> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_211> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_138> .
+# 
+# http://internano.org/taxonomy#INTERNANO_212
+<http://internano.org/taxonomy#INTERNANO_212> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_212> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_138> .
+# 
+# http://internano.org/taxonomy#INTERNANO_213
+<http://internano.org/taxonomy#INTERNANO_213> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_213> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_139> .
+# 
+# http://internano.org/taxonomy#INTERNANO_214
+<http://internano.org/taxonomy#INTERNANO_214> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_214> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_139> .
+# 
+# http://internano.org/taxonomy#INTERNANO_215
+<http://internano.org/taxonomy#INTERNANO_215> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_215> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_139> .
+# 
+# http://internano.org/taxonomy#INTERNANO_216
+<http://internano.org/taxonomy#INTERNANO_216> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_216> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_139> .
+# 
+# http://internano.org/taxonomy#INTERNANO_217
+<http://internano.org/taxonomy#INTERNANO_217> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_217> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_140> .
+# 
+# http://internano.org/taxonomy#INTERNANO_218
+<http://internano.org/taxonomy#INTERNANO_218> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_218> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_140> .
+# 
+# http://internano.org/taxonomy#INTERNANO_219
+<http://internano.org/taxonomy#INTERNANO_219> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_219> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_140> .
+# 
+# http://internano.org/taxonomy#INTERNANO_220
+<http://internano.org/taxonomy#INTERNANO_220> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_220> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_140> .
+# 
+# http://internano.org/taxonomy#INTERNANO_221
+<http://internano.org/taxonomy#INTERNANO_221> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_221> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_140> .
+# 
+# http://internano.org/taxonomy#INTERNANO_222
+<http://internano.org/taxonomy#INTERNANO_222> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_222> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_140> .
+# 
+# http://internano.org/taxonomy#INTERNANO_223
+<http://internano.org/taxonomy#INTERNANO_223> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_223> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_140> .
+# 
+# http://internano.org/taxonomy#INTERNANO_224
+<http://internano.org/taxonomy#INTERNANO_224> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_224> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_140> .
+# 
+# http://internano.org/taxonomy#INTERNANO_225
+<http://internano.org/taxonomy#INTERNANO_225> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_225> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_140> .
+# 
+# http://internano.org/taxonomy#INTERNANO_226
+<http://internano.org/taxonomy#INTERNANO_226> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_226> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_11> .
+# 
+# http://internano.org/taxonomy#INTERNANO_227
+<http://internano.org/taxonomy#INTERNANO_227> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_227> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_11> .
+# 
+# http://internano.org/taxonomy#INTERNANO_228
+<http://internano.org/taxonomy#INTERNANO_228> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_228> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_11> .
+# 
+# http://internano.org/taxonomy#INTERNANO_229
+<http://internano.org/taxonomy#INTERNANO_229> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_229> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_11> .
+# 
+# http://internano.org/taxonomy#INTERNANO_230
+<http://internano.org/taxonomy#INTERNANO_230> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_230> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_11> .
+# 
+# http://internano.org/taxonomy#INTERNANO_231
+<http://internano.org/taxonomy#INTERNANO_231> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_231> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_102> .
+# 
+# http://internano.org/taxonomy#INTERNANO_232
+<http://internano.org/taxonomy#INTERNANO_232> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_232> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_102> .
+# 
+# http://internano.org/taxonomy#INTERNANO_233
+<http://internano.org/taxonomy#INTERNANO_233> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_233> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_102> .
+# 
+# http://internano.org/taxonomy#INTERNANO_234
+<http://internano.org/taxonomy#INTERNANO_234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_234> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_102> .
+# 
+# http://internano.org/taxonomy#INTERNANO_235
+<http://internano.org/taxonomy#INTERNANO_235> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_235> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_103> .
+# 
+# http://internano.org/taxonomy#INTERNANO_236
+<http://internano.org/taxonomy#INTERNANO_236> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_236> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_103> .
+# 
+# http://internano.org/taxonomy#INTERNANO_237
+<http://internano.org/taxonomy#INTERNANO_237> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_237> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_103> .
+# 
+# http://internano.org/taxonomy#INTERNANO_238
+<http://internano.org/taxonomy#INTERNANO_238> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_238> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_103> .
+# 
+# http://internano.org/taxonomy#INTERNANO_239
+<http://internano.org/taxonomy#INTERNANO_239> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_239> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_103> .
+# 
+# http://internano.org/taxonomy#INTERNANO_240
+<http://internano.org/taxonomy#INTERNANO_240> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_240> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_103> .
+# 
+# http://internano.org/taxonomy#INTERNANO_241
+<http://internano.org/taxonomy#INTERNANO_241> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_241> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_103> .
+# 
+# http://internano.org/taxonomy#INTERNANO_242
+<http://internano.org/taxonomy#INTERNANO_242> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_242> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_103> .
+# 
+# http://internano.org/taxonomy#INTERNANO_243
+<http://internano.org/taxonomy#INTERNANO_243> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_243> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_103> .
+# 
+# http://internano.org/taxonomy#INTERNANO_244
+<http://internano.org/taxonomy#INTERNANO_244> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_244> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_103> .
+# 
+# http://internano.org/taxonomy#INTERNANO_245
+<http://internano.org/taxonomy#INTERNANO_245> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_245> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_246
+<http://internano.org/taxonomy#INTERNANO_246> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_246> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_247
+<http://internano.org/taxonomy#INTERNANO_247> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_247> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_248
+<http://internano.org/taxonomy#INTERNANO_248> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_248> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_249
+<http://internano.org/taxonomy#INTERNANO_249> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_249> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_250
+<http://internano.org/taxonomy#INTERNANO_250> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_250> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_251
+<http://internano.org/taxonomy#INTERNANO_251> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_251> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_252
+<http://internano.org/taxonomy#INTERNANO_252> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_252> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_253
+<http://internano.org/taxonomy#INTERNANO_253> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_253> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_255
+<http://internano.org/taxonomy#INTERNANO_255> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_255> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_256
+<http://internano.org/taxonomy#INTERNANO_256> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_256> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_258
+<http://internano.org/taxonomy#INTERNANO_258> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_258> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_259
+<http://internano.org/taxonomy#INTERNANO_259> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_259> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_260
+<http://internano.org/taxonomy#INTERNANO_260> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_260> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_262
+<http://internano.org/taxonomy#INTERNANO_262> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_262> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_106> .
+# 
+# http://internano.org/taxonomy#INTERNANO_263
+<http://internano.org/taxonomy#INTERNANO_263> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_263> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_106> .
+# 
+# http://internano.org/taxonomy#INTERNANO_264
+<http://internano.org/taxonomy#INTERNANO_264> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_264> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_106> .
+# 
+# http://internano.org/taxonomy#INTERNANO_265
+<http://internano.org/taxonomy#INTERNANO_265> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_265> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_106> .
+# 
+# http://internano.org/taxonomy#INTERNANO_266
+<http://internano.org/taxonomy#INTERNANO_266> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_266> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_108> .
+# 
+# http://internano.org/taxonomy#INTERNANO_267
+<http://internano.org/taxonomy#INTERNANO_267> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_267> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_108> .
+# 
+# http://internano.org/taxonomy#INTERNANO_268
+<http://internano.org/taxonomy#INTERNANO_268> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_268> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_108> .
+# 
+# http://internano.org/taxonomy#INTERNANO_269
+<http://internano.org/taxonomy#INTERNANO_269> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_269> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_108> .
+# 
+# http://internano.org/taxonomy#INTERNANO_270
+<http://internano.org/taxonomy#INTERNANO_270> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_270> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_108> .
+# 
+# http://internano.org/taxonomy#INTERNANO_271
+<http://internano.org/taxonomy#INTERNANO_271> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_271> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_108> .
+# 
+# http://internano.org/taxonomy#INTERNANO_272
+<http://internano.org/taxonomy#INTERNANO_272> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_272> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_108> .
+# 
+# http://internano.org/taxonomy#INTERNANO_273
+<http://internano.org/taxonomy#INTERNANO_273> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_273> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_109> .
+# 
+# http://internano.org/taxonomy#INTERNANO_274
+<http://internano.org/taxonomy#INTERNANO_274> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_274> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_109> .
+# 
+# http://internano.org/taxonomy#INTERNANO_275
+<http://internano.org/taxonomy#INTERNANO_275> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_275> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_109> .
+# 
+# http://internano.org/taxonomy#INTERNANO_276
+<http://internano.org/taxonomy#INTERNANO_276> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_276> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_109> .
+# 
+# http://internano.org/taxonomy#INTERNANO_277
+<http://internano.org/taxonomy#INTERNANO_277> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_277> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_109> .
+# 
+# http://internano.org/taxonomy#INTERNANO_278
+<http://internano.org/taxonomy#INTERNANO_278> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_278> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_109> .
+# 
+# http://internano.org/taxonomy#INTERNANO_279
+<http://internano.org/taxonomy#INTERNANO_279> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_279> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_109> .
+# 
+# http://internano.org/taxonomy#INTERNANO_280
+<http://internano.org/taxonomy#INTERNANO_280> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_280> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_109> .
+# 
+# http://internano.org/taxonomy#INTERNANO_281
+<http://internano.org/taxonomy#INTERNANO_281> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_281> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_282
+<http://internano.org/taxonomy#INTERNANO_282> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_282> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_283
+<http://internano.org/taxonomy#INTERNANO_283> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_283> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_284
+<http://internano.org/taxonomy#INTERNANO_284> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_284> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_285
+<http://internano.org/taxonomy#INTERNANO_285> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_285> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_286
+<http://internano.org/taxonomy#INTERNANO_286> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_286> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_287
+<http://internano.org/taxonomy#INTERNANO_287> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_287> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_288
+<http://internano.org/taxonomy#INTERNANO_288> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_288> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_289
+<http://internano.org/taxonomy#INTERNANO_289> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_289> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_290
+<http://internano.org/taxonomy#INTERNANO_290> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_290> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_291
+<http://internano.org/taxonomy#INTERNANO_291> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_291> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_292
+<http://internano.org/taxonomy#INTERNANO_292> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_292> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_293
+<http://internano.org/taxonomy#INTERNANO_293> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_293> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_295
+<http://internano.org/taxonomy#INTERNANO_295> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_295> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_296
+<http://internano.org/taxonomy#INTERNANO_296> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_296> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_297
+<http://internano.org/taxonomy#INTERNANO_297> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_297> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_298
+<http://internano.org/taxonomy#INTERNANO_298> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_298> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_111> .
+# 
+# http://internano.org/taxonomy#INTERNANO_299
+<http://internano.org/taxonomy#INTERNANO_299> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_299> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_111> .
+# 
+# http://internano.org/taxonomy#INTERNANO_300
+<http://internano.org/taxonomy#INTERNANO_300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_111> .
+# 
+# http://internano.org/taxonomy#INTERNANO_301
+<http://internano.org/taxonomy#INTERNANO_301> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_301> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_111> .
+# 
+# http://internano.org/taxonomy#INTERNANO_302
+<http://internano.org/taxonomy#INTERNANO_302> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_302> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_112> .
+# 
+# http://internano.org/taxonomy#INTERNANO_303
+<http://internano.org/taxonomy#INTERNANO_303> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_303> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_112> .
+# 
+# http://internano.org/taxonomy#INTERNANO_304
+<http://internano.org/taxonomy#INTERNANO_304> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_304> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_112> .
+# 
+# http://internano.org/taxonomy#INTERNANO_305
+<http://internano.org/taxonomy#INTERNANO_305> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_305> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_112> .
+# 
+# http://internano.org/taxonomy#INTERNANO_306
+<http://internano.org/taxonomy#INTERNANO_306> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_306> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_112> .
+# 
+# http://internano.org/taxonomy#INTERNANO_307
+<http://internano.org/taxonomy#INTERNANO_307> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_307> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_112> .
+# 
+# http://internano.org/taxonomy#INTERNANO_308
+<http://internano.org/taxonomy#INTERNANO_308> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_308> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_113> .
+# 
+# http://internano.org/taxonomy#INTERNANO_309
+<http://internano.org/taxonomy#INTERNANO_309> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_309> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_113> .
+# 
+# http://internano.org/taxonomy#INTERNANO_310
+<http://internano.org/taxonomy#INTERNANO_310> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_310> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_113> .
+# 
+# http://internano.org/taxonomy#INTERNANO_311
+<http://internano.org/taxonomy#INTERNANO_311> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_311> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_114> .
+# 
+# http://internano.org/taxonomy#INTERNANO_312
+<http://internano.org/taxonomy#INTERNANO_312> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_312> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_114> .
+# 
+# http://internano.org/taxonomy#INTERNANO_313
+<http://internano.org/taxonomy#INTERNANO_313> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_313> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_114> .
+# 
+# http://internano.org/taxonomy#INTERNANO_314
+<http://internano.org/taxonomy#INTERNANO_314> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_314> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_114> .
+# 
+# http://internano.org/taxonomy#INTERNANO_315
+<http://internano.org/taxonomy#INTERNANO_315> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_315> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_114> .
+# 
+# http://internano.org/taxonomy#INTERNANO_316
+<http://internano.org/taxonomy#INTERNANO_316> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_316> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_114> .
+# 
+# http://internano.org/taxonomy#INTERNANO_317
+<http://internano.org/taxonomy#INTERNANO_317> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_317> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_115> .
+# 
+# http://internano.org/taxonomy#INTERNANO_318
+<http://internano.org/taxonomy#INTERNANO_318> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_318> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_115> .
+# 
+# http://internano.org/taxonomy#INTERNANO_319
+<http://internano.org/taxonomy#INTERNANO_319> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_319> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_115> .
+# 
+# http://internano.org/taxonomy#INTERNANO_320
+<http://internano.org/taxonomy#INTERNANO_320> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_320> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_115> .
+# 
+# http://internano.org/taxonomy#INTERNANO_321
+<http://internano.org/taxonomy#INTERNANO_321> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_321> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_115> .
+# 
+# http://internano.org/taxonomy#INTERNANO_322
+<http://internano.org/taxonomy#INTERNANO_322> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_322> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_116> .
+# 
+# http://internano.org/taxonomy#INTERNANO_323
+<http://internano.org/taxonomy#INTERNANO_323> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_323> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_116> .
+# 
+# http://internano.org/taxonomy#INTERNANO_324
+<http://internano.org/taxonomy#INTERNANO_324> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_324> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_116> .
+# 
+# http://internano.org/taxonomy#INTERNANO_325
+<http://internano.org/taxonomy#INTERNANO_325> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_325> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_116> .
+# 
+# http://internano.org/taxonomy#INTERNANO_326
+<http://internano.org/taxonomy#INTERNANO_326> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_326> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_116> .
+# 
+# http://internano.org/taxonomy#INTERNANO_327
+<http://internano.org/taxonomy#INTERNANO_327> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_327> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_116> .
+# 
+# http://internano.org/taxonomy#INTERNANO_328
+<http://internano.org/taxonomy#INTERNANO_328> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_328> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_116> .
+# 
+# http://internano.org/taxonomy#INTERNANO_329
+<http://internano.org/taxonomy#INTERNANO_329> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_329> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_116> .
+# 
+# http://internano.org/taxonomy#INTERNANO_330
+<http://internano.org/taxonomy#INTERNANO_330> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_330> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_116> .
+# 
+# http://internano.org/taxonomy#INTERNANO_331
+<http://internano.org/taxonomy#INTERNANO_331> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_331> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_117> .
+# 
+# http://internano.org/taxonomy#INTERNANO_332
+<http://internano.org/taxonomy#INTERNANO_332> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_332> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_117> .
+# 
+# http://internano.org/taxonomy#INTERNANO_333
+<http://internano.org/taxonomy#INTERNANO_333> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_333> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_117> .
+# 
+# http://internano.org/taxonomy#INTERNANO_334
+<http://internano.org/taxonomy#INTERNANO_334> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_334> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_117> .
+# 
+# http://internano.org/taxonomy#INTERNANO_335
+<http://internano.org/taxonomy#INTERNANO_335> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_335> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_117> .
+# 
+# http://internano.org/taxonomy#INTERNANO_336
+<http://internano.org/taxonomy#INTERNANO_336> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_336> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_118> .
+# 
+# http://internano.org/taxonomy#INTERNANO_337
+<http://internano.org/taxonomy#INTERNANO_337> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_337> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_118> .
+# 
+# http://internano.org/taxonomy#INTERNANO_338
+<http://internano.org/taxonomy#INTERNANO_338> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_338> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_118> .
+# 
+# http://internano.org/taxonomy#INTERNANO_339
+<http://internano.org/taxonomy#INTERNANO_339> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_339> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_118> .
+# 
+# http://internano.org/taxonomy#INTERNANO_340
+<http://internano.org/taxonomy#INTERNANO_340> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_340> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_118> .
+# 
+# http://internano.org/taxonomy#INTERNANO_341
+<http://internano.org/taxonomy#INTERNANO_341> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_341> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_119> .
+# 
+# http://internano.org/taxonomy#INTERNANO_342
+<http://internano.org/taxonomy#INTERNANO_342> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_342> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_119> .
+# 
+# http://internano.org/taxonomy#INTERNANO_343
+<http://internano.org/taxonomy#INTERNANO_343> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_343> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_119> .
+# 
+# http://internano.org/taxonomy#INTERNANO_344
+<http://internano.org/taxonomy#INTERNANO_344> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_344> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_119> .
+# 
+# http://internano.org/taxonomy#INTERNANO_345
+<http://internano.org/taxonomy#INTERNANO_345> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_345> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_119> .
+# 
+# http://internano.org/taxonomy#INTERNANO_346
+<http://internano.org/taxonomy#INTERNANO_346> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_346> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_119> .
+# 
+# http://internano.org/taxonomy#INTERNANO_347
+<http://internano.org/taxonomy#INTERNANO_347> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_347> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_120> .
+# 
+# http://internano.org/taxonomy#INTERNANO_348
+<http://internano.org/taxonomy#INTERNANO_348> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_348> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_120> .
+# 
+# http://internano.org/taxonomy#INTERNANO_349
+<http://internano.org/taxonomy#INTERNANO_349> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_349> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_120> .
+# 
+# http://internano.org/taxonomy#INTERNANO_350
+<http://internano.org/taxonomy#INTERNANO_350> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_350> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_120> .
+# 
+# http://internano.org/taxonomy#INTERNANO_391
+<http://internano.org/taxonomy#INTERNANO_391> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_391> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_132> .
+# 
+# http://internano.org/taxonomy#INTERNANO_392
+<http://internano.org/taxonomy#INTERNANO_392> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_392> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_393
+<http://internano.org/taxonomy#INTERNANO_393> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_393> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_138> .
+# 
+# http://internano.org/taxonomy#INTERNANO_4
+<http://internano.org/taxonomy#INTERNANO_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://internano.org/taxonomy#INTERNANO_426
+<http://internano.org/taxonomy#INTERNANO_426> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_426> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_11> .
+# 
+# http://internano.org/taxonomy#INTERNANO_427
+<http://internano.org/taxonomy#INTERNANO_427> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_427> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_428
+<http://internano.org/taxonomy#INTERNANO_428> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_428> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_109> .
+# 
+# http://internano.org/taxonomy#INTERNANO_430
+<http://internano.org/taxonomy#INTERNANO_430> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_430> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_431
+<http://internano.org/taxonomy#INTERNANO_431> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_431> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_111> .
+# 
+# http://internano.org/taxonomy#INTERNANO_432
+<http://internano.org/taxonomy#INTERNANO_432> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_432> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_112> .
+# 
+# http://internano.org/taxonomy#INTERNANO_433
+<http://internano.org/taxonomy#INTERNANO_433> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_433> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_112> .
+# 
+# http://internano.org/taxonomy#INTERNANO_5
+<http://internano.org/taxonomy#INTERNANO_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://internano.org/taxonomy#INTERNANO_5825
+<http://internano.org/taxonomy#INTERNANO_5825> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://internano.org/taxonomy#INTERNANO_5826
+<http://internano.org/taxonomy#INTERNANO_5826> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_5826> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_5825> .
+# 
+# http://internano.org/taxonomy#INTERNANO_5827
+<http://internano.org/taxonomy#INTERNANO_5827> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_5827> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_5825> .
+# 
+# http://internano.org/taxonomy#INTERNANO_5828
+<http://internano.org/taxonomy#INTERNANO_5828> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_5828> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_5825> .
+# 
+# http://internano.org/taxonomy#INTERNANO_5829
+<http://internano.org/taxonomy#INTERNANO_5829> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_5829> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_5825> .
+# 
+# http://internano.org/taxonomy#INTERNANO_5830
+<http://internano.org/taxonomy#INTERNANO_5830> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_5830> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_5825> .
+# 
+# http://internano.org/taxonomy#INTERNANO_5831
+<http://internano.org/taxonomy#INTERNANO_5831> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_5831> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_5825> .
+# 
+# http://internano.org/taxonomy#INTERNANO_5832
+<http://internano.org/taxonomy#INTERNANO_5832> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_5832> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_5825> .
+# 
+# http://internano.org/taxonomy#INTERNANO_5833
+<http://internano.org/taxonomy#INTERNANO_5833> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_5833> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_5825> .
+# 
+# http://internano.org/taxonomy#INTERNANO_5834
+<http://internano.org/taxonomy#INTERNANO_5834> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_5834> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_5825> .
+# 
+# http://internano.org/taxonomy#INTERNANO_5835
+<http://internano.org/taxonomy#INTERNANO_5835> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://internano.org/taxonomy#INTERNANO_5835> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://internano.org/taxonomy#INTERNANO_5825> .
+# 
+# http://internano.org/taxonomy#INTERNANO_6
+<http://internano.org/taxonomy#INTERNANO_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://internano.org/taxonomy#INTERNANO_7
+<http://internano.org/taxonomy#INTERNANO_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.0.4.20161016-1358) https://github.com/owlcs/owlapi/

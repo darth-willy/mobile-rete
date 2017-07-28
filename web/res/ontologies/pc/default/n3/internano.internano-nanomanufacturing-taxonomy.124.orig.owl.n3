@@ -1,0 +1,1382 @@
+@prefix : <http://internano.org/taxonomy> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://internano.org/taxonomy> a owl:Ontology .
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://internano.org/taxonomy#INTERNANO_102
+
+<http://internano.org/taxonomy#INTERNANO_102> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_5> .
+# 
+# http://internano.org/taxonomy#INTERNANO_103
+
+<http://internano.org/taxonomy#INTERNANO_103> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_5> .
+# 
+# http://internano.org/taxonomy#INTERNANO_104
+
+<http://internano.org/taxonomy#INTERNANO_104> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_5> .
+# 
+# http://internano.org/taxonomy#INTERNANO_105
+
+<http://internano.org/taxonomy#INTERNANO_105> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_106
+
+<http://internano.org/taxonomy#INTERNANO_106> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_5> .
+# 
+# http://internano.org/taxonomy#INTERNANO_107
+
+<http://internano.org/taxonomy#INTERNANO_107> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_5> .
+# 
+# http://internano.org/taxonomy#INTERNANO_108
+
+<http://internano.org/taxonomy#INTERNANO_108> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_5> .
+# 
+# http://internano.org/taxonomy#INTERNANO_109
+
+<http://internano.org/taxonomy#INTERNANO_109> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_5> .
+# 
+# http://internano.org/taxonomy#INTERNANO_11
+
+<http://internano.org/taxonomy#INTERNANO_11> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_5> .
+# 
+# http://internano.org/taxonomy#INTERNANO_110
+
+<http://internano.org/taxonomy#INTERNANO_110> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_5> .
+# 
+# http://internano.org/taxonomy#INTERNANO_111
+
+<http://internano.org/taxonomy#INTERNANO_111> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_5> .
+# 
+# http://internano.org/taxonomy#INTERNANO_112
+
+<http://internano.org/taxonomy#INTERNANO_112> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_5> .
+# 
+# http://internano.org/taxonomy#INTERNANO_113
+
+<http://internano.org/taxonomy#INTERNANO_113> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_6> .
+# 
+# http://internano.org/taxonomy#INTERNANO_114
+
+<http://internano.org/taxonomy#INTERNANO_114> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_6> .
+# 
+# http://internano.org/taxonomy#INTERNANO_115
+
+<http://internano.org/taxonomy#INTERNANO_115> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_6> .
+# 
+# http://internano.org/taxonomy#INTERNANO_116
+
+<http://internano.org/taxonomy#INTERNANO_116> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_6> .
+# 
+# http://internano.org/taxonomy#INTERNANO_117
+
+<http://internano.org/taxonomy#INTERNANO_117> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_6> .
+# 
+# http://internano.org/taxonomy#INTERNANO_118
+
+<http://internano.org/taxonomy#INTERNANO_118> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_6> .
+# 
+# http://internano.org/taxonomy#INTERNANO_119
+
+<http://internano.org/taxonomy#INTERNANO_119> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_6> .
+# 
+# http://internano.org/taxonomy#INTERNANO_12
+
+<http://internano.org/taxonomy#INTERNANO_12> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_2> .
+# 
+# http://internano.org/taxonomy#INTERNANO_120
+
+<http://internano.org/taxonomy#INTERNANO_120> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_6> .
+# 
+# http://internano.org/taxonomy#INTERNANO_121
+
+<http://internano.org/taxonomy#INTERNANO_121> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_7> .
+# 
+# http://internano.org/taxonomy#INTERNANO_122
+
+<http://internano.org/taxonomy#INTERNANO_122> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_7> .
+# 
+# http://internano.org/taxonomy#INTERNANO_123
+
+<http://internano.org/taxonomy#INTERNANO_123> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_7> .
+# 
+# http://internano.org/taxonomy#INTERNANO_124
+
+<http://internano.org/taxonomy#INTERNANO_124> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_7> .
+# 
+# http://internano.org/taxonomy#INTERNANO_125
+
+<http://internano.org/taxonomy#INTERNANO_125> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_7> .
+# 
+# http://internano.org/taxonomy#INTERNANO_13
+
+<http://internano.org/taxonomy#INTERNANO_13> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_2> .
+# 
+# http://internano.org/taxonomy#INTERNANO_130
+
+<http://internano.org/taxonomy#INTERNANO_130> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_4> .
+# 
+# http://internano.org/taxonomy#INTERNANO_131
+
+<http://internano.org/taxonomy#INTERNANO_131> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_4> .
+# 
+# http://internano.org/taxonomy#INTERNANO_132
+
+<http://internano.org/taxonomy#INTERNANO_132> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_4> .
+# 
+# http://internano.org/taxonomy#INTERNANO_133
+
+<http://internano.org/taxonomy#INTERNANO_133> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_4> .
+# 
+# http://internano.org/taxonomy#INTERNANO_134
+
+<http://internano.org/taxonomy#INTERNANO_134> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_4> .
+# 
+# http://internano.org/taxonomy#INTERNANO_135
+
+<http://internano.org/taxonomy#INTERNANO_135> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_4> .
+# 
+# http://internano.org/taxonomy#INTERNANO_136
+
+<http://internano.org/taxonomy#INTERNANO_136> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_4> .
+# 
+# http://internano.org/taxonomy#INTERNANO_137
+
+<http://internano.org/taxonomy#INTERNANO_137> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_4> .
+# 
+# http://internano.org/taxonomy#INTERNANO_138
+
+<http://internano.org/taxonomy#INTERNANO_138> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_4> .
+# 
+# http://internano.org/taxonomy#INTERNANO_139
+
+<http://internano.org/taxonomy#INTERNANO_139> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_4> .
+# 
+# http://internano.org/taxonomy#INTERNANO_14
+
+<http://internano.org/taxonomy#INTERNANO_14> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_2> .
+# 
+# http://internano.org/taxonomy#INTERNANO_140
+
+<http://internano.org/taxonomy#INTERNANO_140> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_4> .
+# 
+# http://internano.org/taxonomy#INTERNANO_141
+
+<http://internano.org/taxonomy#INTERNANO_141> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_12> .
+# 
+# http://internano.org/taxonomy#INTERNANO_142
+
+<http://internano.org/taxonomy#INTERNANO_142> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_12> .
+# 
+# http://internano.org/taxonomy#INTERNANO_143
+
+<http://internano.org/taxonomy#INTERNANO_143> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_14> .
+# 
+# http://internano.org/taxonomy#INTERNANO_144
+
+<http://internano.org/taxonomy#INTERNANO_144> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_16> .
+# 
+# http://internano.org/taxonomy#INTERNANO_145
+
+<http://internano.org/taxonomy#INTERNANO_145> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_130> .
+# 
+# http://internano.org/taxonomy#INTERNANO_146
+
+<http://internano.org/taxonomy#INTERNANO_146> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_130> .
+# 
+# http://internano.org/taxonomy#INTERNANO_147
+
+<http://internano.org/taxonomy#INTERNANO_147> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_130> .
+# 
+# http://internano.org/taxonomy#INTERNANO_148
+
+<http://internano.org/taxonomy#INTERNANO_148> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_130> .
+# 
+# http://internano.org/taxonomy#INTERNANO_149
+
+<http://internano.org/taxonomy#INTERNANO_149> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_130> .
+# 
+# http://internano.org/taxonomy#INTERNANO_15
+
+<http://internano.org/taxonomy#INTERNANO_15> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_2> .
+# 
+# http://internano.org/taxonomy#INTERNANO_150
+
+<http://internano.org/taxonomy#INTERNANO_150> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_131> .
+# 
+# http://internano.org/taxonomy#INTERNANO_151
+
+<http://internano.org/taxonomy#INTERNANO_151> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_131> .
+# 
+# http://internano.org/taxonomy#INTERNANO_152
+
+<http://internano.org/taxonomy#INTERNANO_152> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_131> .
+# 
+# http://internano.org/taxonomy#INTERNANO_153
+
+<http://internano.org/taxonomy#INTERNANO_153> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_131> .
+# 
+# http://internano.org/taxonomy#INTERNANO_154
+
+<http://internano.org/taxonomy#INTERNANO_154> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_131> .
+# 
+# http://internano.org/taxonomy#INTERNANO_155
+
+<http://internano.org/taxonomy#INTERNANO_155> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_131> .
+# 
+# http://internano.org/taxonomy#INTERNANO_156
+
+<http://internano.org/taxonomy#INTERNANO_156> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_131> .
+# 
+# http://internano.org/taxonomy#INTERNANO_157
+
+<http://internano.org/taxonomy#INTERNANO_157> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_132> .
+# 
+# http://internano.org/taxonomy#INTERNANO_158
+
+<http://internano.org/taxonomy#INTERNANO_158> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_132> .
+# 
+# http://internano.org/taxonomy#INTERNANO_159
+
+<http://internano.org/taxonomy#INTERNANO_159> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_132> .
+# 
+# http://internano.org/taxonomy#INTERNANO_16
+
+<http://internano.org/taxonomy#INTERNANO_16> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_2> .
+# 
+# http://internano.org/taxonomy#INTERNANO_160
+
+<http://internano.org/taxonomy#INTERNANO_160> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_133> .
+# 
+# http://internano.org/taxonomy#INTERNANO_161
+
+<http://internano.org/taxonomy#INTERNANO_161> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_133> .
+# 
+# http://internano.org/taxonomy#INTERNANO_162
+
+<http://internano.org/taxonomy#INTERNANO_162> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_133> .
+# 
+# http://internano.org/taxonomy#INTERNANO_163
+
+<http://internano.org/taxonomy#INTERNANO_163> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_133> .
+# 
+# http://internano.org/taxonomy#INTERNANO_164
+
+<http://internano.org/taxonomy#INTERNANO_164> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_134> .
+# 
+# http://internano.org/taxonomy#INTERNANO_165
+
+<http://internano.org/taxonomy#INTERNANO_165> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_134> .
+# 
+# http://internano.org/taxonomy#INTERNANO_166
+
+<http://internano.org/taxonomy#INTERNANO_166> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_135> .
+# 
+# http://internano.org/taxonomy#INTERNANO_167
+
+<http://internano.org/taxonomy#INTERNANO_167> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_135> .
+# 
+# http://internano.org/taxonomy#INTERNANO_168
+
+<http://internano.org/taxonomy#INTERNANO_168> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_135> .
+# 
+# http://internano.org/taxonomy#INTERNANO_169
+
+<http://internano.org/taxonomy#INTERNANO_169> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_135> .
+# 
+# http://internano.org/taxonomy#INTERNANO_17
+
+<http://internano.org/taxonomy#INTERNANO_17> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_2> .
+# 
+# http://internano.org/taxonomy#INTERNANO_170
+
+<http://internano.org/taxonomy#INTERNANO_170> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_171
+
+<http://internano.org/taxonomy#INTERNANO_171> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_172
+
+<http://internano.org/taxonomy#INTERNANO_172> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_173
+
+<http://internano.org/taxonomy#INTERNANO_173> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_174
+
+<http://internano.org/taxonomy#INTERNANO_174> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_175
+
+<http://internano.org/taxonomy#INTERNANO_175> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_176
+
+<http://internano.org/taxonomy#INTERNANO_176> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_177
+
+<http://internano.org/taxonomy#INTERNANO_177> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_178
+
+<http://internano.org/taxonomy#INTERNANO_178> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_179
+
+<http://internano.org/taxonomy#INTERNANO_179> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_180
+
+<http://internano.org/taxonomy#INTERNANO_180> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_181
+
+<http://internano.org/taxonomy#INTERNANO_181> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_182
+
+<http://internano.org/taxonomy#INTERNANO_182> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_183
+
+<http://internano.org/taxonomy#INTERNANO_183> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_184
+
+<http://internano.org/taxonomy#INTERNANO_184> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_185
+
+<http://internano.org/taxonomy#INTERNANO_185> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_186
+
+<http://internano.org/taxonomy#INTERNANO_186> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_187
+
+<http://internano.org/taxonomy#INTERNANO_187> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_188
+
+<http://internano.org/taxonomy#INTERNANO_188> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_189
+
+<http://internano.org/taxonomy#INTERNANO_189> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_190
+
+<http://internano.org/taxonomy#INTERNANO_190> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_137> .
+# 
+# http://internano.org/taxonomy#INTERNANO_191
+
+<http://internano.org/taxonomy#INTERNANO_191> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_137> .
+# 
+# http://internano.org/taxonomy#INTERNANO_192
+
+<http://internano.org/taxonomy#INTERNANO_192> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_137> .
+# 
+# http://internano.org/taxonomy#INTERNANO_193
+
+<http://internano.org/taxonomy#INTERNANO_193> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_137> .
+# 
+# http://internano.org/taxonomy#INTERNANO_194
+
+<http://internano.org/taxonomy#INTERNANO_194> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_137> .
+# 
+# http://internano.org/taxonomy#INTERNANO_195
+
+<http://internano.org/taxonomy#INTERNANO_195> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_137> .
+# 
+# http://internano.org/taxonomy#INTERNANO_196
+
+<http://internano.org/taxonomy#INTERNANO_196> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_137> .
+# 
+# http://internano.org/taxonomy#INTERNANO_197
+
+<http://internano.org/taxonomy#INTERNANO_197> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_137> .
+# 
+# http://internano.org/taxonomy#INTERNANO_198
+
+<http://internano.org/taxonomy#INTERNANO_198> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_137> .
+# 
+# http://internano.org/taxonomy#INTERNANO_199
+
+<http://internano.org/taxonomy#INTERNANO_199> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_137> .
+# 
+# http://internano.org/taxonomy#INTERNANO_2
+
+<http://internano.org/taxonomy#INTERNANO_2> a owl:Class .
+# 
+# http://internano.org/taxonomy#INTERNANO_200
+
+<http://internano.org/taxonomy#INTERNANO_200> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_137> .
+# 
+# http://internano.org/taxonomy#INTERNANO_201
+
+<http://internano.org/taxonomy#INTERNANO_201> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_137> .
+# 
+# http://internano.org/taxonomy#INTERNANO_202
+
+<http://internano.org/taxonomy#INTERNANO_202> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_137> .
+# 
+# http://internano.org/taxonomy#INTERNANO_203
+
+<http://internano.org/taxonomy#INTERNANO_203> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_138> .
+# 
+# http://internano.org/taxonomy#INTERNANO_204
+
+<http://internano.org/taxonomy#INTERNANO_204> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_138> .
+# 
+# http://internano.org/taxonomy#INTERNANO_205
+
+<http://internano.org/taxonomy#INTERNANO_205> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_138> .
+# 
+# http://internano.org/taxonomy#INTERNANO_206
+
+<http://internano.org/taxonomy#INTERNANO_206> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_138> .
+# 
+# http://internano.org/taxonomy#INTERNANO_207
+
+<http://internano.org/taxonomy#INTERNANO_207> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_138> .
+# 
+# http://internano.org/taxonomy#INTERNANO_208
+
+<http://internano.org/taxonomy#INTERNANO_208> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_138> .
+# 
+# http://internano.org/taxonomy#INTERNANO_209
+
+<http://internano.org/taxonomy#INTERNANO_209> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_138> .
+# 
+# http://internano.org/taxonomy#INTERNANO_210
+
+<http://internano.org/taxonomy#INTERNANO_210> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_138> .
+# 
+# http://internano.org/taxonomy#INTERNANO_211
+
+<http://internano.org/taxonomy#INTERNANO_211> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_138> .
+# 
+# http://internano.org/taxonomy#INTERNANO_212
+
+<http://internano.org/taxonomy#INTERNANO_212> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_138> .
+# 
+# http://internano.org/taxonomy#INTERNANO_213
+
+<http://internano.org/taxonomy#INTERNANO_213> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_139> .
+# 
+# http://internano.org/taxonomy#INTERNANO_214
+
+<http://internano.org/taxonomy#INTERNANO_214> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_139> .
+# 
+# http://internano.org/taxonomy#INTERNANO_215
+
+<http://internano.org/taxonomy#INTERNANO_215> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_139> .
+# 
+# http://internano.org/taxonomy#INTERNANO_216
+
+<http://internano.org/taxonomy#INTERNANO_216> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_139> .
+# 
+# http://internano.org/taxonomy#INTERNANO_217
+
+<http://internano.org/taxonomy#INTERNANO_217> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_140> .
+# 
+# http://internano.org/taxonomy#INTERNANO_218
+
+<http://internano.org/taxonomy#INTERNANO_218> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_140> .
+# 
+# http://internano.org/taxonomy#INTERNANO_219
+
+<http://internano.org/taxonomy#INTERNANO_219> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_140> .
+# 
+# http://internano.org/taxonomy#INTERNANO_220
+
+<http://internano.org/taxonomy#INTERNANO_220> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_140> .
+# 
+# http://internano.org/taxonomy#INTERNANO_221
+
+<http://internano.org/taxonomy#INTERNANO_221> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_140> .
+# 
+# http://internano.org/taxonomy#INTERNANO_222
+
+<http://internano.org/taxonomy#INTERNANO_222> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_140> .
+# 
+# http://internano.org/taxonomy#INTERNANO_223
+
+<http://internano.org/taxonomy#INTERNANO_223> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_140> .
+# 
+# http://internano.org/taxonomy#INTERNANO_224
+
+<http://internano.org/taxonomy#INTERNANO_224> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_140> .
+# 
+# http://internano.org/taxonomy#INTERNANO_225
+
+<http://internano.org/taxonomy#INTERNANO_225> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_140> .
+# 
+# http://internano.org/taxonomy#INTERNANO_226
+
+<http://internano.org/taxonomy#INTERNANO_226> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_11> .
+# 
+# http://internano.org/taxonomy#INTERNANO_227
+
+<http://internano.org/taxonomy#INTERNANO_227> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_11> .
+# 
+# http://internano.org/taxonomy#INTERNANO_228
+
+<http://internano.org/taxonomy#INTERNANO_228> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_11> .
+# 
+# http://internano.org/taxonomy#INTERNANO_229
+
+<http://internano.org/taxonomy#INTERNANO_229> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_11> .
+# 
+# http://internano.org/taxonomy#INTERNANO_230
+
+<http://internano.org/taxonomy#INTERNANO_230> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_11> .
+# 
+# http://internano.org/taxonomy#INTERNANO_231
+
+<http://internano.org/taxonomy#INTERNANO_231> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_102> .
+# 
+# http://internano.org/taxonomy#INTERNANO_232
+
+<http://internano.org/taxonomy#INTERNANO_232> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_102> .
+# 
+# http://internano.org/taxonomy#INTERNANO_233
+
+<http://internano.org/taxonomy#INTERNANO_233> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_102> .
+# 
+# http://internano.org/taxonomy#INTERNANO_234
+
+<http://internano.org/taxonomy#INTERNANO_234> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_102> .
+# 
+# http://internano.org/taxonomy#INTERNANO_235
+
+<http://internano.org/taxonomy#INTERNANO_235> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_103> .
+# 
+# http://internano.org/taxonomy#INTERNANO_236
+
+<http://internano.org/taxonomy#INTERNANO_236> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_103> .
+# 
+# http://internano.org/taxonomy#INTERNANO_237
+
+<http://internano.org/taxonomy#INTERNANO_237> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_103> .
+# 
+# http://internano.org/taxonomy#INTERNANO_238
+
+<http://internano.org/taxonomy#INTERNANO_238> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_103> .
+# 
+# http://internano.org/taxonomy#INTERNANO_239
+
+<http://internano.org/taxonomy#INTERNANO_239> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_103> .
+# 
+# http://internano.org/taxonomy#INTERNANO_240
+
+<http://internano.org/taxonomy#INTERNANO_240> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_103> .
+# 
+# http://internano.org/taxonomy#INTERNANO_241
+
+<http://internano.org/taxonomy#INTERNANO_241> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_103> .
+# 
+# http://internano.org/taxonomy#INTERNANO_242
+
+<http://internano.org/taxonomy#INTERNANO_242> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_103> .
+# 
+# http://internano.org/taxonomy#INTERNANO_243
+
+<http://internano.org/taxonomy#INTERNANO_243> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_103> .
+# 
+# http://internano.org/taxonomy#INTERNANO_244
+
+<http://internano.org/taxonomy#INTERNANO_244> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_103> .
+# 
+# http://internano.org/taxonomy#INTERNANO_245
+
+<http://internano.org/taxonomy#INTERNANO_245> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_246
+
+<http://internano.org/taxonomy#INTERNANO_246> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_247
+
+<http://internano.org/taxonomy#INTERNANO_247> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_248
+
+<http://internano.org/taxonomy#INTERNANO_248> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_249
+
+<http://internano.org/taxonomy#INTERNANO_249> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_250
+
+<http://internano.org/taxonomy#INTERNANO_250> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_251
+
+<http://internano.org/taxonomy#INTERNANO_251> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_252
+
+<http://internano.org/taxonomy#INTERNANO_252> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_253
+
+<http://internano.org/taxonomy#INTERNANO_253> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_255
+
+<http://internano.org/taxonomy#INTERNANO_255> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_256
+
+<http://internano.org/taxonomy#INTERNANO_256> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_258
+
+<http://internano.org/taxonomy#INTERNANO_258> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_259
+
+<http://internano.org/taxonomy#INTERNANO_259> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_260
+
+<http://internano.org/taxonomy#INTERNANO_260> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_262
+
+<http://internano.org/taxonomy#INTERNANO_262> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_106> .
+# 
+# http://internano.org/taxonomy#INTERNANO_263
+
+<http://internano.org/taxonomy#INTERNANO_263> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_106> .
+# 
+# http://internano.org/taxonomy#INTERNANO_264
+
+<http://internano.org/taxonomy#INTERNANO_264> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_106> .
+# 
+# http://internano.org/taxonomy#INTERNANO_265
+
+<http://internano.org/taxonomy#INTERNANO_265> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_106> .
+# 
+# http://internano.org/taxonomy#INTERNANO_266
+
+<http://internano.org/taxonomy#INTERNANO_266> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_108> .
+# 
+# http://internano.org/taxonomy#INTERNANO_267
+
+<http://internano.org/taxonomy#INTERNANO_267> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_108> .
+# 
+# http://internano.org/taxonomy#INTERNANO_268
+
+<http://internano.org/taxonomy#INTERNANO_268> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_108> .
+# 
+# http://internano.org/taxonomy#INTERNANO_269
+
+<http://internano.org/taxonomy#INTERNANO_269> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_108> .
+# 
+# http://internano.org/taxonomy#INTERNANO_270
+
+<http://internano.org/taxonomy#INTERNANO_270> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_108> .
+# 
+# http://internano.org/taxonomy#INTERNANO_271
+
+<http://internano.org/taxonomy#INTERNANO_271> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_108> .
+# 
+# http://internano.org/taxonomy#INTERNANO_272
+
+<http://internano.org/taxonomy#INTERNANO_272> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_108> .
+# 
+# http://internano.org/taxonomy#INTERNANO_273
+
+<http://internano.org/taxonomy#INTERNANO_273> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_109> .
+# 
+# http://internano.org/taxonomy#INTERNANO_274
+
+<http://internano.org/taxonomy#INTERNANO_274> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_109> .
+# 
+# http://internano.org/taxonomy#INTERNANO_275
+
+<http://internano.org/taxonomy#INTERNANO_275> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_109> .
+# 
+# http://internano.org/taxonomy#INTERNANO_276
+
+<http://internano.org/taxonomy#INTERNANO_276> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_109> .
+# 
+# http://internano.org/taxonomy#INTERNANO_277
+
+<http://internano.org/taxonomy#INTERNANO_277> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_109> .
+# 
+# http://internano.org/taxonomy#INTERNANO_278
+
+<http://internano.org/taxonomy#INTERNANO_278> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_109> .
+# 
+# http://internano.org/taxonomy#INTERNANO_279
+
+<http://internano.org/taxonomy#INTERNANO_279> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_109> .
+# 
+# http://internano.org/taxonomy#INTERNANO_280
+
+<http://internano.org/taxonomy#INTERNANO_280> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_109> .
+# 
+# http://internano.org/taxonomy#INTERNANO_281
+
+<http://internano.org/taxonomy#INTERNANO_281> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_282
+
+<http://internano.org/taxonomy#INTERNANO_282> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_283
+
+<http://internano.org/taxonomy#INTERNANO_283> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_284
+
+<http://internano.org/taxonomy#INTERNANO_284> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_285
+
+<http://internano.org/taxonomy#INTERNANO_285> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_286
+
+<http://internano.org/taxonomy#INTERNANO_286> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_287
+
+<http://internano.org/taxonomy#INTERNANO_287> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_288
+
+<http://internano.org/taxonomy#INTERNANO_288> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_289
+
+<http://internano.org/taxonomy#INTERNANO_289> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_290
+
+<http://internano.org/taxonomy#INTERNANO_290> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_291
+
+<http://internano.org/taxonomy#INTERNANO_291> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_292
+
+<http://internano.org/taxonomy#INTERNANO_292> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_293
+
+<http://internano.org/taxonomy#INTERNANO_293> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_295
+
+<http://internano.org/taxonomy#INTERNANO_295> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_296
+
+<http://internano.org/taxonomy#INTERNANO_296> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_297
+
+<http://internano.org/taxonomy#INTERNANO_297> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_298
+
+<http://internano.org/taxonomy#INTERNANO_298> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_111> .
+# 
+# http://internano.org/taxonomy#INTERNANO_299
+
+<http://internano.org/taxonomy#INTERNANO_299> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_111> .
+# 
+# http://internano.org/taxonomy#INTERNANO_300
+
+<http://internano.org/taxonomy#INTERNANO_300> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_111> .
+# 
+# http://internano.org/taxonomy#INTERNANO_301
+
+<http://internano.org/taxonomy#INTERNANO_301> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_111> .
+# 
+# http://internano.org/taxonomy#INTERNANO_302
+
+<http://internano.org/taxonomy#INTERNANO_302> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_112> .
+# 
+# http://internano.org/taxonomy#INTERNANO_303
+
+<http://internano.org/taxonomy#INTERNANO_303> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_112> .
+# 
+# http://internano.org/taxonomy#INTERNANO_304
+
+<http://internano.org/taxonomy#INTERNANO_304> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_112> .
+# 
+# http://internano.org/taxonomy#INTERNANO_305
+
+<http://internano.org/taxonomy#INTERNANO_305> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_112> .
+# 
+# http://internano.org/taxonomy#INTERNANO_306
+
+<http://internano.org/taxonomy#INTERNANO_306> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_112> .
+# 
+# http://internano.org/taxonomy#INTERNANO_307
+
+<http://internano.org/taxonomy#INTERNANO_307> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_112> .
+# 
+# http://internano.org/taxonomy#INTERNANO_308
+
+<http://internano.org/taxonomy#INTERNANO_308> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_113> .
+# 
+# http://internano.org/taxonomy#INTERNANO_309
+
+<http://internano.org/taxonomy#INTERNANO_309> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_113> .
+# 
+# http://internano.org/taxonomy#INTERNANO_310
+
+<http://internano.org/taxonomy#INTERNANO_310> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_113> .
+# 
+# http://internano.org/taxonomy#INTERNANO_311
+
+<http://internano.org/taxonomy#INTERNANO_311> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_114> .
+# 
+# http://internano.org/taxonomy#INTERNANO_312
+
+<http://internano.org/taxonomy#INTERNANO_312> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_114> .
+# 
+# http://internano.org/taxonomy#INTERNANO_313
+
+<http://internano.org/taxonomy#INTERNANO_313> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_114> .
+# 
+# http://internano.org/taxonomy#INTERNANO_314
+
+<http://internano.org/taxonomy#INTERNANO_314> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_114> .
+# 
+# http://internano.org/taxonomy#INTERNANO_315
+
+<http://internano.org/taxonomy#INTERNANO_315> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_114> .
+# 
+# http://internano.org/taxonomy#INTERNANO_316
+
+<http://internano.org/taxonomy#INTERNANO_316> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_114> .
+# 
+# http://internano.org/taxonomy#INTERNANO_317
+
+<http://internano.org/taxonomy#INTERNANO_317> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_115> .
+# 
+# http://internano.org/taxonomy#INTERNANO_318
+
+<http://internano.org/taxonomy#INTERNANO_318> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_115> .
+# 
+# http://internano.org/taxonomy#INTERNANO_319
+
+<http://internano.org/taxonomy#INTERNANO_319> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_115> .
+# 
+# http://internano.org/taxonomy#INTERNANO_320
+
+<http://internano.org/taxonomy#INTERNANO_320> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_115> .
+# 
+# http://internano.org/taxonomy#INTERNANO_321
+
+<http://internano.org/taxonomy#INTERNANO_321> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_115> .
+# 
+# http://internano.org/taxonomy#INTERNANO_322
+
+<http://internano.org/taxonomy#INTERNANO_322> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_116> .
+# 
+# http://internano.org/taxonomy#INTERNANO_323
+
+<http://internano.org/taxonomy#INTERNANO_323> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_116> .
+# 
+# http://internano.org/taxonomy#INTERNANO_324
+
+<http://internano.org/taxonomy#INTERNANO_324> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_116> .
+# 
+# http://internano.org/taxonomy#INTERNANO_325
+
+<http://internano.org/taxonomy#INTERNANO_325> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_116> .
+# 
+# http://internano.org/taxonomy#INTERNANO_326
+
+<http://internano.org/taxonomy#INTERNANO_326> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_116> .
+# 
+# http://internano.org/taxonomy#INTERNANO_327
+
+<http://internano.org/taxonomy#INTERNANO_327> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_116> .
+# 
+# http://internano.org/taxonomy#INTERNANO_328
+
+<http://internano.org/taxonomy#INTERNANO_328> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_116> .
+# 
+# http://internano.org/taxonomy#INTERNANO_329
+
+<http://internano.org/taxonomy#INTERNANO_329> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_116> .
+# 
+# http://internano.org/taxonomy#INTERNANO_330
+
+<http://internano.org/taxonomy#INTERNANO_330> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_116> .
+# 
+# http://internano.org/taxonomy#INTERNANO_331
+
+<http://internano.org/taxonomy#INTERNANO_331> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_117> .
+# 
+# http://internano.org/taxonomy#INTERNANO_332
+
+<http://internano.org/taxonomy#INTERNANO_332> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_117> .
+# 
+# http://internano.org/taxonomy#INTERNANO_333
+
+<http://internano.org/taxonomy#INTERNANO_333> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_117> .
+# 
+# http://internano.org/taxonomy#INTERNANO_334
+
+<http://internano.org/taxonomy#INTERNANO_334> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_117> .
+# 
+# http://internano.org/taxonomy#INTERNANO_335
+
+<http://internano.org/taxonomy#INTERNANO_335> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_117> .
+# 
+# http://internano.org/taxonomy#INTERNANO_336
+
+<http://internano.org/taxonomy#INTERNANO_336> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_118> .
+# 
+# http://internano.org/taxonomy#INTERNANO_337
+
+<http://internano.org/taxonomy#INTERNANO_337> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_118> .
+# 
+# http://internano.org/taxonomy#INTERNANO_338
+
+<http://internano.org/taxonomy#INTERNANO_338> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_118> .
+# 
+# http://internano.org/taxonomy#INTERNANO_339
+
+<http://internano.org/taxonomy#INTERNANO_339> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_118> .
+# 
+# http://internano.org/taxonomy#INTERNANO_340
+
+<http://internano.org/taxonomy#INTERNANO_340> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_118> .
+# 
+# http://internano.org/taxonomy#INTERNANO_341
+
+<http://internano.org/taxonomy#INTERNANO_341> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_119> .
+# 
+# http://internano.org/taxonomy#INTERNANO_342
+
+<http://internano.org/taxonomy#INTERNANO_342> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_119> .
+# 
+# http://internano.org/taxonomy#INTERNANO_343
+
+<http://internano.org/taxonomy#INTERNANO_343> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_119> .
+# 
+# http://internano.org/taxonomy#INTERNANO_344
+
+<http://internano.org/taxonomy#INTERNANO_344> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_119> .
+# 
+# http://internano.org/taxonomy#INTERNANO_345
+
+<http://internano.org/taxonomy#INTERNANO_345> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_119> .
+# 
+# http://internano.org/taxonomy#INTERNANO_346
+
+<http://internano.org/taxonomy#INTERNANO_346> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_119> .
+# 
+# http://internano.org/taxonomy#INTERNANO_347
+
+<http://internano.org/taxonomy#INTERNANO_347> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_120> .
+# 
+# http://internano.org/taxonomy#INTERNANO_348
+
+<http://internano.org/taxonomy#INTERNANO_348> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_120> .
+# 
+# http://internano.org/taxonomy#INTERNANO_349
+
+<http://internano.org/taxonomy#INTERNANO_349> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_120> .
+# 
+# http://internano.org/taxonomy#INTERNANO_350
+
+<http://internano.org/taxonomy#INTERNANO_350> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_120> .
+# 
+# http://internano.org/taxonomy#INTERNANO_391
+
+<http://internano.org/taxonomy#INTERNANO_391> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_132> .
+# 
+# http://internano.org/taxonomy#INTERNANO_392
+
+<http://internano.org/taxonomy#INTERNANO_392> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_136> .
+# 
+# http://internano.org/taxonomy#INTERNANO_393
+
+<http://internano.org/taxonomy#INTERNANO_393> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_138> .
+# 
+# http://internano.org/taxonomy#INTERNANO_4
+
+<http://internano.org/taxonomy#INTERNANO_4> a owl:Class .
+# 
+# http://internano.org/taxonomy#INTERNANO_426
+
+<http://internano.org/taxonomy#INTERNANO_426> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_11> .
+# 
+# http://internano.org/taxonomy#INTERNANO_427
+
+<http://internano.org/taxonomy#INTERNANO_427> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_104> .
+# 
+# http://internano.org/taxonomy#INTERNANO_428
+
+<http://internano.org/taxonomy#INTERNANO_428> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_109> .
+# 
+# http://internano.org/taxonomy#INTERNANO_430
+
+<http://internano.org/taxonomy#INTERNANO_430> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_110> .
+# 
+# http://internano.org/taxonomy#INTERNANO_431
+
+<http://internano.org/taxonomy#INTERNANO_431> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_111> .
+# 
+# http://internano.org/taxonomy#INTERNANO_432
+
+<http://internano.org/taxonomy#INTERNANO_432> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_112> .
+# 
+# http://internano.org/taxonomy#INTERNANO_433
+
+<http://internano.org/taxonomy#INTERNANO_433> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_112> .
+# 
+# http://internano.org/taxonomy#INTERNANO_5
+
+<http://internano.org/taxonomy#INTERNANO_5> a owl:Class .
+# 
+# http://internano.org/taxonomy#INTERNANO_5825
+
+<http://internano.org/taxonomy#INTERNANO_5825> a owl:Class .
+# 
+# http://internano.org/taxonomy#INTERNANO_5826
+
+<http://internano.org/taxonomy#INTERNANO_5826> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_5825> .
+# 
+# http://internano.org/taxonomy#INTERNANO_5827
+
+<http://internano.org/taxonomy#INTERNANO_5827> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_5825> .
+# 
+# http://internano.org/taxonomy#INTERNANO_5828
+
+<http://internano.org/taxonomy#INTERNANO_5828> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_5825> .
+# 
+# http://internano.org/taxonomy#INTERNANO_5829
+
+<http://internano.org/taxonomy#INTERNANO_5829> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_5825> .
+# 
+# http://internano.org/taxonomy#INTERNANO_5830
+
+<http://internano.org/taxonomy#INTERNANO_5830> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_5825> .
+# 
+# http://internano.org/taxonomy#INTERNANO_5831
+
+<http://internano.org/taxonomy#INTERNANO_5831> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_5825> .
+# 
+# http://internano.org/taxonomy#INTERNANO_5832
+
+<http://internano.org/taxonomy#INTERNANO_5832> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_5825> .
+# 
+# http://internano.org/taxonomy#INTERNANO_5833
+
+<http://internano.org/taxonomy#INTERNANO_5833> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_5825> .
+# 
+# http://internano.org/taxonomy#INTERNANO_5834
+
+<http://internano.org/taxonomy#INTERNANO_5834> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_5825> .
+# 
+# http://internano.org/taxonomy#INTERNANO_5835
+
+<http://internano.org/taxonomy#INTERNANO_5835> a owl:Class ;
+	rdfs:subClassOf <http://internano.org/taxonomy#INTERNANO_5825> .
+# 
+# http://internano.org/taxonomy#INTERNANO_6
+
+<http://internano.org/taxonomy#INTERNANO_6> a owl:Class .
+# 
+# http://internano.org/taxonomy#INTERNANO_7
+
+<http://internano.org/taxonomy#INTERNANO_7> a owl:Class .
+# 
+# Generated by the OWL API (version 5.0.4.20161016-1358) https://github.com/owlcs/owlapi/

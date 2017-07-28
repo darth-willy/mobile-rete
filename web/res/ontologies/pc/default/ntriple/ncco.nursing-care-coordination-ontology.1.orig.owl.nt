@@ -1,0 +1,1608 @@
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Ability
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Ability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Ability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Focus> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Ability_Assessment
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Ability_Assessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Ability_Assessment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Assessment> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Access
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Access> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Access> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Focus> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Aches
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Aches> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Aches> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pain> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Activities_of_Daily_Living
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Activities_of_Daily_Living> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Activities_of_Daily_Living> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Ability_Assessment> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Address
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Address> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#House> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Adherence
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Adherence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Adherence> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Focus> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Adjust
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Adjust> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Adjust> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Administer
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Administer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Administer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Activities> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Admit
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Admit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Admit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Advance_Directives
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Advance_Directives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Advance_Directives> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Documentation> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Agency
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Agency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Agency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Places> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Agreement
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Agreement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Agreement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Documentation> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Aide
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Aide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Aide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#People> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Air_Conditioning
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Air_Conditioning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Air_Conditioning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Environment> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Ambulance
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Ambulance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Ambulance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Emergency> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Antibiotics
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Antibiotics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Antibiotics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medication> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Anxiety
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Anxiety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Anxiety> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mental_problems> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Apartment
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Apartment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Apartment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Places> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Appointment
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Appointment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Appointment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Focus> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Appropriateness
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Appropriateness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Appropriateness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Focus> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Arrange
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Arrange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Arrange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Ask
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Ask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Ask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Communicate> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Assess
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Assess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Assess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Activities> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Assign
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Assign> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Assign> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Assist
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Assist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Assist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Activities> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Assistive_Devices
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Assistive_Devices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Assistive_Devices> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Equipment> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Attempt
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Attempt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Attempt> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Activities> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Aunt
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Aunt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Aunt> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Relatives> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Authorize
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Authorize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Authorize> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Back_pain
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Back_pain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Back_pain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pain> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Basic_Metabolic_Panel
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Basic_Metabolic_Panel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Basic_Metabolic_Panel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Laboratory_Tests> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Bathe
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Bathe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Bathe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Personal_Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Bathroom
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Bathroom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Bathroom> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Room> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Bedroom
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Bedroom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Bedroom> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Room> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Benefit
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Benefit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Benefit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Finances> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Blister
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Blister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Blister> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Impaired_Skin_Integrity> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Blood_Pressure
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Blood_Pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Blood_Pressure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Blood_Pressure_Machine
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Blood_Pressure_Machine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Blood_Pressure_Machine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medical_Devices> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Blood_Sugar
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Blood_Sugar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Blood_Sugar> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Finger_Stick> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Boot
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Boot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Boot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medical_Devices> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Bowel_Function
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Bowel_Function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Bowel_Function> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Elimination> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Bowel_Program
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Bowel_Program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Bowel_Program> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Intervention> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Brace
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Brace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Brace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medical_Devices> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Brother
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Brother> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Brother> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Sibling> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Bruise
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Bruise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Bruise> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Impaired_Skin_Integrity> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Call
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Call> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Call> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Communicate> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cancel
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cancel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cancel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Adjust> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cane
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cane> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cane> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Assistive_Devices> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cardiovascular_Status
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cardiovascular_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cardiovascular_Status> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Assessment> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Care
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Care> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Care> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Focus> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Care_Coordinator
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Care_Coordinator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Care_Coordinator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#People> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Care_plan
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Care_plan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Care_plan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Documentation> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Caregiver
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Caregiver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Caregiver> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Primary_Caregiver> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Case_Manager
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Case_Manager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Case_Manager> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#People> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Caseworker
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Caseworker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Caseworker> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#People> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cast
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medical_Devices> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Catheter_care
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Catheter_care> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Catheter_care> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cellulitis
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cellulitis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cellulitis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Wound_Infection> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Certification
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Certification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Certification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Documentation> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Chair
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Chair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Chair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Assistive_Devices> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Change
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Change> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Change> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Adjust> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Chart
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Chart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Chart> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Documentation> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Check
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Check> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Check> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Monitor> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Chemotherapy
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Chemotherapy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Chemotherapy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medication> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Chest_pain
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Chest_pain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Chest_pain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pain> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Child
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Child> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Child> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Family> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Clean
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Clean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Clean> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Homemaker_Chore> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Client
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Client> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Client> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#People> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Clinic
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Clinic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Clinic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Office> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Clutter
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Clutter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Clutter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Safety> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coagulation
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coagulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coagulation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Laboratory_Tests> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cognitive_Status
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cognitive_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cognitive_Status> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Assessment> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cold
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cold> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Respiratory> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Commode
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Commode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Commode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Durable_Medical_Equipment> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Communicate
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Communicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Communicate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Activities> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Concern
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Concern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Concern> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problems> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Conference
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Conference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Conference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Communicate> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Confirm
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Confirm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Confirm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Confuse
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Confuse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Confuse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#cognition> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Confusion
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Confusion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Confusion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cognitive_Status> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Constipation
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Constipation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Constipation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Bowel_Function> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Continue
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Continue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Continue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Adjust> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Conversation
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Conversation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Conversation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Communicate> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Activities
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Activities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Focus
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Focus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cope
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cope> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mental_Status> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Copy
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Copy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Copy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Documentation> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Costs
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Costs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Costs> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Finances> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cough
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cough> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Cough> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Respiratory> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coverage
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coverage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coverage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Services> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Culture
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Culture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Culture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Sample> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Daughter
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Daughter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Daughter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Child> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Decrease
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Decrease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Decrease> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Adjust> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dehydration
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dehydration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dehydration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_problems> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Deliver
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Deliver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Deliver> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dementia
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dementia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dementia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mental_problems> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dentures
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dentures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dentures> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mouth_Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Depression
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Depression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Depression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mental_problems> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Depression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mood> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Details
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Details> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Details> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Information> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Diabetes
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Diabetes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Diabetes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_problems> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dialysis
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dialysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dialysis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Intervention> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Diarrhea
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Diarrhea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Diarrhea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Gastrointestinal_Problems> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Diet
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Diet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Diet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Nutrition> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dining_Room
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dining_Room> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dining_Room> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Room> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Discharge
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Discharge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Discharge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Discomfort
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Discomfort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Discomfort> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pain> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Discontinue
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Discontinue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Discontinue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Adjust> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dizziness
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dizziness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dizziness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_problems> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Do_Not_Resuscitate
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Do_Not_Resuscitate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Do_Not_Resuscitate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Documentation> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Doctor
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Doctor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Doctor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physician> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Documentation
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Documentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Documentation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Focus> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dosage
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dosage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dosage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medication> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Drainage
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Drainage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Drainage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_problems> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dress
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dress> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Personal_Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dressing_Change
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dressing_Change> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dressing_Change> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Intervention> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Duoderm
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Duoderm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Duoderm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Dressing_Change> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Durable_Medical_Equipment
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Durable_Medical_Equipment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Durable_Medical_Equipment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Services> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#ED
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#ED> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#ED> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Emergency> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Edema
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Edema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Edema> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_problems> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Elder_Care
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Elder_Care> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Elder_Care> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Services> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Elimination
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Elimination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Elimination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_problems> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Emergency
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Emergency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Emergency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Intervention> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Endurance
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Endurance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Endurance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_Ability> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Environment
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Environment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Environment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Services> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Equipment
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Equipment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Equipment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Durable_Medical_Equipment> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Establish
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Establish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Establish> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Evaluate
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Evaluate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Evaluate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Assess> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Exercises
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Exercises> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Exercises> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Exertion
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Exertion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Exertion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_Ability> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fall
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fall> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_problems> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fall> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Risk> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Family
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Family> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Family> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#People> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Father
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Father> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Father> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Family> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fax
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fax> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Communicate> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fecal_Incontinence
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fecal_Incontinence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fecal_Incontinence> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Incontinence> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fever
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fever> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fever> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_problems> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fill
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fill> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Finances
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Finances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Finances> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Resource> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Finger_Stick
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Finger_Stick> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Finger_Stick> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Self_Care_Monitoring> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fire
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fire> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Risk> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fix_meals
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fix_meals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fix_meals> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Homemaker_Chore> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fluids
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fluids> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fluids> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Intake> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Follow
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Follow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Follow> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Monitor> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Follow-up
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Follow-up> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Follow-up> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Focus> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Food
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Food> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Food> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Nutrition> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Foot
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Foot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Foot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Forget
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Forget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Forget> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#cognition> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fracture
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fracture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Fracture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_problems> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Free
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Free> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Free> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Finances> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Friend
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Friend> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Friend> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#People> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Function
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Function> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Ability_Assessment> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Funding
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Funding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Funding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Finances> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Gait
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Gait> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Gait> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Gait_Training
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Gait_Training> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Gait_Training> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Gait> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Gastrointestinal_Problems
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Gastrointestinal_Problems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Gastrointestinal_Problems> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_problems> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Gastrostomy_Tube
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Gastrostomy_Tube> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Gastrostomy_Tube> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medical_Devices> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Gauze
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Gauze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Gauze> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Supplies> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Glasses
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Glasses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Glasses> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Assistive_Devices> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Glucometer
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Glucometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Glucometer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Finger_Stick> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Goal
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Goal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Goal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Outcome> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Granddaughter
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Granddaughter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Granddaughter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#grandchild> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Grandson
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Grandson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Grandson> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#grandchild> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Grooming
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Grooming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Grooming> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Personal_Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Hearing
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Hearing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Hearing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Heat
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Heat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Heat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Environment> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Heel
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Heel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Heel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Foot> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#History
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#History> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#History> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Documentation> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Home
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Home> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Home> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#House> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Homemaker_Chore
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Homemaker_Chore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Homemaker_Chore> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Services> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Hospice
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Hospice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Hospice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Services> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Hospital
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Hospital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Hospital> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Places> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Hospital_Bed
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Hospital_Bed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Hospital_Bed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Durable_Medical_Equipment> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Hospitalization
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Hospitalization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Hospitalization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Hospitalize
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Hospitalize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Hospitalize> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#House
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#House> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#House> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Places> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Housekeeping
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Housekeeping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Housekeeping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Homemaker_Chore> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Husband
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Husband> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Husband> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Spouse> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#INR
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#INR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#INR> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coagulation> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Idea
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Idea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Idea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Information> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Identify
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Identify> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Identify> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Activities> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Impaction
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Impaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Impaction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Constipation> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Impaired_Skin_Integrity
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Impaired_Skin_Integrity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Impaired_Skin_Integrity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_problems> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Incision
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Incision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Incision> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Impaired_Skin_Integrity> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Income
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Income> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Income> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Finances> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Incontinence
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Incontinence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Incontinence> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Elimination> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Increase
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Increase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Increase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Adjust> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Indwelling_Catheter
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Indwelling_Catheter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Indwelling_Catheter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Intervention> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Infection
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Infection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Infection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Bowel_Function> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Inform
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Inform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Inform> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Communicate> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Information
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Information> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Information> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Focus> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Infusion
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Infusion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Infusion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Inhaler
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Inhaler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Inhaler> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medication> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Initiate
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Initiate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Initiate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Injection
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Injection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Injection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medication> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Injury
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Injury> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Injury> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_problems> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Instruct
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Instruct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Instruct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Activities> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Instrumental_Acitvities_of_Daily_Living
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Instrumental_Acitvities_of_Daily_Living> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Instrumental_Acitvities_of_Daily_Living> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Ability_Assessment> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Insulin_Syringes
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Insulin_Syringes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Insulin_Syringes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Injection> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Insurance
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Insurance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Insurance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Finances> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Intake
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Intake> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Intake> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Job
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Job> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Job> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Finances> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Kitchen
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Kitchen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Kitchen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Room> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Knee_pain
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Knee_pain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Knee_pain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pain> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Laboratory
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Laboratory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Laboratory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Laboratory_Results
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Laboratory_Results> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Laboratory_Results> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Laboratory> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Laboratory_Tests
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Laboratory_Tests> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Laboratory_Tests> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Laboratory> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Laundry
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Laundry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Laundry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Homemaker_Chore> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Leave_Message
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Leave_Message> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Leave_Message> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Communicate> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Leg_pain
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Leg_pain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Leg_pain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pain> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Lesion
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Lesion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Lesion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Impaired_Skin_Integrity> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Licensed_Practical_Nurse
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Licensed_Practical_Nurse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Licensed_Practical_Nurse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#nurse> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#List
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#List> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#List> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Communicate> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Log
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Log> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Log> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Documentation> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#MSW
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#MSW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#MSW> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Social_Worker> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mail
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mail> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Communicate> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Maintain
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Maintain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Maintain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Activities> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Meal
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Meal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Meal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Nutrition> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Measure
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Measure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Measure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Assess> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medicaid
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medicaid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medicaid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Finances> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medical_Devices
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medical_Devices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medical_Devices> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Equipment> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medicare
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medicare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medicare> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Finances> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medication
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mediplanner
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mediplanner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mediplanner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medication> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Meet
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Meet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Meet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Communicate> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mental_Status
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mental_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mental_Status> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Psychological_Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mental_problems
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mental_problems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mental_problems> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problems> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Money
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Money> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Money> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Finances> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Monitor
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Monitor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Monitor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Activities> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mood
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mood> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mental_Status> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mother
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mother> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mother> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Family> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mouth_Care
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mouth_Care> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mouth_Care> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Personal_Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Nail
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Nail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Nail> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Foot> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Nausea
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Nausea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Nausea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Gastrointestinal_Problems> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Nebulizer
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Nebulizer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Nebulizer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medication> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Neighbor
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Neighbor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Neighbor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#People> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Nephew
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Nephew> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Nephew> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Relatives> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Niece
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Niece> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Niece> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Relatives> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Note
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Note> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Note> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Documentation> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Nurse_Practitioner
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Nurse_Practitioner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Nurse_Practitioner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#People> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Nursing
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Nursing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Nursing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#skilled_services> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Nutrition
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Nutrition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Nutrition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#O2_Saturation
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#O2_Saturation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#O2_Saturation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Self_Care_Monitoring> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Oats_bus
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Oats_bus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Oats_bus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Transportation> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Observation
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Observation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Observation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Evaluation> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Observe
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Observe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Observe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Monitor> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Obtain
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Obtain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Obtain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Activities> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Occuptional_Therapist
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Occuptional_Therapist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Occuptional_Therapist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Therapist> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Office
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Office> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Office> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Places> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Ointment
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Ointment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Ointment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medication> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Option
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Option> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Option> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Oral_medication
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Oral_medication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Oral_medication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medication> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Order
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Order> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Activities> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Ostomy
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Ostomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Ostomy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Bowel_Function> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Outcome
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Outcome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Outcome> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Evaluation> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Outpatient
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Outpatient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Outpatient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Clinic> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Oxygen
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Oxygen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Oxygen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pack
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pack> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Treatment> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Page
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Page> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Page> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Communicate> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pain
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problems> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pain_Management
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pain_Management> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pain_Management> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pain> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Paratransit
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Paratransit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Paratransit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Transportation> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Patch
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Patch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Patch> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medication> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Payment
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Payment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Payment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Finances> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#People
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#People> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Permission
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Permission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Permission> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Personal_Care
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Personal_Care> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Personal_Care> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Personal_Vehicle
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Personal_Vehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Personal_Vehicle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Transportation> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pharmacist
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pharmacist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pharmacist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#People> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pharmacy
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pharmacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pharmacy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Places> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Phenytoin_Level
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Phenytoin_Level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Phenytoin_Level> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Laboratory_Tests> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_Ability
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_Ability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_Ability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_problems> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_Care
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_Care> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_Care> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_Therapist
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_Therapist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_Therapist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Therapist> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_problems
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_problems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_problems> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problems> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physician
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physician> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physician> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#People> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Placement
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Placement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Placement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Places
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Places> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Plan
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Plan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Plan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Plug
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Plug> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Plug> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pack> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pneumonia
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pneumonia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pneumonia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Respiratory> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Potassium
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Potassium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Potassium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Oral_medication> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Potassium_Level
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Potassium_Level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Potassium_Level> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Laboratory_Tests> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Prescription
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Prescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Prescription> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medication> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pressure_Ulcer
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pressure_Ulcer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Pressure_Ulcer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Impaired_Skin_Integrity> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Prevent
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Prevent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Prevent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Primary_Care_Physician
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Primary_Care_Physician> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Primary_Care_Physician> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#People> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Primary_Caregiver
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Primary_Caregiver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Primary_Caregiver> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#People> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Primary_Physician
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Primary_Physician> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Primary_Physician> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physician> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Private_Pay
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Private_Pay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Private_Pay> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Services> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Assessment
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Assessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Assessment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Management> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Evaluation
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Evaluation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Evaluation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Management> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Intervention
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Intervention> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Intervention> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Management> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Management
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Management> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Management> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problems> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problems
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Progress
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Progress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Progress> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Outcome> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Protime
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Protime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Protime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Laboratory_Tests> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Provide
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Provide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Provide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Psychiatrist
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Psychiatrist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Psychiatrist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physician> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Psychological_Care
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Psychological_Care> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Psychological_Care> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Purpose
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Purpose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Purpose> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Evaluation> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Qualify
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Qualify> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Qualify> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Ramp
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Ramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Ramp> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Environment> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Recommend
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Recommend> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Recommend> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Record
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Record> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Record> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Communicate> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Refer
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Refer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Refer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Registered_Nurse
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Registered_Nurse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Registered_Nurse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#nurse> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Relatives
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Relatives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Relatives> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Family> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Relief
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Relief> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Relief> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Evaluation> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Reminder
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Reminder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Reminder> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Replace
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Replace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Replace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Report
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Report> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Report> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Communicate> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Resource
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Resource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Focus> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Respiratory
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Respiratory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Respiratory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Infection> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Respiratory_Status
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Respiratory_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Respiratory_Status> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Assessment> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Respite_Care
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Respite_Care> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Respite_Care> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Services> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Review
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Review> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Monitor> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Risk
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Risk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Safety> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Room
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Room> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Room> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#House> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Safety
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Safety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Safety> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Sample
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Sample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Sample> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#collect> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Satisfaction
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Satisfaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Satisfaction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Evaluation> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Scale
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Scale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Scale> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medical_Devices> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Schedule
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Schedule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Schedule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Self_Care_Monitoring
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Self_Care_Monitoring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Self_Care_Monitoring> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Laboratory> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Send
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Send> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Send> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Services
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Services> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Focus> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Shop
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Shop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Shop> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Homemaker_Chore> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Shower
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Shower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Shower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Bathe> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Shower_Chair
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Shower_Chair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Shower_Chair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Durable_Medical_Equipment> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Sibling
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Sibling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Sibling> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Family> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Signature
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Signature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Signature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Documentation> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Significant_Other
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Significant_Other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Significant_Other> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#People> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Sister
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Sister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Sister> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Sibling> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Skilled_Nursing_Facility
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Skilled_Nursing_Facility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Skilled_Nursing_Facility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Places> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Social_Services
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Social_Services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Social_Services> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Services> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Social_Work
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Social_Work> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Social_Work> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#skilled_services> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Social_Worker
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Social_Worker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Social_Worker> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#People> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Son
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Son> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Son> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Child> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Speech_Therapist
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Speech_Therapist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Speech_Therapist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Therapist> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Spouse
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Spouse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Spouse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Family> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Staff
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Staff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Staff> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#People> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Stair
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Stair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Stair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Environment> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Staples
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Staples> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Staples> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Supplies> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Strength
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Strength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Strength> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_Ability> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Student
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Student> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Student> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#People> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Suggest
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Suggest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Suggest> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Summary
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Summary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Summary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Evaluation> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Supervision
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Supervision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Supervision> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Focus> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Supervisor
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Supervisor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Supervisor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#People> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Supplies
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Supplies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Supplies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Equipment> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Surgeon
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Surgeon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Surgeon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physician> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Symptom
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Symptom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Symptom> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Assessment> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#TED_Hose
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#TED_Hose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#TED_Hose> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Medical_Devices> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Take
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Take> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Take> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Manage> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Talk
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Talk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Talk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Communicate> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Taxi
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Taxi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Taxi> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Transportation> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Team
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Team> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Staff> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Telephone
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Telephone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Telephone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Environment> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Test
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Test> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Assess> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Therapist
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Therapist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Therapist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#People> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Therapy
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Therapy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Therapy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#skilled_services> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Toe
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Toe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Toe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Foot> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Toilet
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Toilet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Toilet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Personal_Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Transportation
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Transportation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Transportation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Focus> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Treatment
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Treatment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Treatment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Intervention> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Tube_Feeding
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Tube_Feeding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Tube_Feeding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Intervention> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#UTI
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#UTI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#UTI> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Infection> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Uncle
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Uncle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Uncle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Relatives> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Understanding
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Understanding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Understanding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Coordination_Focus> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Update
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Update> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Update> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Communicate> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Urgent_Care
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Urgent_Care> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Urgent_Care> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Clinic> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Urinalysis
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Urinalysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Urinalysis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Sample> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Urine_Incontinence
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Urine_Incontinence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Urine_Incontinence> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Incontinence> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Urologist
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Urologist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Urologist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physician> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Vital_Signs
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Vital_Signs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Vital_Signs> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Assessment> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Volunteer
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Volunteer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Volunteer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#People> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Vomiting
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Vomiting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Vomiting> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Gastrointestinal_Problems> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Walker
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Walker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Walker> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Assistive_Devices> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Wash
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Wash> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Wash> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Bathe> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Weakness
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Weakness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Weakness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_Ability> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Weight
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Weight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Weight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Problem_Assessment> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Weight_Gain
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Weight_Gain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Weight_Gain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Weight> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Weight_Loss
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Weight_Loss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Weight_Loss> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Weight> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Wheel_Chair
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Wheel_Chair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Wheel_Chair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Durable_Medical_Equipment> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Wheeled_walker
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Wheeled_walker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Wheeled_walker> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Durable_Medical_Equipment> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Wife
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Wife> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Wife> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Spouse> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Worker
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Worker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Worker> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#People> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Wound_Care
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Wound_Care> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Wound_Care> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Wound_Clinic
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Wound_Clinic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Wound_Clinic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Clinic> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Wound_Infection
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Wound_Infection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Wound_Infection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Infection> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#cognition
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#cognition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#cognition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Mental_Status> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#collect
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#collect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#collect> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physical_Care> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#grandchild
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#grandchild> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#grandchild> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Family> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#hair
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#hair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#hair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Grooming> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#list
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#list> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#list> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Documentation> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#nurse
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#nurse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#nurse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#People> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#skilled_services
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#skilled_services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#skilled_services> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Services> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#venipuncture
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#venipuncture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#venipuncture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#collect> .
+# 
+# http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physician's_Office
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physician's_Office> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Physician's_Office> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/vanessa/ontologies/2012/7/untitled-ontology-33#Office> .
+# 
+# Generated by the OWL API (version 5.0.4.20161016-1358) https://github.com/owlcs/owlapi/
